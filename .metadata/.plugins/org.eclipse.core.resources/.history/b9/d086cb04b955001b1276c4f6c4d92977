@@ -38,8 +38,7 @@ float elongationCalc(float linepos)
 {
 
 	float elasticExtension,
-		  permConstructExt,
-		  lengthConstant;
+		  permConstructExt;
 
 	float loadFactor,
 		  appliedLoad,
@@ -50,10 +49,9 @@ float elongationCalc(float linepos)
 	float elongation;
 
 	loadFactor = 0.0025;
-	lengthConstant = 1938.57;
 	// totalRopeLength = 3268.238;
 	appliedLoad = 10 / 3;
-	ropeLength = linepos + lengthConstant;
+	ropeLength = linepos;
 	elasticModulus = 6300;
 	areaMinusCircle = 3.1415;
 
@@ -119,7 +117,7 @@ void HangprinterKinematics::Init()
 	 * In practice you might want to compensate a bit more or a bit less */
 	constexpr float DefaultSpoolBuildupFactor = 1;
 	/* Measure and set spool radii with M669 to achieve better accuracy */
-	constexpr float DefaultSpoolRadii[4] = { 65.1, 65.1, 65.1, 65.1}; // HP3 default
+	constexpr float DefaultSpoolRadii[4] = { 65.1, 65.1, 65.1, 65.3}; // HP3 default
 	/* If axis runs lines back through pulley system, set mechanical advantage accordingly with M669 */
 	constexpr uint32_t DefaultMechanicalAdvantage[4] = { 2, 2, 2, 1}; // HP3 default
 	constexpr uint32_t DefaultLinesPerSpool[4] = { 1, 1, 1, 1}; // HP3 default

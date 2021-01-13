@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?scdStore version="2"?><scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
-                                                                                
+                                                                                        
+    
+    
     
     
     
@@ -20,7 +22,9 @@
     
     
     <instance id="cdt.managedbuild.config.gnu.cross.lib.release.897729483;cdt.managedbuild.config.gnu.cross.lib.release.897729483.;cdt.managedbuild.tool.gnu.cross.c.compiler.597788140;cdt.managedbuild.tool.gnu.c.compiler.input.964516936">
-                                                                                                                                                                
+                                                                                                                                                                                
+        
+        
         
         
         
@@ -483,7 +487,9 @@
             <definedSymbol symbol="__FLT32X_HAS_INFINITY__=1"/>
             <definedSymbol symbol="__FLT32X_HAS_QUIET_NAN__=1"/>
         </collector>
-                                                                                                                                                            
+                                                                                                                                                                            
+    
+    
     
     
     
@@ -503,7 +509,9 @@
     
     
     </instance>
-                                                                                
+                                                                                        
+    
+    
     
     
     
@@ -523,7 +531,9 @@
     
     
     <instance id="cdt.managedbuild.config.gnu.cross.lib.release.897729483;cdt.managedbuild.config.gnu.cross.lib.release.897729483.;cdt.managedbuild.tool.gnu.cross.cpp.compiler.975309532;cdt.managedbuild.tool.gnu.cpp.compiler.input.1513207687">
-                                                                                                                                                                
+                                                                                                                                                                                
+        
+        
         
         
         
@@ -545,13 +555,17 @@
         <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
             <includePath path="c:\program files (x86)\gnu tools arm embedded\7 2018-q2-update\bin\../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1"/>
             <includePath path="c:\program files (x86)\gnu tools arm embedded\7 2018-q2-update\bin\../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/arm-none-eabi"/>
+            <includePath path="#undef __ARM_FEATURE_CRYPTO" removed="true"/>
             <includePath path="c:\program files (x86)\gnu tools arm embedded\7 2018-q2-update\bin\../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/backward"/>
+            <includePath path="#undef __ARM_FEATURE_UNALIGNED" removed="true"/>
             <includePath path="c:\program files (x86)\gnu tools arm embedded\7 2018-q2-update\bin\../lib/gcc/arm-none-eabi/7.3.1/include"/>
+            <includePath path="#undef __ARM_FEATURE_QRDMX" removed="true"/>
             <includePath path="c:\program files (x86)\gnu tools arm embedded\7 2018-q2-update\bin\../lib/gcc/arm-none-eabi/7.3.1/include-fixed"/>
             <includePath path="#undef __ARM_FEATURE_DSP" removed="true"/>
             <includePath path="#undef __ARM_FEATURE_QBIT" removed="true"/>
             <includePath path="#undef __ARM_FEATURE_SAT" removed="true"/>
             <includePath path="c:\program files (x86)\gnu tools arm embedded\7 2018-q2-update\bin\../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include"/>
+            <includePath path="#undef __ARM_FEATURE_LDREX" removed="true"/>
             <includePath path="/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include/c++/6.3.1"/>
             <includePath path="/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include/c++/6.3.1/arm-none-eabi"/>
             <includePath path="/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include/c++/6.3.1/backward"/>
@@ -1012,7 +1026,9 @@
             <definedSymbol symbol="__FLT32X_HAS_INFINITY__=1"/>
             <definedSymbol symbol="__FLT32X_HAS_QUIET_NAN__=1"/>
         </collector>
-                                                                                                                                                            
+                                                                                                                                                                            
+    
+    
     
     
     
@@ -1032,7 +1048,9 @@
     
     
     </instance>
-                                                                            
+                                                                                    
+
+
 
 
 

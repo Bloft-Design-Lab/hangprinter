@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.cross.lib.release.897729483.161018050.655386357/CWD/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.cross.lib.release.897729483.161018050.655386357/CWD/operation=replace
+environment/project/cdt.managedbuild.config.gnu.cross.lib.release.897729483.161018050.655386357/CWD/value=${GccPath}\:/home/torbjorn/eclipse-workspace/CoreNG/SAM4E8E_RTOS
+environment/project/cdt.managedbuild.config.gnu.cross.lib.release.897729483.161018050.655386357/append=true
+environment/project/cdt.managedbuild.config.gnu.cross.lib.release.897729483.161018050.655386357/appendContributed=true

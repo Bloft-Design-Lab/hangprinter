@@ -1,0 +1,22 @@
+#
+#Fri Jan 08 12:21:02 EET 2021
+src/Listener.cpp=1
+src/Misc.h=1
+src/Listener.h=1
+Release/src/Misc.o=1
+src/Config.h=1
+src/include/MessageFormats.h=1
+src/Misc.cpp=1
+src/HSPI.h=1
+Release/src/HSPI.o=1
+src/SocketServer.cpp=1
+src/HSPI.cpp=1
+src/SocketServer.h=1
+Release/DuetWiFiSocketServer.elf=1
+src/Connection.cpp=1
+Release/src/SocketServer.o=1
+src/ecv.h=1
+src/Connection.h=1
+Release/src/Listener.o=1
+Release/src/Connection.o=1
+src/PooledStrings.h=1

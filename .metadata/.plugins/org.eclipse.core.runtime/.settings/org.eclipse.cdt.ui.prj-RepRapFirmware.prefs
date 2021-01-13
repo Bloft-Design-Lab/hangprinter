@@ -1,0 +1,3 @@
+buildConsole/keepLog=true
+buildConsole/logLocation=/home/torbjorn/eclipse-workspace/.metadata/.plugins/org.eclipse.cdt.ui/RepRapFirmware.build.log
+eclipse.preferences.version=1

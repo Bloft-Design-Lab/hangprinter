@@ -1,0 +1,10 @@
+[default]
+name=Default
+runtime=host
+config-opts=
+run-opts=
+prefix=/home/torbjorn/.cache/gnome-builder/install/EdgeRelease/host
+app-id=
+postbuild=
+prebuild=
+default=true

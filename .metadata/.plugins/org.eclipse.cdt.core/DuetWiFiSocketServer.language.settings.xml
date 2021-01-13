@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+    	
+    <configuration id="cdt.managedbuild.config.gnu.cross.exe.release.385783058" name="Release">
+        		
+        <extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+            			
+            <provider id="org.eclipse.cdt.build.crossgcc.CrossGCCBuiltinSpecsDetector"/>
+            		
+        </extension>
+        	
+    </configuration>
+    	
+    <configuration id="cdt.managedbuild.config.gnu.cross.exe.release.385783058.1711183282" name="Debug">
+        		
+        <extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+            			
+            <provider id="org.eclipse.cdt.build.crossgcc.CrossGCCBuiltinSpecsDetector"/>
+            		
+        </extension>
+        	
+    </configuration>
+    
+</project>

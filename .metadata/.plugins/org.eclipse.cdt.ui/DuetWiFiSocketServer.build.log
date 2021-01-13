@@ -1,0 +1,11 @@
+17:16:35 **** Rebuild of configuration Release for project DuetWiFiSocketServer ****
+Info: Internal Builder is used for build
+xtensa-lx106-elf-g++ -std=gnu++11 -D__ets__ -DICACHE_FLASH -DF_CPU=80000000L -DESP8266 -DARDUINO_ARCH_ESP8266 -DARDUINO_ESP8266_ESP12 -DARDUINO=10606 -DLWIP_OPEN_SRC -Os -Wall -c -g -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -ffunction-sections -fdata-sections -Wa,-ahl=$*.s -o src/Connection.o ../src/Connection.cpp 
+xtensa-lx106-elf-g++ -std=gnu++11 -D__ets__ -DICACHE_FLASH -DF_CPU=80000000L -DESP8266 -DARDUINO_ARCH_ESP8266 -DARDUINO_ESP8266_ESP12 -DARDUINO=10606 -DLWIP_OPEN_SRC -Os -Wall -c -g -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -ffunction-sections -fdata-sections -Wa,-ahl=$*.s -o src/Misc.o ../src/Misc.cpp 
+xtensa-lx106-elf-g++ -std=gnu++11 -D__ets__ -DICACHE_FLASH -DF_CPU=80000000L -DESP8266 -DARDUINO_ARCH_ESP8266 -DARDUINO_ESP8266_ESP12 -DARDUINO=10606 -DLWIP_OPEN_SRC -Os -Wall -c -g -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -ffunction-sections -fdata-sections -Wa,-ahl=$*.s -o src/SocketServer.o ../src/SocketServer.cpp 
+xtensa-lx106-elf-g++ -std=gnu++11 -D__ets__ -DICACHE_FLASH -DF_CPU=80000000L -DESP8266 -DARDUINO_ARCH_ESP8266 -DARDUINO_ESP8266_ESP12 -DARDUINO=10606 -DLWIP_OPEN_SRC -Os -Wall -c -g -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -ffunction-sections -fdata-sections -Wa,-ahl=$*.s -o src/Listener.o ../src/Listener.cpp 
+Internal Builder: Cannot run program "xtensa-lx106-elf-g++": Unknown reason
+Info: Parallel threads used: 4
+
+17:16:35 Build Finished. 0 errors, 0 warnings. (took 8ms)
+

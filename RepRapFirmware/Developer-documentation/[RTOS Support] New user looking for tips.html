@@ -1,0 +1,1323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>[RTOS Support] New user looking for tips</title><meta name="description" content="FreeRTOS support forum archive - New user looking for tips"><meta name="keywords" content="FreeRTOS, RTOS, embedded system, microcontroller, kernel, scheduler, real time, real time kernel, real time scheduler, RTOS support, RTOS tutorial, learn RTOS, FreeRTOS support, FreeRTOS help, RTOS help, FreeRTOS tutorial, free real-time operating system, embedded C, embedded C++, embedded programming, super loop, state machine"><link rel="stylesheet" href="[RTOS%20Support]%20New%20user%20looking%20for%20tips_files/doxygen.css"><style type="text/css"></style><meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type="text/javascript" async="" src="[RTOS%20Support]%20New%20user%20looking%20for%20tips_files/ga.js"></script><script type="text/javascript" src="[RTOS%20Support]%20New%20user%20looking%20for%20tips_files/stlib.js"></script><style>@media print {#ghostery-purple-box {display:none !important}}</style><script type="text/javascript" language="javascript1.2" src="[RTOS%20Support]%20New%20user%20looking%20for%20tips_files/sttree.html"></script><script type="text/javascript" language="javascript1.2" src="[RTOS%20Support]%20New%20user%20looking%20for%20tips_files/steffie.html"></script>
+<style type="text/css">
+.sttb{border-style:none;background-color:transparent;background-image:none;}
+.sttr{border-style:none;background-color:transparent;background-image:none;}
+.sttd{border-style:none;background-color:transparent;background-image:none;}
+.stdv{border-style:none;background-color:transparent;background-image:none;margin:0px;padding:0px;}
+.sta:link,.sta:hover,.sta:active,.sta:visited{display:block;border-style:none;background-color:transparent;background-image:none;margin:0px;padding:0px;}
+.sthd{display:none;}
+.stsp{border-style:none;background-color:transparent;background-image:none;margin:0px;padding:0px;}
+</style>
+<script type="text/javascript" src="[RTOS%20Support]%20New%20user%20looking%20for%20tips_files/left_menu.js"></script>
+<script type="text/javascript" src="[RTOS%20Support]%20New%20user%20looking%20for%20tips_files/jquery-latest.js"></script>
+<script src="[RTOS%20Support]%20New%20user%20looking%20for%20tips_files/jquery-ui.js"></script>
+
+<link rel="stylesheet" href="[RTOS%20Support]%20New%20user%20looking%20for%20tips_files/jquery-ui.css">
+
+<script type="text/javascript">
+	window.onload = function()
+	{
+		var rect1 = document.getElementById( 'td_right_side_bar' ).getBoundingClientRect();
+
+		if( rect1.right >= window.innerWidth )
+		{
+			document.getElementById( 'td_right_side_bar' ).style.display = 'none';
+			document.getElementById( 'td_right_side_bar' ).style.width = '0';
+		}
+	};
+</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6086815-2']);
+  _gaq.push(['_setDomainName', 'freertos.org']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<script type="text/javascript">
+	function check_left_image_clash()
+	{
+		var rect1 = document.getElementById( 'left_banner_image' ).getBoundingClientRect();
+		var rect2 = document.getElementById( 'id_tree_menu' ).getBoundingClientRect();
+
+		if ( rect1.right >= rect2.left ) {
+			document.getElementById( 'td_left_side_bar' ).style.display = 'none';
+			document.getElementById( 'td_left_side_bar' ).style.width = '0';
+		}
+	}
+</script>
+
+<script type="text/javascript">
+	function check_right_image_clash()
+	{
+		var rect1 = document.getElementById( 'td_right_side_bar' ).getBoundingClientRect();
+
+		if( rect1.right >= window.innerWidth )
+		{
+			document.getElementById( 'td_right_side_bar' ).style.display = 'none';
+			document.getElementById( 'td_right_side_bar' ).style.width = '0';
+		}
+	}
+</script>
+
+
+<script type="text/javascript">
+	$( document ).ready( function()
+						{
+							window.setTimeout("blindDownMenuHint();", 5000);
+							window.setTimeout("blindUpMenuHint();", 12000);
+						}
+	)
+
+	function blindDownMenuHint()
+	{
+		if( window.name != "done" )
+		{
+			$( "#menu_hint").show( "blind", "slow" );
+			window.name = "done";
+		}
+	}
+
+	function blindUpMenuHint()
+	{
+		$( "#menu_hint").hide( "blind", "slow" );
+	}
+
+</script>
+
+</head><body><style>
+	.amazonBannerWithoutLogo {
+		min-height: 25px;
+		background-color: #f1f7ff;
+		border: 1px solid #cccccc;
+		border-radius: 3px;
+		margin-top: 5px;
+		text-align: center;
+		vertical-align: middle;
+		padding-top: 5px;
+	}
+</style>
+<div class="amazonBannerWithoutLogo">
+		<b>
+			The FreeRTOS kernel is now an <a href="https://www.rtai.freertos.org/a00114.html">MIT</a> licensed
+			<a href="https://aws.amazon.com/blogs/opensource/announcing-freertos-kernel-v10/" target="_blank">AWS open source project</a>,
+			and these pages are being updated accordingly.
+		</b>
+</div>
+
+<a name="page_top"></a>
+
+<table>
+	<tbody><tr>
+		<td valign="top">
+			<!-- Content area - the other td is the side bar area. -->
+			<table style="height:100%;background:white; border-left:solid 1px #f0f0f0; border-right:solid 1px #f0f0f0;" cellspacing="0" cellpadding="5" align="center">
+				<tbody><tr valign="top">
+					<td colspan="3" style="height:100px;"> <!-- Spans the left menu, blank line, and main content columns of the next row. -->
+						<font face="Arial, Helvetica">
+							<table style="width:100%;" cellspacing="2" cellpadding="0" border="0"> <!-- Rows for logos and banners, blue lines with menu. -->
+
+								<tbody><tr style="padding: 0px 0px 0px 0px;"> <!-- Top row, banner and logo. -->
+									<td>
+										<table style="table-layout:fixed;" width="100%" cellspacing="5px" cellpadding="0">
+											<tbody><tr>
+												<td style="line-height:normal;" id="logo_column" width="174px" valign="middle">
+													<div style="float:left;">
+														<a href="https://www.rtai.freertos.org/index.html">
+															<img src="[RTOS%20Support]%20New%20user%20looking%20for%20tips_files/logo.jpg" alt="Free RTOS logo" style="padding: 0 0 0 5px;" width="164px" border="0">
+														</a>
+													</div>
+												</td>
+												<td style="width:5px; border-top:solid 2px #e6e6e6; border-left:solid 2px #e6e6e6; border-bottom:solid 2px #e6e6e6;">
+													&nbsp;
+												</td>
+												<td style="line-height:normal; width:324px;" id="page_heading_largerx" valign="middle">
+													<h3>
+														Quality RTOS &amp; Embedded Software
+														<br>
+														<small>
+															<small>
+																<div id="logo_links">
+																	<a href="https://www.rtai.freertos.org/RTOS.html"><u>About</u></a>
+																	<font size="1">&nbsp;</font>
+																	<a href="https://www.rtai.freertos.org/RTOS-contact-and-support.html"><u>Contact</u></a>
+																	<font size="1">&nbsp;</font>
+																	<a href="https://www.rtai.freertos.org/FreeRTOS_Support_Forum_Archive/freertos_support_forum_archive_index.html"><u>Support</u></a>
+																	<font size="1">&nbsp;</font>
+																	<a href="https://www.rtai.freertos.org/FAQ.html"><u>FAQ</u></a>
+																	<font size="1">&nbsp;</font>
+																	<a href="https://www.rtai.freertos.org/a00104.html"><u>Download</u></a>
+																</div>
+																<div id="logo_sitemap_link">
+																	<a href="https://www.rtai.freertos.org/static_menu.html"><u>Menu</u></a>
+																	<font size="1">&nbsp;</font>
+																</div>
+															</small>
+														</small>
+													</h3>
+												</td>
+												<td>
+													<div id="banner_div" style="float:right; padding: 0px 0px 3px 0px; max-width:100%;"> <!-- Pad the bottom of the image slightly to keep it away from blue bar. -->
+														<!--Nothing to see here now-->
+													</div>
+												</td>
+											</tr>
+										</tbody></table>
+									</td>
+								</tr>
+								<tr style="height:5px;" bgcolor="#7095d3"> <!-- Blank line. -->
+									<td>
+									</td>
+								</tr>
+								<tr style="height:19px;" bgcolor="#b6cffe"> <!-- Horizontal menu. -->
+									<td valign="middle" bgcolor="#b6cffe"> <!-- Top menu with social media icons. -->
+										<div id="Twitter_icon" style="float:right; padding: 1px 0px 0px 0px; valign:middle;">
+											<!-- Twitter -->
+											<a href="https://twitter.com/intent/follow?screen_name=real_FreeRTOS"><img src="[RTOS%20Support]%20New%20user%20looking%20for%20tips_files/Twitter_Follow.png" style="padding: 0px 0px 0px 0px; height:20px;" border="0"></a>
+										</div>
+										<div id="Email_icon" style="float:right; padding: 1px 0px 0px 0px; line-height:0em;">
+											&nbsp;<a href="https://www.rtai.freertos.org/a00104.html#mailing_list"><img style="padding: 0px 0px 0px 0px; height:20px;" src="[RTOS%20Support]%20New%20user%20looking%20for%20tips_files/mailinglist.png" alt="Real time embedded FreeRTOS RSS feed" border="0"></a>&nbsp;
+										</div>
+
+										<table style="padding-top:4px;" cellspacing="0" cellpadding="0"> <!-- Top horizontal menu. -->
+											<tbody><tr>
+												<td width="4px">
+													<!-- Just brings the first white menu spacing bar in from the left of the blue bar. -->
+												</td>
+												<td style="border-right:solid 2px white; border-left:solid 2px white; width:100px; line-height:normal;" align="center">
+													<a href="https://www.rtai.freertos.org/FreeRTOS-quick-start-guide.html" class="blue_menu">
+														Quick Start
+													</a>
+												</td>
+												<td style="border-right:solid 2px white; width:112px; line-height:normal;" align="center">
+													<a href="https://www.rtai.freertos.org/RTOS_ports.html" class="blue_menu">
+														Supported MCUs
+													</a>
+												</td>
+												<td style="border-right:solid 2px white; width:104px; line-height:normal;" align="center">
+													<a href="https://www.rtai.freertos.org/Documentation/RTOS_book.html" target="_blank" class="blue_menu">
+														PDF Books
+													</a>
+												</td>
+												<td style="border-right:solid 2px white; width:94px; line-height:normal;" align="center">
+													<a href="https://www.rtai.freertos.org/FreeRTOS-Plus/FreeRTOS_Plus_Trace/FreeRTOS_Plus_Trace.shtml" target="_blank" class="blue_menu">
+														Trace Tools
+													</a>
+												</td>
+												<td style="border-right:solid 2px white; width:94px; line-height:normal;" align="center">
+													<a href="https://www.rtai.freertos.org/FreeRTOS-Plus/index.shtml" target="_blank" class="blue_menu">
+														Ecosystem
+													</a>
+												</td>
+											</tr>
+										</tbody></table>
+									</td>
+								</tr>
+							</tbody></table>
+						</font>
+					</td>
+				</tr>
+				<tr valign="top"> <!-- Main content row with menu and content area columns. -->
+					<td style="width:180px; border:none;" id="id_tree_menu_column"> <!-- LHS menu -->
+						<table style="padding-right:15px;" cellspacing="0" cellpadding="0"> <!-- LHS menu -->
+							<tbody><tr> <!-- Tree menu. -->
+								<td class="div_tree_menu" id="id_tree_menu"> <!-- ID is used to detect clash with left banner. -->
+									<p>
+									<script type="text/javascript" language="JavaScript">
+										show_left_menu();
+									</script>
+									<noscript>
+										This site required JavaScript
+										<br>
+										to be enabled. Below is a<br>
+										static menu.
+										<ul>
+											<li><a title="/index.html" href="/index.html" target="_top">Home</a></li>
+											<li><a title="/Documentation/RTOS_book.html" href="/Documentation/RTOS_book.html" target="_top">FreeRTOS Books and Manuals</a></li>
+											<li><a title="/RTOS.html" href="/RTOS.html" target="_top">FreeRTOS</a>
+												<ul>
+													<li><a title="/RTOS.html" href="/RTOS.html" target="_top">About FreeRTOS</a>
+														<ul>
+															<li><a title="/about-RTOS.html" href="/about-RTOS.html" target="_top">What is an RTOS/FreeRTOS?</a></li>
+															<li><a title="/RTOS.html" href="/RTOS.html" target="_self">A Compelling Free Solution</a></li>
+															<li><a title="/open-source-software.html" href="/open-source-software.html" target="_top">A Better Type of Open Source</a></li>
+															<li><a title="/FreeRTOS_Features.html" href="/FreeRTOS_Features.html" target="_top">Features Overview</a></li>
+															<li><a title="/FreeRTOS-Coding-Standard-and-Style-Guide.html" href="/FreeRTOS-Coding-Standard-and-Style-Guide.html" target="_top">Coding Standard &amp; Style</a></li>
+															<li><a title="/a00114.html" href="/a00114.html" target="_top">Licensing</a></li>
+															<li><a title="/static_menu.html" href="/static_menu.html" target="_top">Site Map</a></li>
+														</ul>
+													</li>
+													<li><a title="/FreeRTOS-quick-start-guide.html" href="/FreeRTOS-quick-start-guide.html" target="_top">Features / Getting Started...</a>
+														<ul>
+															<li><a title="/FreeRTOS-quick-start-guide.html" href="/FreeRTOS-quick-start-guide.html" target="_top">Quick Start Guide</a></li>
+															<li><a title="/taskandcr.html" href="/taskandcr.html" target="_top">Tasks &amp; Co-routines</a></li>
+															<li><a title="/a00015.html" href="/a00015.html" target="_top">More About Tasks...</a>
+																<ul>
+																	<li><a title="/RTOS-task-states.html" href="/RTOS-task-states.html" target="_top">Task States</a></li>
+																	<li><a title="/RTOS-task-priority.html" href="/RTOS-task-priority.html" target="_top">Task Priorities</a></li>
+																	<li><a title="/implementing-a-FreeRTOS-task.html" href="/implementing-a-FreeRTOS-task.html" target="_top">Implementing a Task</a></li>
+																	<li><a title="/RTOS-idle-task.html" href="/RTOS-idle-task.html" target="_top">Idle Task and Idle Hook</a></li>
+																</ul>
+															</li>
+															<li><a title="/croutine.html" href="/croutine.html" target="_top">More About Co-routines...</a>
+																<ul>
+																	<li><a title="/co-routine-states.html" href="/co-routine-states.html" target="_top">Co-routine Status</a></li>
+																	<li><a title="/co-routine-priorities.html" href="/co-routine-priorities.html" target="_top">Co-routine Priorities</a></li>
+																	<li><a title="/writing-a-FreeRTOS-co-routine.html" href="/writing-a-FreeRTOS-co-routine.html" target="_top">Implementing a Co-routine</a></li>
+																	<li><a title="/scheduling-coroutines-with-tasks.html" href="/scheduling-coroutines-with-tasks.html" target="_top">Scheduling Co-routines</a></li>
+																	<li><a title="/co-routine-limitations.html" href="/co-routine-limitations.html" target="_top">Limitations and Restrictions</a></li>
+																	<li><a title="/coroutine-example-code.html" href="/coroutine-example-code.html" target="_top">Quick Co-routine Example</a></li>
+																	<li><a title="/croutine-standard-demo-examples.html" href="/croutine-standard-demo-examples.html" target="_top">Standard Demo Examples</a></li>
+																</ul>
+															</li>
+															<li><a title="/Inter-Task-Communication.html" href="/Inter-Task-Communication.html" target="_top">Queues, Mutexes, Semaphores...</a>
+																<ul>
+																	<li><a title="/Embedded-RTOS-Queues.html" href="/Embedded-RTOS-Queues.html" target="_top">Queues</a></li>
+																	<li><a title="/Embedded-RTOS-Binary-Semaphores.html" href="/Embedded-RTOS-Binary-Semaphores.html" target="_top">Binary Semaphores</a></li>
+																	<li><a title="/Real-time-embedded-RTOS-Counting-Semaphores.html" href="/Real-time-embedded-RTOS-Counting-Semaphores.html" target="_top">Counting Semaphores</a></li>
+																	<li><a title="/Real-time-embedded-RTOS-mutexes.html" href="/Real-time-embedded-RTOS-mutexes.html" target="_top">Mutexes</a></li>
+																	<li><a title="/RTOS-Recursive-Mutexes.html" href="/RTOS-Recursive-Mutexes.html" target="_top">Recursive Mutexes</a></li>
+																</ul>
+															</li>
+															<li><a title="/RTOS-task-notifications.html" href="/RTOS-task-notifications.html" target="_self">Direct To Task Notifications</a>
+																<ul>
+																	<li><a title="/RTOS-task-notifications.html" href="/RTOS-task-notifications.html" target="_self">Introduction</a></li>
+																	<li><a title="/RTOS_Task_Notification_As_Binary_Semaphore.html" href="/RTOS_Task_Notification_As_Binary_Semaphore.html" target="_self">...As Binary Semaphore</a></li>
+																	<li><a title="/RTOS_Task_Notification_As_Counting_Semaphore.html" href="/RTOS_Task_Notification_As_Counting_Semaphore.html" target="_self">...As Counting Semaphore</a></li>
+																	<li><a title="/RTOS_Task_Notification_As_Event_Group.html" href="/RTOS_Task_Notification_As_Event_Group.html" target="_self">...As Event Group</a></li>
+																	<li><a title="/RTOS_Task_Notification_As_Mailbox.html" href="/RTOS_Task_Notification_As_Mailbox.html" target="_self">...As Mailbox</a></li>
+																</ul>
+															</li>
+															<li><a title="/RTOS-software-timer.html" href="/RTOS-software-timer.html" target="_top">Software Timers</a>
+																<ul>
+																	<li><a title="/RTOS-software-timer.html" href="/RTOS-software-timer.html" target="_top">Introduction</a></li>
+																	<li><a title="/RTOS-software-timer-service-daemon-task.html" href="/RTOS-software-timer-service-daemon-task.html" target="_top">Timer Service Daemon Task</a></li>
+																	<li><a title="/Configuring-a-real-time-RTOS-application-to-use-software-timers.html" href="/Configuring-a-real-time-RTOS-application-to-use-software-timers.html" target="_top">Timer Daemon Configuration</a></li>
+																	<li><a title="/One-shot-Vs-auto-reload-real-time-software-timers.html" href="/One-shot-Vs-auto-reload-real-time-software-timers.html" target="_top">One-Shot Vs Auto-Reload</a></li>
+																	<li><a title="/Resetting-an-RTOS-software-timer.html" href="/Resetting-an-RTOS-software-timer.html" target="_top">Resetting a Timer</a></li>
+																</ul>
+															</li>
+															<li><a title="/FreeRTOS-Event-Groups.html" href="/FreeRTOS-Event-Groups.html" target="_self">Event Groups (or 'flags')</a></li>
+															<li><a title="/a00017.html" href="/a00017.html" target="_top">Source Code Organisation</a></li>
+														</ul>
+													</li>
+													<li><a title="/rtos-trace-macros.html" href="/rtos-trace-macros.html" target="_top">More Advanced...</a>
+														<ul>
+															<li><a title="/Creating-a-new-FreeRTOS-project.html" href="/Creating-a-new-FreeRTOS-project.html" target="_top">Creating a New Project</a></li>
+															<li><a title="/a00110.html" href="/a00110.html" target="_top">FreeRTOSConfig.h</a></li>
+															<li><a title="/rtos-trace-macros.html" href="/rtos-trace-macros.html" target="_top">Trace Features</a></li>
+															<li><a title="/low-power-tickless-rtos.html" href="/low-power-tickless-rtos.html" target="_top">Low Power Support</a></li>
+															<li><a title="/rtos-run-time-stats.html" href="/rtos-run-time-stats.html" target="_top">Run Time Stats</a></li>
+															<li><a title="/Pend-on-multiple-rtos-objects.html" href="/Pend-on-multiple-rtos-objects.html" target="_self">Blocking on Multiple Objects</a></li>
+															<li><a title="/xTimerPendFunctionCallFromISR.html" href="/xTimerPendFunctionCallFromISR.html" target="_self">Deferred Interrupt Handling</a></li>
+															<li><a title="/Static_Vs_Dynamic_Memory_Allocation.html" href="/Static_Vs_Dynamic_Memory_Allocation.html" target="_self">Static Vs Dynamic Memory</a></li>
+															<li><a title="/a00111.html" href="/a00111.html" target="_top">Memory Management</a></li>
+															<li><a title="/FreeRTOS-MPU-memory-protection-unit.html" href="/FreeRTOS-MPU-memory-protection-unit.html" target="_top">Memory Protection Support</a></li>
+															<li><a title="/Stacks-and-stack-overflow-checking.html" href="/Stacks-and-stack-overflow-checking.html" target="_top">Stack Overflow Protection</a></li>
+															<li><a title="/a00016.html" href="/a00016.html" target="_top">Hook Functions</a></li>
+															<li><a title="/thread-local-storage-pointers.html" href="/thread-local-storage-pointers.html" target="_self">Thread Local Storage Pointers</a></li>
+															<li>How FreeRTOS Works
+																<ul>
+																	<li><a title="/implementation/main.html" href="/implementation/main.html" target="_top">Introduction</a></li>
+																	<li><a title="/implementation/a00002.html" href="/implementation/a00002.html" target="_top">Fundamentals</a>
+																		<ul>
+																				<li><a title="The basics of priority based real time operating system scheduling" href="/implementation/a00004.html" target="_top">Multitasking Basics</a></li>
+																				<li><a title="Real time operating system (RTOS) scheduling" href="/implementation/a00005.html" target="_top">Schedulinig Basics</a></li>
+																				<li><a title="What task context switching means" href="/implementation/a00006.html" target="_top">Context Switching</a></li>
+																				<li><a title="What makes an application Real Time?" href="/implementation/a00007.html" target="_top">Real Time Applications</a></li>
+																				<li><a title="What makes a task scheduler Real Time?" href="/implementation/a00008.html" target="_top">Real Time Scheduling</a></li>
+																		</ul>
+																	</li>
+																	<li><a title="/implementation/a00003.html" href="/implementation/a00003.html" target="_top">Implementation</a>
+																		<ul>
+																			<li><a title="/implementation/a00009.html" href="/implementation/a00009.html" target="_top">Building Blocks</a>
+																				<ul>
+																					<li><a title="/implementation/a00010.html" href="/implementation/a00010.html" target="_top">Development Tools</a></li>
+																					<li><a title="/implementation/a00011.html" href="/implementation/a00011.html" target="_top">The RTOS Tick</a></li>
+																					<li><a title="/implementation/a00012.html" href="/implementation/a00012.html" target="_top">GCC Signal Attribute</a></li>
+																					<li><a title="/implementation/a00013.html" href="/implementation/a00013.html" target="_top">GCC Naked Attribute</a></li>
+																					<li><a title="/implementation/a00014.html" href="/implementation/a00014.html" target="_top">FreeRTOS Tick Code</a></li>
+																					<li><a title="/implementation/a00015.html" href="/implementation/a00015.html" target="_top">AVR Context</a></li>
+																					<li><a title="/implementation/a00016.html" href="/implementation/a00016.html" target="_top">Saving the Context</a></li>
+																					<li><a title="/implementation/a00017.html" href="/implementation/a00017.html" target="_top">Restoring the Context</a></li>
+																				</ul>
+																			</li>
+																			<li><a title="/implementation/a00018.html" href="/implementation/a00018.html" target="_top">Detailed Example</a>
+																				<ul>
+																					<li><a title="/implementation/a00019.html" href="/implementation/a00019.html" target="_top">Putting It All Together</a></li>
+																					<li><a title="/implementation/a00020.html" href="/implementation/a00020.html" target="_top">Step 1</a></li>
+																					<li><a title="/implementation/a00021.html" href="/implementation/a00021.html" target="_top">Step 2</a></li>
+																					<li><a title="/implementation/a00022.html" href="/implementation/a00022.html" target="_top">Step 3</a></li>
+																					<li><a title="/implementation/a00023.html" href="/implementation/a00023.html" target="_top">Step 4</a></li>
+																					<li><a title="/implementation/a00024.html" href="/implementation/a00024.html" target="_top">Step 5</a></li>
+																					<li><a title="/implementation/a00025.html" href="/implementation/a00025.html" target="_top">Step 6</a></li>
+																					<li><a title="/implementation/a00026.html" href="/implementation/a00026.html" target="_top">Step 7</a></li>
+																				</ul>
+																			</li>
+																		</ul>
+																	</li>
+																</ul>
+															</li>
+															<li><a title="/tutorial/index.html" href="/tutorial/index.html" target="_top">RAM Constrained Design Tips</a>
+																<ul>
+																	<li><a title="/tutorial/index.html" href="/tutorial/index.html" target="_top">Page 1</a></li>
+																	<li><a title="/tutorial/solution1.html" href="/tutorial/solution1.html" target="_top">Page 2</a></li>
+																	<li><a title="/tutorial/solution2.html" href="/tutorial/solution2.html" target="_top">Page 3</a></li>
+																	<li><a title="/tutorial/solution3.html" href="/tutorial/solution3.html" target="_top">Page 4</a></li>
+																	<li><a title="/tutorial/solution4.html" href="/tutorial/solution4.html" target="_top">Page 5</a></li>
+																</ul>
+															</li>
+															<li><a title="/FreeRTOS-porting-guide.html" href="/FreeRTOS-porting-guide.html" target="_top">Porting Guide</a></li>
+															<li><a title="/FreeRTOS-Windows-Simulator-Emulator-for-Visual-Studio-and-Eclipse-MingW.html" href="/FreeRTOS-Windows-Simulator-Emulator-for-Visual-Studio-and-Eclipse-MingW.html" target="_top">Windows Simulator</a></li>
+															<li><a title="/FreeRTOS-simulator-for-Linux.html" href="/FreeRTOS-simulator-for-Linux.html" target="_top">Posix/Linux Simulator</a></li>
+															<li><a title="/a00086.html" href="/a00086.html" target="_top">Legacy Trace Facility</a></li>
+														</ul>
+													</li>
+													<li><a title="/a00102.html" href="/a00102.html" target="_top">Demo Projects</a>
+														<ul>
+															<li><a title="/a00102.html" href="/a00102.html" target="_top">Standard Demos</a></li>
+															<li><a title="/simple-freertos-demos.html" href="/simple-freertos-demos.html" target="_top">Basic Demos</a></li>
+															<li><a title="/Hardware-independent-RTOS-example.html" href="/Hardware-independent-RTOS-example.html" target="_top">Hardware Independent</a></li>
+															<li><a title="/porting-a-freertos-demo-to-different-hardware.html" href="/porting-a-freertos-demo-to-different-hardware.html" target="_top">Modifying a Demo</a></li>
+															<li><a title="/embeddedtcp.html" href="/embeddedtcp.html" target="_top">TCP/IP Demos</a></li>
+														</ul>
+													</li>
+													<li><a title="/a00090.html" href="/a00090.html" target="_top">Supported Devices &amp; Demos</a>
+														<ul>
+															<li><a title="/differences-between-officially-supported-and-contributed-FreeRTOS-code.html" href="/differences-between-officially-supported-and-contributed-FreeRTOS-code.html" target="_top">Official &amp; Contributed Definitions</a></li>
+															<li><a title="/RTOS_ports.html" href="/RTOS_ports.html" target="_top">Simple List of Ports</a></li>
+															<li><a title="/a00090.html" href="/a00090.html" target="_top">Officially Supported Demos</a></li>
+															<li><a title="/embeddedtcp.html" href="/embeddedtcp.html" target="_top">TCP/IP Demos</a></li>
+														</ul>
+													</li>
+													<li><a title="/a00106.html" href="/a00106.html" target="_top">API Reference</a>
+														<ul>
+															<li><a title="/Documentation/RTOS_book.html" href="/Documentation/RTOS_book.html" target="_blank">PDF Reference Manual</a></li>
+															<li><a title="/a00019.html" href="/a00019.html" target="_top">Task Creation</a>
+																<ul>
+																	<li><a title="/a00019.html#xTaskHandle" href="/a00019.html#xTaskHandle" target="_top">TaskHandle_t (type)</a></li>
+																	<li><a title="/a00125.html" href="/a00125.html" target="_top">xTaskCreate()</a></li>
+																	<li><a title="/a00126.html" href="/a00126.html" target="_top">vTaskDelete()</a></li>
+																</ul>
+															</li>
+															<li><a title="/a00112.html" href="/a00112.html" target="_top">Task Control</a>
+																<ul>
+																	<li><a title="/a00127.html" href="/a00127.html" target="_top">vTaskDelay()</a></li>
+																	<li><a title="/vtaskdelayuntil.html" href="/vtaskdelayuntil.html" target="_top">vTaskDelayUntil()</a></li>
+																	<li><a title="/a00128.html" href="/a00128.html" target="_top">uxTaskPriorityGet()</a></li>
+																	<li><a title="/a00129.html" href="/a00129.html" target="_top">vTaskPrioritySet()</a></li>
+																	<li><a title="/a00130.html" href="/a00130.html" target="_top">vTaskSuspend()</a></li>
+																	<li><a title="/a00131.html" href="/a00131.html" target="_top">vTaskResume()</a></li>
+																	<li><a title="/taskresumefromisr.html" href="/taskresumefromisr.html" target="_top">xTaskResumeFromISR()</a></li>
+																</ul>
+															</li>
+															<li><a title="/a00021.html" href="/a00021.html" target="_top">Task Utilities</a>
+																<ul>
+																	<li><a title="/uxTaskGetSystemState.html" href="/uxTaskGetSystemState.html" target="_self">uxTaskGetSystemState()</a></li>
+																	<li><a title="/xTaskGetApplicationTaskTag.html" href="/xTaskGetApplicationTaskTag.html" target="_top">xTaskGetApplicationTaskTag()</a></li>
+																	<li><a title="/a00021.html#xTaskGetCurrentTaskHandle" href="/a00021.html#xTaskGetCurrentTaskHandle" target="_top">xTaskGetCurrentTaskHandle()</a></li>
+																	<li><a title="/a00021.html#xTaskGetIdleTaskHandle" href="/a00021.html#xTaskGetIdleTaskHandle" target="_top">xTaskGetIdleTaskHandle()</a></li>
+																	<li><a title="/uxTaskGetStackHighWaterMark.html" href="/uxTaskGetStackHighWaterMark.html" target="_top">uxTaskGetStackHighWaterMark()</a></li>
+																	<li><a title="/a00021.html#eTaskGetState" href="/a00021.html#eTaskGetState" target="_self">eTaskGetState()</a></li>
+																	<li><a title="/a00021.html#pcTaskGetName" href="/a00021.html#pcTaskGetName" target="_top">pcTaskGetName()</a></li>
+																	<li><a title="/a00021.html#xTaskGetTickCount" href="/a00021.html#xTaskGetTickCount" target="_top">xTaskGetTickCount()</a></li>
+																	<li><a title="/a00021.html#xTaskGetTickCountFromISR" href="/a00021.html#xTaskGetTickCountFromISR" target="_top">xTaskGetTickCountFromISR()</a></li>
+																	<li><a title="/a00021.html#xTaskGetSchedulerState" href="/a00021.html#xTaskGetSchedulerState" target="_top">xTaskGetSchedulerState()</a></li>
+																	<li><a title="/a00021.html#usTaskGetNumberOfTasks" href="/a00021.html#usTaskGetNumberOfTasks" target="_top">uxTaskGetNumberOfTasks()</a></li>
+																	<li><a title="/a00021.html#vTaskList" href="/a00021.html#vTaskList" target="_top">vTaskList()</a></li>
+																	<li><a title="/a00021.html#vTaskStartTrace" href="/a00021.html#vTaskStartTrace" target="_top">vTaskStartTrace()</a></li>
+																	<li><a title="/a00021.html#usTaskEndTrace" href="/a00021.html#usTaskEndTrace" target="_top">ulTaskEndTrace()</a></li>
+																	<li><a title="/a00021.html#vTaskGetRunTimeStats" href="/a00021.html#vTaskGetRunTimeStats" target="_top">vTaskGetRunTimeStats()</a></li>
+																	<li><a title="/vTaskSetApplicationTag.html" href="/vTaskSetApplicationTag.html" target="_top">vTaskSetApplicationTaskTag()</a></li>
+																	<li><a title="/xTaskCallApplicationTaskHook.html" href="/xTaskCallApplicationTaskHook.html" target="_top">xTaskCallApplicationTaskHook()</a></li>
+																	<li><a title="/vTaskSetThreadLocalStoragePointer.html" href="/vTaskSetThreadLocalStoragePointer.html" target="_self">'SetThreadLocalStoragePointer()</a></li>
+																	<li><a title="/pvTaskGetThreadLocalStoragePointer.html" href="/pvTaskGetThreadLocalStoragePointer.html" target="_self">'GetThreadLocalStoragePointer()</a></li>
+																	<li><a title="/vTaskSetTimeOutState.html" href="/vTaskSetTimeOutState.html" target="_self">vTaskSetTimeOutState()</a></li>
+																	<li><a title="/xTaskCheckForTimeOut.html" href="/xTaskCheckForTimeOut.html" target="_self">xTaskGetCheckForTimeOut()</a></li>
+																</ul>
+															</li>
+															<li><a title="/a00020.html" href="/a00020.html" target="_top">RTOS Kernel Control</a>
+																<ul>
+																	<li><a title="/a00020.html#taskYIELD" href="/a00020.html#taskYIELD" target="_top">taskYIELD()</a></li>
+																	<li><a title="/a00020.html#taskENTER_CRITICAL" href="/a00020.html#taskENTER_CRITICAL" target="_top">taskENTER_CRITICAL()</a></li>
+																	<li><a title="/a00020.html#taskEXIT_CRITICAL" href="/a00020.html#taskEXIT_CRITICAL" target="_top">taskEXIT_CRITICAL()</a></li>
+																	<li><a title="/a00020.html#taskDISABLE_INTERRUPTS" href="/a00020.html#taskDISABLE_INTERRUPTS" target="_top">taskDISABLE_INTERRUPTS()</a></li>
+																	<li><a title="/a00020.html#taskENABLE_INTERRUPTS" href="/a00020.html#taskENABLE_INTERRUPTS" target="_top">taskENABLE_INTERRUPTS()</a></li>
+																	<li><a title="/a00132.html" href="/a00132.html" target="_top">vTaskStartScheduler()</a></li>
+																	<li><a title="/a00133.html" href="/a00133.html" target="_top">vTaskEndScheduler()</a></li>
+																	<li><a title="/a00134.html" href="/a00134.html" target="_top">vTaskSuspendAll()</a></li>
+																	<li><a title="/a00135.html" href="/a00135.html" target="_top">xTaskResumeAll()</a></li>
+																	<li><a title="/vTaskStepTick.html" href="/vTaskStepTick.html" target="_self">vTaskStepTick()</a></li>
+																</ul>
+															</li>
+															<li><a title="/RTOS-task-notification-API.html" href="/RTOS-task-notification-API.html" target="_self">Direct To Task Notifications</a>
+																<ul>
+																	<li><a title="/xTaskNotifyGive.html" href="/xTaskNotifyGive.html" target="_self">xTaskNotifyGive()</a></li>
+																	<li><a title="/vTaskNotifyGiveFromISR.html" href="/vTaskNotifyGiveFromISR.html" target="_self">vTaskNotifyGiveFromISR()</a></li>
+																	<li><a title="/ulTaskNotifyTake.html" href="/ulTaskNotifyTake.html" target="_self">ulTaskNotifyTake()</a></li>
+																	<li><a title="/xTaskNotify.html" href="/xTaskNotify.html" target="_self">xTaskNotify()</a></li>
+																	<li><a title="/xTaskNotifyAndQuery.html" href="/xTaskNotifyAndQuery.html" target="_self">xTaskNotifyAndQuery()</a></li>
+																	<li><a title="/xTaskNotifyFromISR.html" href="/xTaskNotifyFromISR.html" target="_self">xTaskNotifyFromISR()</a></li>
+																	<li><a title="/xTaskNotifyWait.html" href="/xTaskNotifyWait.html" target="_self">xTaskNotifyWait()</a></li>
+																</ul>
+															</li>
+															<li><a title="/FreeRTOS-MPU-specific.html" href="/FreeRTOS-MPU-specific.html" target="_top">FreeRTOS-MPU Specific</a>
+																<ul>
+																	<li><a title="/xTaskCreateRestricted.html" href="/xTaskCreateRestricted.html" target="_top">xTaskCreateRestricted()</a></li>
+																	<li><a title="/vTaskAllocateMPURegions.html" href="/vTaskAllocateMPURegions.html" target="_top">vTaskAllocateMPURegions()</a></li>
+																	<li><a title="/portSWITCH_TO_USER_MODE.html" href="/portSWITCH_TO_USER_MODE.html" target="_top">'SWITCH_TO_USER_MODE()</a></li>
+																</ul>
+															</li>
+															<li><a title="/a00018.html" href="/a00018.html" target="_top">Queues</a>
+																<ul>
+																	<li><a title="/a00018.html#ucQueueMessagesWaiting" href="/a00018.html#ucQueueMessagesWaiting" target="_top">uxQueueMessagesWaiting()</a></li>
+																	<li><a title="/a00018.html#ucQueueMessagesWaitingFromISR" href="/a00018.html#ucQueueMessagesWaitingFromISR" target="_top">uxQueueMessagesWaitingFromISR()</a></li>
+																	<li><a title="/a00018.html#uxQueueSpacesAvailable" href="/a00018.html#uxQueueSpacesAvailable" target="_top">uxQueueSpacesAvailable()</a></li>
+																	<li><a title="/a00116.html" href="/a00116.html" target="_top">xQueueCreate()</a></li>
+																	<li><a title="/a00018.html#vQueueDelete" href="/a00018.html#vQueueDelete" target="_top">vQueueDelete()</a></li>
+																	<li><a title="/a00018.html#xQueueReset" href="/a00018.html#xQueueReset" target="_top">xQueueReset()</a></li>
+																	<li><a title="/a00117.html" href="/a00117.html" target="_top">xQueueSend()</a></li>
+																	<li><a title="/xQueueSendToBack.html" href="/xQueueSendToBack.html" target="_top">xQueueSendToBack()</a></li>
+																	<li><a title="/xQueueSendToFront.html" href="/xQueueSendToFront.html" target="_top">xQueueSendToFront()</a></li>
+																	<li><a title="/a00118.html" href="/a00118.html" target="_top">xQueueReceive()</a></li>
+																	<li><a title="/xQueueOverwrite.html" href="/xQueueOverwrite.html" target="_self">xQueueOverwrite()</a></li>
+																	<li><a title="/xQueueOverwriteFromISR.html" href="/xQueueOverwriteFromISR.html" target="_self">xQueueOverwriteFromISR()</a></li>
+																	<li><a title="/xQueuePeek.html" href="/xQueuePeek.html" target="_top">xQueuePeek()</a></li>
+																	<li><a title="/xQueuePeekFromISR.html" href="/xQueuePeekFromISR.html" target="_self">xQueuePeekFromISR()</a></li>
+																	<li><a title="/a00119.html" href="/a00119.html" target="_top">xQueueSendFromISR()</a></li>
+																	<li><a title="/xQueueSendToBackFromISR.html" href="/xQueueSendToBackFromISR.html" target="_top">xQueueSendToBackFromISR()</a></li>
+																	<li><a title="/xQueueSendToFrontFromISR.html" href="/xQueueSendToFrontFromISR.html" target="_top">xQueueSendToFrontFromISR()</a></li>
+																	<li><a title="/a00120.html" href="/a00120.html" target="_top">xQueueReceiveFromISR()</a></li>
+																	<li><a title="/vQueueAddToRegistry.html" href="/vQueueAddToRegistry.html" target="_top">vQueueAddToRegistry()</a></li>
+																	<li><a title="/vQueueUnregisterQueue.html" href="/vQueueUnregisterQueue.html" target="_top">vQueueUnregisterQueue()</a></li>
+																	<li><a title="/a00018.html#xQueueIsQueueFullFromISR" href="/a00018.html#xQueueIsQueueFullFromISR" target="_self">xQueueIsQueueFullFromISR()</a></li>
+																	<li><a title="/a00018.html#xQueueIsQueueEmptyFromISR" href="/a00018.html#xQueueIsQueueEmptyFromISR" target="_self">xQueueIsQueueEmptyFromISR()</a></li>
+																</ul>
+															</li>
+															<li><a title="/RTOS-queue-sets.html" href="/RTOS-queue-sets.html" target="_self">Queue Sets</a>
+																<ul>
+																	<li><a title="/xQueueCreateSet.html" href="/xQueueCreateSet.html" target="_self">xQueueCreateSet()</a></li>
+																	<li><a title="/xQueueAddToSet.html" href="/xQueueAddToSet.html" target="_self">xQueueAddToSet()</a></li>
+																	<li><a title="/xQueueRemoveFromSet.html" href="/xQueueRemoveFromSet.html" target="_self">xQueueRemoveFromSet()</a></li>
+																	<li><a title="/xQueueSelectFromSet.html" href="/xQueueSelectFromSet.html" target="_self">xQueueSelectFromSet()</a></li>
+																	<li><a title="/xQueueSelectFromSetFromISR.html" href="/xQueueSelectFromSetFromISR.html" target="_self">xQueueSelectFromSetFromISR()</a></li>
+																</ul>
+															</li>
+															<li><a title="/a00113.html" href="/a00113.html" target="_top">Semaphore / Mutexes</a>
+																<ul>
+																	<li><a title="/xSemaphoreCreateBinary.html" href="/xSemaphoreCreateBinary.html" target="_top">xSemaphoreCreateBinary()</a></li>
+																	<li><a title="/a00121.html" href="/a00121.html" target="_top">vSemaphoreCreateBinary()</a></li>
+																	<li><a title="/CreateCounting.html" href="/CreateCounting.html" target="_top">xSemaphoreCreateCounting()</a></li>
+																	<li><a title="/CreateMutex.html" href="/CreateMutex.html" target="_top">xSemaphoreCreateMutex()</a></li>
+																	<li><a title="/xSemaphoreCreateRecursiveMutex.html" href="/xSemaphoreCreateRecursiveMutex.html" target="_top">xSemaphoreCreateRecursiveMutex()</a></li>
+																	<li><a title="/a00113.html#vSemaphoreDelete" href="/a00113.html#vSemaphoreDelete" target="_top">vSemaphoreDelete()</a></li>
+																	<li><a title="/xSemaphoreGetMutexHolder.html" href="/xSemaphoreGetMutexHolder.html" target="_top">xSemaphoreGetMutexHolder()</a></li>
+																	<li><a title="/a00122.html" href="/a00122.html" target="_top">xSemaphoreTake()</a></li>
+																	<li><a title="/xSemaphoreTakeFromISR.html" href="/xSemaphoreTakeFromISR.html" target="_self">xSemaphoreTakeFromISR()</a></li>
+																	<li><a title="/xSemaphoreTakeRecursive.html" href="/xSemaphoreTakeRecursive.html" target="_top">xSemaphoreTakeRecursive()</a></li>
+																	<li><a title="/a00123.html" href="/a00123.html" target="_top">xSemaphoreGive()</a></li>
+																	<li><a title="/xSemaphoreGiveRecursive.html" href="/xSemaphoreGiveRecursive.html" target="_top">xSemaphoreGiveRecursive()</a></li>
+																	<li><a title="/a00124.html" href="/a00124.html" target="_top">xSemaphoreGiveFromISR()</a></li>
+																</ul>
+															</li>
+															<li><a title="/FreeRTOS-Software-Timer-API-Functions.html" href="/FreeRTOS-Software-Timer-API-Functions.html" target="_top">Software Timers</a>
+																<ul>
+																	<li><a title="/FreeRTOS-timers-xTimerCreate.html" href="/FreeRTOS-timers-xTimerCreate.html" target="_top">xTimerCreate()</a></li>
+																	<li><a title="/FreeRTOS-timers-xTimerIsTimerActive.html" href="/FreeRTOS-timers-xTimerIsTimerActive.html" target="_top">xTimerIsTimerActive()</a></li>
+																	<li><a title="/FreeRTOS-timers-xTimerStart.html" href="/FreeRTOS-timers-xTimerStart.html" target="_top">xTimerStart()</a></li>
+																	<li><a title="/FreeRTOS-timers-xTimerStop.html" href="/FreeRTOS-timers-xTimerStop.html" target="_top">xTimerStop()</a></li>
+																	<li><a title="/FreeRTOS-timers-xTimerChangePeriod.html" href="/FreeRTOS-timers-xTimerChangePeriod.html" target="_top">xTimerChangePeriod()</a></li>
+																	<li><a title="/FreeRTOS-timers-xTimerDelete.html" href="/FreeRTOS-timers-xTimerDelete.html" target="_top">xTimerDelete()</a></li>
+																	<li><a title="/FreeRTOS-timers-xTimerReset.html" href="/FreeRTOS-timers-xTimerReset.html" target="_top">xTimerReset()</a></li>
+																	<li><a title="/FreeRTOS-timers-xTimerStartFromISR.html" href="/FreeRTOS-timers-xTimerStartFromISR.html" target="_top">xTimerStartFromISR()</a></li>
+																	<li><a title="/FreeRTOS-timers-xTimerStopFromISR.html" href="/FreeRTOS-timers-xTimerStopFromISR.html" target="_top">xTimerStopFromISR()</a></li>
+																	<li><a title="/FreeRTOS-timers-xTimerChangePeriodFromISR.html" href="/FreeRTOS-timers-xTimerChangePeriodFromISR.html" target="_top">xTimerChangePeriodFromISR()</a></li>
+																	<li><a title="/FreeRTOS-timers-xTimerResetFromISR.html" href="/FreeRTOS-timers-xTimerResetFromISR.html" target="_top">xTimerResetFromISR()</a></li>
+																	<li><a title="/FreeRTOS-timers-pvTimerGetTimerID.html" href="/FreeRTOS-timers-pvTimerGetTimerID.html" target="_self">pvTimerGetTimerID()</a></li>
+																	<li><a title="/FreeRTOS-timers-vTimerSetTimerID.html" href="/FreeRTOS-timers-vTimerSetTimerID.html" target="_top">vTimerSetTimerID()</a></li>
+																	<li><a title="/FreeRTOS-Software-Timer-API-Functions.html#xTimerGetTimerDaemonTaskHandle" href="/FreeRTOS-Software-Timer-API-Functions.html#xTimerGetTimerDaemonTaskHandle" target="_top">xTimerGetTimerDaemonTaskHandle()</a></li>
+																	<li><a title="/xTimerPendFunctionCall.html" href="/xTimerPendFunctionCall.html" target="_self">xTimerPendFunctionCall()</a></li>
+																	<li><a title="/xTimerPendFunctionCallFromISR.html" href="/xTimerPendFunctionCallFromISR.html" target="_self">xTimerPendFunctionCallFromISR()</a></li>
+																</ul>
+															</li>
+															<li><a title="/event-groups-API.html" href="/event-groups-API.html" target="_self">Event Groups (or 'flags')</a>
+																<ul>
+																	<li><a title="/xEventGroupCreate.html" href="/xEventGroupCreate.html" target="_self">xEventGroupCreate()</a></li>
+																	<li><a title="/vEventGroupDelete.html" href="/vEventGroupDelete.html" target="_self">vEventGroupDelete()</a></li>
+																	<li><a title="/xEventGroupWaitBits.html" href="/xEventGroupWaitBits.html" target="_self">xEventGroupWaitBits()</a></li>
+																	<li><a title="/xEventGroupSetBits.html" href="/xEventGroupSetBits.html" target="_self">xEventGroupSetBits()</a></li>
+																	<li><a title="/xEventGroupSetBitsFromISR.html" href="/xEventGroupSetBitsFromISR.html" target="_self">xEventGroupSetBitsFromISR()</a></li>
+																	<li><a title="/xEventGroupClearBits.html" href="/xEventGroupClearBits.html" target="_self">xEventGroupClearBits()</a></li>
+																	<li><a title="/xEventGroupClearBitsFromISR.html" href="/xEventGroupClearBitsFromISR.html" target="_self">xEventGroupClearBitsFromISR()</a></li>
+																	<li><a title="/xEventGroupGetBits.html" href="/xEventGroupGetBits.html" target="_self">xEventGroupGetBits()</a></li>
+																	<li><a title="/xEventGroupGetBitsFromISR.html" href="/xEventGroupGetBitsFromISR.html" target="_self">xEventGroupGetBitsFromISR()</a></li>
+																	<li><a title="/xEventGroupSync.html" href="/xEventGroupSync.html" target="_self">xEventGroupSync()</a></li>
+																</ul>
+															</li>
+															<li><a title="/croutineapi.html" href="/croutineapi.html" target="_top">Co-routines</a>
+																<ul>
+																	<li><a title="/crcreate.html#crhandle" href="/crcreate.html#crhandle" target="_top">CoRoutineHandle_t (type)</a></li>
+																	<li><a title="/crcreate.html" href="/crcreate.html" target="_top">xCoRoutineCreate()</a></li>
+																	<li><a title="/crdelay.html" href="/crdelay.html" target="_top">crDELAY()</a></li>
+																	<li><a title="/crqueuesend.html" href="/crqueuesend.html" target="_top">crQUEUE_SEND()</a></li>
+																	<li><a title="/crqueuerec.html" href="/crqueuerec.html" target="_top">crQUEUE_RECEIVE()</a></li>
+																	<li><a title="/crsendisr.html" href="/crsendisr.html" target="_top">crQUEUE_SEND_FROM_ISR()</a></li>
+																	<li><a title="/crrecisr.html" href="/crrecisr.html" target="_top">crQUEUE_RECEIVE_FROM_ISR()</a></li>
+																	<li><a title="/crschedule.html" href="/crschedule.html" target="_top">vCoRoutineSchedule()</a></li>
+																</ul>
+															</li>
+															<li><a title="/RTOS-contact-and-support.html" href="/RTOS-contact-and-support.html" target="_top">Contact, Support, Advertising</a>
+																<ul>
+																	<li><a title="/RTOS-contact-and-support.html" href="/RTOS-contact-and-support.html" target="_top">Contact &amp; Advertising</a></li>
+																	<li><a title="/FreeRTOS_Support_Forum_Archive/freertos_support_forum_archive_index.html" href="/FreeRTOS_Support_Forum_Archive/freertos_support_forum_archive_index.html" target="_top">Free Support Forum</a></li>
+																	<li><a title="/RTOS-contact-and-support.html#commercial" href="/RTOS-contact-and-support.html#commercial" target="_top">Commercial Support</a></li>
+																	<li><a title="/a00115.html" href="/a00115.html" target="_top">Contract Services</a></li>
+																	<li><a title="/FAQ.html" href="/FAQ.html" target="_top">FAQ</a></li>
+																</ul>
+															</li>
+														</ul>
+													</li>
+												</ul>
+											</li>
+											<li>FreeRTOS Interactive!
+												<ul>
+													<li><a title="/RTOS-contributed-ports.html" href="/RTOS-contributed-ports.html" target="_top">Contributed Vs Official Code</a></li>
+													<li><a title="/Contributing-files-to-FreeRTOS.html" href="/Contributing-files-to-FreeRTOS.html" target="_top">Contributing Source Code</a></li>
+													<li><a title="http://interactive.freertos.org/forums" href="http://interactive.freertos.org/forums" target="_top">Upload / Download Contributions</a></li>
+												</ul>
+											</li>
+										</ul>
+									</noscript>
+								</p></td>
+							</tr>
+							<tr> <!-- FreeRTOS+ links table. -->
+								<td>
+									<br>
+									<div align="center">
+										<table style="width:180px;" cellspacing="0" cellpadding="0">
+											<tbody><tr>
+												<td style="border:solid 1px white; background-color:#7095d3; height:25px;">
+													<div align="center">
+														<a href="https://www.rtai.freertos.org/FreeRTOS-quick-start-guide.html#page_top" style="color:white; line-height:1.3em;" class="underline_on_hover">
+															<b>Quick Start Guide</b>
+														</a>
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td style="border:solid 1px white; background-color:#7095d3; height:25px;">
+													<div align="center">
+														<a href="https://www.rtai.freertos.org/a00104.html" target="_blank" style="color:white; line-height:1.3em;" class="underline_on_hover">
+															<b>⇓ Download Source ⇓</b>
+														</a>
+													</div>
+												</td>
+											</tr>
+										</tbody></table>
+										<p>
+										</p><table style="width:180px;" cellspacing="0" cellpadding="0">
+											<tbody><tr>
+												<td style="border:solid 1px white; background-color:#7095d3; height:25px;">
+													<div align="center">
+														<a href="https://www.rtai.freertos.org/FreeRTOS-Plus/index.shtml" target="_blank" style="color:white; line-height:1.3em;" class="underline_on_hover">
+															<b>FreeRTOS+ Ecosystem</b>
+														</a>
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td class="menu_cell_body">
+													<a href="https://www.rtai.freertos.org/FreeRTOS-Plus/FreeRTOS_Plus_TCP/index.html" target="_blank" style="line-height:1.3em;" class="underline_on_hover">
+														&nbsp;<b>FreeRTOS+TCP:</b>
+														<br>
+														<font size="2">
+															&nbsp;Thread safe TCP/IP stack
+														</font>
+													</a>
+												</td>
+											</tr>
+											<tr>
+												<td class="menu_cell_body">
+													<a href="https://www.rtai.freertos.org/FreeRTOS-Plus/Safety_Critical_Certified/SafeRTOS.shtml" target="_top" style="line-height:1.3em;" class="underline_on_hover">
+														&nbsp;<b>SafeRTOS:</b>
+														<br>
+														<font size="2">
+															&nbsp;TUV certified RTOS
+														</font>
+													</a>
+												</td>
+											</tr>
+											<tr>
+												<td class="menu_cell_body">
+													<a href="https://www.rtai.freertos.org/a00114.html#commercial" target="_top" style="line-height:1.3em;" class="underline_on_hover">
+														&nbsp;<b>OpenRTOS:</b>
+														<br>
+														<font size="2">
+															&nbsp;Commercial Licensed RTOS
+														</font>
+													</a>
+												</td>
+											</tr>
+											<tr>
+												<td class="menu_cell_body">
+													<a href="https://www.rtai.freertos.org/FreeRTOS-Plus/Fail_Safe_File_System/Reliance_Edge_Fail_Safe_File_System.shtml" target="_blank" style="line-height:1.3em;" class="underline_on_hover">
+														&nbsp;<b>Fail Safe File System:</b>
+														<br>
+														<font size="2">
+															&nbsp;Ensures data integrity
+														</font>
+													</a>
+												</td>
+											</tr>
+<!--
+											<tr>
+												<td class="menu_cell_body">
+													<a href="/FreeRTOS-Plus/embTCP/FreeRTOS_Plus_TCP.shtml" target="_blank" style="line-height:1.3em;" class="underline_on_hover">
+														&nbsp;<b>InterNiche TCP/IP:</b>
+														<br>
+														<font size="2">
+															&nbsp;Low cost pre-ported libraries
+														</font>
+													</a>
+												</td>
+											</tr>
+-->
+											<tr>
+												<td class="menu_cell_body">
+													<a href="https://www.rtai.freertos.org/FreeRTOS-Plus/BSP_Solutions/FreeRTOS_BSP.html" target="_blank" style="line-height:1.3em;" class="underline_on_hover">
+														&nbsp;<b>FreeRTOS BSPs:</b>
+														<br>
+														<font size="2">
+															&nbsp;3<span style="position:relative; bottom:0.5em; font-size:0.8em;">rd</span> party driver packages
+														</font>
+													</a>
+												</td>
+											</tr>
+<!--											<tr>
+												<td class="menu_cell_body">
+													<a href="/FreeRTOS-Plus/FreeRTOS_Plus_FAT_SL/FreeRTOS_Plus_FAT_SL.shtml" target="_blank" style="line-height:1.3em;" class="underline_on_hover">
+														&nbsp;<b>FAT SL File System:</b>
+														<br>
+														<font size="2">
+															&nbsp;Super lean FAT FS
+														</font>
+													</a>
+												</td>
+											</tr>
+-->
+											<tr>
+												<td class="menu_cell_body">
+													<a href="https://www.rtai.freertos.org/FreeRTOS-Plus/FreeRTOS_Plus_UDP/FreeRTOS_Plus_UDP.shtml" target="_blank" style="line-height:1.3em;" class="underline_on_hover">
+														&nbsp;<b>UDP/IP:</b>
+														<br>
+														<font size="2">
+															&nbsp;Thread aware UDP stack
+														</font>
+													</a>
+												</td>
+											</tr>
+											<tr>
+												<td class="menu_cell_body">
+													<a href="https://www.rtai.freertos.org/FreeRTOS-Plus/FreeRTOS_Plus_Trace/FreeRTOS_Plus_Trace.shtml" target="_blank" style="line-height:1.3em;" class="underline_on_hover">
+														&nbsp;<b>Trace &amp; Visualisation:</b>
+														<br>
+														<font size="2">
+															&nbsp;Tracealyzer for FreeRTOS
+														</font>
+													</a>
+												</td>
+											</tr>
+											<tr>
+												<td class="menu_cell_body">
+													<a href="https://www.rtai.freertos.org/FreeRTOS-Plus/FreeRTOS_Plus_CLI/FreeRTOS_Plus_Command_Line_Interface.shtml" target="_blank" style="line-height:1.3em;" class="underline_on_hover">
+														&nbsp;<b>CLI:</b>
+														<br>
+														<font size="2">
+															&nbsp;Command line interface
+														</font>
+													</a>
+												</td>
+											</tr>
+											<tr>
+												<td class="menu_cell_body">
+													<a href="https://www.rtai.freertos.org/FreeRTOS-Plus/WolfSSL/WolfSSL.shtml" target="_blank" style="line-height:1.3em;" class="underline_on_hover">
+														&nbsp;<b>WolfSSL SSL / TLS:</b>
+														<br>
+														<font size="2">
+															&nbsp;Networking security protocols
+														</font>
+													</a>
+												</td>
+											</tr>
+											<tr>
+												<td class="menu_cell_body">
+													<a href="https://www.rtai.freertos.org/FreeRTOS-Plus/Instructor_Led_FreeRTOS_Training/FreeRTOS_Training.shtml" target="_top" style="line-height:1.3em;" class="underline_on_hover">
+														&nbsp;<b>RTOS Training:</b>
+														<br>
+														<font size="2">
+															&nbsp;Delivered online or on-site
+														</font>
+													</a>
+												</td>
+											</tr>
+											<tr>
+												<td class="menu_cell_body">
+													<a href="https://www.rtai.freertos.org/FreeRTOS-Plus/FreeRTOS_Plus_IO/FreeRTOS_Plus_IO.shtml" target="_blank" style="line-height:1.3em;" class="underline_on_hover">
+														&nbsp;<b>IO:</b>
+														<br>
+														<font size="2">
+															&nbsp;read(), write(), ioctl() interface
+														</font>
+													</a>
+												</td>
+											</tr>
+										</tbody></table>
+										<p>
+										</p><table style="width:180px;" cellspacing="0" cellpadding="0">
+											<tbody><tr>
+												<td style="border:solid 1px white; background-color:#7095d3; height:25px;">
+													<div align="center">
+														<a href="https://www.rtai.freertos.org/FreeRTOS-Labs/index.shtml" target="_blank" style="color:white; line-height:1.3em;" class="underline_on_hover">
+															<b>FreeRTOS+ Lab Projects</b>
+														</a>
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td class="menu_cell_body">
+													<a href="https://www.rtai.freertos.org/FreeRTOS-Plus/FreeRTOS_Plus_FAT/index.html" target="_blank" style="line-height:1.3em;" class="underline_on_hover">
+														&nbsp;<b>FreeRTOS+FAT:</b>
+														<br>
+														<font size="2">
+															&nbsp;Thread aware file system
+														</font>
+													</a>
+												</td>
+											</tr>
+										</tbody></table>
+										<br>
+									</div>
+								</td>
+							</tr>
+						</tbody></table>
+					</td>
+					<td style="width:2px; padding-right:0; padding-left:0;"> <!-- Blank column. -->
+						<!-- Just to move the main text away from the silver verticle line slightly. -->
+					</td>
+					<td id="td_main_content_column"> <!-- Main content area. -->
+						<table id="menu_hint" style="height: 30px; background: rgb(255, 255, 153) none repeat scroll 0% 0%; display: none;" cellspacing="0" cellpadding="0" border="0">
+							<tbody><tr valign="middle">
+								<td width="5px">
+								</td>
+								<td width="30px">
+									<img src="[RTOS%20Support]%20New%20user%20looking%20for%20tips_files/menu_hint_arrow.png" style="padding:0;" height="25px" border="0">
+								</td>
+								<td valign="middle">
+									Hint: Use the tree menu to navigate groups of related pages &nbsp;
+								</td>
+							</tr>
+						</tbody></table>
+
+
+<!-- Used on the support forum archive pages. -->
+<!-- <div style="float:right;">
+	<a href="/FreeRTOS-Labs/index.shtml" target="_blank"><img src="/banner-images/FreeRTOS_Plus_TCP.png" border="0" width="170" alt="Embedded TCP/IP stack for RTOS advert" style="padding-left:20px; padding-right:20px; padding-top:15px;"></a>
+</div> -->
+<div id="navigation"><h2>FreeRTOS Support Archive</h2>
+The FreeRTOS support forum can be used for active support both from Amazon Web Services 
+and the community.  In return for using our software for
+free, we request you play fair and do your bit to help others!  Sign up
+to receive notifications of new support topics then help where you can.
+<p>
+<br>
+</p><div style="float:center;">
+	<a href="http://sourceforge.net/p/freertos/discussion/382005/" target="_blank">
+		<img src="[RTOS%20Support]%20New%20user%20looking%20for%20tips_files/signup.png" style="box-shadow: 5px 5px 2px #888888; width:500px;" border="0">
+	</a>
+</div>
+<p>
+<br>
+</p><hr width="75%">
+<p>
+<br>
+This is a read only archive of threads posted to the FreeRTOS support forum.
+The archive is updated every week, so will not always contain the very latest posts.
+Use these archive pages to search previous posts.  Use the <a href="http://sourceforge.net/p/freertos/discussion/382005/" target="_blank">Live FreeRTOS Forum</a>
+link to reply to a post, or <b><u><a href="http://sourceforge.net/p/freertos/discussion/382005/" target="_blank">start a new support thread</a></u></b>.
+</p><p>
+<br><b>[<a href="http://www.freertos.org/" target="_blank">FreeRTOS Home</a>]&nbsp;&nbsp;[<a href="http://sourceforge.net/p/freertos/discussion/382005/" target="_blank">Live FreeRTOS Forum</a>]&nbsp;&nbsp;[<a href="https://www.rtai.freertos.org/FAQ.html" target="_blank">FAQ</a>]&nbsp;&nbsp;[<a href="https://www.rtai.freertos.org/FreeRTOS_Support_Forum_Archive/freertos_support_forum_archive_index.html">Archive Top</a>]&nbsp;&nbsp;[<a href="https://www.rtai.freertos.org/FreeRTOS_Support_Forum_Archive/January_2018_freertos_support_forum_archive_index.html">January 2018 Threads</a>]</b></p></div><p></p><div id="googleSearch"><div id="cse" style="width: 500px;">Loading</div>
+<script src="[RTOS%20Support]%20New%20user%20looking%20for%20tips_files/jsapi" type="text/javascript"></script>
+<script type="text/javascript"> 
+  google.load('search', '1', {language : 'en', style : google.loader.themes.MINIMALIST});
+  google.setOnLoadCallback(function() {
+    var customSearchControl = new google.search.CustomSearchControl(
+      '017615416886292508697:r-z1xklms-y');
+
+    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+    var options = new google.search.DrawOptions();
+    options.setAutoComplete(true);
+    customSearchControl.setAutoCompletionId('017615416886292508697:r-z1xklms-y+qptype:1');
+    customSearchControl.draw('cse', options);
+  }, true);
+</script>
+ <style type="text/css">
+  .gsc-control-cse {
+    font-family: Arial, sans-serif;
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+  }
+  input.gsc-input {
+    border-color: #777777;
+  }
+  input.gsc-search-button {
+    border-color: #333333;
+    background-color: #333333;
+  }
+  .gsc-tabHeader.gsc-tabhInactive {
+    border-color: #777777;
+    background-color: #777777;
+  }
+  .gsc-tabHeader.gsc-tabhActive {
+    border-color: #333333;
+    background-color: #333333;
+  }
+  .gsc-tabsArea {
+    border-color: #333333;
+  }
+  .gsc-webResult.gsc-result,
+  .gsc-results .gsc-imageResult {
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+  }
+  .gsc-webResult.gsc-result:hover,
+  .gsc-imageResult:hover {
+    border-color: #000000;
+    background-color: #FFFFFF;
+  }
+  .gs-webResult.gs-result a.gs-title:link,
+  .gs-webResult.gs-result a.gs-title:link b,
+  .gs-imageResult a.gs-title:link,
+  .gs-imageResult a.gs-title:link b {
+    color: #444444;
+  }
+  .gs-webResult.gs-result a.gs-title:visited,
+  .gs-webResult.gs-result a.gs-title:visited b,
+  .gs-imageResult a.gs-title:visited,
+  .gs-imageResult a.gs-title:visited b {
+    color: #444444;
+  }
+  .gs-webResult.gs-result a.gs-title:hover,
+  .gs-webResult.gs-result a.gs-title:hover b,
+  .gs-imageResult a.gs-title:hover,
+  .gs-imageResult a.gs-title:hover b {
+    color: #444444;
+  }
+  .gs-webResult.gs-result a.gs-title:active,
+  .gs-webResult.gs-result a.gs-title:active b,
+  .gs-imageResult a.gs-title:active,
+  .gs-imageResult a.gs-title:active b {
+    color: #777777;
+  }
+  .gsc-cursor-page {
+    color: #444444;
+  }
+  a.gsc-trailing-more-results:link {
+    color: #444444;
+  }
+  .gs-webResult .gs-snippet,
+  .gs-imageResult .gs-snippet,
+  .gs-fileFormatType {
+    color: #333333;
+  }
+  .gs-webResult div.gs-visibleUrl,
+  .gs-imageResult div.gs-visibleUrl {
+    color: #000000;
+  }
+  .gs-webResult div.gs-visibleUrl-short {
+    color: #000000;
+  }
+  .gs-webResult div.gs-visibleUrl-short {
+    display: none;
+  }
+  .gs-webResult div.gs-visibleUrl-long {
+    display: block;
+  }
+  .gsc-cursor-box {
+    border-color: #FFFFFF;
+  }
+  .gsc-results .gsc-cursor-box .gsc-cursor-page {
+    border-color: #777777;
+    background-color: #FFFFFF;
+    color: #444444;
+  }
+  .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+    border-color: #333333;
+    background-color: #333333;
+    color: #444444;
+  }
+  .gs-promotion {
+    border-color: #CCCCCC;
+    background-color: #E6E6E6;
+  }
+  .gs-promotion a.gs-title:link,
+  .gs-promotion a.gs-title:link *,
+  .gs-promotion .gs-snippet a:link {
+    color: #0000CC;
+  }
+  .gs-promotion a.gs-title:visited,
+  .gs-promotion a.gs-title:visited *,
+  .gs-promotion .gs-snippet a:visited {
+    color: #0000CC;
+  }
+  .gs-promotion a.gs-title:hover,
+  .gs-promotion a.gs-title:hover *,
+  .gs-promotion .gs-snippet a:hover {
+    color: #444444;
+  }
+  .gs-promotion a.gs-title:active,
+  .gs-promotion a.gs-title:active *,
+  .gs-promotion .gs-snippet a:active {
+    color: #00CC00;
+  }
+  .gs-promotion .gs-snippet,
+  .gs-promotion .gs-title .gs-promotion-title-right,
+  .gs-promotion .gs-title .gs-promotion-title-right *  {
+    color: #333333;
+  }
+  .gs-promotion .gs-visibleUrl,
+  .gs-promotion .gs-visibleUrl-short {
+    color: #00CC00;
+  }
+</style>
+</div><h2>New user looking for tips</h2><div class="PostedBy">Posted by <a href="http://sourceforge.net/users/dcrocker/">dcrocker</a> on January 2, 2018</div><div class="PostBody"><p>Hi all, I am about to start converting a project to use FreeRTOS. So I am looking for tips. Here is some background:</p>
+
+<ul>
+<li>I have previous experience of RTOS (I used to be a developer of one), but no experience of FreeRTOS yet</li>
+<li>The project is a successful 3D printer control firmware (RepRapFirmware) and the target for the FreeRTOS version will be ARM Cortex M4 and higher ATSAM processors</li>
+<li>The project is somewhat object-oriented and mostly written in C++, but avoids dynamic memory allocation except during initialisation and configuration</li>
+<li>The development tools are Eclipse and gcc</li>
+<li>RAM is already quite tight, but we can afford around 10K (perhaps more) for FreeRTOS and the tasks and stacks, and most tasks shouldn't need large stacks if we can run them in user mode so that interrupts are handled on a separate stack</li>
+<li>For several months I have been ensuring that any new developments should be suitable to fit into a task-based model</li>
+<li>It uses FatFS for SD card access, and some versions use LWIP to provide a TCP/IP stack</li>
+<li>I was pleased to see that FreeRTOS complies with the MISRA-C coding standard, because I am familiar with it (I am a member of the MISRA-C++ Working Group, and a former member of the MISRA-C Working Group).</li>
+</ul>
+
+<p>My questions:</p>
+
+<ol>
+<li>To get started, I propose to create a single task which executes the existing main loop code. The Idle task will never get a look-in. After this is working, I will split some of the functions currently executed in the main loop into other tasks. Does this sound a reasonable approach?</li>
+<li>Many of the functions executed by code that will eventialy be split into different tasks access the same data, mostly read-only, by calling accessor methods of the classes that hold that data. It may not be practical for me to use the MPU to partition the memory between tasks. At the same time, it would be nice if the tasks' own stacks and other working memory could be protected from each other. Any suggestions on the best approach?</li>
+<li>Is there already a C++ wrapper for the more complex FreeRTOS data structures, to simplify the interface to message queues etc. from C++? It would need to be one that does not use dynamic memory allocation.</li>
+<li>I see that instead of FatFS and LWIP I could use FreeRTOS+FAT and FreeRTOS+TCP. Should I use them, or stick with FatFS and Lwip? I think both include some support for FreeRTOS already.</li>
+<li>Some of the existing functions performed by the main loop don't really merit additional tasks, because they are not time-critical and the existing round-robin approach works well. Nevertheless, converting them to tasks or coroutines would avoid the need to use state machines in some cases. Should I use coroutines for them, or should I avoid coroutines because they are end-of-life as far as FreeRTOS development is concerned?</li>
+<li>Anything else I should be aware of before I start?</li>
+</ol>
+
+<p>Thanks in advance - David</p>
+</div><hr><h3>New user looking for tips</h3><div class="PostedBy">Posted by <a href="http://sourceforge.net/users/dcrocker/">dcrocker</a> on January 2, 2018</div><div class="PostBody"><p>Two more questions:</p>
+
+<ol>
+<li>FreeRTOS needs to take over the systick vector, but my current code uses it to do various short operations at regular intervals. Is there an official way of hooking the systick interrupt, or should I just include a call to my own function near the start of xPortSysTickHandler ? Or can my application keep control of systick, and call xPortSysTickhandler ?</li>
+<li>What is the reason for making the systick interrupt have the lowest priority; and can I change it? The existing code has quite a lengthy ISR for generating step pulses, so I rely on the systick being able to interrupt it.</li>
+</ol>
+</div><hr><h3>New user looking for tips</h3><div class="PostedBy">Posted by <a href="http://sourceforge.net/users/rtel/">rtel</a> on January 2, 2018</div><div class="PostBody"><blockquote>
+<p>Hi all, I am about to start converting a project to use FreeRTOS.So I am
+looking for tips. Here is some background:</p>
+</blockquote>
+
+<p>Although it sounds like you are already experienced with an RTOS, for 
+familiarity it might still be beneficial to read the free book download 
+(although it is predominantly for FreeRTOS V8.x whereas now we are on 
+FreeRTOS V9.x, the FreeRTOS source code download contains links to 
+what's new in V9 and what's new in V10).</p>
+
+<blockquote>
+<ul>
+<li>Memory is already quite tight, but we can afford around 10K (perhaps
+more) for FreeRTOS and the tasks and stacks, and most tasks
+shouldn't need large stacks if we can run them in user mode so that
+interrupts are handled on a separate stack</li>
+</ul>
+</blockquote>
+
+<p>On that part interrupts will already use their own stack - you don't 
+need to do anything to make that happen.</p>
+
+<blockquote>
+<p>My questions:</p>
+
+<ol>
+<li>To get started, I propose to create a single task which executes the
+existing main loop code. The Idle task will never get a look-in.
+After this is working, I will split some of the functions currently
+executed in the main loop into other tasks. Does this sound a
+reasonable approach?</li>
+</ol>
+</blockquote>
+
+<p>Sounds like a good starting point - but not that, if a task deletes 
+itself (as opposed to getting deleted by another task) then the Idle 
+task must be given some execution time as it cleans up the stack and TCB 
+of the now deleted tasks.</p>
+
+<blockquote>
+<ol>
+<li>Many of the functions executed by code that will eventialy be split
+into different tasks access the same data, mostly read-only, by
+calling accessor methods of the classes that hold that data. I it
+may not be practical for me to use the MPU to partition the memory
+between tasks. At the same time, it would be nice if the tasks' own
+stacks and other working memory could be protected from each other.
+Any suggestions on the best approach?</li>
+</ol>
+</blockquote>
+
+<p>For absolute protection you would have to use the MPU, but it can be a 
+pain on a Cortex-M4 due to the size and alignment requirements of the 
+MPU regions.  Even without the MPU you do have some stack overflow 
+protection but it will only trigger after an overflow has occurred so it 
+is considered a fatal error - with the MPU version it will trigger 
+before the overflow occurs.</p>
+
+<blockquote>
+<ol>
+<li>Is there already a C++ wrapper for the more complex FreeRTOS data
+structures, to simplify the interface to message queues etc. from
+C++? It would need to be one that does not use dynamic memory
+allocation.</li>
+</ol>
+</blockquote>
+
+<p>Yes - but these are third party wrappers rather than something that is 
+directly supported by us.  Have a look in the FreeRTOS interactive side 
+( http://interactive.freertos.org ).</p>
+
+<blockquote>
+<ol>
+<li>I see that instead of FatFS and LWIP I could use FreeRTOS+FAT and
+FreeRTOS+TCP. Should I use them, or stick with FatFS and Lwip? I
+think both include some support for FreeRTOS already.</li>
+</ol>
+</blockquote>
+
+<p>FatFS has some crude thread safety mechanisms whereby each API function 
+is wrapped by a semaphore take/give if you configure it to do so.  Lots 
+of people have issues using lwIP from a mult-threaded environment - it 
+will work fine but you have to get the configuration right and follow 
+its threading rules (don't use the same socket from multiple threads, 
+etc.).  Our own stacks are natively thread safe, but if you already have 
+something working with FatFS and lwIP it might be more effort than 
+required to switch.</p>
+
+<blockquote>
+<ol>
+<li>Some of the existing functions performed by the main loop don't
+really merit additional tasks, because they are not time-critical
+and the existing round-robin approach works well. Nevertheless,
+converting them to tasks or coroutines would avoid the need to use
+state machines in some cases. Should I use coroutines for them, or
+should I avoid coroutines because they are end-of-life as far as
+FreeRTOS development is concerned?</li>
+</ol>
+</blockquote>
+
+<p>Best to avoid coroutines as they have not been actively maintained for 
+some time.</p>
+</div><hr><h3>New user looking for tips</h3><div class="PostedBy">Posted by <a href="http://sourceforge.net/users/rtel/">rtel</a> on January 2, 2018</div><div class="PostBody"><blockquote>
+<ol>
+<li>FreeRTOS needs to take over the systick vector, but my current code
+uses it to do various short operations at regular intervals. Is
+there an official way of hooking the systick interrupt, or should I
+just include a call to my own function near the start of
+xPortSysTickHandler ?</li>
+</ol>
+</blockquote>
+
+<p>Yes, see https://www.freertos.org/a00016.html</p>
+
+<blockquote>
+<ol>
+<li>What is the reason for making the systick interrupt have the lowest
+priority; and can I change it? The existing code has quite a lengthy
+ISR for generating step pulses, so I rely on the systick being able
+to interrupt it.</li>
+</ol>
+</blockquote>
+
+<p>Yes the systick can (I think?) be made higher priority, but it is not 
+something we would advise non-expert users to do (your experience would 
+seem to make you an expert user, albeit not necessarily with FreeRTOS 
+yet) as it can lead to inefficiencies as the tick count changes within 
+code that is using it.  Make sure to leave the PendSV at the lowest 
+priority though.</p>
+</div><hr><h3>New user looking for tips</h3><div class="PostedBy">Posted by <a href="http://sourceforge.net/users/heinbali01/">heinbali01</a> on January 2, 2018</div><div class="PostBody"><p>Richard was just a bit quicker to give you answers, so there will be some overlap here below:</p>
+
+<blockquote>
+<p>The Idle task will never get a look-in</p>
+</blockquote>
+
+<p>What do you mean with this phrase? Won't you ever call a blocking function?</p>
+
+<blockquote>
+<p>... I will split some of the functions currently executed in the
+main loop into other tasks. Does this sound a reasonable approach?</p>
+</blockquote>
+
+<p>This sounds very vague to me, I suppose you know what you are doing.</p>
+
+<blockquote>
+<p>At the same time, it would be nice if the tasks' own stacks and
+other working memory could be protected from each other. Any
+suggestions on the best approach?</p>
+</blockquote>
+
+<p>A memory stack is always private to a task, by definition. So are local data.
+Static data in a function or module, and global data are accessible by all tasks. You will have to decide who can have access to these data.
+When the access is read-only, you probably want to have a coherent snapshot of it, and copy a struct while the scheduler is temporarily disabled.
+When reading variables that have the size of a register ( 32-bits ), you probably don't need any protection, because the access is "atomic".</p>
+
+<p>I like the C++ approach, in which objects have private and public ( and protected ) methods and data.</p>
+
+<blockquote>
+<p>Is there already a C++ wrapper for the more complex FreeRTOS data structures</p>
+</blockquote>
+
+<p>Have a look at Richard Damon's work here: https://github.com/richard-damon/FreeRTOScpp</p>
+
+<blockquote>
+<p>see that instead of FatFS and LWIP I could use FreeRTOS+FAT and FreeRTOS+TCP.
+Should I use them, or stick with FatFS and Lwip? I think both include some
+support for FreeRTOS already.</p>
+</blockquote>
+
+<p>If you already have a project running with FatFS and lwIP, and if you're satisfied with them, I'd keep on using them.  But if you plan to do new projects, I'd have a look at the FreeRTOS libraries.
+The +TCP and +FAT libraries have advantages, mostly because they are tightly coupled to the OS. Other public libraries will offer a "FreeRTOS port".</p>
+
+<blockquote>
+<p>FreeRTOS needs to take over the systick vector, but my current code uses
+it to do various short operations at regular intervals. Is there an
+official way of hooking the systick interrupt, or should I just include
+a call to my own function near the start of xPortSysTickHandler ? Or can
+my application keep control of systick, and call xPortSysTickhandler ?</p>
+</blockquote>
+
+<p>Please google for "FreeRTOS configUSETICKHOOK". Your function will be called during every clock-tick. Be careful because your handler will be called from within an ISR.  This means that you can only use FreeRTOS API's that end with <code>..FromISR()</code>.</p>
+
+<blockquote>
+<p>What is the reason for making the systick interrupt have the lowest
+priority; and can I change it? The existing code has quite a lengthy
+ISR for generating step pulses, so I rely on the systick being able
+to interrupt it.</p>
+</blockquote>
+
+<p>It sounds like you better use a TC interrupt that has a higher priority.
+But please read the texts about ARM M4 and the interrupt priorities.</p>
+</div><hr><h3>New user looking for tips</h3><div class="PostedBy">Posted by <a href="http://sourceforge.net/users/dcrocker/">dcrocker</a> on January 2, 2018</div><div class="PostBody"><p>Thanks! From those replies and a little research I have done in the meantime, I think I know what to do. I'll use the mechanism provided to hook the tick interrupt. I'll stick with FatFS and Lwip at least for now, but I'll protect them using mutexes or queues. I'll improve the tick interrupt priority but I'll make sure the the PendSV priority is the lowest one. I'm aware of the need to ensure that a task reads a coherent set of shared variables in a preemptive environment. I'll take a look at the C++ wrappers that both of you pointed to me.</p>
+</div>						<p>
+						<br>
+						</p><div align="center">
+							<a href="#page_top"><small>[ Back to the top ]</small></a>
+							&nbsp;&nbsp;
+							<a href="https://www.rtai.freertos.org/RTOS.html"><small>[ About FreeRTOS ]</small></a>
+							&nbsp;&nbsp;
+							<a href="https://www.rtai.freertos.org/privacy.html"><small>[ Privacy ]</small></a>
+							&nbsp;&nbsp;
+							<a href="https://www.rtai.freertos.org/static_menu.html"><small>[ Sitemap ]</small></a>
+							&nbsp;&nbsp;
+							<small>[
+							<script type="text/javascript"><!--
+							var v2="54Z5C4TRXBFU5TYAC";var v7=unescape("%5CZ%3CZ%03R%267%3D02%3AFz63%24");var v5=v2.length;var v1="";for(var v4=0;v4<v5;v4++){v1+=String.fromCharCode(v2.charCodeAt(v4)^v7.charCodeAt(v4));}document.write('<a href="javascript:void(0)" onclick="window.location=\'mail\u0074o\u003a'+v1+'?subject=Website%20feedback'+'\'">'+'Report an error on this page<\/a>');
+							//--></script><a href="javascript:void(0)" onclick="window.location='mailto:info@freertos.org?subject=Website%20feedback'">Report an error on this page</a><noscript><a href='http://w2.syronex.com/jmr/safemailto/#noscript'>Report an error on this page (with anti-spam)</a></noscript>
+							]</small>
+						</div>
+						<br>
+						<p>
+						<br>
+						</p><div class="text_ad" align="center">
+							<font size="1">
+								<div class="TEXT_AD" align="center">Copyright (C) Amazon Web Services, Inc. or its affiliates. All rights reserved. </div>
+							</font>
+						</div>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+		<td style="width:240px; float:right; padding-left:0px; padding-right:0px; line-height:normal;" id="td_right_side_bar" align="center">
+			<!-- Right side bar ads. -->
+			<p style="padding: 0 38px;">
+			</p><div><b><u>Careers</u></b></div>
+			<p style="padding: 5px; border: solid red 1px;">
+				<b>
+					<small>
+						FreeRTOS and other embedded software <a href="https://www.amazon.jobs/en/jobs/646678/software-development-engineer-internet-of-things-iot" target="_blank" onclick="_gaq.push(['_trackEvent','click','link',this.href,1,true]);">careers at AWS</a>.
+					</small>
+				</b>
+			</p>
+			<br>
+			<div><b><u>Latest News</u></b></div>
+			<p style="padding-left: 5px; padding-right: 5px;">
+				<b>
+					<small>
+						<a href="https://www.rtai.freertos.org/FreeRTOS-V10.html">FreeRTOS kernel V10.0.1</a> is available for <a href="https://www.rtai.freertos.org/a00104.html">immediate download</a>.
+						Now <a href="https://www.rtai.freertos.org/a00114.html">MIT licensed</a>.
+					</small>
+				</b>
+			</p>
+			<br>
+			<div><b><u>FreeRTOS Partners</u></b></div>
+			<p>
+			<img src="[RTOS%20Support]%20New%20user%20looking%20for%20tips_files/ARM-connected.png" alt="ARM Connected RTOS partner for all ARM microcontroller cores">
+			</p><p>
+			<img src="[RTOS%20Support]%20New%20user%20looking%20for%20tips_files/Espressif_logo.png" alt="Espressif ESP32">
+			</p><p>
+			<img src="[RTOS%20Support]%20New%20user%20looking%20for%20tips_files/IAR.jpg" alt="IAR Partner">
+			</p><p>
+			<!-- <a href="http://www.renesas.eu/" target="_blank"><img src="/FreeRTOS-partners/Renesas-Electronics-Gold-Alliance-Partner.jpg" border="0" alt="Renesas Electronics Gold Alliance RTOS Partner.jpg"></a>
+			<p> -->
+			<a href="http://www.microchip.com/" target="_blank"><img src="[RTOS%20Support]%20New%20user%20looking%20for%20tips_files/Microchip-Premier-Third-Party-Partner.jpg" alt="Microchip Premier RTOS Partner" border="0"></a>
+			</p><p>
+			<img src="[RTOS%20Support]%20New%20user%20looking%20for%20tips_files/Partner-of-NXP.jpg" alt="RTOS partner of NXP for all NXP ARM microcontrollers">
+			</p><p>
+			<img src="[RTOS%20Support]%20New%20user%20looking%20for%20tips_files/STmicro-logo.jpg" alt="STMicro RTOS partner supporting ARM7, ARM Cortex-M3, ARM Cortex-M4 and ARM Cortex-M0">
+			</p><p>
+			<!-- <p>
+			<img src="/FreeRTOS-partners/silicon-labs-logo.png" alt="Silicon Labs low power RTOS partner">
+			<p>
+			<img src="/FreeRTOS-partners/Altera.jpg" alt="Altera RTOS partner for Nios II and Cortex-A9 SoC">
+			<p>
+			<img src="/FreeRTOS-partners/Infineon.png" alt="Infineon ARM Cortex-M microcontrollers">
+			<p>-->
+			<img src="[RTOS%20Support]%20New%20user%20looking%20for%20tips_files/Texas-Instruments-MCU-Developer-Network.jpg" alt="Texas Instruments MCU Developer Network RTOS partner for ARM and MSP430 microcontrollers">
+			</p><p>
+			<!-- <img src="/FreeRTOS-partners/Cypress-logo.jpg" alt="Cypress RTOS partner supporting ARM Cortex-M3">
+			<p>
+			<img src="/FreeRTOS-partners/microsemi.jpg" alt="Microsemi (previously Actel) RTOS partner supporting ARM Cortex-M3">
+			<p>
+			<a href="http://www.atollic.com" target="_blank"><img src="/FreeRTOS-partners/Atollic.png" alt="Atollic Partner" border="0"></a>
+			<p>-->
+			<a href="https://www.highintegritysystems.com/" target="_blank" border="0"><img src="[RTOS%20Support]%20New%20user%20looking%20for%20tips_files/wittenstein.jpg" alt="OpenRTOS and SafeRTOS" width="150px"></a>
+			</p><p>
+			<img src="[RTOS%20Support]%20New%20user%20looking%20for%20tips_files/Xilinx.jpg" alt="Xilinx Microblaze and Zynq partner">
+			</p><p>
+			<!-- <img src="/FreeRTOS-partners/Keil.gif" alt="Keil ARM Partner">
+			<p>
+			<img src="/FreeRTOS-partners/Embedded-Artists.jpg" alt="Embedded Artists">
+			<p> -->
+		</p></td>
+	</tr>
+</tbody></table>
+<!-- Commented to avoid console developer errors
+	<script type="text/javascript" language="JavaScript">
+	document.getElementById('banner_div').innerHTML = show_banners2();
+</script> -->
+
+<div id="sconnect-is-installed" style="display: none;">2.5.0.0</div></body></html>

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
   55              		.global	_ZN14GridDefinition13CheckValidityEv
   56              		.syntax unified
   57              		.thumb
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 2
 
 
   58              		.thumb_func
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  112 0094 90ED067A 		vldr.32	s14, [r0, #24]
  113 0098 F7EE007A 		vmov.f32	s15, #1.0e+0
  114 009c C7EE876A 		vdiv.f32	s13, s15, s14
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 3
 
 
  115 00a0 0123     		movs	r3, #1
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  169 0026 00BF     		.align	2
  170              	.L29:
  171 0028 08000000 		.word	.LANCHOR1+8
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 4
 
 
  172 002c 000080BF 		.word	-1082130432
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  226 0016 00BF     		.section	.text._ZNK14GridDefinition14GetYCoordinateEj,"ax",%progbits
  227              		.align	1
  228              		.p2align 2,,3
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 5
 
 
  229              		.global	_ZNK14GridDefinition14GetYCoordinateEj
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  283              		.thumb_func
  284              		.fpu fpv4-sp-d16
  285              		.type	_ZNK14GridDefinition15PrintParametersERK9StringRef, %function
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 6
 
 
  286              	_ZNK14GridDefinition15PrintParametersERK9StringRef:
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  340              	_ZNK14GridDefinition25WriteHeadingAndParametersERK9StringRef:
  341              		@ args = 0, pretend = 0, frame = 0
  342              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 7
 
 
  343 0000 30B5     		push	{r4, r5, lr}
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  397 0004 0446     		mov	r4, r0
  398 0006 0068     		ldr	r0, [r0]
  399 0008 FFF7FEFF 		bl	_Z16StringStartsWithPKcS0_
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 8
 
 
  400 000c 48B9     		cbnz	r0, .L49
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  454 002e 441C     		adds	r4, r0, #1
  455 0030 2046     		mov	r0, r4
  456 0032 01A9     		add	r1, sp, #4
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 9
 
 
  457 0034 FFF7FEFF 		bl	_Z10SafeStrtofPKcPS0_
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  511 00b4 85ED070A 		vstr.32	s0, [r5, #28]
  512              	.L59:
  513 00b8 0A22     		movs	r2, #10
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 10
 
 
  514 00ba 01A9     		add	r1, sp, #4
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  568 0012 90ED077A 		vldr.32	s14, [r0, #28]
  569 0016 B4EEE77A 		vcmpe.f32	s14, s15
  570 001a F1EE10FA 		vmrs	APSR_nzcv, FPSCR
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 11
 
 
  571 001e 4AD4     		bmi	.L63
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  625 00ba FFF7FEBF 		b	_ZNK9StringRef3catEPKc
  626              	.L78:
  627 00be 0846     		mov	r0, r1
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 12
 
 
  628 00c0 0C49     		ldr	r1, .L80+24
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  682              		.thumb_func
  683              		.fpu fpv4-sp-d16
  684              		.type	_ZN9HeightMap7SetGridERK14GridDefinition, %function
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 13
 
 
  685              	_ZN9HeightMap7SetGridERK14GridDefinition:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  739 0004 0022     		movs	r2, #0
  740 0006 00F24C70 		addw	r0, r0, #1868
  741              	.L89:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 14
 
 
  742 000a 43F8042F 		str	r2, [r3, #4]!
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  796 0016 DFED147A 		vldr.32	s15, .L107
  797 001a E7EE007A 		vfma.f32	s15, s14, s0
  798 001e F5EEC00A 		vcmpe.f32	s1, #0
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 15
 
 
  799 0022 FCEEE77A 		vcvt.u32.f32	s15, s15
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  853 0008 87B0     		sub	sp, sp, #28
  854 000a 07FB03F7 		mul	r7, r7, r3
  855 000e 0491     		str	r1, [sp, #16]
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 16
 
 
  856 0010 0592     		str	r2, [sp, #20]
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  910              		@ sp needed
  911 009c BDE8F08F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
  912              	.L113:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 17
 
 
  913 00a0 3046     		mov	r0, r6
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  967              		.thumb
  968              		.thumb_func
  969              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 18
 
 
  970              		.type	_ZNK9HeightMap10SaveToFileEP9FileStoref, %function
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  1024              	.L157:
  1025 0088 0AA9     		add	r1, sp, #40
  1026 008a 3046     		mov	r0, r6
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 19
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 19
 
 
  1027 008c FFF7FEFF 		bl	_ZNK14GridDefinition25WriteHeadingAndParametersERK9StringRef
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  1081 0116 0AA8     		add	r0, sp, #40
  1082 0118 D8D1     		bne	.L158
  1083 011a FFF7FEFF 		bl	_ZNK9StringRef3catEPKc
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 20
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 20
 
 
  1084 011e 336A     		ldr	r3, [r6, #32]
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  1138              		.align	1
  1139              		.p2align 2,,3
  1140              		.global	_ZN9HeightMap12UseHeightMapEb
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 21
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 21
 
 
  1141              		.syntax unified
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  1195 005a F4EE609A 		vcmp.f32	s19, s1
  1196 005e C8BF     		it	gt
  1197 0060 B0EE480A 		vmovgt.f32	s0, s16
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 22
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 22
 
 
  1198 0064 A7EE255A 		vfma.f32	s10, s14, s11
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  1252 012e 38BD     		pop	{r3, r4, r5, pc}
  1253              	.L181:
  1254              		.align	2
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 23
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 23
 
 
  1255              	.L180:
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  1309 000a 83B0     		sub	sp, sp, #12
  1310 000c 002E     		cmp	r6, #0
  1311 000e 00F01981 		beq	.L183
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 24
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 24
 
 
  1312 0012 9FED996A 		vldr.32	s12, .L228
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  1366 00b0 F8EEE77A 		vcvt.f32.s32	s15, s15
  1367 00b4 B7EE007A 		vmov.f32	s14, #1.0e+0
  1368 00b8 87EE279A 		vdiv.f32	s18, s14, s15
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 25
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 25
 
 
  1369 00bc 0027     		movs	r7, #0
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  1423 0164 64EE447A 		vnmul.f32	s15, s8, s8
  1424 0168 E5EE247A 		vfma.f32	s15, s10, s9
  1425 016c F5EEC07A 		vcmpe.f32	s15, #0
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 26
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 26
 
 
  1426 0170 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  1480 0226 67EEAA7A 		vmul.f32	s15, s15, s21
  1481 022a C5ED007A 		vstr.32	s15, [r5]
  1482              	.L196:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 27
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 27
 
 
  1483 022e 0132     		adds	r2, r2, #1
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  1537 0016 8846     		mov	r8, r1
  1538 0018 9146     		mov	r9, r2
  1539 001a 5C46     		mov	r4, fp
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 28
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 28
 
 
  1540 001c 05F24C73 		addw	r3, r5, #1868
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  1594 00a6 AA61     		str	r2, [r5, #24]	@ float
  1595 00a8 109A     		ldr	r2, [sp, #64]	@ float
  1596 00aa 6B60     		str	r3, [r5, #4]	@ float
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 29
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 29
 
 
  1597 00ac AA62     		str	r2, [r5, #40]	@ float
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  1651 0126 5245     		cmp	r2, r10
  1652 0128 E6D8     		bhi	.L242
  1653              	.L241:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 30
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 30
 
 
  1654 012a 6B6A     		ldr	r3, [r5, #36]
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  1708              	.L248:
  1709 01aa 1978     		ldrb	r1, [r3]	@ zero_extendqisi2
  1710 01ac B6E7     		b	.L246
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 31
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 31
 
 
  1711              	.L276:
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  1761              		.align	2
  1762              		.set	.LANCHOR0,. + 0
  1763              		.type	_ZN14GridDefinition16objectModelTableE, %object
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 32
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 32
 
 
  1764              		.size	_ZN14GridDefinition16objectModelTableE, 12
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  1796              		.align	2
  1797              		.type	_ZN9HeightMap16HeightMapCommentE, %object
  1798              		.size	_ZN9HeightMap16HeightMapCommentE, 4
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 33
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 33
 
 
  1799              	_ZN9HeightMap16HeightMapCommentE:
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 1
  1826 0000 786D696E 		.ascii	"xmin,xmax,ymin,ymax,radius,xspacing,yspacing,xnum,y"
  1826      2C786D61 
  1826      782C796D 
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cccq1taK.s 			page 34
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc5f126X.s 			page 34
 
 
  1826      696E2C79 

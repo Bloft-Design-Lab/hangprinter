@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
   55              		@ frame_needed = 0, uses_anonymous_args = 0
   56              		@ link register save eliminated.
   57 0000 7047     		bx	lr
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 2
 
 
   58              		.size	sd_mmc_spi_get_response_128, .-sd_mmc_spi_get_response_128
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  112              		.fpu fpv4-sp-d16
  113              		.type	sd_mmc_cmd9_spi, %function
  114              	sd_mmc_cmd9_spi:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 3
 
 
  115              		@ args = 0, pretend = 0, frame = 0
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  169 0002 094D     		ldr	r5, .L32
  170 0004 2B68     		ldr	r3, [r5]
  171 0006 D989     		ldrh	r1, [r3, #14]
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 4
 
 
  172 0008 1B68     		ldr	r3, [r3]
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  226 0024 1F48     		ldr	r0, .L44+8
  227 0026 167F     		ldrb	r6, [r2, #28]	@ zero_extendqisi2
  228 0028 01F00705 		and	r5, r1, #7
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 5
 
 
  229 002c C1F3C301 		ubfx	r1, r1, #3, #4
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  283              		.section	.text.sd_decode_csd,"ax",%progbits
  284              		.align	1
  285              		.p2align 2,,3
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 6
 
 
  286              		.syntax unified
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  340 0076 5B02     		lsls	r3, r3, #9
  341 0078 9360     		str	r3, [r2, #8]
  342 007a 30BC     		pop	{r4, r5}
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 7
 
 
  343 007c 7047     		bx	lr
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  397 0048 E7D5     		bpl	.L59
  398              	.L56:
  399 004a 0120     		movs	r0, #1
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 8
 
 
  400 004c 70BD     		pop	{r4, r5, r6, pc}
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  454 0044 60B1     		cbz	r0, .L79
  455 0046 9DF80830 		ldrb	r3, [sp, #8]	@ zero_extendqisi2
  456 004a 2268     		ldr	r2, [r4]
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 9
 
 
  457 004c 03F00F03 		and	r3, r3, #15
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  511 0012 2548     		ldr	r0, .L129+4
  512 0014 0123     		movs	r3, #1
  513 0016 4FF40072 		mov	r2, #512
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 10
 
 
  514 001a A047     		blx	r4
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  568              	.L127:
  569 0080 0424     		movs	r4, #4
  570 0082 03AE     		add	r6, sp, #12
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 11
 
 
  571              	.L103:
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  625 002e DFF84CC0 		ldr	ip, .L135+12
  626 0032 1768     		ldr	r7, [r2]
  627 0034 F07C     		ldrb	r0, [r6, #19]	@ zero_extendqisi2
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 12
 
 
  628 0036 327D     		ldrb	r2, [r6, #20]	@ zero_extendqisi2
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  682 0018 FFF7FEFF 		bl	pinModeDuet
  683              	.L138:
  684 001c 0F4B     		ldr	r3, .L147+4
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 13
 
 
  685 001e 2360     		str	r3, [r4]
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  739              		.fpu fpv4-sp-d16
  740              		.type	sd_mmc_check, %function
  741              	sd_mmc_check:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 14
 
 
  742              		@ args = 0, pretend = 0, frame = 72
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  796 0068 0424     		movs	r4, #4
  797              	.L151:
  798 006a 7D4D     		ldr	r5, .L407+4
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 15
 
 
  799 006c 2B78     		ldrb	r3, [r5]	@ zero_extendqisi2
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  853              	.L174:
  854 00da DC07     		lsls	r4, r3, #31
  855 00dc 00F13282 		bmi	.L391
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 16
 
 
  856              	.L175:
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  910 0152 D87C     		ldrb	r0, [r3, #19]	@ zero_extendqisi2
  911 0154 9368     		ldr	r3, [r2, #8]
  912 0156 9847     		blx	r3
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 17
 
 
  913 0158 0328     		cmp	r0, #3
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  967 01ca 2B68     		ldr	r3, [r5]
  968 01cc 1B68     		ldr	r3, [r3]
  969 01ce 41F22910 		movw	r0, #4393
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 18
 
 
  970 01d2 5B69     		ldr	r3, [r3, #20]
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  1024 024c 002A     		cmp	r2, #0
  1025 024e 08BF     		it	eq
  1026 0250 4FF4FC16 		moveq	r6, #2064384
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 19
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 19
 
 
  1027 0254 40F63504 		movw	r4, #2101
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  1081 02c8 5B69     		ldr	r3, [r3, #20]
  1082 02ca 44F20150 		movw	r0, #17665
  1083 02ce 9847     		blx	r3
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 20
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 20
 
 
  1084 02d0 0028     		cmp	r0, #0
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  1138 035a 18BF     		it	ne
  1139 035c 0123     		movne	r3, #1
  1140 035e A047     		blx	r4
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 21
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 21
 
 
  1141              	.L192:
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  1195 03e0 2868     		ldr	r0, [r5]
  1196 03e2 437C     		ldrb	r3, [r0, #17]	@ zero_extendqisi2
  1197 03e4 03F00902 		and	r2, r3, #9
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 22
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 22
 
 
  1198 03e8 012A     		cmp	r2, #1
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  1252 045e 102B     		cmp	r3, #16
  1253 0460 7FF688AE 		bls	.L202
  1254 0464 0124     		movs	r4, #1
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 23
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 23
 
 
  1255 0466 0094     		str	r4, [sp]
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  1309 04e4 3FF4B0AD 		beq	.L172
  1310 04e8 2B68     		ldr	r3, [r5]
  1311 04ea 1B68     		ldr	r3, [r3]
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 24
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 24
 
 
  1312 04ec 9B69     		ldr	r3, [r3, #24]
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  1366 056a 41F23710 		movw	r0, #4407
  1367 056e 9847     		blx	r3
  1368 0570 0028     		cmp	r0, #0
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 25
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 25
 
 
  1369 0572 3FF469AD 		beq	.L172
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  1423 05e8 1B68     		ldr	r3, [r3]
  1424 05ea 9B69     		ldr	r3, [r3, #24]
  1425 05ec 9847     		blx	r3
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 26
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 26
 
 
  1426 05ee 0206     		lsls	r2, r0, #24
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  1480              	.L208:
  1481 066a 0549     		ldr	r1, .L411+16
  1482 066c B2E7     		b	.L190
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 27
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 27
 
 
  1483              	.L412:
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  1537              		.section	.text.sd_mmc_get_version,"ax",%progbits
  1538              		.align	1
  1539              		.p2align 2,,3
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 28
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 28
 
 
  1540              		.global	sd_mmc_get_version
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  1594 0000 0128     		cmp	r0, #1
  1595 0002 01D9     		bls	.L434
  1596 0004 0020     		movs	r0, #0
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 29
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 29
 
 
  1597 0006 7047     		bx	lr
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  1651 001e 0020     		movs	r0, #0
  1652 0020 08BD     		pop	{r3, pc}
  1653              	.L448:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 30
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 30
 
 
  1654 0022 00BF     		.align	2
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  1708              		.global	sd_mmc_init_read_blocks
  1709              		.syntax unified
  1710              		.thumb
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 31
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 31
 
 
  1711              		.thumb_func
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  1765 0056 1207     		lsls	r2, r2, #28
  1766 0058 4FF00102 		mov	r2, #1
  1767 005c 58BF     		it	pl
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 32
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 32
 
 
  1768 005e 7602     		lslpl	r6, r6, #9
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  1822 0002 1B68     		ldr	r3, [r3]
  1823 0004 1B68     		ldr	r3, [r3]
  1824 0006 10B5     		push	{r4, lr}
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 33
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 33
 
 
  1825 0008 1B6B     		ldr	r3, [r3, #48]
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  1879 0026 5B6A     		ldr	r3, [r3, #36]
  1880 0028 43F20C10 		movw	r0, #12556
  1881 002c 9847     		blx	r3
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 34
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 34
 
 
  1882 002e 30B9     		cbnz	r0, .L491
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  1936 0008 0425     		movs	r5, #4
  1937              	.L515:
  1938 000a 2846     		mov	r0, r5
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 35
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 35
 
 
  1939 000c 03B0     		add	sp, sp, #12
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  1993              	.L528:
  1994 0078 FFF7FEFF 		bl	digitalRead
  1995 007c 0028     		cmp	r0, #0
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 36
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 36
 
 
  1996 007e D7D1     		bne	.L504
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  2050              	sd_mmc_start_write_blocks:
  2051              		@ args = 0, pretend = 0, frame = 0
  2052              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 37
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 37
 
 
  2053 0000 094B     		ldr	r3, .L537
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  2107 001e 27D0     		beq	.L555
  2108 0020 2368     		ldr	r3, [r4]
  2109 0022 194D     		ldr	r5, .L557+12
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 38
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 38
 
 
  2110 0024 1B68     		ldr	r3, [r3]
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  2164 0088 00000000 		.word	.LANCHOR5
  2165              		.size	sd_mmc_wait_end_of_write_blocks, .-sd_mmc_wait_end_of_write_blocks
  2166              		.global	mmc_trans_multipliers
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 39
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 39
 
 
  2167              		.global	sd_trans_multipliers
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  2217              		.type	hsmciInterface, %object
  2218              		.size	hsmciInterface, 76
  2219              	hsmciInterface:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 40
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 40
 
 
  2220 0000 00000000 		.word	hsmci_select_device
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 1
  2274 0018 00000000 		.word	0
  2275              		.section	.rodata.sd_trans_multipliers,"a",%progbits
  2276              		.align	2
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccQHpHwL.s 			page 41
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccMMzBOY.s 			page 41
 
 
  2277              		.set	.LANCHOR3,. + 0

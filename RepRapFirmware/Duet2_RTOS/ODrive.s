@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccbJSaNT.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 1
   55              	_ZN6ODriveC2EP6Stream:
   56              		@ args = 0, pretend = 0, frame = 0
   57              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccbJSaNT.s 			page 2
 
 
   58              		@ link register save eliminated.
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 1
  112              		@ frame_needed = 0, uses_anonymous_args = 0
  113              		@ link register save eliminated.
  114 0000 30B4     		push	{r4, r5}
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccbJSaNT.s 			page 3
 
 
  115 0002 0025     		movs	r5, #0
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 1
  169 0026 9DED010A 		vldr.32	s0, [sp, #4]	@ int
  170 002a 10EE100A 		vmov	r0, s0
  171 002e FFF7FEFF 		bl	__aeabi_f2d
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccbJSaNT.s 			page 4
 
 
  172 0032 41EC100B 		vmov	d0, r0, r1
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 1
  226              		@ sp needed
  227 0044 BDE83040 		pop	{r4, r5, lr}
  228 0048 FFF7FEBF 		b	_ZN5Print5printEPKc
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccbJSaNT.s 			page 5
 
 
  229              	.L22:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 1
  283              		.thumb_func
  284              		.fpu fpv4-sp-d16
  285              		.type	_ZNK6ODrive24EnableCurrentControlModeE10ODriveAxis, %function
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccbJSaNT.s 			page 6
 
 
  286              	_ZNK6ODrive24EnableCurrentControlModeE10ODriveAxis:
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 1
  340 001a 0849     		ldr	r1, .L33+4
  341 001c FFF7FEFF 		bl	_ZN5Print5printEPKc
  342 0020 2046     		mov	r0, r4
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccbJSaNT.s 			page 7
 
 
  343 0022 0321     		movs	r1, #3
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 1
  397              	.L38:
  398              		.align	2
  399              	.L37:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccbJSaNT.s 			page 8
 
 
  400 004c 00000000 		.word	.LC4
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 1
  454 0056 4746     		mov	r7, r8
  455 0058 89F80030 		strb	r3, [r9]
  456 005c 3846     		mov	r0, r7
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccbJSaNT.s 			page 9
 
 
  457 005e BDE8F087 		pop	{r4, r5, r6, r7, r8, r9, r10, pc}
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 1
  511              		@ args = 0, pretend = 0, frame = 0
  512              		@ frame_needed = 0, uses_anonymous_args = 0
  513 0000 70B5     		push	{r4, r5, r6, lr}
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccbJSaNT.s 			page 10
 
 
  514 0002 0469     		ldr	r4, [r0, #16]
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 1
  568 0000 10B5     		push	{r4, lr}
  569 0002 8EB0     		sub	sp, sp, #56
  570 0004 01A9     		add	r1, sp, #4
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccbJSaNT.s 			page 11
 
 
  571 0006 3222     		movs	r2, #50
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 1
  625              		.global	_ZNK6ODrive31AskForEncoderConfigCountsPerRevE10ODriveAxis
  626              		.syntax unified
  627              		.thumb
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccbJSaNT.s 			page 12
 
 
  628              		.thumb_func
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 1
  682              		.global	_ZNK6ODrive9run_stateE10ODriveAxisib
  683              		.syntax unified
  684              		.thumb
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccbJSaNT.s 			page 13
 
 
  685              		.thumb_func
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 1
  739 0078 0028     		cmp	r0, #0
  740 007a E7D0     		beq	.L85
  741 007c 5046     		mov	r0, r10
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccbJSaNT.s 			page 14
 
 
  742              	.L78:
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 1
  796              		@ link register save eliminated.
  797 0000 4B1C     		adds	r3, r1, #1
  798 0002 1CBF     		itt	ne
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccbJSaNT.s 			page 15
 
 
  799 0004 00EB8100 		addne	r0, r0, r1, lsl #2
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 1
  843 0007 00       		.space	1
  844              	.LC8:
  845 0008 2E656E63 		.ascii	".encoder.pos_estimate\012\000"
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccCLDTzo.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccbJSaNT.s 			page 16
 
 
  845      6F646572 

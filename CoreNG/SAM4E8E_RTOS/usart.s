@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
   55 0044 9442     		cmp	r4, r2
   56 0046 03D9     		bls	.L14
   57              	.L8:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 2
 
 
   58 0048 0120     		movs	r0, #1
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  112              		.type	usart_init_rs232, %function
  113              	usart_init_rs232:
  114              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 3
 
 
  115              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  169              	usart_init_hw_handshaking:
  170              		@ args = 0, pretend = 0, frame = 0
  171              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 4
 
 
  172 0000 10B5     		push	{r4, lr}
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  226              		.fpu fpv4-sp-d16
  227              		.type	usart_init_sync_master, %function
  228              	usart_init_sync_master:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 5
 
 
  229              		@ args = 0, pretend = 0, frame = 0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  283              		.section	.text.usart_init_sync_slave,"ax",%progbits
  284              		.align	1
  285              		.p2align 2,,3
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 6
 
 
  286              		.global	usart_init_sync_slave
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  340              		.global	usart_init_rs485
  341              		.syntax unified
  342              		.thumb
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 7
 
 
  343              		.thumb_func
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  397              		.fpu fpv4-sp-d16
  398              		.type	usart_init_iso7816, %function
  399              	usart_init_iso7816:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 8
 
 
  400              		@ args = 0, pretend = 0, frame = 0
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  454 007c 25F49875 		bic	r5, r5, #304
  455 0080 45F48025 		orr	r5, r5, #262144
  456 0084 3343     		orrs	r3, r3, r6
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 9
 
 
  457 0086 CE68     		ldr	r6, [r1, #12]
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  511 0006 7047     		bx	lr
  512              		.size	usart_reset_iterations, .-usart_reset_iterations
  513              		.section	.text.usart_reset_nack,"ax",%progbits
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 10
 
 
  514              		.align	1
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  568              		.syntax unified
  569              		.thumb
  570              		.thumb_func
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 11
 
 
  571              		.fpu fpv4-sp-d16
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  625              		@ args = 0, pretend = 0, frame = 0
  626              		@ frame_needed = 0, uses_anonymous_args = 0
  627              		@ link register save eliminated.
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 12
 
 
  628 0000 70B4     		push	{r4, r5, r6}
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  682              	.L95:
  683 0082 0120     		movs	r0, #1
  684 0084 70BC     		pop	{r4, r5, r6}
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 13
 
 
  685 0086 7047     		bx	lr
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  739 0036 2360     		str	r3, [r4]
  740 0038 42F03002 		orr	r2, r2, #48
  741 003c 4260     		str	r2, [r0, #4]
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 14
 
 
  742 003e E9B1     		cbz	r1, .L107
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  796              		.thumb_func
  797              		.fpu fpv4-sp-d16
  798              		.type	usart_enable_tx, %function
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 15
 
 
  799              	usart_enable_tx:
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  853              		@ link register save eliminated.
  854 0000 8162     		str	r1, [r0, #40]
  855 0002 7047     		bx	lr
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 16
 
 
  856              		.size	usart_set_tx_timeguard, .-usart_set_tx_timeguard
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  910              		.p2align 2,,3
  911              		.global	usart_set_rx_timeout
  912              		.syntax unified
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 17
 
 
  913              		.thumb
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  967              		@ frame_needed = 0, uses_anonymous_args = 0
  968              		@ link register save eliminated.
  969 0000 0069     		ldr	r0, [r0, #16]
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 18
 
 
  970 0002 7047     		bx	lr
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  1024              		.p2align 2,,3
  1025              		.global	usart_stop_tx_break
  1026              		.syntax unified
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 19
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 19
 
 
  1027              		.thumb
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  1081 001a F7D5     		bpl	.L130
  1082 001c C1F30801 		ubfx	r1, r1, #0, #9
  1083 0020 C161     		str	r1, [r0, #28]
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 20
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 20
 
 
  1084 0022 0020     		movs	r0, #0
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  1138              		.section	.text.usart_drive_RTS_pin_low,"ax",%progbits
  1139              		.align	1
  1140              		.p2align 2,,3
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 21
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 21
 
 
  1141              		.global	usart_drive_RTS_pin_low
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  1195              		.thumb_func
  1196              		.fpu fpv4-sp-d16
  1197              		.type	usart_spi_release_chip_select, %function
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 22
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 22
 
 
  1198              	usart_spi_release_chip_select:
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  1252              		@ link register save eliminated.
  1253 0000 4069     		ldr	r0, [r0, #20]
  1254 0002 00F00100 		and	r0, r0, #1
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 23
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 23
 
 
  1255 0006 7047     		bx	lr
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  1309              		.type	usart_write_line, %function
  1310              	usart_write_line:
  1311              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 24
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 24
 
 
  1312              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  1366 0000 4369     		ldr	r3, [r0, #20]
  1367 0002 DB07     		lsls	r3, r3, #31
  1368 0004 FCD5     		bpl	.L165
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 25
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 25
 
 
  1369 0006 8369     		ldr	r3, [r0, #24]
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  1423 0006 7047     		bx	lr
  1424              	.L176:
  1425              		.align	2
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 26
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 26
 
 
  1426              	.L175:
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  1480              		@ frame_needed = 0, uses_anonymous_args = 0
  1481              		@ link register save eliminated.
  1482 0000 01F00F03 		and	r3, r1, #15
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 27
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 27
 
 
  1483 0004 016D     		ldr	r1, [r0, #80]
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  1537              		@ args = 0, pretend = 0, frame = 0
  1538              		@ frame_needed = 0, uses_anonymous_args = 0
  1539              		@ link register save eliminated.
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 28
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 28
 
 
  1540 0000 036D     		ldr	r3, [r0, #80]
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  1594              		.type	usart_man_enable_drift_compensation, %function
  1595              	usart_man_enable_drift_compensation:
  1596              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 29
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 29
 
 
  1597              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 1
  1651              		.size	ul_reg_val.9082, 4
  1652              	ul_reg_val.9082:
  1653 0000 00000000 		.space	4
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5FNgx2.s 			page 30
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOrHwza.s 			page 30
 
 
  1654              		.section	.bss.ul_reg_val.9093,"aw",%nobits

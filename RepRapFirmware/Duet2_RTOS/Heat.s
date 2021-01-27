@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
   55 0050 D3ED027A 		vldr.32	s15, [r3, #8]
   56 0054 E2E7     		b	.L4
   57              	.L11:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 2
 
 
   58 0056 0020     		movs	r0, #0
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  112 0058 082C     		cmp	r4, #8
  113 005a 45F8046B 		str	r6, [r5], #4
  114 005e F2D1     		bne	.L18
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 3
 
 
  115 0060 3846     		mov	r0, r7
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  169 005e 6145     		cmp	r1, ip
  170 0060 25D0     		beq	.L26
  171              	.L27:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 4
 
 
  172 0062 9E45     		cmp	lr, r3
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  226              		.thumb
  227              		.thumb_func
  228              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 5
 
 
  229              		.type	_ZN4Heat4InitEv, %function
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  283 0084 CFD1     		bne	.L54
  284 0086 4FF00009 		mov	r9, #0
  285 008a DFED4A8A 		vldr.32	s17, .L82+8
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 6
 
 
  286 008e 9FED4A8A 		vldr.32	s16, .L82+12
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  340 011a 4FF47A70 		mov	r0, #1000
  341 011e FFF7FEFF 		bl	_ZN17TemperatureSensor6CreateEj
  342 0122 2849     		ldr	r1, .L82+24
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 7
 
 
  343 0124 C5F8A400 		str	r0, [r5, #164]
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  397 01c0 0000AA43 		.word	1135214592
  398 01c4 00000000 		.word	.LC0
  399 01c8 00000000 		.word	.LANCHOR2
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 8
 
 
  400 01cc 00002043 		.word	1126170624
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  454 0018 06F16405 		add	r5, r6, #100
  455 001c 4FF0FF0B 		mov	fp, #255
  456 0020 4FF00008 		mov	r8, #0	@ movhi
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 9
 
 
  457              	.L93:
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  511              		.p2align 2,,3
  512              		.global	_ZN4Heat11DiagnosticsE11MessageType
  513              		.syntax unified
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 10
 
 
  514              		.thumb
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  568 007a 93F87E20 		ldrb	r2, [r3, #126]	@ zero_extendqisi2
  569 007e 002A     		cmp	r2, #0
  570 0080 F5D0     		beq	.L108
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 11
 
 
  571 0082 586E     		ldr	r0, [r3, #100]	@ float
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  625 0028 3846     		mov	r0, r7
  626 002a FFF7FEFF 		bl	_ZNK4Heat22HeaterAtSetTemperatureEabf.part.22
  627 002e 0028     		cmp	r0, #0
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 12
 
 
  628 0030 F2D1     		bne	.L121
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  682              		.fpu fpv4-sp-d16
  683              		.type	_ZNK4Heat9GetStatusEa, %function
  684              	_ZNK4Heat9GetStatusEa:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 13
 
 
  685              		@ args = 0, pretend = 0, frame = 0
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  739              		.size	_ZN4Heat12SetBedHeaterEja, .-_ZN4Heat12SetBedHeaterEja
  740              		.section	.text._ZNK4Heat11IsBedHeaterEa,"ax",%progbits
  741              		.align	1
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 14
 
 
  742              		.p2align 2,,3
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  796 001c 3444     		add	r4, r4, r6
  797 001e 84F8DD50 		strb	r5, [r4, #221]
  798 0022 70BD     		pop	{r4, r5, r6, pc}
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 15
 
 
  799              		.size	_ZN4Heat16SetChamberHeaterEja, .-_ZN4Heat16SetChamberHeaterEja
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  853              		.size	_ZN4Heat20SetActiveTemperatureEaf, .-_ZN4Heat20SetActiveTemperatureEaf
  854 0012 00BF     		.section	.text._ZNK4Heat20GetActiveTemperatureEa,"ax",%progbits
  855              		.align	1
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 16
 
 
  856              		.p2align 2,,3
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  910              		.type	_ZNK4Heat21GetStandbyTemperatureEa, %function
  911              	_ZNK4Heat21GetStandbyTemperatureEa:
  912              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 17
 
 
  913              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  967              	.L187:
  968 0042 5DF8044B 		ldr	r4, [sp], #4
  969 0046 7047     		bx	lr
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 18
 
 
  970              	.L188:
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  1024 0042 5DF8044B 		ldr	r4, [sp], #4
  1025 0046 7047     		bx	lr
  1026              	.L195:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 19
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 19
 
 
  1027 0048 9FED050A 		vldr.32	s0, .L205
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  1081 0004 0DD8     		bhi	.L216
  1082 0006 00EB8100 		add	r0, r0, r1, lsl #2
  1083 000a 426C     		ldr	r2, [r0, #68]
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 20
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 20
 
 
  1084 000c 92F87C30 		ldrb	r3, [r2, #124]	@ zero_extendqisi2
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  1138 0002 072B     		cmp	r3, #7
  1139 0004 00D9     		bls	.L229
  1140 0006 7047     		bx	lr
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 21
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 21
 
 
  1141              	.L229:
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  1195 004e F9D1     		bne	.L238
  1196              	.L232:
  1197 0050 0134     		adds	r4, r4, #1
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 22
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 22
 
 
  1198 0052 082C     		cmp	r4, #8
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  1252 0006 7047     		bx	lr
  1253              	.L251:
  1254 0008 00EB8101 		add	r1, r0, r1, lsl #2
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 23
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 23
 
 
  1255 000c 486C     		ldr	r0, [r1, #68]
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  1309 0008 1BD0     		beq	.L264
  1310 000a 00F1D903 		add	r3, r0, #217
  1311 000e 00F1DD02 		add	r2, r0, #221
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 24
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 24
 
 
  1312 0012 00F1DC05 		add	r5, r0, #220
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  1366 001e 80F8DF10 		strb	r1, [r0, #223]
  1367 0022 586C     		ldr	r0, [r3, #68]
  1368 0024 2146     		mov	r1, r4
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 25
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 25
 
 
  1369 0026 5DF8044B 		ldr	r4, [sp], #4
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  1423 001c 0149     		ldr	r1, .L280
  1424 001e FFF7FEBF 		b	_ZNK9StringRef4copyEPKc
  1425              	.L281:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 26
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 26
 
 
  1426 0022 00BF     		.align	2
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  1480              		@ args = 0, pretend = 0, frame = 0
  1481              		@ frame_needed = 0, uses_anonymous_args = 0
  1482              		@ link register save eliminated.
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 27
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 27
 
 
  1483 0000 00EB8100 		add	r0, r0, r1, lsl #2
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  1537              		.syntax unified
  1538              		.thumb
  1539              		.thumb_func
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 28
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 28
 
 
  1540              		.fpu fpv4-sp-d16
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  1594 0022 0020     		movs	r0, #0
  1595 0024 38BD     		pop	{r3, r4, r5, pc}
  1596              	.L311:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 29
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 29
 
 
  1597 0026 A1F16403 		sub	r3, r1, #100
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  1651              	.L335:
  1652              		.align	2
  1653              	.L334:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 30
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 30
 
 
  1654 0040 00000000 		.word	.LC10
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  1708              		@ args = 0, pretend = 0, frame = 0
  1709              		@ frame_needed = 0, uses_anonymous_args = 0
  1710              		@ link register save eliminated.
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 31
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 31
 
 
  1711 0000 0729     		cmp	r1, #7
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  1765 0004 0746     		mov	r7, r0
  1766 0006 00F14408 		add	r8, r0, #68
  1767 000a 00F14005 		add	r5, r0, #64
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 32
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 32
 
 
  1768 000e 0024     		movs	r4, #0
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  1822              	.L366:
  1823 000e 1846     		mov	r0, r3
  1824 0010 FFF7FEBF 		b	_ZNK3PID15CheckProtectionEv
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 33
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 33
 
 
  1825              		.size	_ZN4Heat11CheckHeaterEj, .-_ZN4Heat11CheckHeaterEj
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  1879 0056 7047     		bx	lr
  1880              	.L382:
  1881              		.align	2
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 34
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 34
 
 
  1882              	.L381:
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  1936 0026 1AF9013B 		ldrsb	r3, [r10], #1
  1937 002a 002B     		cmp	r3, #0
  1938 002c 05EB8302 		add	r2, r5, r3, lsl #2
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 35
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 35
 
 
  1939 0030 13DB     		blt	.L388
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  1993 00b0 2046     		mov	r0, r4
  1994 00b2 1EB0     		add	sp, sp, #120
  1995              		@ sp needed
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 36
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 36
 
 
  1996 00b4 BDE8F087 		pop	{r4, r5, r6, r7, r8, r9, r10, pc}
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  2050              		.type	_ZL10heaterTask, %object
  2051              		.size	_ZL10heaterTask, 1696
  2052              	_ZL10heaterTask:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 37
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 37
 
 
  2053 0000 00000000 		.space	1696
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  2095 0036 0000     		.space	2
  2096              	.LC6:
  2097 0038 48656174 		.ascii	"Heater %d is on, I-accum = %.1f\012\000"
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 38
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 38
 
 
  2097      65722025 
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 1
  2124      31660A00 
  2125              	.LC12:
  2126 0010 4D313431 		.ascii	"M141 P%u S%.1f\012\000"
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccJf3KtZ.s 			page 39
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCQ8Cvd.s 			page 39
 
 
  2126      20502575 

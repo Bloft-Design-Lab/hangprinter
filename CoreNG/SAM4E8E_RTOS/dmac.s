@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccRlqotT.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1aQEur.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccRlqotT.s 			page 1
   55              		.global	dmac_enable
   56              		.syntax unified
   57              		.thumb
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccRlqotT.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1aQEur.s 			page 2
 
 
   58              		.thumb_func
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccRlqotT.s 			page 1
  112              	dmac_disable_interrupt:
  113              		@ args = 0, pretend = 0, frame = 0
  114              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccRlqotT.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1aQEur.s 			page 3
 
 
  115              		@ link register save eliminated.
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccRlqotT.s 			page 1
  169 000a 00BF     		.section	.text.dmac_channel_disable,"ax",%progbits
  170              		.align	1
  171              		.p2align 2,,3
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccRlqotT.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1aQEur.s 			page 4
 
 
  172              		.global	dmac_channel_disable
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccRlqotT.s 			page 1
  226              		.size	dmac_channel_suspend, .-dmac_channel_suspend
  227              		.section	.text.dmac_channel_resume,"ax",%progbits
  228              		.align	1
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccRlqotT.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1aQEur.s 			page 5
 
 
  229              		.p2align 2,,3
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccRlqotT.s 			page 1
  283              		.syntax unified
  284              		.thumb
  285              		.thumb_func
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccRlqotT.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1aQEur.s 			page 6
 
 
  286              		.fpu fpv4-sp-d16
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccRlqotT.s 			page 1
  340              		.fpu fpv4-sp-d16
  341              		.type	dmac_channel_set_ctrlA, %function
  342              	dmac_channel_set_ctrlA:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccRlqotT.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1aQEur.s 			page 7
 
 
  343              		@ args = 0, pretend = 0, frame = 0
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccRlqotT.s 			page 1
  397              		@ args = 0, pretend = 0, frame = 0
  398              		@ frame_needed = 0, uses_anonymous_args = 0
  399              		@ link register save eliminated.
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccRlqotT.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1aQEur.s 			page 8
 
 
  400 0000 70B4     		push	{r4, r5, r6}
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccRlqotT.s 			page 1
  454 000a 10B4     		push	{r4}
  455 000c 4FF48074 		mov	r4, #256
  456 0010 8C40     		lsls	r4, r4, r1
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccRlqotT.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1aQEur.s 			page 9
 
 
  457 0012 4FF48033 		mov	r3, #65536
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccRlqotT.s 			page 1
  511              	.L40:
  512 000c 8368     		ldr	r3, [r0, #8]
  513 000e 8A40     		lsls	r2, r2, r1
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccRlqotT.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1aQEur.s 			page 10
 
 
  514 0010 1A43     		orrs	r2, r2, r3
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\ccRlqotT.s 			page 1
  568 0010 7047     		bx	lr
  569              	.L51:
  570 0012 00BF     		.align	2
-ARM GAS  C:\Users\paja\AppData\Local\Temp\ccRlqotT.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1aQEur.s 			page 11
 
 
  571              	.L50:

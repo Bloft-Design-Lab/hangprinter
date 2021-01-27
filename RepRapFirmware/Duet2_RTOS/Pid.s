@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
   55 0050 FFF7FEFF 		bl	millis
   56 0054 2067     		str	r0, [r4, #112]
   57              	.L9:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 2
 
 
   58 0056 184B     		ldr	r3, .L26
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  112              	_ZN3PIDC2ER8Platforma:
  113              		@ args = 0, pretend = 0, frame = 0
  114              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 3
 
 
  115 0000 70B5     		push	{r4, r5, r6, lr}
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  169 004e 04F13000 		add	r0, r4, #48
  170 0052 FFF7FEFF 		bl	_ZN5FopDt13SetParametersEffffffbbt
  171 0056 94F87D30 		ldrb	r3, [r4, #125]	@ zero_extendqisi2
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 4
 
 
  172 005a 1C4A     		ldr	r2, .L34+16
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  226 0008 0121     		movs	r1, #1
  227 000a 80F87C10 		strb	r1, [r0, #124]
  228 000e 80F87B30 		strb	r3, [r0, #123]
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 5
 
 
  229 0012 C362     		str	r3, [r0, #44]
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  283 0052 04F13000 		add	r0, r4, #48
  284 0056 FFF7FEFF 		bl	_ZN5FopDt13SetParametersEffffffbbt
  285 005a 0546     		mov	r5, r0
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 6
 
 
  286 005c 98B1     		cbz	r0, .L40
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  340 00e8 0000FA44 		.word	1157234688
  341 00ec 00000000 		.word	.LC2
  342              		.size	_ZN3PID8SetModelEfffffbbt, .-_ZN3PID8SetModelEfffffbbt
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 7
 
 
  343              		.section	.text._ZNK3PID26GetHighestTemperatureLimitEv,"ax",%progbits
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  397              		@ args = 0, pretend = 0, frame = 8
  398              		@ frame_needed = 0, uses_anonymous_args = 0
  399 0000 10B5     		push	{r4, lr}
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 8
 
 
  400 0002 82B0     		sub	sp, sp, #8
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  454 000e 70B5     		push	{r4, r5, r6, lr}
  455 0010 90F87D30 		ldrb	r3, [r0, #125]	@ zero_extendqisi2
  456 0014 B0F84420 		ldrh	r2, [r0, #68]
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 9
 
 
  457 0018 90F97A10 		ldrsb	r1, [r0, #122]
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  511              		.global	_ZN3PID20SetActiveTemperatureEf
  512              		.syntax unified
  513              		.thumb
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 10
 
 
  514              		.thumb_func
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  568 0084 0293     		str	r3, [sp, #8]
  569 0086 18EE100A 		vmov	r0, s16
  570 008a FFF7FEFF 		bl	__aeabi_f2d
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 11
 
 
  571 008e 2368     		ldr	r3, [r4]
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  625 0038 94F87C30 		ldrb	r3, [r4, #124]	@ zero_extendqisi2
  626 003c 84ED038A 		vstr.32	s16, [r4, #12]
  627 0040 022B     		cmp	r3, #2
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 12
 
 
  628 0042 05D9     		bls	.L104
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  682              		.section	.text._ZN3PID19SetHeaterProtectionEP16HeaterProtection,"ax",%progbits
  683              		.align	1
  684              		.p2align 2,,3
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 13
 
 
  685              		.global	_ZN3PID19SetHeaterProtectionEP16HeaterProtection
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  739 000c 80F87E10 		strb	r1, [r0, #126]
  740 0010 02B9     		cbnz	r2, .L139
  741              	.L132:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 14
 
 
  742 0012 7047     		bx	lr
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  796 0014 FFF7FEBF 		b	_ZN3PID9SwitchOffEv
  797              		.size	_ZN3PID10ResetFaultEv, .-_ZN3PID10ResetFaultEv
  798              		.section	.text._ZNK3PID13GetAveragePWMEv,"ax",%progbits
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 15
 
 
  799              		.align	1
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  853 003a 10DB     		blt	.L164
  854 003c 90ED0D7A 		vldr.32	s14, [r0, #52]
  855 0040 90ED066A 		vldr.32	s12, [r0, #24]
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 16
 
 
  856 0044 C7EE876A 		vdiv.f32	s13, s15, s14
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  910 0052 2F49     		ldr	r1, .L178+8
  911 0054 FFF7FEFF 		bl	_ZNK9StringRef6printfEPKcz
  912              	.L167:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 17
 
 
  913 0058 06B0     		add	sp, sp, #24
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  967 00ea FFF7FEFF 		bl	_ZNK9StringRef6printfEPKcz
  968 00ee B3E7     		b	.L167
  969              	.L177:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 18
 
 
  970 00f0 1846     		mov	r0, r3
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  1024 0028 0421     		movs	r1, #4
  1025 002a 0091     		str	r1, [sp]
  1026 002c 053B     		subs	r3, r3, #5
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 19
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 19
 
 
  1027 002e 0549     		ldr	r1, .L190+8
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  1081 004e 9342     		cmp	r3, r2
  1082 0050 EDD1     		bne	.L199
  1083              	.L194:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 20
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 20
 
 
  1084 0052 37EE667A 		vsub.f32	s14, s14, s13
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  1138 0034 F9D1     		bne	.L215
  1139              	.L214:
  1140 0036 F4EEE76A 		vcmpe.f32	s13, s15
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 21
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 21
 
 
  1141 003a F1EE10FA 		vmrs	APSR_nzcv, FPSCR
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  1195 0004 1C68     		ldr	r4, [r3]
  1196 0006 0E2C     		cmp	r4, #14
  1197 0008 1CD9     		bls	.L237
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 22
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 22
 
 
  1198 000a 0120     		movs	r0, #1
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  1252 0012 04B0     		add	sp, sp, #16
  1253              		@ sp needed
  1254 0014 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 23
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 23
 
 
  1255              	.L254:
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  1309 00a0 28000000 		.word	.LC15
  1310              		.size	_ZN3PID13DisplayBufferEPKc, .-_ZN3PID13DisplayBufferEPKc
  1311              		.section	.text._ZN3PID14CalculateModelEv,"ax",%progbits
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 24
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 24
 
 
  1312              		.align	1
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  1366 0082 27EE400A 		vnmul.f32	s0, s14, s0
  1367 0086 80EE280A 		vdiv.f32	s0, s0, s17
  1368 008a FFF7FEFF 		bl	expf
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 25
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 25
 
 
  1369 008e 454B     		ldr	r3, .L267+40
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  1423 0142 94F97A60 		ldrsb	r6, [r4, #122]
  1424 0146 FFF7FEFF 		bl	millis
  1425 014a 1C4B     		ldr	r3, .L267+64
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 26
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 26
 
 
  1426 014c 94F97A20 		ldrsb	r2, [r4, #122]
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  1480              	_ZN3PID12DoTuningStepEv:
  1481              		@ args = 0, pretend = 0, frame = 0
  1482              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 27
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 27
 
 
  1483 0000 2DE9F043 		push	{r4, r5, r6, r7, r8, r9, lr}
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  1537              	.L275:
  1538 0076 4246     		mov	r2, r8
  1539 0078 08F10403 		add	r3, r8, #4
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 28
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 28
 
 
  1540 007c 08F58070 		add	r0, r8, #256
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  1594 010a B9F1000F 		cmp	r9, #0
  1595 010e 76D0     		beq	.L310
  1596 0110 D4ED0E7A 		vldr.32	s15, [r4, #56]
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 29
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 29
 
 
  1597 0114 DFED816A 		vldr.32	s13, .L313+32
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  1651 01b4 37D1     		bne	.L311
  1652 01b6 FFF7FEFF 		bl	millis
  1653 01ba 3368     		ldr	r3, [r6]
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 30
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 30
 
 
  1654 01bc 44F61F62 		movw	r2, #19999
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  1708 023e C8F80030 		str	r3, [r8]	@ float
  1709 0242 FFF7FEFF 		bl	millis
  1710 0246 424A     		ldr	r2, .L313+84
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 31
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 31
 
 
  1711 0248 2368     		ldr	r3, [r4]
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  1765 02de 94F97A10 		ldrsb	r1, [r4, #122]
  1766 02e2 C4ED1A7A 		vstr.32	s15, [r4, #104]
  1767 02e6 08BF     		it	eq
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 32
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 32
 
 
  1768 02e8 B0EE670A 		vmoveq.f32	s0, s15
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  1822 0394 93ED007A 		vldr.32	s14, [r3]
  1823 0398 77EEC77A 		vsub.f32	s15, s15, s14
  1824 039c B0EE087A 		vmov.f32	s14, #3.0e+0
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 33
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 33
 
 
  1825 03a0 F4EEC77A 		vcmpe.f32	s15, s14
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  1879 0052 0632     		adds	r2, r2, #6
  1880 0054 04EB8200 		add	r0, r4, r2, lsl #2
  1881 0058 2168     		ldr	r1, [r4]
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 34
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 34
 
 
  1882 005a 90ED017A 		vldr.32	s14, [r0, #4]
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  1936 0108 9FED725A 		vldr.32	s10, .L480+20
  1937 010c D3F83838 		ldr	r3, [r3, #2104]
  1938 0110 94ED1B6A 		vldr.32	s12, [r4, #108]
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 35
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 35
 
 
  1939 0114 D4ED1A7A 		vldr.32	s15, [r4, #104]
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  1993 01b8 FFF7FEFF 		bl	_Z22TemperatureErrorString16TemperatureError
  1994 01bc 3346     		mov	r3, r6
  1995 01be 0090     		str	r0, [sp]
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 36
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 36
 
 
  1996 01c0 414A     		ldr	r2, .L480+8
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  2050 0264 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
  2051 0268 40F34081 		ble	.L453
  2052 026c 94F87D30 		ldrb	r3, [r4, #125]	@ zero_extendqisi2
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 37
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 37
 
 
  2053 0270 DFED197A 		vldr.32	s15, .L480+24
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  2107 0320 B3EE046A 		vmov.f32	s12, #2.0e+1
  2108 0324 67EE267A 		vmul.f32	s15, s14, s13
  2109 0328 F4EEC67A 		vcmpe.f32	s15, s12
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 38
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 38
 
 
  2110 032c F1EE10FA 		vmrs	APSR_nzcv, FPSCR
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  2164              	.L362:
  2165 03e6 B5EEC07A 		vcmpe.f32	s14, #0
  2166 03ea F1EE10FA 		vmrs	APSR_nzcv, FPSCR
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 39
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 39
 
 
  2167 03ee D8BF     		it	le
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  2221 047c 40F2B511 		movw	r1, #437
  2222 0480 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
  2223 0484 E2E7     		b	.L388
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 40
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 40
 
 
  2224              	.L336:
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  2278 050e DFED864A 		vldr.32	s9, .L482+4
  2279 0512 D4ED195A 		vldr.32	s11, [r4, #100]
  2280 0516 05EE103A 		vmov	s10, r3	@ int
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 41
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 41
 
 
  2281 051a 26EE286A 		vmul.f32	s12, s12, s17
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  2335 05bc B2EE048A 		vmov.f32	s16, #1.0e+1
  2336 05c0 F4EEC87A 		vcmpe.f32	s15, s16
  2337 05c4 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 42
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 42
 
 
  2338 05c8 FFF628AF 		blt	.L378
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  2392 0674 B4F87830 		ldrh	r3, [r4, #120]
  2393 0678 B4EEE77A 		vcmpe.f32	s14, s15
  2394 067c F1EE10FA 		vmrs	APSR_nzcv, FPSCR
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 43
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 43
 
 
  2395 0680 44DD     		ble	.L452
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  2449              		.align	2
  2450              	.L482:
  2451 0724 00003442 		.word	1110704128
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 44
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 44
 
 
  2452 0728 6F12833A 		.word	981668463
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  2506 0060 BDEC028B 		vldm	sp!, {d8}
  2507 0064 10BD     		pop	{r4, pc}
  2508              	.L495:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 45
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 45
 
 
  2509 0066 00BF     		.align	2
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  2563              		.size	_ZN3PID16tuningTargetTempE, 4
  2564              	_ZN3PID16tuningTargetTempE:
  2565 0000 00000000 		.space	4
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 46
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 46
 
 
  2566              		.section	.bss._ZN3PID17tuningHeatingTimeE,"aw",%nobits
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  2620              	_ZN3PID9tuningPwmE:
  2621 0000 00000000 		.space	4
  2622              		.section	.bss.tuningVoltageAccumulator,"aw",%nobits
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 47
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 47
 
 
  2623              		.align	2
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  2652      65207068 
  2652      61736520 
  2652      322C2068 
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 48
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 48
 
 
  2653 00fb 00       		.space	1
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  2678      2063616E 
  2679 0033 69736162 		.ascii	"isabled\000"
  2679      6C656400 
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 49
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 49
 
 
  2680 003b 00       		.space	1
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  2700      69672D6F 
  2700      76657272 
  2700      6964652E 
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 50
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 50
 
 
  2701 008a 0000     		.space	2
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  2727 0000 54656D70 		.ascii	"Temperature reading fault on heater %d: %s\012\000"
  2727      65726174 
  2727      75726520 
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 51
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 51
 
 
  2727      72656164 
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 1
  2747      69746368 
  2748 0033 00       		.ascii	"\000"
  2749              	.LC1:
-ARM GAS  C:\Users\paja\AppData\Local\Temp\cc5czerg.s 			page 52
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfmqihm.s 			page 52
 
 
  2750 0034 48656174 		.ascii	"Heater %d switched on\012\000"

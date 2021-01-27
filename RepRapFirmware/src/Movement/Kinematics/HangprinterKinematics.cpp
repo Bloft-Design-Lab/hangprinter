@@ -15,16 +15,21 @@
 #include <math.h>
 #include <vector>
 //#include "Movement/BedProbing/RandomProbePointSet.h"
+//using namespace std;
 
 // Default anchor coordinates
 // These are only placeholders. Each machine must have these values calibrated in order to work correctly.
 //constexpr float DefaultAnchorA[3] = {    0.0, -1437.13, -237.0};
 //constexpr float DefaultAnchorB[3] = { 1244.59,  718.56, -236.0};
 //constexpr float DefaultAnchorC[3] = {-1244.59,  718.56, -236.0};
-constexpr float DefaultAnchorA[3] = {    0.0, -1437.13, 0.0};
-constexpr float DefaultAnchorB[3] = { 1244.59,  718.56, 0.0};
-constexpr float DefaultAnchorC[3] = {-1244.59,  718.56, 0.0};
-constexpr float DefaultAnchorDz = 3726.5;
+
+constexpr float DefaultAnchorA[3] = {    0.0, -1437.13, -216.0};
+constexpr float DefaultAnchorB[3] = { 1244.59,  718.56, -216.0};
+constexpr float DefaultAnchorC[3] = {-1244.59,  718.56, -216.0};
+constexpr float offsetF = DefaultAnchorC[2] - 71.0;
+
+constexpr float DefaultAnchorDz = 3706.1;
+constexpr float DefaultAnchorVz = 3706.1 + offsetF;
 constexpr float DefaultPrintRadius = 500.0;
 
 // Constructor
@@ -64,50 +69,6 @@ float elongationCalc(float linepos)
 	return elongation;
 }
 
-float elongationCalcABC(std::vector<float> coordinates, float linepos){
-	float gravitationalAcceleration = 9.81;
-    float motorForce = 208;
-
-    //float sideLength = sqrt(pow(coordinates[Y_AXIS], 2) + pow(coordinates[X_AXIS], 2));
-    float sideLength = sqrt(pow(3, 2) + pow(3, 2));
-
-    float tan = atan(400 / sideLength);
-
-    //float tan = atan(coordinates[2] / sideLength);
-
-    //float sideLength = coordinates[Y_AXIS];
-    //float sideLength  = 0.1;
-    //float tan = 1.0;
-
-    float finalForceKilos = (sin(tan) * motorForce) / gravitationalAcceleration;
-
-    float elasticExtension,
-		  permConstructExt;
-
-	float loadFactor,
-		  appliedLoad,
-		  ropeLength,
-		  elasticModulus,
-		  areaMinusCircle,
-          motorJointDistance;
-
-	float elongation;
-
-    motorJointDistance = 200;
-	loadFactor = 0.0025;
-	// totalRopeLength = 3268.238;
-	appliedLoad = finalForceKilos / 2;
-	ropeLength = linepos * 2 + motorJointDistance;
-	elasticModulus = 6300;
-	areaMinusCircle = 3.1415;
-
-	permConstructExt = loadFactor * ropeLength;
-	elasticExtension = (appliedLoad * ropeLength) / (elasticModulus * areaMinusCircle);
-
-	elongation = permConstructExt + elasticExtension;
-	return elongation;
-}
-
 void HangprinterKinematics::Init()
 {
 	/* Naive buildup factor calculation (assumes cylindrical, straight line)
@@ -117,27 +78,33 @@ void HangprinterKinematics::Init()
 	 * Default buildup factor for 0.50 mm FireLine: 0.0078
 	 * Default buildup factor for 0.39 mm FireLine: 0.00475
 	 * In practice you might want to compensate a bit more or a bit less */
-	constexpr float DefaultSpoolBuildupFactor = 1;
+	constexpr float DefaultSpoolBuildupFactor = 0.0001;
 	/* Measure and set spool radii with M669 to achieve better accuracy */
-	constexpr float DefaultSpoolRadii[4] = { 65.1, 65.1, 65.1, 65.1}; // HP3 default
+	constexpr float DefaultSpoolRadii[5] = { 65.1, 65.1, 65.1, 65.1, 50.1}; // HP3 default
 	/* If axis runs lines back through pulley system, set mechanical advantage accordingly with M669 */
-	constexpr uint32_t DefaultMechanicalAdvantage[4] = { 2, 2, 2, 1}; // HP3 default
-	constexpr uint32_t DefaultLinesPerSpool[4] = { 1, 1, 1, 1}; // HP3 default
-	constexpr uint32_t DefaultMotorGearTeeth[4] = {  20, 20,  20,  20}; // HP3 default
-	constexpr uint32_t DefaultSpoolGearTeeth[4] = { 255, 255, 255, 255}; // HP3 default
-	constexpr uint32_t DefaultFullStepsPerMotorRev[4] = { 32, 32, 32, 32};
+	constexpr uint32_t DefaultMechanicalAdvantage[5] = { 2, 2, 2, 1, 1}; // HP3 default
+	constexpr uint32_t DefaultLinesPerSpool[5] = { 1, 1, 1, 1, 1}; // HP3 default
+	// F axis 1:60
+	constexpr uint32_t DefaultMotorGearTeeth[5] = {  20, 20,  20,  20, 5}; // HP3 default
+	constexpr uint32_t DefaultSpoolGearTeeth[5] = { 255, 255, 255, 255, 300}; // HP3 default
+	constexpr uint32_t DefaultFullStepsPerMotorRev[5] = { 32, 32, 32, 32, 32};
 	ARRAY_INIT(anchorA, DefaultAnchorA);
 	ARRAY_INIT(anchorB, DefaultAnchorB);
 	ARRAY_INIT(anchorC, DefaultAnchorC);
+
 	anchorDz = DefaultAnchorDz;
+	anchorVz = DefaultAnchorVz;
+
 	printRadius = DefaultPrintRadius;
 	spoolBuildupFactor = DefaultSpoolBuildupFactor;
+
 	ARRAY_INIT(spoolRadii, DefaultSpoolRadii);
 	ARRAY_INIT(mechanicalAdvantage, DefaultMechanicalAdvantage);
 	ARRAY_INIT(linesPerSpool, DefaultLinesPerSpool);
 	ARRAY_INIT(motorGearTeeth, DefaultMotorGearTeeth);
 	ARRAY_INIT(spoolGearTeeth, DefaultSpoolGearTeeth);
 	ARRAY_INIT(fullStepsPerMotorRev, DefaultFullStepsPerMotorRev);
+
 	doneAutoCalibration = false;
 	reprap.GetGCodes().SetMachineAxisLetters(MachineAxisNames(), 4);
 	Recalc();
@@ -185,9 +152,10 @@ void HangprinterKinematics::Recalc()
 	lineLengthsOrigin[B_AXIS] = HYP3D(anchorB[0], anchorB[1], anchorB[2]);
 	lineLengthsOrigin[C_AXIS] = HYP3D(anchorC[0], anchorC[1], anchorC[2]);
 	lineLengthsOrigin[D_AXIS] = anchorDz;
+	lineLengthsOrigin[V_AXIS] = anchorVz;
 
 	for (size_t z = 0; z < HANGPRINTER_AXES; z++){
-			debugPrintf("Pietari Line Lengths origins: %f\n",lineLengthsOrigin[z]);
+			debugPrintf("Pietari Line Lengths origins: %f\n", (float)lineLengthsOrigin[z]);
 		}
 
 	// Line buildup compensation
@@ -214,8 +182,8 @@ void HangprinterKinematics::Recalc()
 		platform.SetDriveStepsPerUnit(i, stepsPerUnitTimesRTmp[i] / spoolRadii[i]);
 	}
 	for (size_t j = 0; j < HANGPRINTER_AXES; j++){
-		debugPrintf("Pietari k2 value %f\n", k2[j]);
-		debugPrintf("Pietari k0 value %f\n", k0[j]);
+		debugPrintf("Pietari k2 value %f\n", (float)k2[j]);
+		debugPrintf("Pietari k0 value %f\n", (float)k0[j]);
 	}
 
 
@@ -252,6 +220,7 @@ bool HangprinterKinematics::Configure(unsigned int mCode, GCodeBuffer& gb, const
 		GET_FLOAT_ARRAY('B', 3, anchorB);
 		GET_FLOAT_ARRAY('C', 3, anchorC);
 		gb.TryGetFValue('D', anchorDz, seen);
+		gb.TryGetFValue('V', anchorVz, seen);
 		gb.TryGetFValue('Q', spoolBuildupFactor, seen);
 		GET_FLOAT_ARRAY('R', HANGPRINTER_AXES, spoolRadii);
 
@@ -345,12 +314,56 @@ inline float HangprinterKinematics::LineLengthSquared(const float machinePos[3],
 	// Geometry of hangprinter makes fsquare(anchorABC[Z_AXIS] - machinePos[Z_AXIS]) the smallest term in the sum.
 	// Geometry also makes machinePos[XY_AXIS] smaller than anchor[XY_AXIS] 5 out of 6 times (exception being anchorA[X_AXIS] = 0.0 by convention).
 	// Starting sum with smallest number gives smallest roundoff error.
-	return fsquare(anchor[Z_AXIS] - machinePos[Z_AXIS]) + fsquare(machinePos[Y_AXIS] - anchor[Y_AXIS]) + fsquare(machinePos[X_AXIS] - anchor[X_AXIS]);
+	return fsquare(anchor[Z_AXIS]) + fsquare(machinePos[Y_AXIS] - anchor[Y_AXIS]) + fsquare(machinePos[X_AXIS] - anchor[X_AXIS]);
 }
+
+inline float HangprinterKinematics::ElongationCalculation(const float machinePos[3], const float anchor[3], float linePos) const
+{
+
+	float valueY = machinePos[Y_AXIS] - anchor[Y_AXIS];
+	float valueX = machinePos[X_AXIS] - anchor[X_AXIS];
+	float valueZ = machinePos[Z_AXIS] - anchor[Z_AXIS];
+
+	float gravitationalAcceleration = 9.81;
+	float motorForce = 208;
+
+	float sideLength = sqrt(pow(valueY, 2) + pow(valueX, 2));
+	float tan = atan(valueZ / sideLength);
+
+	float finalForceKilos = (sin(tan) * motorForce) / gravitationalAcceleration;
+
+	float elasticExtension,
+		  permConstructExt;
+
+	float loadFactor,
+		  appliedLoad,
+		  ropeLength,
+		  elasticModulus,
+		  areaMinusCircle,
+		  motorJointDistance;
+
+	float elongation;
+
+	motorJointDistance = 200;
+	loadFactor = 0.0025;
+	// totalRopeLength = 3268.238;
+	appliedLoad = finalForceKilos / 2;
+	ropeLength = linePos * 2 + motorJointDistance;
+	elasticModulus = 6300;
+	areaMinusCircle = 3.1415;
+
+	permConstructExt = loadFactor * ropeLength;
+	elasticExtension = (appliedLoad * ropeLength) / (elasticModulus * areaMinusCircle);
+
+	elongation = permConstructExt + elasticExtension;
+	return elongation;
+}
+
 
 // Convert Cartesian coordinates to motor coordinates, returning true if successful
 bool HangprinterKinematics::CartesianToMotorSteps(const float machinePos[], const float stepsPerMm[], size_t numVisibleAxes, size_t numTotalAxes, int32_t motorPos[], bool isCoordinated) const
 {
+
 	float squaredLineLengths[HANGPRINTER_AXES];
 	squaredLineLengths[A_AXIS] = LineLengthSquared(machinePos, anchorA);
 	squaredLineLengths[B_AXIS] = LineLengthSquared(machinePos, anchorB);
@@ -362,45 +375,44 @@ bool HangprinterKinematics::CartesianToMotorSteps(const float machinePos[], cons
 			+ fsquare(anchorDz - machinePos[Z_AXIS])
 		);
 
-	//float axis[3] = {(float)machinePos[0], (float)machinePos[1], (float)machinePos[3]};
-	//float anchorValues[3] = {anchorA, anchorB, anchorC};
 
-	char* axixes[4] = {"A axis", "B axis", "C axis", "D axis"};
+	//char* axixes[4] = {"A axis", "B axis", "C axis", "D axis"};
 	float linePos[HANGPRINTER_AXES];
-	//float *anchorACopy = anchorA;
+	float elongationsABC[HANGPRINTER_AXES - 2];
 
-
-	//std::vector <float> anchorAs = {anchorA[0], anchorA[1], anchorA[2]};
-	//std::vector <float>anchorBs = {anchorB[0], anchorB[1], anchorB[2]};
-	//std::vector <float>anchorCs = {anchorC[0], anchorC[1], anchorC[2]};
-	//std::vector<std::vector<float>> anchorArrays = {anchorAs, anchorBs, anchorCs};
-
-
-	float elongations[HANGPRINTER_AXES];
 	for (size_t i = 0; i < HANGPRINTER_AXES; ++i)
 	{
 		linePos[i] = sqrtf(squaredLineLengths[i]) - lineLengthsOrigin[i];
-		if(i < 3){
-			//elongations[i] = elongationCalcABC(anchorArrays[i], linePos[i]);
-			debugPrintf("Lineposition %s Pietari: %f\n", axixes[i], linePos[i] + 1441,03);
+		/*if(i < 3){
+			//elongations[i] = elongationCalcABC(anchorA[0], anchorA[1], linePos[i]);
+			debugPrintf("Lineposition %s Pietari: %f\n", axixes[i], (float)linePos[i] + 1441,03);
 		} else {
 			//elongations[i] = elongationCalc((linePos[i]));
-			debugPrintf("Lineposition %s Pietari: %f\n", axixes[i], linePos[i]);
-		}
-
+			debugPrintf("Lineposition %s Pietari: %f\n", axixes[i], (float)linePos[i]);
+		}*/
 	}
 
-	if (squaredLineLengths[A_AXIS] > 0.0 && squaredLineLengths[B_AXIS] > 0.0 && squaredLineLengths[C_AXIS] > 0.0 && squaredLineLengths[D_AXIS] > 0.0)
+	linePos[V_AXIS] = anchorVz - machinePos[Z_AXIS] + offsetF;
+
+	elongationsABC[A_AXIS] = ElongationCalculation(machinePos, anchorA, linePos[A_AXIS]);
+	elongationsABC[B_AXIS] = ElongationCalculation(machinePos, anchorB, linePos[B_AXIS]);
+	elongationsABC[C_AXIS] = ElongationCalculation(machinePos, anchorC, linePos[C_AXIS]);
+
+
+	if (squaredLineLengths[A_AXIS] > 0.0 && squaredLineLengths[B_AXIS] > 0.0 && squaredLineLengths[C_AXIS] > 0.0 && squaredLineLengths[D_AXIS] > 0.0 && linePos[V_AXIS] > 0.0)
 		{
 			motorPos[A_AXIS] = lrintf(linePos[A_AXIS] * (float)stepsPerMm[A_AXIS]);
 			motorPos[B_AXIS] = lrintf(linePos[B_AXIS] * (float)stepsPerMm[B_AXIS]);
 			motorPos[C_AXIS] = lrintf(linePos[C_AXIS] * (float)stepsPerMm[C_AXIS]);
+			motorPos[V_AXIS] = lrintf((linePos[V_AXIS]) * stepsPerMm[V_AXIS]);
 			motorPos[D_AXIS] = lrintf((linePos[D_AXIS] - elongationCalc(linePos[D_AXIS]))* (float)stepsPerMm[D_AXIS]);
+
 			return true;
 		}
+	/*
 	for (size_t i = 0; i < HANGPRINTER_AXES; ++i){
-		debugPrintf("Motor positions Pietari: %s, %f\n", axixes[i] , motorPos[i]);
-	}
+		debugPrintf("Motor positions Pietari: %s, %f\n", axixes[i] , (float)motorPos[i]);
+	} */
 
 
 
@@ -596,7 +608,7 @@ void HangprinterKinematics::InverseTransform(float La, float Lb, float Lc, float
 	const float C = fsquare(S) + fsquare(T) + (anchorA[1] * T - anchorA[0] * S) * P * 2 + (Da2 - fsquare(La)) * P2;
 	debugPrintf("Inverse Transform Pietari: S: %.2f, T: %.2f, halfB: %.2f, C: %.2f\n", (double)S, (double)T, (double)halfB, (double)C);
 	for(int p = 0; p < 3; p++){
-		debugPrintf("machinepos before Pietari %f", machinePos[p]);
+		debugPrintf("machinepos before Pietari %f", (float)machinePos[p]);
 	}
 	// Solve the quadratic equation for z
 	machinePos[2] = (- halfB - sqrtf(fabs(fsquare(halfB) - A * C)))/A;
@@ -606,7 +618,7 @@ void HangprinterKinematics::InverseTransform(float La, float Lb, float Lc, float
 	machinePos[1] = (R * machinePos[2] + T)/P;
 
 	for(int p = 0; p < 3; p++){
-			debugPrintf("machinepos after Pietari %f", machinePos[p]);
+			debugPrintf("machinepos after Pietari %f", (float)machinePos[p]);
 		}
 	debugPrintf("Motor %.2f,%.2f,%.2f to Cartesian %.2f,%.2f,%.2f\n", (double)La, (double)Lb, (double)Lc, (double)machinePos[0], (double)machinePos[1], (double)machinePos[2]);
 }

@@ -1,68 +1,12 @@
-18:38:04 **** Incremental Build of configuration SAM4E8E_RTOS for project CoreNG ****
+14:25:42 **** Incremental Build of configuration SAM4E8E_RTOS for project CoreNG ****
 make -j8 all 
 make: Nothing to be done for 'all'.
-18:38:06 **** Incremental Build of configuration SAM4E for project FreeRTOS ****
+14:25:44 **** Incremental Build of configuration SAM4E for project FreeRTOS ****
 make -j8 all 
 make: Nothing to be done for 'all'.
-18:38:06 **** Incremental Build of configuration SAM4E_RTOS for project RRFLibraries ****
+14:25:44 **** Incremental Build of configuration SAM4E_RTOS for project RRFLibraries ****
 make all 
 make: Nothing to be done for 'all'.
-18:38:07 **** Incremental Build of configuration Duet2_RTOS for project RepRapFirmware ****
+14:25:45 **** Incremental Build of configuration Duet2_RTOS for project RepRapFirmware ****
 make -j8 all 
-Building file: ../src/Movement/Kinematics/HangprinterKinematics.cpp
-Invoking: Cross G++ Compiler
-arm-none-eabi-g++ -D__SAM4E8E__ -DRTOS -DDUET_NG -D_XOPEN_SOURCE -I"C:\Eclipse\Firmware\CoreNG\cores\arduino" -I"C:\Eclipse\Firmware\CoreNG\libraries\Flash" -I"C:\Eclipse\Firmware\CoreNG\libraries\SharedSpi" -I"C:\Eclipse\Firmware\CoreNG\libraries\Storage" -I"C:\Eclipse\Firmware\CoreNG\libraries\Wire" -I"C:\Eclipse\Firmware\CoreNG\asf" -I"C:\Eclipse\Firmware\CoreNG\asf\common\utils" -I"C:\Eclipse\Firmware\CoreNG\asf\common\services\clock" -I"C:\Eclipse\Firmware\CoreNG\asf\common\services\ioport" -I"C:\Eclipse\Firmware\CoreNG\asf\sam\drivers" -I"C:\Eclipse\Firmware\CoreNG\asf\sam\services\flash_efc" -I"C:\Eclipse\Firmware\CoreNG\asf\sam\utils" -I"C:\Eclipse\Firmware\CoreNG\asf\sam\utils\cmsis\sam4e\include" -I"C:\Eclipse\Firmware\CoreNG\asf\sam\utils\header_files" -I"C:\Eclipse\Firmware\CoreNG\asf\sam\utils\preprocessor" -I"C:\Eclipse\Firmware\CoreNG\asf\thirdparty\CMSIS\Include" -I"C:\Eclipse\Firmware\CoreNG\variants\duetNG" -I"C:\Eclipse\Firmware\RepRapFirmware\src" -I"C:\Eclipse\Firmware\RepRapFirmware\src\DuetNG" -I"C:\Eclipse\Firmware\RepRapFirmware\src\Networking" -I"C:\Eclipse\Firmware\DuetWiFiSocketServer\src\include" -I"C:\Eclipse\Firmware\FreeRTOS\src\include" -I"C:\Eclipse\Firmware\FreeRTOS\src\portable\GCC\ARM_CM4F" -I"C:\Eclipse\Firmware\RRFLibraries\src" -O2 -Wall -c -std=gnu++17 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -fno-threadsafe-statics -fno-rtti -fno-exceptions -nostdlib -Wdouble-promotion -fsingle-precision-constant "-Wa,-ahl=HangprinterKinematics.s" -MMD -MP -MF"src/Movement/Kinematics/HangprinterKinematics.d" -MT"src/Movement/Kinematics/HangprinterKinematics.o" -o "src/Movement/Kinematics/HangprinterKinematics.o" "../src/Movement/Kinematics/HangprinterKinematics.cpp"
-../src/Movement/Kinematics/HangprinterKinematics.cpp: In member function 'void HangprinterKinematics::Recalc()':
-../src/Movement/Kinematics/HangprinterKinematics.cpp:190:72: warning: implicit conversion from 'float' to 'double' when passing argument to function [-Wdouble-promotion]
-    debugPrintf("Pietari Line Lengths origins: %f\n",lineLengthsOrigin[z]);
-                                                     ~~~~~~~~~~~~~~~~~~~^
-../src/Movement/Kinematics/HangprinterKinematics.cpp:217:44: warning: implicit conversion from 'float' to 'double' when passing argument to function [-Wdouble-promotion]
-   debugPrintf("Pietari k2 value %f\n", k2[j]);
-                                        ~~~~^
-../src/Movement/Kinematics/HangprinterKinematics.cpp:218:44: warning: implicit conversion from 'float' to 'double' when passing argument to function [-Wdouble-promotion]
-   debugPrintf("Pietari k0 value %f\n", k0[j]);
-                                        ~~~~^
-../src/Movement/Kinematics/HangprinterKinematics.cpp: In member function 'virtual bool HangprinterKinematics::CartesianToMotorSteps(const float*, const float*, size_t, size_t, int32_t*, bool) const':
-../src/Movement/Kinematics/HangprinterKinematics.cpp:368:59: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
-  char* axixes[4] = {"A axis", "B axis", "C axis", "D axis"};
-                                                           ^
-../src/Movement/Kinematics/HangprinterKinematics.cpp:368:59: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
-../src/Movement/Kinematics/HangprinterKinematics.cpp:368:59: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
-../src/Movement/Kinematics/HangprinterKinematics.cpp:368:59: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
-../src/Movement/Kinematics/HangprinterKinematics.cpp:385:71: warning: implicit conversion from 'float' to 'double' when passing argument to function [-Wdouble-promotion]
-    debugPrintf("Lineposition %s Pietari: %f\n", axixes[i], linePos[i] + 1441,03);
-                                                            ~~~~~~~~~~~^~~~~~
-../src/Movement/Kinematics/HangprinterKinematics.cpp:385:80: warning: too many arguments for format [-Wformat-extra-args]
-    debugPrintf("Lineposition %s Pietari: %f\n", axixes[i], linePos[i] + 1441,03);
-                                                                                ^
-../src/Movement/Kinematics/HangprinterKinematics.cpp:388:69: warning: implicit conversion from 'float' to 'double' when passing argument to function [-Wdouble-promotion]
-    debugPrintf("Lineposition %s Pietari: %f\n", axixes[i], linePos[i]);
-                                                            ~~~~~~~~~^
-../src/Movement/Kinematics/HangprinterKinematics.cpp:402:75: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int32_t {aka long int}' [-Wformat=]
-   debugPrintf("Motor positions Pietari: %s, %f\n", axixes[i] , motorPos[i]);
-                                                                ~~~~~~~~~~~^
-../src/Movement/Kinematics/HangprinterKinematics.cpp:379:8: warning: unused variable 'elongations' [-Wunused-variable]
-  float elongations[HANGPRINTER_AXES];
-        ^~~~~~~~~~~
-../src/Movement/Kinematics/HangprinterKinematics.cpp: In member function 'void HangprinterKinematics::InverseTransform(float, float, float, float*) const':
-../src/Movement/Kinematics/HangprinterKinematics.cpp:599:59: warning: implicit conversion from 'float' to 'double' when passing argument to function [-Wdouble-promotion]
-   debugPrintf("machinepos before Pietari %f", machinePos[p]);
-                                               ~~~~~~~~~~~~^
-../src/Movement/Kinematics/HangprinterKinematics.cpp:609:59: warning: implicit conversion from 'float' to 'double' when passing argument to function [-Wdouble-promotion]
-    debugPrintf("machinepos after Pietari %f", machinePos[p]);
-                                               ~~~~~~~~~~~~^
-../src/Movement/Kinematics/HangprinterKinematics.cpp: In member function 'virtual bool HangprinterKinematics::Configure(unsigned int, GCodeBuffer&, const StringRef&, bool&)':
-../src/Movement/Kinematics/HangprinterKinematics.cpp:340:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-Finished building: ../src/Movement/Kinematics/HangprinterKinematics.cpp
- 
-Building target: Duet2CombinedFirmware.elf
-Invoking: Cross G++ Linker
-arm-none-eabi-gcc -L"C:\Eclipse\Firmware\CoreNG\SAM4E8E_RTOS" -L"C:\Eclipse\Firmware\FreeRTOS\SAM4E" -L"C:\Eclipse\Firmware\RRFLibraries\SAM4E_RTOS" -Os --specs=nano.specs -Wl,--gc-sections -Wl,--fatal-warnings -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -T"C:\Eclipse\Firmware\CoreNG\variants\duetNG\linker_scripts\gcc\flash.ld" -Wl,-Map,"C:\Eclipse\Firmware\RepRapFirmware\Duet2_RTOS/Duet2CombinedFirmware.map" -o "Duet2CombinedFirmware.elf" -mthumb -Wl,--cref -Wl,--check-sections -Wl,--gc-sections -Wl,--entry=Reset_Handler -Wl,--unresolved-symbols=report-all -Wl,--warn-common -Wl,--warn-section-align -Wl,--warn-unresolved-symbols -Wl,--start-group "C:\Eclipse\Firmware/CoreNG/SAM4E8E_RTOS/cores/arduino/syscalls.o"  ./src/Tools/Filament.o ./src/Tools/Tool.o  ./src/Storage/CRC32.o ./src/Storage/FileInfoParser.o ./src/Storage/FileStore.o ./src/Storage/MassStorage.o  ./src/ObjectModel/ObjectModel.o  ./src/Networking/W5500Ethernet/Wiznet/Internet/DHCP/dhcp.o  ./src/Networking/W5500Ethernet/Wiznet/Ethernet/W5500/w5500.o  ./src/Networking/W5500Ethernet/Wiznet/Ethernet/WizSpi.o ./src/Networking/W5500Ethernet/Wiznet/Ethernet/socketlib.o ./src/Networking/W5500Ethernet/Wiznet/Ethernet/wizchip_conf.o  ./src/Networking/W5500Ethernet/W5500Interface.o ./src/Networking/W5500Ethernet/W5500Socket.o  ./src/Networking/ESP8266WiFi/WiFiInterface.o ./src/Networking/ESP8266WiFi/WiFiSocket.o ./src/Networking/ESP8266WiFi/WifiFirmwareUploader.o  ./src/Networking/FirmwareUpdater.o ./src/Networking/FtpResponder.o ./src/Networking/HttpResponder.o ./src/Networking/Network.o ./src/Networking/NetworkBuffer.o ./src/Networking/NetworkResponder.o ./src/Networking/TelnetResponder.o  ./src/Movement/StepperDrivers/DriverMode.o ./src/Movement/StepperDrivers/TMC22xx.o ./src/Movement/StepperDrivers/TMC2660.o ./src/Movement/StepperDrivers/TMC51xx.o  ./src/Movement/Kinematics/CartesianKinematics.o ./src/Movement/Kinematics/CoreBaseKinematics.o ./src/Movement/Kinematics/CoreXYKinematics.o ./src/Movement/Kinematics/CoreXYUKinematics.o ./src/Movement/Kinematics/CoreXYUVKinematics.o ./src/Movement/Kinematics/CoreXZKinematics.o ./src/Movement/Kinematics/HangprinterKinematics.o ./src/Movement/Kinematics/Kinematics.o ./src/Movement/Kinematics/LinearDeltaKinematics.o ./src/Movement/Kinematics/PolarKinematics.o ./src/Movement/Kinematics/RotaryDeltaKinematics.o ./src/Movement/Kinematics/ScaraKinematics.o ./src/Movement/Kinematics/ZLeadscrewKinematics.o  ./src/Movement/BedProbing/Grid.o ./src/Movement/BedProbing/RandomProbePointSet.o  ./src/Movement/DDA.o ./src/Movement/DriveMovement.o ./src/Movement/Move.o ./src/Movement/StepTimer.o  ./src/Libraries/sha1/sha1.o  ./src/Libraries/Fatfs/ccsbcs.o ./src/Libraries/Fatfs/diskio.o ./src/Libraries/Fatfs/fattime_rtc.o ./src/Libraries/Fatfs/ff.o  ./src/Heating/Sensors/CpuTemperatureSensor.o ./src/Heating/Sensors/CurrentLoopTemperatureSensor.o ./src/Heating/Sensors/DhtSensor.o ./src/Heating/Sensors/RtdSensor31865.o ./src/Heating/Sensors/SpiTemperatureSensor.o ./src/Heating/Sensors/TemperatureSensor.o ./src/Heating/Sensors/Thermistor.o ./src/Heating/Sensors/ThermocoupleSensor31855.o ./src/Heating/Sensors/ThermocoupleSensor31856.o ./src/Heating/Sensors/TmcDriverTemperatureSensor.o  ./src/Heating/FOPDT.o ./src/Heating/Heat.o ./src/Heating/HeaterProtection.o ./src/Heating/Pid.o ./src/Heating/TemperatureError.o  ./src/GCodes/GCodeBuffer.o ./src/GCodes/GCodeInput.o ./src/GCodes/GCodeMachineState.o ./src/GCodes/GCodeQueue.o ./src/GCodes/GCodes.o ./src/GCodes/GCodes2.o ./src/GCodes/GCodes3.o ./src/GCodes/RestorePoint.o  ./src/FilamentMonitors/Duet3DFilamentMonitor.o ./src/FilamentMonitors/FilamentMonitor.o ./src/FilamentMonitors/LaserFilamentMonitor.o ./src/FilamentMonitors/PulsedFilamentMonitor.o ./src/FilamentMonitors/RotatingMagnetFilamentMonitor.o ./src/FilamentMonitors/SimpleFilamentMonitor.o  ./src/Fans/DotStarLed.o ./src/Fans/Fan.o ./src/Fans/Tacho.o  ./src/DuetNG/DueXn.o ./src/DuetNG/SX1509.o  ./src/CAN/CanInterface.o ./src/CAN/CanMessageBuffer.o ./src/CAN/CanSender.o  ./src/DmacManager.o ./src/IoPorts.o ./src/Logger.o ./src/ODrive.o ./src/OutputMemory.o ./src/Platform.o ./src/PortControl.o ./src/PrintMonitor.o ./src/RepRap.o ./src/RepRapFirmware.o ./src/Roland.o ./src/Scanner.o ./src/SoftTimer.o ./src/Spindle.o ./src/Tasks.o ./src/ZProbe.o ./src/ZProbeProgrammer.o   -lCoreNG -lFreeRTOS -lRRFLibraries -Wl,--end-group -lm
-Finished building target: Duet2CombinedFirmware.elf
- 
-make --no-print-directory post-build
-Generating binary file
-arm-none-eabi-objcopy -O binary C:\Eclipse\Firmware\RepRapFirmware\Duet2_RTOS/Duet2CombinedFirmware.elf C:\Eclipse\Firmware\RepRapFirmware\Duet2_RTOS/Duet2CombinedFirmware.bin
- 
+make: Nothing to be done for 'all'.

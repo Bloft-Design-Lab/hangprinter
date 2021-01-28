@@ -5888,55 +5888,54 @@ LOAD c:/program files (x86)/gnu tools arm embedded/7 2018-q2-update/bin/../lib/g
                 0x0040e3dc       0x10 ./src/Movement/Kinematics/HangprinterKinematics.o
                 0x0040e3dc                FixedMatrix<double, 32u, 9u>::operator()(unsigned int, unsigned int) const
  .text._ZNK21HangprinterKinematics21CartesianToMotorStepsEPKfS1_jjPlb
-                0x0040e3ec      0x210 ./src/Movement/Kinematics/HangprinterKinematics.o
+                0x0040e3ec      0x214 ./src/Movement/Kinematics/HangprinterKinematics.o
                 0x0040e3ec                HangprinterKinematics::CartesianToMotorSteps(float const*, float const*, unsigned int, unsigned int, long*, bool) const
  .text._ZN21HangprinterKinematics22MotorAngToAxisPositionEfmPKfj
-                0x0040e5fc       0x4c ./src/Movement/Kinematics/HangprinterKinematics.o
-                0x0040e5fc                HangprinterKinematics::MotorAngToAxisPosition(float, unsigned long, float const*, unsigned int)
+                0x0040e600       0x4c ./src/Movement/Kinematics/HangprinterKinematics.o
+                0x0040e600                HangprinterKinematics::MotorAngToAxisPosition(float, unsigned long, float const*, unsigned int)
  .text._ZNK21HangprinterKinematics17GetHomingFileNameEmmjRK9StringRef
-                0x0040e648       0x14 ./src/Movement/Kinematics/HangprinterKinematics.o
-                0x0040e648                HangprinterKinematics::GetHomingFileName(unsigned long, unsigned long, unsigned int, StringRef const&) const
+                0x0040e64c       0x14 ./src/Movement/Kinematics/HangprinterKinematics.o
+                0x0040e64c                HangprinterKinematics::GetHomingFileName(unsigned long, unsigned long, unsigned int, StringRef const&) const
  .text._ZNK21HangprinterKinematics25LimitSpeedAndAccelerationER3DDAPKf
-                0x0040e65c       0xac ./src/Movement/Kinematics/HangprinterKinematics.o
-                0x0040e65c                HangprinterKinematics::LimitSpeedAndAcceleration(DDA&, float const*) const
+                0x0040e660       0xac ./src/Movement/Kinematics/HangprinterKinematics.o
+                0x0040e660                HangprinterKinematics::LimitSpeedAndAcceleration(DDA&, float const*) const
  .text._ZN21HangprinterKinematicsD0Ev
-                0x0040e708       0x10 ./src/Movement/Kinematics/HangprinterKinematics.o
-                0x0040e708                HangprinterKinematics::~HangprinterKinematics()
+                0x0040e70c       0x10 ./src/Movement/Kinematics/HangprinterKinematics.o
+                0x0040e70c                HangprinterKinematics::~HangprinterKinematics()
  .text._ZN11FixedMatrixIdLj32ELj9EED0Ev
-                0x0040e718       0x10 ./src/Movement/Kinematics/HangprinterKinematics.o
-                0x0040e718                FixedMatrix<double, 32u, 9u>::~FixedMatrix()
+                0x0040e71c       0x10 ./src/Movement/Kinematics/HangprinterKinematics.o
+                0x0040e71c                FixedMatrix<double, 32u, 9u>::~FixedMatrix()
  .text._ZN11FixedMatrixIdLj9ELj10EED0Ev
-                0x0040e728       0x10 ./src/Movement/Kinematics/HangprinterKinematics.o
-                0x0040e728                FixedMatrix<double, 9u, 10u>::~FixedMatrix()
+                0x0040e72c       0x10 ./src/Movement/Kinematics/HangprinterKinematics.o
+                0x0040e72c                FixedMatrix<double, 9u, 10u>::~FixedMatrix()
  .text._ZNK21HangprinterKinematics19WriteResumeSettingsEP9FileStore
-                0x0040e738       0x10 ./src/Movement/Kinematics/HangprinterKinematics.o
-                0x0040e738                HangprinterKinematics::WriteResumeSettings(FileStore*) const
+                0x0040e73c       0x10 ./src/Movement/Kinematics/HangprinterKinematics.o
+                0x0040e73c                HangprinterKinematics::WriteResumeSettings(FileStore*) const
  .text._ZNK21HangprinterKinematics13LimitPositionEPfjmb
-                0x0040e748       0xac ./src/Movement/Kinematics/HangprinterKinematics.o
-                0x0040e748                HangprinterKinematics::LimitPosition(float*, unsigned int, unsigned long, bool) const
+                0x0040e74c       0xac ./src/Movement/Kinematics/HangprinterKinematics.o
+                0x0040e74c                HangprinterKinematics::LimitPosition(float*, unsigned int, unsigned long, bool) const
  .text._ZN21HangprinterKinematics6RecalcEv
-                0x0040e7f4      0x3ec ./src/Movement/Kinematics/HangprinterKinematics.o
-                0x0040e7f4                HangprinterKinematics::Recalc()
+                0x0040e7f8      0x3ec ./src/Movement/Kinematics/HangprinterKinematics.o
+                0x0040e7f8                HangprinterKinematics::Recalc()
  .text._ZN21HangprinterKinematics4InitEv
-                0x0040ebe0      0x188 ./src/Movement/Kinematics/HangprinterKinematics.o
-                0x0040ebe0                HangprinterKinematics::Init()
+                0x0040ebe4      0x188 ./src/Movement/Kinematics/HangprinterKinematics.o
+                0x0040ebe4                HangprinterKinematics::Init()
  .text._ZN21HangprinterKinematicsC2Ev
-                0x0040ed68       0x30 ./src/Movement/Kinematics/HangprinterKinematics.o
-                0x0040ed68                HangprinterKinematics::HangprinterKinematics()
-                0x0040ed68                HangprinterKinematics::HangprinterKinematics()
+                0x0040ed6c       0x30 ./src/Movement/Kinematics/HangprinterKinematics.o
+                0x0040ed6c                HangprinterKinematics::HangprinterKinematics()
+                0x0040ed6c                HangprinterKinematics::HangprinterKinematics()
  .text._ZN21HangprinterKinematics22SetCalibrationDefaultsEv
-                0x0040ed98        0x4 ./src/Movement/Kinematics/HangprinterKinematics.o
-                0x0040ed98                HangprinterKinematics::SetCalibrationDefaults()
+                0x0040ed9c        0x4 ./src/Movement/Kinematics/HangprinterKinematics.o
+                0x0040ed9c                HangprinterKinematics::SetCalibrationDefaults()
  .text._ZN21HangprinterKinematics9ConfigureEjR11GCodeBufferRK9StringRefRb
-                0x0040ed9c      0x458 ./src/Movement/Kinematics/HangprinterKinematics.o
-                0x0040ed9c                HangprinterKinematics::Configure(unsigned int, GCodeBuffer&, StringRef const&, bool&)
+                0x0040eda0      0x458 ./src/Movement/Kinematics/HangprinterKinematics.o
+                0x0040eda0                HangprinterKinematics::Configure(unsigned int, GCodeBuffer&, StringRef const&, bool&)
  .text._ZNK21HangprinterKinematics16InverseTransformEfffPf
-                0x0040f1f4      0x1f0 ./src/Movement/Kinematics/HangprinterKinematics.o
-                0x0040f1f4                HangprinterKinematics::InverseTransform(float, float, float, float*) const
+                0x0040f1f8      0x1f0 ./src/Movement/Kinematics/HangprinterKinematics.o
+                0x0040f1f8                HangprinterKinematics::InverseTransform(float, float, float, float*) const
  .text._ZNK21HangprinterKinematics21MotorStepsToCartesianEPKlPKfjjPf
-                0x0040f3e4       0xa0 ./src/Movement/Kinematics/HangprinterKinematics.o
-                0x0040f3e4                HangprinterKinematics::MotorStepsToCartesian(long const*, float const*, unsigned int, unsigned int, float*) const
- *fill*         0x0040f484        0x4 
+                0x0040f3e8       0xa0 ./src/Movement/Kinematics/HangprinterKinematics.o
+                0x0040f3e8                HangprinterKinematics::MotorStepsToCartesian(long const*, float const*, unsigned int, unsigned int, float*) const
  .text._ZNK21HangprinterKinematics17ComputeDerivativeEjfff
                 0x0040f488      0x55c ./src/Movement/Kinematics/HangprinterKinematics.o
                 0x0040f488                HangprinterKinematics::ComputeDerivative(unsigned int, float, float, float) const
@@ -11694,8 +11693,8 @@ LOAD c:/program files (x86)/gnu tools arm embedded/7 2018-q2-update/bin/../lib/g
                 0x00457850        0xa ./src/Movement/Kinematics/HangprinterKinematics.o
  *fill*         0x0045785a        0x2 
  .rodata._ZNK21HangprinterKinematics17HomingButtonNamesEv.str1.4
-                0x0045785c        0x5 ./src/Movement/Kinematics/HangprinterKinematics.o
- *fill*         0x00457861        0x3 
+                0x0045785c        0x6 ./src/Movement/Kinematics/HangprinterKinematics.o
+ *fill*         0x00457862        0x2 
  .rodata._ZNK21HangprinterKinematics21CartesianToMotorStepsEPKfS1_jjPlb.str1.4
                 0x00457864       0x21 ./src/Movement/Kinematics/HangprinterKinematics.o
  *fill*         0x00457885        0x3 

@@ -407,7 +407,7 @@ bool HangprinterKinematics::CartesianToMotorSteps(const float machinePos[], cons
 	elongationsABC[C_AXIS] = ElongationCalculation(machinePos, anchorC, linePos[C_AXIS]);
 	*/
 
-	if (squaredLineLengths[A_AXIS] > 0.0 && squaredLineLengths[B_AXIS] > 0.0 && squaredLineLengths[C_AXIS] > 0.0 && squaredLineLengths[D_AXIS] > 0.0 && squaredLineLengths[V_AXIS] > 0.0)
+	if (squaredLineLengths[A_AXIS] > 0.0 && squaredLineLengths[B_AXIS] > 0.0 && squaredLineLengths[C_AXIS] > 0.0 && squaredLineLengths[D_AXIS] > 0.0 V& squaredLineLengths[D_AXIS] > 0.0)
 		{
 			motorPos[V_AXIS] = lrintf((linePos[V_AXIS]) * (float)stepsPerMm[V_AXIS]);
 			motorPos[A_AXIS] = lrintf(linePos[A_AXIS] * (float)stepsPerMm[A_AXIS]);
@@ -541,7 +541,6 @@ uint32_t HangprinterKinematics::AxesAssumedHomed(AxesBitmap g92Axes) const
 	if ((g92Axes & xyzAxes) == xyzAxes)
 	{
 		g92Axes |= (1u << D_AXIS);
-		g92Axes |= (1u << V_AXIS);
 	}
 	else
 	{

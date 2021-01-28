@@ -1,13 +1,13 @@
-11:36:11 **** Incremental Build of configuration SAM4E8E_RTOS for project CoreNG ****
+12:21:57 **** Incremental Build of configuration SAM4E8E_RTOS for project CoreNG ****
 make -j8 all 
 make: Nothing to be done for 'all'.
-11:36:12 **** Incremental Build of configuration SAM4E for project FreeRTOS ****
+12:21:58 **** Incremental Build of configuration SAM4E for project FreeRTOS ****
 make -j8 all 
 make: Nothing to be done for 'all'.
-11:36:12 **** Incremental Build of configuration SAM4E_RTOS for project RRFLibraries ****
+12:21:58 **** Incremental Build of configuration SAM4E_RTOS for project RRFLibraries ****
 make all 
 make: Nothing to be done for 'all'.
-11:36:13 **** Incremental Build of configuration Duet2_RTOS for project RepRapFirmware ****
+12:21:59 **** Incremental Build of configuration Duet2_RTOS for project RepRapFirmware ****
 make -j8 all 
 Building file: ../src/Movement/Kinematics/HangprinterKinematics.cpp
 Invoking: Cross G++ Compiler
@@ -37,10 +37,10 @@ arm-none-eabi-g++ -D__SAM4E8E__ -DRTOS -DDUET_NG -D_XOPEN_SOURCE -I"C:\Eclipse\F
   float elongationsABC[HANGPRINTER_AXES - 2];
         ^~~~~~~~~~~~~~
 ../src/Movement/Kinematics/HangprinterKinematics.cpp: In member function 'void HangprinterKinematics::InverseTransform(float, float, float, float*) const':
-../src/Movement/Kinematics/HangprinterKinematics.cpp:619:59: warning: implicit conversion from 'float' to 'double' when passing argument to function [-Wdouble-promotion]
+../src/Movement/Kinematics/HangprinterKinematics.cpp:620:59: warning: implicit conversion from 'float' to 'double' when passing argument to function [-Wdouble-promotion]
    debugPrintf("machinepos before Pietari %f", machinePos[p]);
                                                ~~~~~~~~~~~~^
-../src/Movement/Kinematics/HangprinterKinematics.cpp:629:59: warning: implicit conversion from 'float' to 'double' when passing argument to function [-Wdouble-promotion]
+../src/Movement/Kinematics/HangprinterKinematics.cpp:630:59: warning: implicit conversion from 'float' to 'double' when passing argument to function [-Wdouble-promotion]
     debugPrintf("machinepos after Pietari %f", machinePos[p]);
                                                ~~~~~~~~~~~~^
 ../src/Movement/Kinematics/HangprinterKinematics.cpp: In member function 'virtual bool HangprinterKinematics::Configure(unsigned int, GCodeBuffer&, const StringRef&, bool&)':

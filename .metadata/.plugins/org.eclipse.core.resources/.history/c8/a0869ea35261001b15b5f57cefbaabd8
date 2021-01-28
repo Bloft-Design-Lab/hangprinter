@@ -541,7 +541,6 @@ uint32_t HangprinterKinematics::AxesAssumedHomed(AxesBitmap g92Axes) const
 	if ((g92Axes & xyzAxes) == xyzAxes)
 	{
 		g92Axes |= (1u << D_AXIS);
-		g92Axes |= (1u << V_AXIS);
 	}
 	else
 	{

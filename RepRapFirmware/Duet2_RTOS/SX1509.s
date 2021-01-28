@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
   55 001a 41F27D23 		movw	r3, #4733
   56 001e 24F80C3D 		strh	r3, [r4, #-12]!	@ movhi
   57 0022 0F4D     		ldr	r5, .L5
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 2
 
 
   58 0024 0F4F     		ldr	r7, .L5+4
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  112 0020 0193     		str	r3, [sp, #4]
  113 0022 0023     		movs	r3, #0
  114 0024 555D     		ldrb	r5, [r2, r5]	@ zero_extendqisi2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 3
 
 
  115 0026 0093     		str	r3, [sp]
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  169 002a 002B     		cmp	r3, #0
  170 002c F3D1     		bne	.L14
  171              	.L26:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 4
 
 
  172 002e F8BD     		pop	{r3, r4, r5, r6, r7, pc}
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  226 006a 07EE900A 		vmov	s15, r0	@ int
  227 006e B8EEE76A 		vcvt.f32.s32	s12, s15
  228 0072 07EE902A 		vmov	s15, r2	@ int
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 5
 
 
  229 0076 F8EEE77A 		vcvt.f32.s32	s15, s15
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  283 001e B1EE007A 		vmov.f32	s14, #4.0e+0
  284 0022 E7EEC76A 		vfms.f32	s13, s15, s14
  285 0026 DFED237A 		vldr.32	s15, .L48
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 6
 
 
  286 002a DFED235A 		vldr.32	s11, .L48+4
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  340              		.align	1
  341              		.p2align 2,,3
  342              		.global	_ZN6SX15098readByteEh
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 7
 
 
  343              		.syntax unified
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  397 0018 072C     		cmp	r4, #7
  398 001a 2846     		mov	r0, r5
  399 001c 0CD8     		bhi	.L60
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 8
 
 
  400 001e 1121     		movs	r1, #17
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  454 0036 38BF     		it	cc
  455 0038 0124     		movcc	r4, #1
  456 003a 072C     		cmp	r4, #7
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 9
 
 
  457 003c 28BF     		it	cs
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  511 000e 0193     		str	r3, [sp, #4]
  512 0010 0223     		movs	r3, #2
  513 0012 0146     		mov	r1, r0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 10
 
 
  514 0014 0093     		str	r3, [sp]
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  568              		.syntax unified
  569              		.thumb
  570              		.thumb_func
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 11
 
 
  571              		.fpu fpv4-sp-d16
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  625              	.L78:
  626 007a 00BF     		.align	2
  627              	.L77:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 12
 
 
  628 007c 00000000 		.word	_ZN7TwoWire24DefaultWaitForStatusFuncEP3Twim
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  682              		.fpu fpv4-sp-d16
  683              		.type	_ZN6SX150914checkInterruptEh, %function
  684              	_ZN6SX150914checkInterruptEh:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 13
 
 
  685              		@ args = 0, pretend = 0, frame = 0
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  739              		.thumb
  740              		.thumb_func
  741              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 14
 
 
  742              		.type	_ZN6SX15099writeByteEhh, %function
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  796 002a 04B0     		add	sp, sp, #16
  797              		@ sp needed
  798 002c 70BD     		pop	{r4, r5, r6, pc}
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 15
 
 
  799              	.L102:
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  853              		.type	_ZN6SX150915clearBitsInWordEht.part.2, %function
  854              	_ZN6SX150915clearBitsInWordEht.part.2:
  855              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 16
 
 
  856              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  910 001c EB40     		lsrs	r3, r3, r5
  911 001e DB07     		lsls	r3, r3, #31
  912 0020 0AD5     		bpl	.L114
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 17
 
 
  913 0022 6242     		negs	r2, r4
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  967 0018 002E     		cmp	r6, #0
  968 001a 41D0     		beq	.L128
  969              	.L143:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 18
 
 
  970 001c 60F07700 		orn	r0, r0, #119
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  1024 0094 1F21     		movs	r1, #31
  1025 0096 2046     		mov	r0, r4
  1026 0098 FFF7FEFF 		bl	_ZN6SX15098readByteEh
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 19
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 19
 
 
  1027 009c 002E     		cmp	r6, #0
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  1081              		.p2align 1
  1082              	.L148:
  1083 003a 9CB1     		cbz	r4, .L147
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 20
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 20
 
 
  1084 003c 2246     		mov	r2, r4
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  1138 00b2 002C     		cmp	r4, #0
  1139 00b4 D6D0     		beq	.L147
  1140 00b6 2246     		mov	r2, r4
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 21
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 21
 
 
  1141 00b8 2846     		mov	r0, r5
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  1195 0130 0022     		movs	r2, #0
  1196 0132 2846     		mov	r0, r5
  1197 0134 FFF7FEFF 		bl	_ZN6SX150911analogWriteEhh
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 22
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 22
 
 
  1198 0138 F2E7     		b	.L161
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  1252 01b0 02B0     		add	sp, sp, #8
  1253              		@ sp needed
  1254 01b2 70BD     		pop	{r4, r5, r6, pc}
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 23
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 23
 
 
  1255              	.L155:
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  1309 022e 2846     		mov	r0, r5
  1310 0230 FFF7FEFF 		bl	_ZN6SX150915clearBitsInWordEht.part.2
  1311 0234 2A89     		ldrh	r2, [r5, #8]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 24
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 24
 
 
  1312 0236 34EA0202 		bics	r2, r4, r2
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  1366 0006 89B2     		uxth	r1, r1
  1367 0008 FFF7FEBF 		b	_ZN6SX150915pinModeMultipleEt7PinMode
  1368              		.size	_ZN6SX15097pinModeEh7PinMode, .-_ZN6SX15097pinModeEh7PinMode
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 25
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 25
 
 
  1369              		.section	.text._ZN6SX150910writeDwordEhm,"ax",%progbits
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  1423 0002 033A     		subs	r2, r2, #3
  1424 0004 D2B2     		uxtb	r2, r2
  1425 0006 022A     		cmp	r2, #2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 26
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 26
 
 
  1426 0008 98BF     		it	ls
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 1
  1480              		.global	_ZN6SX150915enableInterruptEhh
  1481              		.syntax unified
  1482              		.thumb
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccOfYTMn.s 			page 27
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccBmG22w.s 			page 27
 
 
  1483              		.thumb_func

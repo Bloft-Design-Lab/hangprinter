@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
   55              		.syntax unified
   56              		.thumb
   57              		.thumb_func
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 2
 
 
   58              		.fpu fpv4-sp-d16
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  112              		.thumb
  113              		.thumb_func
  114              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 3
 
 
  115              		.type	_ZNK21RotaryDeltaKinematics23SupportsAutoCalibrationEv, %function
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  169 0002 7047     		bx	lr
  170              		.size	_ZNK21RotaryDeltaKinematics13GetHomingModeEv, .-_ZNK21RotaryDeltaKinematics13GetHomingModeEv
  171              		.section	.text._ZNK21RotaryDeltaKinematics7GetNameEb,"ax",%progbits
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 4
 
 
  172              		.align	1
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  226              		.align	1
  227              		.p2align 2,,3
  228              		.global	_ZNK21RotaryDeltaKinematics11IsReachableEffb
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 5
 
 
  229              		.syntax unified
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  283 0004 41F00700 		orrne	r0, r1, #7
  284 0008 0846     		moveq	r0, r1
  285 000a 7047     		bx	lr
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 6
 
 
  286              		.size	_ZNK21RotaryDeltaKinematics15MustBeHomedAxesEmb, .-_ZNK21RotaryDeltaKinematics15MustBeHomedA
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  340 0014 0025     		movs	r5, #0
  341              	.L32:
  342 0016 0094     		str	r4, [sp]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 7
 
 
  343 0018 0322     		movs	r2, #3
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  397 00ac 0390     		str	r0, [sp, #12]
  398 00ae FFF7FEFF 		bl	sqrtf
  399 00b2 0499     		ldr	r1, [sp, #16]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 8
 
 
  400 00b4 059B     		ldr	r3, [sp, #20]
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  454 000a 20EE000A 		vmul.f32	s0, s0, s0
  455 000e 2DED028B 		vpush.64	{d8}
  456 0012 A7EEA70A 		vfma.f32	s0, s15, s15
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 9
 
 
  457 0016 83B0     		sub	sp, sp, #12
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  511 00a8 00000000 		.word	reprap
  512              		.size	_ZNK21RotaryDeltaKinematics25LimitSpeedAndAccelerationER3DDAPKf, .-_ZNK21RotaryDeltaKinemati
  513              		.section	.text._ZN21RotaryDeltaKinematicsD0Ev,"axG",%progbits,_ZN21RotaryDeltaKinematicsD5Ev,comda
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 10
 
 
  514              		.align	1
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  568 003c AB72     		strb	r3, [r5, #10]
  569 003e 38BD     		pop	{r3, r4, r5, pc}
  570              	.L87:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 11
 
 
  571 0040 04F5F372 		add	r2, r4, #486
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  625 0062 A8EE089A 		vfma.f32	s18, s16, s16
  626 0066 76EEC77A 		vsub.f32	s15, s13, s14
  627 006a 60EE278A 		vmul.f32	s17, s0, s15
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 12
 
 
  628 006e B0EE490A 		vmov.f32	s0, s18
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  682 0030 D3F80831 		ldr	r3, [r3, #264]
  683 0034 DB06     		lsls	r3, r3, #27
  684 0036 29D5     		bpl	.L101
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 13
 
 
  685 0038 2068     		ldr	r0, [r4]	@ float
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  739 00cc F1EE10FA 		vmrs	APSR_nzcv, FPSCR
  740 00d0 F0EEC07A 		vabs.f32	s15, s0
  741 00d4 04D6     		bvs	.L114
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 14
 
 
  742 00d6 F4EE487A 		vcmp.f32	s15, s16
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  796 0040 FFF7FEFF 		bl	cosf
  797 0044 84ED110A 		vstr.32	s0, [r4, #68]
  798 0048 B4EC017A 		vldmia.32	r4!, {s14}
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 15
 
 
  799 004c D4ED027A 		vldr.32	s15, [r4, #8]
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  853 0028 9D61     		str	r5, [r3, #24]	@ float
  854 002a 43F8044B 		str	r4, [r3], #4	@ float
  855 002e 8B42     		cmp	r3, r1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 16
 
 
  856 0030 1A62     		str	r2, [r3, #32]	@ float
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  910              		.section	.text._ZN21RotaryDeltaKinematics22SetCalibrationDefaultsEv,"axG",%progbits,_ZN21RotaryDel
  911              		.align	1
  912              		.p2align 2,,3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 17
 
 
  913              		.weak	_ZN21RotaryDeltaKinematics22SetCalibrationDefaultsEv
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  967 0046 BDE8F087 		pop	{r4, r5, r6, r7, r8, r9, r10, pc}
  968              	.L152:
  969 004a 289C     		ldr	r4, [sp, #160]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 18
 
 
  970 004c 0094     		str	r4, [sp]
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  1024 00d6 3046     		mov	r0, r6
  1025 00d8 FFF7FEFF 		bl	_ZN11GCodeBuffer16TryGetFloatArrayEcjPfRK9StringRefRbb
  1026 00dc 0028     		cmp	r0, #0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 19
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 19
 
 
  1027 00de AED1     		bne	.L143
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  1081 016e 0646     		mov	r6, r0
  1082 0170 206C     		ldr	r0, [r4, #64]	@ float
  1083 0172 0F46     		mov	r7, r1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 20
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 20
 
 
  1084 0174 FFF7FEFF 		bl	__aeabi_f2d
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  1138 021c FFF7FEFF 		bl	_ZN11GCodeBuffer9GetFValueEv
  1139 0220 144B     		ldr	r3, .L156+8
  1140 0222 84ED180A 		vstr.32	s0, [r4, #96]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 21
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 21
 
 
  1141 0226 D3F804A0 		ldr	r10, [r3, #4]
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  1195              		.section	.text._ZNK21RotaryDeltaKinematics16ForwardTransformEfffPf,"ax",%progbits
  1196              		.align	1
  1197              		.p2align 2,,3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 22
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 22
 
 
  1198              		.global	_ZNK21RotaryDeltaKinematics16ForwardTransformEfffPf
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  1252 00ac D4ED1B7A 		vldr.32	s15, [r4, #108]
  1253 00b0 A7EE00DA 		vfma.f32	s26, s14, s0
  1254 00b4 B0EE480A 		vmov.f32	s0, s16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 23
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 23
 
 
  1255 00b8 2DEE05CA 		vmul.f32	s24, s26, s10
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  1309 0190 66EE4A5A 		vnmul.f32	s11, s12, s20
  1310 0194 65EE6B7A 		vnmul.f32	s15, s10, s23
  1311 0198 38EE088A 		vadd.f32	s16, s16, s16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 24
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 24
 
 
  1312 019c E3EEAA7A 		vfma.f32	s15, s7, s21
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  1366 0264 FFF7FEFF 		bl	__aeabi_f2d
  1367 0268 2246     		mov	r2, r4
  1368 026a CDE90001 		strd	r0, [sp]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 25
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 25
 
 
  1369 026e 2B46     		mov	r3, r5
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  1423 0036 87EE800A 		vdiv.f32	s0, s15, s0
  1424 003a FFF7FEFF 		bl	_ZNK21RotaryDeltaKinematics16ForwardTransformEfffPf
  1425 003e 032E     		cmp	r6, #3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 26
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 26
 
 
  1426 0040 16D9     		bls	.L173
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  1480              		.size	_ZNK21RotaryDeltaKinematics25GetAssumedInitialPositionEjPf, .-_ZNK21RotaryDeltaKinematics25G
  1481              		.global	_ZTV21RotaryDeltaKinematics
  1482              		.global	_ZN21RotaryDeltaKinematics17NormalTowerAnglesE
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 27
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 27
 
 
  1483              		.section	.bss._ZL28cpu_irq_prev_interrupt_state,"aw",%nobits
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  1513      6E747320 
  1514              		.section	.rodata._ZNK10Kinematics16MachineAxisNamesEv.str1.4,"aMS",%progbits,1
  1515              		.align	2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 28
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 28
 
 
  1516              	.LC1:
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 1
  1551              	_ZTV21RotaryDeltaKinematics:
  1552 0000 00000000 		.word	0
  1553 0004 00000000 		.word	0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLBkzwu.s 			page 29
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWleIM7.s 			page 29
 
 
  1554 0008 00000000 		.word	_ZNK21RotaryDeltaKinematics7GetNameEb

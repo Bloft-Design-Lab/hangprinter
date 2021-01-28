@@ -29,7 +29,7 @@ constexpr float DefaultAnchorC[3] = {-1244.59,  718.56, -216.0};
 constexpr float offsetF = DefaultAnchorC[2] - 71.0;
 
 constexpr float DefaultAnchorDz = 3706.1;
-constexpr float DefaultAnchorVz = 3706.1 + offsetF;
+constexpr float DefaultAnchorVz = 3706.1 - offsetF;
 constexpr float DefaultPrintRadius = 500.0;
 
 // Constructor
@@ -80,13 +80,13 @@ void HangprinterKinematics::Init()
 	 * In practice you might want to compensate a bit more or a bit less */
 	constexpr float DefaultSpoolBuildupFactor = 0.0001;
 	/* Measure and set spool radii with M669 to achieve better accuracy */
-	constexpr float DefaultSpoolRadii[5] = { 65.1, 65.1, 65.1, 65.1, 50.1}; // HP3 default
+	constexpr float DefaultSpoolRadii[5] = {50.1, 65.1, 65.1, 65.1, 65.1}; // HP3 default
 	/* If axis runs lines back through pulley system, set mechanical advantage accordingly with M669 */
-	constexpr uint32_t DefaultMechanicalAdvantage[5] = { 2, 2, 2, 1, 1}; // HP3 default
+	constexpr uint32_t DefaultMechanicalAdvantage[5] = {1, 2, 2, 2, 1}; // HP3 default
 	constexpr uint32_t DefaultLinesPerSpool[5] = { 1, 1, 1, 1, 1}; // HP3 default
 	// F axis 1:60
-	constexpr uint32_t DefaultMotorGearTeeth[5] = {  20, 20,  20,  20, 5}; // HP3 default
-	constexpr uint32_t DefaultSpoolGearTeeth[5] = { 255, 255, 255, 255, 300}; // HP3 default
+	constexpr uint32_t DefaultMotorGearTeeth[5] = {5,  20, 20,  20,  20}; // HP3 default
+	constexpr uint32_t DefaultSpoolGearTeeth[5] = { 300, 255, 255, 255, 255}; // HP3 default
 	constexpr uint32_t DefaultFullStepsPerMotorRev[5] = { 32, 32, 32, 32, 32};
 	ARRAY_INIT(anchorA, DefaultAnchorA);
 	ARRAY_INIT(anchorB, DefaultAnchorB);
@@ -106,7 +106,7 @@ void HangprinterKinematics::Init()
 	ARRAY_INIT(fullStepsPerMotorRev, DefaultFullStepsPerMotorRev);
 
 	doneAutoCalibration = false;
-	reprap.GetGCodes().SetMachineAxisLetters(MachineAxisNames(), 5);
+	reprap.GetGCodes().SetMachineAxisLetters(MachineAxisNames(), 4);
 	Recalc();
 }
 
@@ -147,12 +147,14 @@ void HangprinterKinematics::Recalc()
 
 	// This is the difference between a "line length" and a "line position"
 	// "line length" = "line position" + "line length in origin"
+
 	#define HYP3D(x,y,z) sqrtf(fsquare(x)+fsquare(y)+fsquare(z))
+	lineLengthsOrigin[V_AXIS] = anchorVz;
 	lineLengthsOrigin[A_AXIS] = HYP3D(anchorA[0], anchorA[1], anchorA[2]);
 	lineLengthsOrigin[B_AXIS] = HYP3D(anchorB[0], anchorB[1], anchorB[2]);
 	lineLengthsOrigin[C_AXIS] = HYP3D(anchorC[0], anchorC[1], anchorC[2]);
 	lineLengthsOrigin[D_AXIS] = anchorDz;
-	lineLengthsOrigin[V_AXIS] = anchorVz;
+
 
 	for (size_t z = 0; z < HANGPRINTER_AXES; z++){
 			debugPrintf("Pietari Line Lengths origins: %f\n", (float)lineLengthsOrigin[z]);
@@ -251,7 +253,7 @@ bool HangprinterKinematics::Configure(unsigned int mCode, GCodeBuffer& gb, const
 		{
 			// TODO: use reply.catf, or move RGHJ to M92, instead of making FORMAT_STRING_LENGTH contain all this?
 			reply.printf("Kinematics is Hangprinter\nAnchor positions:\n%.2f, %.2f, %.2f\n%.2f, %.2f, %.2f\n%.2f, %.2f, %.2f\n"
-				"%.2f\nPrint radius:\n%.1f\nSegments/s:\n%d\nMin segment length:\n%.2f\n"
+				"%.2f\n%.2f\nPrint radius:\n%.1f\nSegments/s:\n%d\nMin segment length:\n%.2f\n"
 				"Spool buildup factor:\n%.4f\n"
 				"Spool radii:\n%.2f, %.2f, %.2f, %.2f\n"
 				"Mechanical Advantage:\n%d, %d, %d, %d\n"
@@ -262,7 +264,7 @@ bool HangprinterKinematics::Configure(unsigned int mCode, GCodeBuffer& gb, const
 				(double)anchorA[X_AXIS], (double)anchorA[Y_AXIS], (double)anchorA[Z_AXIS],
 				(double)anchorB[X_AXIS], (double)anchorB[Y_AXIS], (double)anchorB[Z_AXIS],
 				(double)anchorC[X_AXIS], (double)anchorC[Y_AXIS], (double)anchorC[Z_AXIS],
-				(double)anchorDz, (double)printRadius,
+				(double)anchorDz, (double)anchorVz , (double)printRadius,
 				(int)segmentsPerSecond, (double)minSegmentLength,
 				(double)spoolBuildupFactor,
 				(double)spoolRadii[A_AXIS], (double)spoolRadii[B_AXIS], (double)spoolRadii[C_AXIS], (double)spoolRadii[D_AXIS],
@@ -319,7 +321,6 @@ inline float HangprinterKinematics::LineLengthSquared(const float machinePos[3],
 
 inline float HangprinterKinematics::ElongationCalculation(const float machinePos[3], const float anchor[3], float linePos) const
 {
-
 	float valueY = machinePos[Y_AXIS] - anchor[Y_AXIS];
 	float valueX = machinePos[X_AXIS] - anchor[X_AXIS];
 	float valueZ = machinePos[Z_AXIS] - anchor[Z_AXIS];
@@ -365,6 +366,7 @@ bool HangprinterKinematics::CartesianToMotorSteps(const float machinePos[], cons
 {
 
 	float squaredLineLengths[HANGPRINTER_AXES];
+	squaredLineLengths[V_AXIS] = 1;
 	squaredLineLengths[A_AXIS] = LineLengthSquared(machinePos, anchorA);
 	squaredLineLengths[B_AXIS] = LineLengthSquared(machinePos, anchorB);
 	squaredLineLengths[C_AXIS] = LineLengthSquared(machinePos, anchorC);
@@ -374,44 +376,51 @@ bool HangprinterKinematics::CartesianToMotorSteps(const float machinePos[], cons
 			+ fsquare(machinePos[Y_AXIS])
 			+ fsquare(anchorDz - machinePos[Z_AXIS])
 		);
-	squaredLineLengths[V_AXIS] = 1;
 
-	//char* axixes[4] = {"A axis", "B axis", "C axis", "D axis"};
+
+	char* axixes[5] = {"V axis", "A axis", "B axis", "C axis", "D axis"};
 	float linePos[HANGPRINTER_AXES];
 	float elongationsABC[HANGPRINTER_AXES - 2];
 
+	// muuta
 	for (size_t i = 0; i < HANGPRINTER_AXES; ++i)
 	{
-		linePos[i] = sqrtf(squaredLineLengths[i]) - lineLengthsOrigin[i];
+		if(i < 1){
+			linePos[V_AXIS] = anchorDz - machinePos[Z_AXIS] + offsetF;
+		} else {
+			linePos[i] = sqrtf(squaredLineLengths[i]) - lineLengthsOrigin[i];
+		}
+
 		/*if(i < 3){
 			//elongations[i] = elongationCalcABC(anchorA[0], anchorA[1], linePos[i]);
-			debugPrintf("Lineposition %s Pietari: %f\n", axixes[i], (float)linePos[i] + 1441,03);
+			debugPrintf("Lineposition %s Pietari: %f\n", axixes[i], linePos[i] + 1441,03);
 		} else {
 			//elongations[i] = elongationCalc((linePos[i]));
-			debugPrintf("Lineposition %s Pietari: %f\n", axixes[i], (float)linePos[i]);
+			debugPrintf("Lineposition %s Pietari: %f\n", axixes[i], linePos[i]);
 		}*/
 	}
 
-	linePos[V_AXIS] = anchorVz - machinePos[Z_AXIS] + offsetF;
 
+	/*
 	elongationsABC[A_AXIS] = ElongationCalculation(machinePos, anchorA, linePos[A_AXIS]);
 	elongationsABC[B_AXIS] = ElongationCalculation(machinePos, anchorB, linePos[B_AXIS]);
 	elongationsABC[C_AXIS] = ElongationCalculation(machinePos, anchorC, linePos[C_AXIS]);
+	*/
 
-
-	if (squaredLineLengths[A_AXIS] > 0.0 && squaredLineLengths[B_AXIS] > 0.0 && squaredLineLengths[C_AXIS] > 0.0 && squaredLineLengths[D_AXIS] > 0.0 && squaredLineLengths[V_AXIS] > 0.0 )
+	if (squaredLineLengths[A_AXIS] > 0.0 && squaredLineLengths[B_AXIS] > 0.0 && squaredLineLengths[C_AXIS] > 0.0 && squaredLineLengths[D_AXIS] > 0.0)
 		{
+			motorPos[V_AXIS] = lrintf((linePos[V_AXIS]) * (float)stepsPerMm[V_AXIS]);
 			motorPos[A_AXIS] = lrintf(linePos[A_AXIS] * (float)stepsPerMm[A_AXIS]);
 			motorPos[B_AXIS] = lrintf(linePos[B_AXIS] * (float)stepsPerMm[B_AXIS]);
 			motorPos[C_AXIS] = lrintf(linePos[C_AXIS] * (float)stepsPerMm[C_AXIS]);
-			motorPos[D_AXIS] = lrintf((linePos[D_AXIS]) * (float)stepsPerMm[D_AXIS]);
-			motorPos[V_AXIS] = lrintf((linePos[V_AXIS]) * stepsPerMm[V_AXIS]);
+			motorPos[D_AXIS] = lrintf((linePos[D_AXIS])* (float)stepsPerMm[D_AXIS]);
+
 			return true;
 		}
-	/*
+
 	for (size_t i = 0; i < HANGPRINTER_AXES; ++i){
 		debugPrintf("Motor positions Pietari: %s, %f\n", axixes[i] , (float)motorPos[i]);
-	} */
+	}
 
 
 
@@ -532,7 +541,6 @@ uint32_t HangprinterKinematics::AxesAssumedHomed(AxesBitmap g92Axes) const
 	if ((g92Axes & xyzAxes) == xyzAxes)
 	{
 		g92Axes |= (1u << D_AXIS);
-		g92Axes |= (1u << V_AXIS);
 	}
 	else
 	{
@@ -608,7 +616,7 @@ void HangprinterKinematics::InverseTransform(float La, float Lb, float Lc, float
 	const float C = fsquare(S) + fsquare(T) + (anchorA[1] * T - anchorA[0] * S) * P * 2 + (Da2 - fsquare(La)) * P2;
 	debugPrintf("Inverse Transform Pietari: S: %.2f, T: %.2f, halfB: %.2f, C: %.2f\n", (double)S, (double)T, (double)halfB, (double)C);
 	for(int p = 0; p < 3; p++){
-		debugPrintf("machinepos before Pietari %f", (float)machinePos[p]);
+		debugPrintf("machinepos before Pietari %f", machinePos[p]);
 	}
 	// Solve the quadratic equation for z
 	machinePos[2] = (- halfB - sqrtf(fabs(fsquare(halfB) - A * C)))/A;
@@ -618,7 +626,7 @@ void HangprinterKinematics::InverseTransform(float La, float Lb, float Lc, float
 	machinePos[1] = (R * machinePos[2] + T)/P;
 
 	for(int p = 0; p < 3; p++){
-			debugPrintf("machinepos after Pietari %f", (float)machinePos[p]);
+			debugPrintf("machinepos after Pietari %f", machinePos[p]);
 		}
 	debugPrintf("Motor %.2f,%.2f,%.2f to Cartesian %.2f,%.2f,%.2f\n", (double)La, (double)Lb, (double)Lc, (double)machinePos[0], (double)machinePos[1], (double)machinePos[2]);
 }

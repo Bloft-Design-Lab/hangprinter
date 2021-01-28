@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccmbLNzj.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccw4Mgtt.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccmbLNzj.s 			page 1
   55              		.align	1
   56              		.p2align 2,,3
   57              		.global	_Z15watchdogDisablev
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccmbLNzj.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccw4Mgtt.s 			page 2
 
 
   58              		.syntax unified

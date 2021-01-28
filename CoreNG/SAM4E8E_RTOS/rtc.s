@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRoiwW4.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccN4aLsf.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRoiwW4.s 			page 1
   55              		.section	.text.rtc_enable_interrupt,"ax",%progbits
   56              		.align	1
   57              		.p2align 2,,3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRoiwW4.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccN4aLsf.s 			page 2
 
 
   58              		.global	rtc_enable_interrupt
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRoiwW4.s 			page 1
  112              	rtc_get_time:
  113              		@ args = 0, pretend = 0, frame = 0
  114              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRoiwW4.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccN4aLsf.s 			page 3
 
 
  115              		@ link register save eliminated.
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRoiwW4.s 			page 1
  169 0008 05D0     		beq	.L29
  170 000a 0C29     		cmp	r1, #12
  171 000c 86BF     		itte	hi
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRoiwW4.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccN4aLsf.s 			page 4
 
 
  172 000e 0C39     		subhi	r1, r1, #12
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRoiwW4.s 			page 1
  226              		.thumb_func
  227              		.fpu fpv4-sp-d16
  228              		.type	rtc_set_time_alarm, %function
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRoiwW4.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccN4aLsf.s 			page 5
 
 
  229              	rtc_set_time_alarm:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRoiwW4.s 			page 1
  283 0084 7047     		bx	lr
  284              	.L58:
  285 0086 0C2A     		cmp	r2, #12
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRoiwW4.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccN4aLsf.s 			page 6
 
 
  286 0088 C3D9     		bls	.L47
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRoiwW4.s 			page 1
  340              	.L65:
  341 0052 43B1     		cbz	r3, .L66
  342 0054 C4F30172 		ubfx	r2, r4, #28, #2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRoiwW4.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccN4aLsf.s 			page 7
 
 
  343 0058 02EB8202 		add	r2, r2, r2, lsl #2
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRoiwW4.s 			page 1
  397 0062 ED08     		lsrs	r5, r5, #3
  398 0064 02EB8204 		add	r4, r2, r2, lsl #2
  399 0068 3B43     		orrs	r3, r3, r7
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRoiwW4.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccN4aLsf.s 			page 8
 
 
  400 006a 05EB8505 		add	r5, r5, r5, lsl #2
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRoiwW4.s 			page 1
  454 0018 42EA0151 		orr	r1, r2, r1, lsl #20
  455              	.L93:
  456 001c 5BB1     		cbz	r3, .L94
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRoiwW4.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccN4aLsf.s 			page 9
 
 
  457 001e 0F4B     		ldr	r3, .L102
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRoiwW4.s 			page 1
  511              		@ args = 0, pretend = 0, frame = 0
  512              		@ frame_needed = 0, uses_anonymous_args = 0
  513              		@ link register save eliminated.
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRoiwW4.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccN4aLsf.s 			page 10
 
 
  514 0000 014B     		ldr	r3, .L106
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRoiwW4.s 			page 1
  568 0002 7047     		bx	lr
  569              		.size	rtc_get_valid_entry, .-rtc_get_valid_entry
  570              		.section	.text.rtc_set_time_event,"ax",%progbits
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRoiwW4.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccN4aLsf.s 			page 11
 
 
  571              		.align	1
@@ -658,6 +658,6 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRoiwW4.s 			page 1
  625              	cpu_irq_prev_interrupt_state:
  626 0000 00       		.space	1
  627              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 7-2018-q2-update) 7.3.1 20180622 (release) [AR
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRoiwW4.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccN4aLsf.s 			page 12
 
 

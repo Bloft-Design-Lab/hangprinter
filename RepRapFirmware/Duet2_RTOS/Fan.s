@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cceXDEPE.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 1
   55              		.global	_ZN3Fan7RefreshEv
   56              		.syntax unified
   57              		.thumb
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cceXDEPE.s 			page 2
 
 
   58              		.thumb_func
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 1
  112 0092 FFF7FEFF 		bl	_ZN3Fan14SetHardwarePwmEf
  113 0096 C5ED018A 		vstr.32	s17, [r5, #4]
  114 009a 03B0     		add	sp, sp, #12
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cceXDEPE.s 			page 3
 
 
  115              		@ sp needed
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 1
  169 012e F0EE477A 		vmovmi.f32	s15, s14
  170              	.L26:
  171 0132 B4EE488A 		vcmp.f32	s16, s16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cceXDEPE.s 			page 4
 
 
  172 0136 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 1
  226              	.L93:
  227 01b8 B4EEE89A 		vcmpe.f32	s18, s17
  228 01bc F1EE10FA 		vmrs	APSR_nzcv, FPSCR
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cceXDEPE.s 			page 5
 
 
  229 01c0 1FD9     		bls	.L31
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 1
  283 0268 6FE7     		b	.L29
  284              	.L102:
  285 026a FFF7FEFF 		bl	millis
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cceXDEPE.s 			page 6
 
 
  286 026e D5E90723 		ldrd	r2, r3, [r5, #28]
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 1
  340              		.p2align 2,,3
  341              		.global	_ZN3Fan4InitEhtbt
  342              		.syntax unified
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cceXDEPE.s 			page 7
 
 
  343              		.thumb
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 1
  397              		@ link register save eliminated.
  398 0000 80ED000A 		vstr.32	s0, [r0]
  399 0004 FFF7FEBF 		b	_ZN3Fan7RefreshEv
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cceXDEPE.s 			page 8
 
 
  400              		.size	_ZN3Fan6SetPwmEf, .-_ZN3Fan6SetPwmEf
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 1
  454 0032 96F82C30 		ldrb	r3, [r6, #44]	@ zero_extendqisi2
  455 0036 FF2B     		cmp	r3, #255
  456 0038 00F0EB80 		beq	.L237
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cceXDEPE.s 			page 9
 
 
  457 003c 4921     		movs	r1, #73
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 1
  511 00ba 40F0C880 		bne	.L170
  512 00be 5221     		movs	r1, #82
  513 00c0 2046     		mov	r0, r4
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cceXDEPE.s 			page 10
 
 
  514 00c2 FFF7FEFF 		bl	_ZN11GCodeBuffer4SeenEc
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 1
  568 0164 1C46     		moveq	r4, r3
  569 0166 CDE90201 		strd	r0, [sp, #8]
  570 016a 18EE103A 		vmov	r3, s16	@ int
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cceXDEPE.s 			page 11
 
 
  571 016e 0494     		str	r4, [sp, #16]
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 1
  625 01f8 06F14403 		add	r3, r6, #68
  626 01fc 06F12C02 		add	r2, r6, #44
  627 0200 FFF7FEFF 		bl	_ZNK8Platform15TranslateFanPinEtRhRb
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cceXDEPE.s 			page 12
 
 
  628 0204 0028     		cmp	r0, #0
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 1
  682              	.L244:
  683 0284 1AAA     		add	r2, sp, #104
  684 0286 1223     		movs	r3, #18
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cceXDEPE.s 			page 13
 
 
  685 0288 42F84C3D 		str	r3, [r2, #-76]!
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 1
  739 031e 48BF     		it	mi
  740 0320 F0EE407A 		vmovmi.f32	s15, s0
  741              	.L140:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cceXDEPE.s 			page 14
 
 
  742 0324 C6ED037A 		vstr.32	s15, [r6, #12]
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 1
  796 03b6 2046     		mov	r0, r4
  797 03b8 FFF7FEFF 		bl	_ZN11GCodeBuffer9GetIValueEv
  798 03bc 0128     		cmp	r0, #1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cceXDEPE.s 			page 15
 
 
  799 03be 4FF6FF73 		movw	r3, #65535
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 1
  853 0456 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
  854 045a 0DD6     		bvs	.L158
  855 045c 5FED077A 		vldr.32	s15, .L250+56
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cceXDEPE.s 			page 16
 
 
  856 0460 B4EEE70A 		vcmpe.f32	s0, s15
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 1
  910 04e4 1EE7     		b	.L140
  911              	.L245:
  912 04e6 2246     		mov	r2, r4
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cceXDEPE.s 			page 17
 
 
  913 04e8 0649     		ldr	r1, .L252+16
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 1
  967              		.thumb
  968              		.thumb_func
  969              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cceXDEPE.s 			page 18
 
 
  970              		.type	_ZN3Fan7DisableEv, %function
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 1
  1024 0020 CDE90001 		strd	r0, [sp]
  1025 0024 03A8     		add	r0, sp, #12
  1026 0026 0449     		ldr	r1, .L284
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 19
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cceXDEPE.s 			page 19
 
 
  1027 0028 FFF7FEFF 		bl	_ZNK9StringRef6printfEPKcz
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 1
  1069 0058 20282573 		.ascii	" (%s)\000"
  1069      2900
  1070 005e 0000     		.space	2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cczArtYJ.s 			page 20
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cceXDEPE.s 			page 20
 
 
  1071              	.LC7:

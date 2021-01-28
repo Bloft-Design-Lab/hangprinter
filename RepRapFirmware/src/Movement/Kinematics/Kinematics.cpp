@@ -74,7 +74,7 @@ float Kinematics::MotorAngToAxisPosition(float ang, uint32_t fullStepsPerRevolut
 
 uint32_t Kinematics::GetFullStepsPerMotorRev(size_t axis)
 {
-	return 25;
+	return 32;
 }
 
 // Limit the Cartesian position that the user wants to move to, returning true if any coordinates were changed

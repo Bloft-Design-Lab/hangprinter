@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccm9TgQd.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 1
   55 0044 67EE877A 		vmul.f32	s15, s15, s14
   56 0048 6F68     		ldr	r7, [r5, #4]	@ unaligned
   57 004a 17EE900A 		vmov	r0, s15
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccm9TgQd.s 			page 2
 
 
   58 004e FFF7FEFF 		bl	__aeabi_f2d
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 1
  112 00e4 FFF7FEFF 		bl	__aeabi_f2d
  113 00e8 C8EE887A 		vdiv.f32	s15, s17, s16
  114 00ec CDE90401 		strd	r0, [sp, #16]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccm9TgQd.s 			page 3
 
 
  115 00f0 CDE90287 		strd	r8, r7, [sp, #8]
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 1
  169              		.align	1
  170              		.p2align 2,,3
  171              		.weak	_ZN29RotatingMagnetFilamentMonitorD0Ev
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccm9TgQd.s 			page 4
 
 
  172              		.syntax unified
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 1
  226 002a 3346     		mov	r3, r6
  227 002c 04F59A72 		add	r2, r4, #308
  228 0030 4C21     		movs	r1, #76
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccm9TgQd.s 			page 5
 
 
  229 0032 3846     		mov	r0, r7
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 1
  283 00ca CDE90601 		strd	r0, [sp, #24]
  284 00ce 2A46     		mov	r2, r5
  285 00d0 CDE904B3 		strd	fp, r3, [sp, #16]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccm9TgQd.s 			page 6
 
 
  286 00d4 CDE90267 		strd	r6, [sp, #8]
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 1
  340 016e FFF7FEFF 		bl	_ZN11GCodeBuffer9GetIValueEv
  341 0172 0028     		cmp	r0, #0
  342 0174 D4BF     		ite	le
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccm9TgQd.s 			page 7
 
 
  343 0176 0020     		movle	r0, #0
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 1
  397              	.L68:
  398 021c 4046     		mov	r0, r8
  399 021e 2149     		ldr	r1, .L70+44
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccm9TgQd.s 			page 8
 
 
  400 0220 4D46     		mov	r5, r9
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 1
  454              		.type	_ZN29RotatingMagnetFilamentMonitorC2Eji, %function
  455              	_ZN29RotatingMagnetFilamentMonitorC2Eji:
  456              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccm9TgQd.s 			page 9
 
 
  457              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 1
  511              		.align	1
  512              		.p2align 2,,3
  513              		.global	_ZN29RotatingMagnetFilamentMonitor4InitEv
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccm9TgQd.s 			page 10
 
 
  514              		.syntax unified
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 1
  568              		.align	1
  569              		.p2align 2,,3
  570              		.global	_ZN29RotatingMagnetFilamentMonitor18HandleIncomingDataEv
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccm9TgQd.s 			page 11
 
 
  571              		.syntax unified
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 1
  625 008c A7EE887A 		vfma.f32	s14, s15, s16
  626 0090 F0EE477A 		vmov.f32	s15, s14
  627 0094 84ED577A 		vstr.32	s14, [r4, #348]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccm9TgQd.s 			page 12
 
 
  628 0098 002B     		cmp	r3, #0
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 1
  682 0036 B4F84C21 		ldrh	r2, [r4, #332]
  683 003a 1342     		tst	r3, r2
  684 003c 14BF     		ite	ne
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccm9TgQd.s 			page 13
 
 
  685 003e 0846     		movne	r0, r1
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 1
  739 0014 B0EE408A 		vmov.f32	s16, s0
  740 0018 F0EE608A 		vmov.f32	s17, s1
  741 001c 18D5     		bpl	.L108
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccm9TgQd.s 			page 14
 
 
  742 001e 10EE100A 		vmov	r0, s0
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 1
  796 00bc 84ED5B7A 		vstrgt.32	s14, [r4, #364]
  797 00c0 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
  798 00c4 48BF     		it	mi
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccm9TgQd.s 			page 15
 
 
  799 00c6 84ED5C7A 		vstrmi.32	s14, [r4, #368]
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 1
  853              	_ZN29RotatingMagnetFilamentMonitor5CheckEbbbf:
  854              		@ args = 0, pretend = 0, frame = 0
  855              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccm9TgQd.s 			page 16
 
 
  856 0000 38B5     		push	{r3, r4, r5, lr}
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 1
  910 0092 0023     		movs	r3, #0
  911 0094 C4F85801 		str	r0, [r4, #344]	@ float
  912 0098 84F86011 		strb	r1, [r4, #352]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccm9TgQd.s 			page 17
 
 
  913 009c 84F86221 		strb	r2, [r4, #354]
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 1
  966      7200
  967 0006 0000     		.space	2
  968              	.LC1:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccm9TgQd.s 			page 18
 
 
  969 0008 6E6F2064 		.ascii	"no data received\000"
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 1
  992      66206D65 
  992      61732025 
  993              		.section	.rodata._ZN29RotatingMagnetFilamentMonitor9ConfigureER11GCodeBufferRK9StringRefRb.str1.4,
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 19
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccm9TgQd.s 			page 19
 
 
  994              		.align	2
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 1
  1021 0000 00000000 		.word	0
  1022 0004 00000000 		.word	0
  1023 0008 00000000 		.word	_ZN29RotatingMagnetFilamentMonitor9ConfigureER11GCodeBufferRK9StringRefRb
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccy27wzC.s 			page 20
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccm9TgQd.s 			page 20
 
 
  1024 000c 00000000 		.word	_ZN29RotatingMagnetFilamentMonitor5CheckEbbbf

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccET4Jbf.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 1
   55              		.syntax unified
   56              		.thumb
   57              		.thumb_func
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccET4Jbf.s 			page 2
 
 
   58              		.fpu fpv4-sp-d16
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 1
  112              		.type	_ZN9UARTClass5flushEv, %function
  113              	_ZN9UARTClass5flushEv:
  114              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccET4Jbf.s 			page 3
 
 
  115              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 1
  169 0040 7047     		bx	lr
  170              	.L25:
  171 0042 0120     		movs	r0, #1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccET4Jbf.s 			page 4
 
 
  172 0044 D961     		str	r1, [r3, #28]
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 1
  226 0000 10B5     		push	{r4, lr}
  227 0002 0369     		ldr	r3, [r0, #16]
  228 0004 D3F80422 		ldr	r2, [r3, #516]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccET4Jbf.s 			page 5
 
 
  229 0008 C3F80022 		str	r2, [r3, #512]
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 1
  283 002a 00BF     		.section	.text._ZN9UARTClassD0Ev,"axG",%progbits,_ZN9UARTClassD5Ev,comdat
  284              		.align	1
  285              		.p2align 2,,3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccET4Jbf.s 			page 6
 
 
  286              		.weak	_ZN9UARTClassD0Ev
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 1
  340              		.align	1
  341              		.p2align 2,,3
  342              		.global	_ZN9UARTClass4initEmm
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccET4Jbf.s 			page 7
 
 
  343              		.syntax unified
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 1
  397              	.L48:
  398 0074 00000000 		.word	SystemCoreClock
  399 0078 00E100E0 		.word	-536813312
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccET4Jbf.s 			page 8
 
 
  400              		.size	_ZN9UARTClass4initEmm, .-_ZN9UARTClass4initEmm
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 1
  454 001c 7047     		bx	lr
  455              	.L55:
  456 001e 034A     		ldr	r2, .L56
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccET4Jbf.s 			page 9
 
 
  457 0020 03F00F03 		and	r3, r3, #15
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 1
  511              		@ link register save eliminated.
  512 0000 4369     		ldr	r3, [r0, #20]
  513 0002 D3F80002 		ldr	r0, [r3, #512]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccET4Jbf.s 			page 10
 
 
  514 0006 D3F80432 		ldr	r3, [r3, #516]
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 1
  568 0050 D3F80422 		ldr	r2, [r3, #516]
  569 0054 9A5C     		ldrb	r2, [r3, r2]	@ zero_extendqisi2
  570 0056 D2B2     		uxtb	r2, r2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccET4Jbf.s 			page 11
 
 
  571 0058 CA61     		str	r2, [r1, #28]
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 1
  625 00d2 9847     		blx	r3
  626 00d4 A3E7     		b	.L71
  627              	.L93:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccET4Jbf.s 			page 12
 
 
  628 00d6 00BF     		.align	2
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 1
  682 0018 00000000 		.word	_ZN9UARTClass9availableEv
  683 001c 00000000 		.word	_ZN9UARTClass4readEv
  684 0020 00000000 		.word	_ZN9UARTClass4peekEv
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc0UISM6.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccET4Jbf.s 			page 13
 
 
  685 0024 00000000 		.word	_ZN9UARTClass5flushEv

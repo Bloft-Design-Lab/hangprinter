@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
   55              		@ args = 0, pretend = 0, frame = 0
   56              		@ frame_needed = 0, uses_anonymous_args = 0
   57 0000 08B5     		push	{r3, lr}
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 2
 
 
   58 0002 8021     		movs	r1, #128
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  112              		@ args = 0, pretend = 0, frame = 0
  113              		@ frame_needed = 0, uses_anonymous_args = 0
  114              		@ link register save eliminated.
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 3
 
 
  115 0000 F0B4     		push	{r4, r5, r6, r7}
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  169 001a 5679     		ldrb	r6, [r2, #5]	@ zero_extendqisi2
  170 001c C171     		strb	r1, [r0, #7]
  171 001e 0C0E     		lsrs	r4, r1, #24
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 4
 
 
  172 0020 0346     		mov	r3, r0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  226 00a0 2B000000 		.word	.LANCHOR7+43
  227 00a4 6B000000 		.word	.LANCHOR7+107
  228 00a8 63825363 		.word	1666417251
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 5
 
 
  229              		.size	_Z11makeDHCPMSGv, .-_Z11makeDHCPMSGv
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  283 0074 02F11409 		add	r9, r2, #20
  284 0078 02F1150E 		add	lr, r2, #21
  285 007c 02F11607 		add	r7, r2, #22
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 6
 
 
  286 0080 02F11706 		add	r6, r2, #23
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  340 0122 BDE8F08F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
  341              	.L44:
  342 0126 8C46     		mov	ip, r1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 7
 
 
  343 0128 1B22     		movs	r2, #27
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  397 0034 0679     		ldrb	r6, [r0, #4]	@ zero_extendqisi2
  398 0036 82F8F950 		strb	r5, [r2, #249]
  399 003a 0129     		cmp	r1, #1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 8
 
 
  400 003c 4579     		ldrb	r5, [r0, #5]	@ zero_extendqisi2
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  454 00d2 A1EB0C07 		sub	r7, r1, ip
  455 00d6 0028     		cmp	r0, #0
  456 00d8 F5D1     		bne	.L60
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 9
 
 
  457 00da 0236     		adds	r6, r6, #2
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  511 0162 104B     		ldr	r3, .L64+16
  512 0164 0C4A     		ldr	r2, .L64+4
  513 0166 1B68     		ldr	r3, [r3]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 10
 
 
  514 0168 0F48     		ldr	r0, .L64+20
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  568 0010 1068     		ldr	r0, [r2]
  569 0012 2C4A     		ldr	r2, .L70+12
  570 0014 2C4C     		ldr	r4, .L70+16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 11
 
 
  571 0016 C2F8F040 		str	r4, [r2, #240]
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  625              	.L71:
  626 00b6 00BF     		.align	2
  627              	.L70:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 12
 
 
  628 00b8 00000000 		.word	.LANCHOR0
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  682 004e 9142     		cmp	r1, r2
  683 0050 F3D1     		bne	.L97
  684 0052 697F     		ldrb	r1, [r5, #29]	@ zero_extendqisi2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 13
 
 
  685 0054 5A78     		ldrb	r2, [r3, #1]	@ zero_extendqisi2
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  739              	.L102:
  740 00c4 332B     		cmp	r3, #51
  741 00c6 16D1     		bne	.L77
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 14
 
 
  742 00c8 AB78     		ldrb	r3, [r5, #2]	@ zero_extendqisi2
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  796              		.align	1
  797              		.p2align 2,,3
  798              		.global	_Z9DHCP_stopv
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 15
 
 
  799              		.syntax unified
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  853              	.L118:
  854 0022 FFF7FEFF 		bl	_Z18send_DHCP_DISCOVERv
  855 0026 0120     		movs	r0, #1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 16
 
 
  856 0028 2870     		strb	r0, [r5]
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  910 0088 00000000 		.word	.LANCHOR15
  911 008c 00000000 		.word	.LANCHOR11
  912 0090 00000000 		.word	.LANCHOR16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 17
 
 
  913 0094 00000000 		.word	.LANCHOR17
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  967              		@ args = 0, pretend = 0, frame = 8
  968              		@ frame_needed = 0, uses_anonymous_args = 0
  969 0000 30B5     		push	{r4, r5, lr}
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 18
 
 
  970 0002 7A4C     		ldr	r4, .L170
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  1024 006a 6448     		ldr	r0, .L170+16
  1025 006c FFF7FEFF 		bl	_ZN9IPAddress5SetV4EPKh
  1026 0070 FFF7FEFF 		bl	_Z17send_DHCP_REQUESTv
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 19
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 19
 
 
  1027 0074 2570     		strb	r5, [r4]
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  1081 00d0 5A1C     		adds	r2, r3, #1
  1082 00d2 04D0     		beq	.L159
  1083 00d4 4A4D     		ldr	r5, .L170+20
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 20
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 20
 
 
  1084 00d6 2A68     		ldr	r2, [r5]
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  1138 013c 2970     		strb	r1, [r5]
  1139 013e 53D0     		beq	.L160
  1140 0140 354B     		ldr	r3, .L170+44
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 21
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 21
 
 
  1141 0142 1B68     		ldr	r3, [r3]
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  1195 01aa 41F8045D 		str	r5, [r1, #-4]!
  1196 01ae 4FF47060 		mov	r0, #3840
  1197 01b2 FFF7FEFF 		bl	_Z15WIZCHIP_READ_IPmR9IPAddress
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 22
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 22
 
 
  1198 01b6 114A     		ldr	r2, .L170+16
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  1252              		.type	_Z9DHCP_inithmPKc, %function
  1253              	_Z9DHCP_inithmPKc:
  1254              		@ args = 0, pretend = 0, frame = 8
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 23
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 23
 
 
  1255              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  1309 007c 1A60     		str	r2, [r3]
  1310 007e C9F80050 		str	r5, [r9]
  1311 0082 3570     		strb	r5, [r6]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 24
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 24
 
 
  1312 0084 C7F80080 		str	r8, [r7]
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  1366 0016 7047     		bx	lr
  1367              	.L180:
  1368              		.align	2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 25
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 25
 
 
  1369              	.L179:
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  1423              		.thumb
  1424              		.thumb_func
  1425              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 26
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 26
 
 
  1426              		.type	_Z13getGWfromDHCPv, %function
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  1480              		.size	_Z14getDNSfromDHCPv, .-_Z14getDNSfromDHCPv
  1481              		.section	.text._Z16getDHCPLeasetimev,"ax",%progbits
  1482              		.align	1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 27
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 27
 
 
  1483              		.p2align 2,,3
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  1536              		.set	.LANCHOR10,. + 0
  1537              		.type	DHCP_SOCKET, %object
  1538              		.size	DHCP_SOCKET, 1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 28
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 28
 
 
  1539              	DHCP_SOCKET:
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  1589      00000000 
  1590              		.section	.bss._ZL28cpu_irq_prev_interrupt_state,"aw",%nobits
  1591              		.type	_ZL28cpu_irq_prev_interrupt_state, %object
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 29
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 29
 
 
  1592              		.size	_ZL28cpu_irq_prev_interrupt_state, 1
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 1
  1646              	HOST_NAME:
  1647 0000 44756574 		.ascii	"DuetEthernet\000"
  1647      45746865 
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgnoFpX.s 			page 30
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSVbYJl.s 			page 30
 
 
  1647      726E6574 

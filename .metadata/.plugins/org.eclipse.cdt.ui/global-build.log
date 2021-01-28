@@ -1,40 +1,50 @@
-15:41:57 **** Incremental Build of configuration SAM4E8E_RTOS for project CoreNG ****
+11:36:11 **** Incremental Build of configuration SAM4E8E_RTOS for project CoreNG ****
 make -j8 all 
 make: Nothing to be done for 'all'.
-15:41:58 **** Incremental Build of configuration SAM4E for project FreeRTOS ****
+11:36:12 **** Incremental Build of configuration SAM4E for project FreeRTOS ****
 make -j8 all 
 make: Nothing to be done for 'all'.
-15:41:58 **** Incremental Build of configuration SAM4E_RTOS for project RRFLibraries ****
+11:36:12 **** Incremental Build of configuration SAM4E_RTOS for project RRFLibraries ****
 make all 
 make: Nothing to be done for 'all'.
-15:41:59 **** Incremental Build of configuration Duet2_RTOS for project RepRapFirmware ****
+11:36:13 **** Incremental Build of configuration Duet2_RTOS for project RepRapFirmware ****
 make -j8 all 
 Building file: ../src/Movement/Kinematics/HangprinterKinematics.cpp
 Invoking: Cross G++ Compiler
 arm-none-eabi-g++ -D__SAM4E8E__ -DRTOS -DDUET_NG -D_XOPEN_SOURCE -I"C:\Eclipse\Firmware\CoreNG\cores\arduino" -I"C:\Eclipse\Firmware\CoreNG\libraries\Flash" -I"C:\Eclipse\Firmware\CoreNG\libraries\SharedSpi" -I"C:\Eclipse\Firmware\CoreNG\libraries\Storage" -I"C:\Eclipse\Firmware\CoreNG\libraries\Wire" -I"C:\Eclipse\Firmware\CoreNG\asf" -I"C:\Eclipse\Firmware\CoreNG\asf\common\utils" -I"C:\Eclipse\Firmware\CoreNG\asf\common\services\clock" -I"C:\Eclipse\Firmware\CoreNG\asf\common\services\ioport" -I"C:\Eclipse\Firmware\CoreNG\asf\sam\drivers" -I"C:\Eclipse\Firmware\CoreNG\asf\sam\services\flash_efc" -I"C:\Eclipse\Firmware\CoreNG\asf\sam\utils" -I"C:\Eclipse\Firmware\CoreNG\asf\sam\utils\cmsis\sam4e\include" -I"C:\Eclipse\Firmware\CoreNG\asf\sam\utils\header_files" -I"C:\Eclipse\Firmware\CoreNG\asf\sam\utils\preprocessor" -I"C:\Eclipse\Firmware\CoreNG\asf\thirdparty\CMSIS\Include" -I"C:\Eclipse\Firmware\CoreNG\variants\duetNG" -I"C:\Eclipse\Firmware\RepRapFirmware\src" -I"C:\Eclipse\Firmware\RepRapFirmware\src\DuetNG" -I"C:\Eclipse\Firmware\RepRapFirmware\src\Networking" -I"C:\Eclipse\Firmware\DuetWiFiSocketServer\src\include" -I"C:\Eclipse\Firmware\FreeRTOS\src\include" -I"C:\Eclipse\Firmware\FreeRTOS\src\portable\GCC\ARM_CM4F" -I"C:\Eclipse\Firmware\RRFLibraries\src" -O2 -Wall -c -std=gnu++17 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -fno-threadsafe-statics -fno-rtti -fno-exceptions -nostdlib -Wdouble-promotion -fsingle-precision-constant "-Wa,-ahl=HangprinterKinematics.s" -MMD -MP -MF"src/Movement/Kinematics/HangprinterKinematics.d" -MT"src/Movement/Kinematics/HangprinterKinematics.o" -o "src/Movement/Kinematics/HangprinterKinematics.o" "../src/Movement/Kinematics/HangprinterKinematics.cpp"
 ../src/Movement/Kinematics/HangprinterKinematics.cpp: In member function 'void HangprinterKinematics::Recalc()':
-../src/Movement/Kinematics/HangprinterKinematics.cpp:158:54: warning: implicit conversion from 'float' to 'double' when passing argument to function [-Wdouble-promotion]
+../src/Movement/Kinematics/HangprinterKinematics.cpp:160:54: warning: implicit conversion from 'float' to 'double' when passing argument to function [-Wdouble-promotion]
     debugPrintf("Pietari Line Lengths origins: %f\n", (float)lineLengthsOrigin[z]);
                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~
-../src/Movement/Kinematics/HangprinterKinematics.cpp:185:40: warning: implicit conversion from 'float' to 'double' when passing argument to function [-Wdouble-promotion]
+../src/Movement/Kinematics/HangprinterKinematics.cpp:187:40: warning: implicit conversion from 'float' to 'double' when passing argument to function [-Wdouble-promotion]
    debugPrintf("Pietari k2 value %f\n", (float)k2[j]);
                                         ^~~~~~~~~~~~
-../src/Movement/Kinematics/HangprinterKinematics.cpp:186:40: warning: implicit conversion from 'float' to 'double' when passing argument to function [-Wdouble-promotion]
+../src/Movement/Kinematics/HangprinterKinematics.cpp:188:40: warning: implicit conversion from 'float' to 'double' when passing argument to function [-Wdouble-promotion]
    debugPrintf("Pietari k0 value %f\n", (float)k0[j]);
                                         ^~~~~~~~~~~~
 ../src/Movement/Kinematics/HangprinterKinematics.cpp: In member function 'virtual bool HangprinterKinematics::CartesianToMotorSteps(const float*, const float*, size_t, size_t, int32_t*, bool) const':
-../src/Movement/Kinematics/HangprinterKinematics.cpp:381:8: warning: variable 'elongationsABC' set but not used [-Wunused-but-set-variable]
+../src/Movement/Kinematics/HangprinterKinematics.cpp:381:69: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  char* axixes[5] = {"V axis", "A axis", "B axis", "C axis", "D axis"};
+                                                                     ^
+../src/Movement/Kinematics/HangprinterKinematics.cpp:381:69: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+../src/Movement/Kinematics/HangprinterKinematics.cpp:381:69: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+../src/Movement/Kinematics/HangprinterKinematics.cpp:381:69: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+../src/Movement/Kinematics/HangprinterKinematics.cpp:381:69: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+../src/Movement/Kinematics/HangprinterKinematics.cpp:422:64: warning: implicit conversion from 'float' to 'double' when passing argument to function [-Wdouble-promotion]
+   debugPrintf("Motor positions Pietari: %s, %f\n", axixes[i] , (float)motorPos[i]);
+                                                                ^~~~~~~~~~~~~~~~~~
+../src/Movement/Kinematics/HangprinterKinematics.cpp:383:8: warning: unused variable 'elongationsABC' [-Wunused-variable]
   float elongationsABC[HANGPRINTER_AXES - 2];
         ^~~~~~~~~~~~~~
 ../src/Movement/Kinematics/HangprinterKinematics.cpp: In member function 'void HangprinterKinematics::InverseTransform(float, float, float, float*) const':
-../src/Movement/Kinematics/HangprinterKinematics.cpp:611:47: warning: implicit conversion from 'float' to 'double' when passing argument to function [-Wdouble-promotion]
-   debugPrintf("machinepos before Pietari %f", (float)machinePos[p]);
-                                               ^~~~~~~~~~~~~~~~~~~~
-../src/Movement/Kinematics/HangprinterKinematics.cpp:621:47: warning: implicit conversion from 'float' to 'double' when passing argument to function [-Wdouble-promotion]
-    debugPrintf("machinepos after Pietari %f", (float)machinePos[p]);
-                                               ^~~~~~~~~~~~~~~~~~~~
+../src/Movement/Kinematics/HangprinterKinematics.cpp:619:59: warning: implicit conversion from 'float' to 'double' when passing argument to function [-Wdouble-promotion]
+   debugPrintf("machinepos before Pietari %f", machinePos[p]);
+                                               ~~~~~~~~~~~~^
+../src/Movement/Kinematics/HangprinterKinematics.cpp:629:59: warning: implicit conversion from 'float' to 'double' when passing argument to function [-Wdouble-promotion]
+    debugPrintf("machinepos after Pietari %f", machinePos[p]);
+                                               ~~~~~~~~~~~~^
 ../src/Movement/Kinematics/HangprinterKinematics.cpp: In member function 'virtual bool HangprinterKinematics::Configure(unsigned int, GCodeBuffer&, const StringRef&, bool&)':
-../src/Movement/Kinematics/HangprinterKinematics.cpp:309:1: warning: control reaches end of non-void function [-Wreturn-type]
+../src/Movement/Kinematics/HangprinterKinematics.cpp:311:1: warning: control reaches end of non-void function [-Wreturn-type]
  }
  ^
 Finished building: ../src/Movement/Kinematics/HangprinterKinematics.cpp

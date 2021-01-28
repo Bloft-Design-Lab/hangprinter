@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
   55 0030 C36B     		ldr	r3, [r0, #60]
   56 0032 23F00103 		bic	r3, r3, #1
   57 0036 C363     		str	r3, [r0, #60]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 2
 
 
   58 0038 836B     		ldr	r3, [r0, #56]
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  112 0008 0421     		movs	r1, #4
  113 000a D0B2     		uxtb	r0, r2
  114 000c 0022     		movs	r2, #0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 3
 
 
  115 000e FFF7FEFF 		bl	pinModeDuet
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  169 0094 B0010900 		.word	590256
  170 0098 00010C00 		.word	786688
  171 009c 40030E00 		.word	918336
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 4
 
 
  172 00a0 B4010900 		.word	590260
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  226 003e 8069     		ldr	r0, [r0, #24]
  227 0040 C0F31000 		ubfx	r0, r0, #0, #17
  228 0044 7047     		bx	lr
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 5
 
 
  229              	.L23:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  283              	.L38:
  284 004c 044B     		ldr	r3, .L39
  285 004e 0B40     		ands	r3, r3, r1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 6
 
 
  286 0050 43F40023 		orr	r3, r3, #524288
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  340 0038 02F4C032 		and	r2, r2, #98304
  341 003c 21F4C031 		bic	r1, r1, #98304
  342 0040 1143     		orrs	r1, r1, r2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 7
 
 
  343 0042 FFF7FEBF 		b	_ZN14TmcDriverState11SetChopConfEm
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  397 0018 8169     		ldr	r1, [r0, #24]
  398 001a 21F4C041 		bic	r1, r1, #24576
  399 001e 41F48041 		orr	r1, r1, #16384
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 8
 
 
  400 0022 FFF7FEBF 		b	_ZN14TmcDriverState11SetChopConfEm
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  454              	.L65:
  455 0026 41F40071 		orr	r1, r1, #512
  456 002a F5E7     		b	.L64
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 9
 
 
  457              		.size	_ZN14TmcDriverState16SetMicrosteppingEmb, .-_ZN14TmcDriverState16SetMicrosteppingEmb
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  511 0068 71231005 		.word	84943729
  512              		.size	_ZN14TmcDriverState10SetCurrentEf, .-_ZN14TmcDriverState10SetCurrentEf
  513              		.section	.text._ZN14TmcDriverState6EnableEb,"ax",%progbits
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 10
 
 
  514              		.align	1
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  568              		@ frame_needed = 0, uses_anonymous_args = 0
  569              		@ link register save eliminated.
  570 0000 90F84030 		ldrb	r3, [r0, #64]	@ zero_extendqisi2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 11
 
 
  571 0004 002B     		cmp	r3, #0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  625              		.thumb_func
  626              		.fpu fpv4-sp-d16
  627              		.type	_ZN14TmcDriverState23SetStallDetectThresholdEi, %function
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 12
 
 
  628              	_ZN14TmcDriverState23SetStallDetectThresholdEi:
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  682              	_ZN14TmcDriverState29SetStallMinimumStepsPerSecondEj:
  683              		@ args = 0, pretend = 0, frame = 0
  684              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 13
 
 
  685              		@ link register save eliminated.
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  739              	.L100:
  740 003c 00000000 		.word	.LC0
  741 0040 04000000 		.word	.LC1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 14
 
 
  742 0044 1C4E0E00 		.word	937500
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  796 004a C4E90B23 		strd	r2, r3, [r4, #44]
  797 004e 38BD     		pop	{r3, r4, r5, pc}
  798              	.L131:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 15
 
 
  799 0050 1D49     		ldr	r1, .L133+4
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  853              	.L133:
  854 00c4 8C000000 		.word	.LC11
  855 00c8 70000000 		.word	.LC9
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 16
 
 
  856 00cc 74000000 		.word	.LC10
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  910 001a 8458     		ldr	r4, [r0, r2]
  911 001c 3278     		ldrb	r2, [r6]	@ zero_extendqisi2
  912 001e 6D68     		ldr	r5, [r5, #4]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 17
 
 
  913 0020 2563     		str	r5, [r4, #48]
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  967              	.L139:
  968 009c 22F00102 		bic	r2, r2, #1
  969              	.L141:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 18
 
 
  970 00a0 93F84160 		ldrb	r6, [r3, #65]	@ zero_extendqisi2
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  1024 0104 4FF00C0E 		mov	lr, #12
  1025 0108 C6F800E0 		str	lr, [r6]
  1026 010c 5B69     		ldr	r3, [r3, #20]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 19
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 19
 
 
  1027 010e 1268     		ldr	r2, [r2]
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  1081              	.L149:
  1082 017a DE69     		ldr	r6, [r3, #28]
  1083 017c 26EA0202 		bic	r2, r6, r2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 20
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 20
 
 
  1084 0180 DA61     		str	r2, [r3, #28]
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  1138 002a FFF7FEFF 		bl	_Z12ConfigurePinRK14PinDescription
  1139 002e 0F20     		movs	r0, #15
  1140 0030 FFF7FEFF 		bl	pmc_enable_periph_clk
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 21
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 21
 
 
  1141 0034 144B     		ldr	r3, .L183+16
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  1195              		@ link register save eliminated.
  1196 0000 054B     		ldr	r3, .L187
  1197 0002 1B68     		ldr	r3, [r3]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 22
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 22
 
 
  1198 0004 8342     		cmp	r3, r0
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  1252              		@ frame_needed = 0, uses_anonymous_args = 0
  1253              		@ link register save eliminated.
  1254 0000 074B     		ldr	r3, .L196
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 23
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 23
 
 
  1255 0002 1B68     		ldr	r3, [r3]
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  1309              		.size	_ZN12SmartDrivers13GetLiveStatusEj, .-_ZN12SmartDrivers13GetLiveStatusEj
  1310              		.section	.text._ZN12SmartDrivers20GetAccumulatedStatusEjm,"ax",%progbits
  1311              		.align	1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 24
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 24
 
 
  1312              		.p2align 2,,3
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  1366 001c 0129     		cmp	r1, #1
  1367 001e 04D0     		beq	.L230
  1368              	.L220:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 25
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 25
 
 
  1369 0020 0020     		movs	r0, #0
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  1423              		.thumb_func
  1424              		.fpu fpv4-sp-d16
  1425              		.type	_ZN12SmartDrivers16GetMicrosteppingEjRb, %function
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 26
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 26
 
 
  1426              	_ZN12SmartDrivers16GetMicrosteppingEjRb:
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  1480              	.L243:
  1481 001a 00BF     		.align	2
  1482              	.L242:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 27
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 27
 
 
  1483 001c 00000000 		.word	.LANCHOR6
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  1537 0004 1C78     		ldrb	r4, [r3]	@ zero_extendqisi2
  1538 0006 1870     		strb	r0, [r3]
  1539 0008 28B1     		cbz	r0, .L251
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 28
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 28
 
 
  1540 000a 64B1     		cbz	r4, .L276
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  1594 006c 4FF40040 		mov	r0, #32768
  1595 0070 0860     		str	r0, [r1]
  1596 0072 1A60     		str	r2, [r3]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 29
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 29
 
 
  1597 0074 D369     		ldr	r3, [r2, #28]
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  1651 00da 2B70     		strb	r3, [r5]
  1652              		.syntax unified
  1653              	@ 456 "C:\Eclipse\Firmware\CoreNG\asf\thirdparty\CMSIS\Include/core_cmInstr.h" 1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 30
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 30
 
 
  1654 00dc BFF35F8F 		dmb
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  1708              		.align	1
  1709              		.p2align 2,,3
  1710              		.global	_ZN12SmartDrivers14TurnDriversOffEv
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 31
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 31
 
 
  1711              		.syntax unified
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  1765              		.align	2
  1766              	.L286:
  1767 0030 00000000 		.word	.LANCHOR6
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 32
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 32
 
 
  1768 0034 00000000 		.word	.LANCHOR0
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  1822              		.global	_ZN12SmartDrivers29SetStallMinimumStepsPerSecondEjj
  1823              		.syntax unified
  1824              		.thumb
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 33
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 33
 
 
  1825              		.thumb_func
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  1879              	.L306:
  1880 0018 00000000 		.word	.LANCHOR6
  1881 001c 00000000 		.word	.LANCHOR0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 34
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 34
 
 
  1882              		.size	_ZN12SmartDrivers17AppendStallConfigEjRK9StringRef, .-_ZN12SmartDrivers17AppendStallConfigEj
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  1936              		.syntax unified
  1937              		.thumb
  1938              		.thumb_func
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 35
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 35
 
 
  1939              		.fpu fpv4-sp-d16
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  1993 0006 01D8     		bhi	.L324
  1994 0008 0020     		movs	r0, #0
  1995 000a 7047     		bx	lr
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 36
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 36
 
 
  1996              	.L324:
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  2046      00000000 
  2047              		.section	.bss._ZL13currentDriver,"aw",%nobits
  2048              		.align	2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 37
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 37
 
 
  2049              		.set	.LANCHOR1,. + 0
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 1
  2098      70657261 
  2098      74757265 
  2098      2D776172 
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXEDKPg.s 			page 38
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccXOFfIr.s 			page 38
 
 
  2098      6E696E67 

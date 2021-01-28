@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccKPaTZk.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 1
   55              	.L11:
   56 0034 1846     		mov	r0, r3
   57              	.L1:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccKPaTZk.s 			page 2
 
 
   58 0036 7047     		bx	lr
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 1
  112 002a 04EB4405 		add	r5, r4, r4, lsl #1
  113 002e 08EB8505 		add	r5, r8, r5, lsl #2
  114 0032 A3B1     		cbz	r3, .L18
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccKPaTZk.s 			page 3
 
 
  115 0034 2A2B     		cmp	r3, #42
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 1
  169 00a4 2A2B     		cmp	r3, #42
  170 00a6 DAD0     		beq	.L18
  171 00a8 EBE7     		b	.L25
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccKPaTZk.s 			page 4
 
 
  172              		.size	_ZN11ObjectModel25FindObjectModelTableEntryEPKc, .-_ZN11ObjectModel25FindObjectModelTableEnt
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 1
  226 0008 0BB1     		cbz	r3, .L72
  227 000a 2A2B     		cmp	r3, #42
  228 000c 06D1     		bne	.L82
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccKPaTZk.s 			page 5
 
 
  229              	.L72:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 1
  283 0042 02B0     		add	sp, sp, #8
  284              		@ sp needed
  285 0044 BDE8F087 		pop	{r4, r5, r6, r7, r8, r9, r10, pc}
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccKPaTZk.s 			page 6
 
 
  286              	.L93:
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 1
  340 0000 2DE9F04F 		push	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
  341 0004 8146     		mov	r9, r0
  342 0006 85B0     		sub	sp, sp, #20
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccKPaTZk.s 			page 7
 
 
  343 0008 0846     		mov	r0, r1
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 1
  397 007e 4A46     		mov	r2, r9
  398 0080 4146     		mov	r1, r8
  399 0082 FFF7FEFF 		bl	_ZNK21ObjectModelTableEntry12ReportAsJsonEP12OutputBufferP11ObjectModelPKcNS2_11ReportFlagsE
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccKPaTZk.s 			page 8
 
 
  400 0086 DDF80CA0 		ldr	r10, [sp, #12]
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 1
  454 0018 11       		.byte	(.L130-.L128)/2
  455 0019 14       		.byte	(.L131-.L128)/2
  456 001a 20       		.byte	(.L132-.L128)/2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccKPaTZk.s 			page 9
 
 
  457 001b 28       		.byte	(.L133-.L128)/2
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 1
  511 0078 3568     		ldr	r5, [r6]
  512 007a 60D4     		bmi	.L161
  513 007c 5B21     		movs	r1, #91
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccKPaTZk.s 			page 10
 
 
  514 007e 2046     		mov	r0, r4
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 1
  568 00f0 27FA05F3 		lsr	r3, r7, r5
  569 00f4 DBB2     		uxtb	r3, r3
  570 00f6 0835     		adds	r5, r5, #8
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccKPaTZk.s 			page 11
 
 
  571 00f8 3146     		mov	r1, r6
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 1
  625              		.section	.text._ZNK21ObjectModelTableEntry9IdCompareEPKc,"ax",%progbits
  626              		.align	1
  627              		.p2align 2,,3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccKPaTZk.s 			page 12
 
 
  628              		.global	_ZNK21ObjectModelTableEntry9IdCompareEPKc
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 1
  682 002e 3046     		mov	r0, r6
  683 0030 9847     		blx	r3
  684 0032 2D7A     		ldrb	r5, [r5, #8]	@ zero_extendqisi2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccKPaTZk.s 			page 13
 
 
  685 0034 2B06     		lsls	r3, r5, #24
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 1
  739              	.L187:
  740 008c C7F80080 		str	r8, [r7]
  741 0090 E2E7     		b	.L206
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccKPaTZk.s 			page 14
 
 
  742              	.L211:
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 1
  796 0014 1A06     		lsls	r2, r3, #24
  797 0016 08D4     		bmi	.L226
  798 0018 023B     		subs	r3, r3, #2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccKPaTZk.s 			page 15
 
 
  799 001a 072B     		cmp	r3, #7
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 1
  853 0074 4368     		ldr	r3, [r0, #4]
  854 0076 2846     		mov	r0, r5
  855 0078 9847     		blx	r3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccKPaTZk.s 			page 16
 
 
  856 007a D0ED007A 		vldr.32	s15, [r0]	@ int
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 1
  910 0040 33B9     		cbnz	r3, .L284
  911 0042 E1E7     		b	.L253
  912              	.L290:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccKPaTZk.s 			page 17
 
 
  913 0044 5B2B     		cmp	r3, #91
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 1
  962 0028 256C7500 		.ascii	"%lu\000"
  963              	.LC6:
  964 002c 256C6900 		.ascii	"%li\000"
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cce2FozZ.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccKPaTZk.s 			page 18
 
 
  965              	.LC7:

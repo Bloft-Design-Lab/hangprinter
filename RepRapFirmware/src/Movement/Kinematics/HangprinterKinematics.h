@@ -49,11 +49,12 @@ private:
 
 	// Basic facts about movement system
 	static constexpr size_t HANGPRINTER_AXES = 5;
-	static constexpr size_t A_AXIS = 0;
-	static constexpr size_t B_AXIS = 1;
-	static constexpr size_t C_AXIS = 2;
-	static constexpr size_t D_AXIS = 3;
-	static constexpr size_t V_AXIS = 4;
+	static constexpr size_t V_AXIS = 0;
+	static constexpr size_t A_AXIS = 1;
+	static constexpr size_t B_AXIS = 2;
+	static constexpr size_t C_AXIS = 3;
+	static constexpr size_t D_AXIS = 4;
+
 
 	void Init();
 	void Recalc();

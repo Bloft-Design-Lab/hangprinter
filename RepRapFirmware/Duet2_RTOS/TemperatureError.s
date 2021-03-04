@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccf3clg3.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccDUGSOD.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccf3clg3.s 			page 1
   55 0024 AC000000 		.word	.LC10
   56 0028 C8000000 		.word	.LC11
   57 002c EC000000 		.word	.LC12
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccf3clg3.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccDUGSOD.s 			page 2
 
 
   58 0030 04010000 		.word	.LC13
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccf3clg3.s 			page 1
   84 0084 73656E73 		.ascii	"sensor hardware error\000"
   84      6F722068 
   84      61726477 
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccf3clg3.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccDUGSOD.s 			page 3
 
 
   84      61726520 

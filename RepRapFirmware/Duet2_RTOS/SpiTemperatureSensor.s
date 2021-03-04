@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccI0ZMkF.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccEJNxFn.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccI0ZMkF.s 			page 1
   55              		.thumb_set _ZN20SpiTemperatureSensorC1EjPKcjhm,_ZN20SpiTemperatureSensorC2EjPKcjhm
   56              		.section	.text._ZN20SpiTemperatureSensor7InitSpiEv,"ax",%progbits
   57              		.align	1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccI0ZMkF.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccEJNxFn.s 			page 2
 
 
   58              		.p2align 2,,3
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccI0ZMkF.s 			page 1
  112              	@ 88 "C:\Eclipse\Firmware\CoreNG\cores\arduino/wiring.h" 1
  113              		L_87_delayMicroseconds:
  114 003e 013B     		subs   r3, #1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccI0ZMkF.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccEJNxFn.s 			page 3
 
 
  115 0040 FDD1     		bne    L_87_delayMicroseconds
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccI0ZMkF.s 			page 1
  169 0090 2160     		str	r1, [r4]
  170 0092 012D     		cmp	r5, #1
  171 0094 09D9     		bls	.L11
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccI0ZMkF.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccEJNxFn.s 			page 4
 
 
  172 0096 6D44     		add	r5, r5, sp
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccI0ZMkF.s 			page 1
  226 0000 00000000 		.space	4
  227              		.section	.rodata._ZL19SpiTempSensorCsPins,"a",%progbits
  228              		.align	2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccI0ZMkF.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccEJNxFn.s 			page 5
 
 
  229              		.set	.LANCHOR0,. + 0

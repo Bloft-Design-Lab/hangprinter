@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccq78A8e.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWy8i9G.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccq78A8e.s 			page 1
   55              	.L6:
   56 0036 0220     		movs	r0, #2
   57 0038 38BD     		pop	{r3, r4, r5, pc}
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccq78A8e.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWy8i9G.s 			page 2
 
 
   58              	.L13:
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccq78A8e.s 			page 1
  112 000c 0138     		subs	r0, r0, #1
  113 000e 2860     		str	r0, [r5]
  114 0010 2046     		mov	r0, r4
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccq78A8e.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWy8i9G.s 			page 3
 
 
  115 0012 BDE83840 		pop	{r3, r4, r5, lr}
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccq78A8e.s 			page 1
  169              	.L22:
  170              		.align	2
  171              	.L21:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccq78A8e.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWy8i9G.s 			page 4
 
 
  172 0008 00000000 		.word	.LANCHOR0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccq78A8e.s 			page 1
  226              		.type	sd_mmc_wr_protect, %function
  227              	sd_mmc_wr_protect:
  228              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccq78A8e.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWy8i9G.s 			page 5
 
 
  229              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccq78A8e.s 			page 1
  283              		.p2align 2,,3
  284              		.global	sd_mmc_removal_0
  285              		.syntax unified
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccq78A8e.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWy8i9G.s 			page 6
 
 
  286              		.thumb
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccq78A8e.s 			page 1
  340 0020 08B1     		cbz	r0, .L42
  341 0022 0120     		movs	r0, #1
  342 0024 38BD     		pop	{r3, r4, r5, pc}
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccq78A8e.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWy8i9G.s 			page 7
 
 
  343              	.L42:
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccq78A8e.s 			page 1
  397              	sd_mmc_ram_2_mem:
  398              		@ args = 0, pretend = 0, frame = 0
  399              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccq78A8e.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWy8i9G.s 			page 8
 
 
  400 0000 38B5     		push	{r3, r4, r5, lr}
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccq78A8e.s 			page 1
  454              		@ args = 0, pretend = 0, frame = 0
  455              		@ frame_needed = 0, uses_anonymous_args = 0
  456              		@ link register save eliminated.
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccq78A8e.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWy8i9G.s 			page 9
 
 
  457 0000 1346     		mov	r3, r2

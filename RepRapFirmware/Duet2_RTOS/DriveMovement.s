@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
   55 0030 00000000 		.word	.LANCHOR0
   56 0034 00000000 		.word	.LANCHOR1
   57 0038 00000000 		.word	.LANCHOR2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 2
 
 
   58              		.size	_ZN13DriveMovement15InitialAllocateEj, .-_ZN13DriveMovement15InitialAllocateEj
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
  112              		@ args = 0, pretend = 0, frame = 0
  113              		@ frame_needed = 0, uses_anonymous_args = 0
  114              		@ link register save eliminated.
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 3
 
 
  115 0000 0160     		str	r1, [r0]
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
  169 0064 FFF7FEFF 		bl	__aeabi_dmul
  170 0068 0B46     		mov	r3, r1
  171 006a 0246     		mov	r2, r0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 4
 
 
  172 006c 2CA1     		adr	r1, .L33+8
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
  226              	.L33:
  227 0118 C0E1644E 		.word	1315234240
  228 011c E5A2CC53 		.word	1405919973
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 5
 
 
  229 0120 000062A2 		.word	-1570635776
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
  283 0084 FEEEEB6A 		vcvt.s32.f32	s13, s13, #9
  284 0088 67EE287A 		vmul.f32	s15, s14, s17
  285 008c 5B42     		negs	r3, r3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 6
 
 
  286 008e 17EE900A 		vmov	r0, s15
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
  340 0136 DFED615A 		vldr.32	s11, .L63+12
  341 013a 28EE066A 		vmul.f32	s12, s16, s12
  342 013e 68EE277A 		vmul.f32	s15, s16, s15
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 7
 
 
  343 0142 C5EE066A 		vdiv.f32	s13, s10, s12
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
  397 01fa 2361     		str	r3, [r4, #16]
  398 01fc 93E7     		b	.L39
  399              	.L59:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 8
 
 
  400 01fe 4FF0FF31 		mov	r1, #-1
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
  454 028c ECE6     		b	.L36
  455              	.L60:
  456 028e FFF7FEFF 		bl	sqrtf
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 9
 
 
  457 0292 96ED077A 		vldr.32	s14, [r6, #28]
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
  510 004a 97ED2C7A 		vldr.32	s14, [r7, #176]
  511              	.L67:
  512 004e BAF1000F 		cmp	r10, #0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 10
 
 
  513 0052 37D0     		beq	.L72
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
  567 0106 FFF7FEFF 		bl	__aeabi_f2d
  568 010a 4246     		mov	r2, r8
  569 010c 4B46     		mov	r3, r9
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 11
 
 
  570 010e FFF7FEFF 		bl	__aeabi_dmul
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
  624 01b2 A3EB0208 		sub	r8, r3, r2
  625 01b6 28EE888A 		vmul.f32	s16, s17, s16
  626 01ba 68EEA78A 		vmul.f32	s17, s17, s15
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 12
 
 
  627 01be FCEEC87A 		vcvt.u32.f32	s15, s16
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
  681 024c 97ED2C7A 		vldr.32	s14, [r7, #176]
  682 0250 0028     		cmp	r0, #0
  683 0252 3FF4FCAE 		beq	.L67
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 13
 
 
  684 0256 DFED2F7A 		vldr.32	s15, .L97+20
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
  738 0300 000062A2 		.word	-1570635776
  739 0304 5C947942 		.word	1115264092
  740 0308 00000000 		.word	0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 14
 
 
  741 030c C0E1644E 		.word	1315234240
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
  795 0062 236D     		ldr	r3, [r4, #80]
  796 0064 0993     		str	r3, [sp, #36]
  797 0066 D4E91230 		ldrd	r3, r0, [r4, #72]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 15
 
 
  798 006a CDE90067 		strd	r6, [sp]
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
  852 0000 8369     		ldr	r3, [r0, #24]
  853 0002 242B     		cmp	r3, #36
  854 0004 2DE9F04D 		push	{r4, r5, r6, r7, r8, r10, fp, lr}
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 16
 
 
  855 0008 0446     		mov	r4, r0
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
  909 0078 0CFB1673 		mls	r3, ip, r6, r7
  910 007c BA42     		cmp	r2, r7
  911 007e C4E90536 		strd	r3, r6, [r4, #20]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 17
 
 
  912 0082 53D2     		bcs	.L129
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
  966 0102 05FB0711 		mla	r1, r5, r7, r1
  967 0106 9F18     		adds	r7, r3, r2
  968 0108 E7FB0701 		umlal	r0, r1, r7, r7
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 18
 
 
  969 010c FFF7FEFF 		bl	_Z7isqrt64y
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
  1023 0190 C2F30012 		ubfx	r2, r2, #4, #1
  1024 0194 FFF7FEFF 		bl	_ZN8Platform12SetDirectionEjb
  1025 0198 D0E7     		b	.L122
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 19
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 19
 
 
  1026              	.L141:
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
  1080 0052 206C     		ldr	r0, [r4, #64]
  1081 0054 D7F8F030 		ldr	r3, [r7, #240]
  1082 0058 1CF0100C 		ands	ip, ip, #16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 20
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 20
 
 
  1083 005c 08BF     		it	eq
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
  1137 00e8 3CBF     		itt	cc
  1138 00ea F31A     		subcc	r3, r6, r3
  1139 00ec 23FA05F5 		lsrcc	r5, r3, r5
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 21
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 21
 
 
  1140 00f0 E379     		ldrb	r3, [r4, #7]	@ zero_extendqisi2
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
  1194 016a 2E4B     		ldr	r3, .L181+8
  1195 016c 6179     		ldrb	r1, [r4, #5]	@ zero_extendqisi2
  1196 016e 5868     		ldr	r0, [r3, #4]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 22
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 22
 
 
  1197 0170 0022     		movs	r2, #0
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
  1251 020a 1CE7     		b	.L143
  1252              	.L148:
  1253 020c 042D     		cmp	r5, #4
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 23
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 23
 
 
  1254 020e 98D9     		bls	.L149
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
  1308              		.size	_ZL28cpu_irq_prev_interrupt_state, 1
  1309              	_ZL28cpu_irq_prev_interrupt_state:
  1310 0000 00       		.space	1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 24
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 24
 
 
  1311              		.section	.bss._ZL32cpu_irq_critical_section_counter,"aw",%nobits
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 1
  1351      65644D69 
  1351      6E757342 
  1351      73717561 
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgRpa1T.s 			page 25
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckQgRak.s 			page 25
 
 
  1351      7265643D 

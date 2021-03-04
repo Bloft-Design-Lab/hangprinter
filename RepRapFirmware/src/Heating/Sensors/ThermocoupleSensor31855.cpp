@@ -50,8 +50,8 @@
 #include "Platform.h"
 #include "Core.h"
 
-const uint32_t MAX31855_Frequency = 4000000;	// maximum for MAX31855 is 5MHz
-
+//const uint32_t MAX31855_Frequency = 4000000;	// maximum for MAX31855 is 5MHz
+const uint32_t MAX31855_Frequency = 4000000;
 // SPI modes:
 // If the inactive state of SCL is LOW (CPOL = 0) (in the case of the MAX31855, this is sampled on the falling edge of CS):
 // The MAX31855 sets up the first data bit after the falling edge of CLK, and changes the data on each falling clock edge.

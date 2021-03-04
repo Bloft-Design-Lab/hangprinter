@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQiN0fT.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccyU77Qk.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQiN0fT.s 			page 1
   55 0058 90ED086A 		vldr.32	s12, [r0, #32]
   56 005c 90F82430 		ldrb	r3, [r0, #36]	@ zero_extendqisi2
   57 0060 77EEA67A 		vadd.f32	s15, s15, s13
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQiN0fT.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccyU77Qk.s 			page 2
 
 
   58 0064 67EE867A 		vmul.f32	s15, s15, s12
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQiN0fT.s 			page 1
  112              	.L17:
  113 0110 B0EE670A 		vmov.f32	s0, s15
  114 0114 C2E7     		b	.L7
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQiN0fT.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccyU77Qk.s 			page 3
 
 
  115              	.L11:
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQiN0fT.s 			page 1
  169              	_ZN10ThermistorD0Ev:
  170              		@ args = 0, pretend = 0, frame = 0
  171              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQiN0fT.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccyU77Qk.s 			page 4
 
 
  172 0000 10B5     		push	{r4, lr}
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQiN0fT.s 			page 1
  226 002c C3F82445 		str	r4, [r3, #1316]
  227 0030 83F82C45 		strb	r4, [r3, #1324]
  228 0034 40F6FF74 		movw	r4, #4095
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQiN0fT.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccyU77Qk.s 			page 5
 
 
  229              	.L32:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQiN0fT.s 			page 1
  283 002c 20EE077A 		vmul.f32	s14, s0, s14
  284 0030 20EE477A 		vnmul.f32	s14, s0, s14
  285 0034 E7EE007A 		vfma.f32	s15, s14, s0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQiN0fT.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccyU77Qk.s 			page 6
 
 
  286 0038 C4ED0A7A 		vstr.32	s15, [r4, #40]
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQiN0fT.s 			page 1
  340 0058 FFF7FEFF 		bl	_ZN17TemperatureSensorC2EjPKc
  341 005c 054B     		ldr	r3, .L51+4
  342 005e 2360     		str	r3, [r4]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQiN0fT.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccyU77Qk.s 			page 7
 
 
  343 0060 84F82450 		strb	r5, [r4, #36]
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQiN0fT.s 			page 1
  397 0034 57D0     		beq	.L79
  398              	.L57:
  399 0036 4C21     		movs	r1, #76
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQiN0fT.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccyU77Qk.s 			page 8
 
 
  400 0038 2046     		mov	r0, r4
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQiN0fT.s 			page 1
  454 00ba 85F82600 		strb	r0, [r5, #38]
  455 00be 8DF81F30 		strb	r3, [sp, #31]
  456 00c2 C3E7     		b	.L61
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQiN0fT.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccyU77Qk.s 			page 9
 
 
  457              	.L80:
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQiN0fT.s 			page 1
  511 0154 3246     		mov	r2, r6
  512 0156 CDE90001 		strd	r0, [sp]
  513 015a 3B46     		mov	r3, r7
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQiN0fT.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccyU77Qk.s 			page 10
 
 
  514 015c 0449     		ldr	r1, .L82+8
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQiN0fT.s 			page 1
  557              		.type	_ZTV10Thermistor, %object
  558              		.size	_ZTV10Thermistor, 28
  559              	_ZTV10Thermistor:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQiN0fT.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccyU77Qk.s 			page 11
 
 
  560 0000 00000000 		.word	0

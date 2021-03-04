@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc9xWdCT.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccEizOdp.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc9xWdCT.s 			page 1
   55              		.type	spi_set_peripheral_chip_select_value, %function
   56              	spi_set_peripheral_chip_select_value:
   57              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc9xWdCT.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccEizOdp.s 			page 2
 
 
   58              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc9xWdCT.s 			page 1
  112 000e E407     		lsls	r4, r4, #31
  113 0010 FAD5     		bpl	.L9
  114 0012 8368     		ldr	r3, [r0, #8]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc9xWdCT.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccEizOdp.s 			page 3
 
 
  115 0014 4068     		ldr	r0, [r0, #4]
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc9xWdCT.s 			page 1
  169              		.size	spi_write, .-spi_write
  170              		.section	.text.spi_set_clock_polarity,"ax",%progbits
  171              		.align	1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc9xWdCT.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccEizOdp.s 			page 4
 
 
  172              		.p2align 2,,3
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc9xWdCT.s 			page 1
  226              		.type	spi_configure_cs_behavior, %function
  227              	spi_configure_cs_behavior:
  228              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc9xWdCT.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccEizOdp.s 			page 5
 
 
  229              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc9xWdCT.s 			page 1
  283              		.section	.text.spi_calc_baudrate_div,"ax",%progbits
  284              		.align	1
  285              		.p2align 2,,3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc9xWdCT.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccEizOdp.s 			page 6
 
 
  286              		.global	spi_calc_baudrate_div
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc9xWdCT.s 			page 1
  340              		.fpu fpv4-sp-d16
  341              		.type	spi_set_transfer_delay, %function
  342              	spi_set_transfer_delay:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc9xWdCT.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccEizOdp.s 			page 7
 
 
  343              		@ args = 0, pretend = 0, frame = 0
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc9xWdCT.s 			page 1
  397              		@ link register save eliminated.
  398 0000 D0F8E800 		ldr	r0, [r0, #232]
  399 0004 7047     		bx	lr
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc9xWdCT.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccEizOdp.s 			page 8
 
 
  400              		.size	spi_get_writeprotect_status, .-spi_get_writeprotect_status

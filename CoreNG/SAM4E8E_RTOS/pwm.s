@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgSqApZ.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 1
   55              	.L2:
   56 0042 40EA0320 		orr	r0, r0, r3, lsl #8
   57 0046 0CB0     		add	sp, sp, #48
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgSqApZ.s 			page 2
 
 
   58              		@ sp needed
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 1
  112              		.p2align 2,,3
  113              		.global	pwm_channel_init
  114              		.syntax unified
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgSqApZ.s 			page 3
 
 
  115              		.thumb
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 1
  169 0082 2C43     		orrs	r4, r4, r5
  170 0084 0123     		movs	r3, #1
  171 0086 4464     		str	r4, [r0, #68]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgSqApZ.s 			page 4
 
 
  172 0088 9340     		lsls	r3, r3, r2
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 1
  226              	.L32:
  227 0108 D1E90C31 		ldrd	r3, r1, [r1, #48]
  228 010c 2032     		adds	r2, r2, #32
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgSqApZ.s 			page 5
 
 
  229 010e 00EB4210 		add	r0, r0, r2, lsl #5
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 1
  283              	.L43:
  284 0016 4FF6FF70 		movw	r0, #65535
  285 001a 7047     		bx	lr
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgSqApZ.s 			page 6
 
 
  286              		.size	pwm_channel_update_period, .-pwm_channel_update_period
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 1
  340              	pwm_channel_enable:
  341              		@ args = 0, pretend = 0, frame = 0
  342              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgSqApZ.s 			page 7
 
 
  343              		@ link register save eliminated.
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 1
  397 0002 7047     		bx	lr
  398              		.size	pwm_channel_get_interrupt_status, .-pwm_channel_get_interrupt_status
  399              		.section	.text.pwm_channel_get_interrupt_mask,"ax",%progbits
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgSqApZ.s 			page 8
 
 
  400              		.align	1
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 1
  454 000e 4261     		str	r2, [r0, #20]
  455 0010 7047     		bx	lr
  456              		.size	pwm_channel_disable_interrupt, .-pwm_channel_disable_interrupt
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgSqApZ.s 			page 9
 
 
  457 0012 00BF     		.section	.text.pwm_channel_update_output,"ax",%progbits
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 1
  511              		.fpu fpv4-sp-d16
  512              		.type	pwm_channel_update_dead_time, %function
  513              	pwm_channel_update_dead_time:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgSqApZ.s 			page 10
 
 
  514              		@ args = 0, pretend = 0, frame = 0
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 1
  568 0036 1343     		orrs	r3, r3, r2
  569 0038 C365     		str	r3, [r0, #92]
  570 003a 30BC     		pop	{r4, r5}
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgSqApZ.s 			page 11
 
 
  571 003c 0020     		movs	r0, #0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 1
  625              		.section	.text.pwm_cmp_init,"ax",%progbits
  626              		.align	1
  627              		.p2align 2,,3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgSqApZ.s 			page 12
 
 
  628              		.global	pwm_cmp_init
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 1
  682 0070 0020     		movs	r0, #0
  683 0072 7047     		bx	lr
  684              	.L75:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgSqApZ.s 			page 13
 
 
  685 0074 23EA0503 		bic	r3, r3, r5
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 1
  739 0036 7A60     		str	r2, [r7, #4]
  740 0038 0719     		adds	r7, r0, r4
  741 003a 0122     		movs	r2, #1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgSqApZ.s 			page 14
 
 
  742 003c C7F83C31 		str	r3, [r7, #316]
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 1
  796              		@ args = 0, pretend = 0, frame = 0
  797              		@ frame_needed = 0, uses_anonymous_args = 0
  798              		@ link register save eliminated.
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgSqApZ.s 			page 15
 
 
  799 0000 00EB0111 		add	r1, r0, r1, lsl #4
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 1
  853              		.p2align 2,,3
  854              		.global	pwm_cmp_disable_interrupt
  855              		.syntax unified
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgSqApZ.s 			page 16
 
 
  856              		.thumb
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 1
  910              		.type	pwm_pdc_enable_interrupt, %function
  911              	pwm_pdc_enable_interrupt:
  912              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgSqApZ.s 			page 17
 
 
  913              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 1
  967              		.type	pwm_sync_unlock_update, %function
  968              	pwm_sync_unlock_update:
  969              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgSqApZ.s 			page 18
 
 
  970              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 1
  1024 0000 4163     		str	r1, [r0, #52]
  1025 0002 7047     		bx	lr
  1026              		.size	pwm_sync_enable_interrupt, .-pwm_sync_enable_interrupt
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 19
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgSqApZ.s 			page 19
 
 
  1027              		.section	.text.pwm_sync_disable_interrupt,"ax",%progbits
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 1
  1081              		.type	pwm_disable_protect, %function
  1082              	pwm_disable_protect:
  1083              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 20
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgSqApZ.s 			page 20
 
 
  1084              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 1
  1138              		.p2align 2,,3
  1139              		.global	pwm_get_interrupt_mask
  1140              		.syntax unified
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 21
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgSqApZ.s 			page 21
 
 
  1141              		.thumb
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 1
  1195              		.section	.text.pwm_channel_update_additional_edge,"ax",%progbits
  1196              		.align	1
  1197              		.p2align 2,,3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 22
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgSqApZ.s 			page 22
 
 
  1198              		.global	pwm_channel_update_additional_edge
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 1
  1252              		.size	pwm_channel_update_polarity_mode, .-pwm_channel_update_polarity_mode
  1253 002e 00BF     		.section	.rodata
  1254              		.align	2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6BFe8m.s 			page 23
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccgSqApZ.s 			page 23
 
 
  1255              		.set	.LANCHOR0,. + 0

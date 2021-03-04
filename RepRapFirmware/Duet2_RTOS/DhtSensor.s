@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLtCJtW.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 1
   55 0004 0360     		str	r3, [r0]
   56 0006 0446     		mov	r4, r0
   57 0008 FFF7FEFF 		bl	_ZN17TemperatureSensorD2Ev
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLtCJtW.s 			page 2
 
 
   58 000c 2046     		mov	r0, r4
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 1
  112 000e 1021     		movs	r1, #16
  113 0010 FFF7FEFF 		bl	_ZdlPvj
  114 0014 2046     		mov	r0, r4
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLtCJtW.s 			page 3
 
 
  115 0016 10BD     		pop	{r4, pc}
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 1
  169 0052 0898     		ldr	r0, [sp, #32]
  170 0054 FFF7FEFF 		bl	_ZNK9StringRef4copyEPKc
  171 0058 0224     		movs	r4, #2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLtCJtW.s 			page 4
 
 
  172 005a E7E7     		b	.L19
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 1
  226              		@ frame_needed = 0, uses_anonymous_args = 0
  227 0000 70B5     		push	{r4, r5, r6, lr}
  228 0002 82B0     		sub	sp, sp, #8
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLtCJtW.s 			page 5
 
 
  229 0004 0446     		mov	r4, r0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 1
  283 0002 A0F5C870 		sub	r0, r0, #400
  284 0006 0728     		cmp	r0, #7
  285 0008 02D8     		bhi	.L49
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLtCJtW.s 			page 6
 
 
  286 000a 0022     		movs	r2, #0
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 1
  340 0004 D3F89040 		ldr	r4, [r3, #144]
  341 0008 0546     		mov	r5, r0
  342 000a 0078     		ldrb	r0, [r0]	@ zero_extendqisi2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLtCJtW.s 			page 7
 
 
  343 000c A4B2     		uxth	r4, r4
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 1
  397              		@ link register save eliminated.
  398 0000 70B4     		push	{r4, r5, r6}
  399 0002 83B0     		sub	sp, sp, #12
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLtCJtW.s 			page 8
 
 
  400 0004 0022     		movs	r2, #0
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 1
  454 0096 27EE267A 		vmul.f32	s14, s14, s13
  455 009a 2306     		lsls	r3, r4, #24
  456 009c 48BF     		it	mi
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLtCJtW.s 			page 9
 
 
  457 009e F1EE677A 		vnegmi.f32	s15, s15
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 1
  511 000e FFF7FEFF 		bl	_Z5delaym
  512 0012 FFF7FEFF 		bl	vTaskSuspendAll
  513 0016 2078     		ldrb	r0, [r4]	@ zero_extendqisi2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLtCJtW.s 			page 10
 
 
  514 0018 0121     		movs	r1, #1
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 1
  568 007e 238C     		ldrh	r3, [r4, #32]
  569 0080 2D2B     		cmp	r3, #45
  570 0082 F0D9     		bls	.L94
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLtCJtW.s 			page 11
 
 
  571 0084 2046     		mov	r0, r4
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 1
  625              		.global	_ZNK26DhtSensorHardwareInterface24GetTemperatureOrHumidityERfb
  626              		.syntax unified
  627              		.thumb
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLtCJtW.s 			page 12
 
 
  628              		.thumb_func
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 1
  682 003a 0E49     		ldr	r1, .L113+8
  683 003c 0B98     		ldr	r0, [sp, #44]
  684 003e FFF7FEFF 		bl	_ZNK9StringRef4copyEPKc
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLtCJtW.s 			page 13
 
 
  685 0042 02A8     		add	r0, sp, #8
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 1
  739              		.align	1
  740              		.p2align 2,,3
  741              		.global	_ZN17DhtHumiditySensor9ConfigureEjjR11GCodeBufferRK9StringRef
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLtCJtW.s 			page 14
 
 
  742              		.syntax unified
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 1
  796              		.thumb
  797              		.thumb_func
  798              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLtCJtW.s 			page 15
 
 
  799              		.type	_ZN26DhtSensorHardwareInterface6CreateEj, %function
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 1
  853 0070 D9D1     		bne	.L126
  854              	.L130:
  855 0072 4FF4F870 		mov	r0, #496
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLtCJtW.s 			page 16
 
 
  856 0076 FFF7FEFF 		bl	_Znwj
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 1
  910              		.thumb
  911              		.thumb_func
  912              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLtCJtW.s 			page 17
 
 
  913              		.type	_ZN17DhtHumiditySensor4InitEv, %function
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 1
  967              	.L143:
  968 0010 0000FA44 		.word	1157234688
  969              		.size	_ZN26DhtSensorHardwareInterface24GetTemperatureOrHumidityEjRfb, .-_ZN26DhtSensorHardwareInte
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLtCJtW.s 			page 18
 
 
  970              		.section	.text._ZN26DhtSensorHardwareInterface9InterruptEv,"ax",%progbits
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 1
  1024 0006 82B0     		sub	sp, sp, #8
  1025              	.L153:
  1026 0008 0E4C     		ldr	r4, .L163+8
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 19
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLtCJtW.s 			page 19
 
 
  1027 000a 07E0     		b	.L154
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 1
  1081              		@ args = 0, pretend = 0, frame = 0
  1082              		@ frame_needed = 0, uses_anonymous_args = 0
  1083              		@ link register save eliminated.
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 20
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLtCJtW.s 			page 20
 
 
  1084 0000 C269     		ldr	r2, [r0, #28]
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 1
  1138 0006 FFF7FEFF 		bl	_ZN17TemperatureSensorC2EjPKc
  1139 000a 034B     		ldr	r3, .L177+4
  1140 000c 2360     		str	r3, [r4]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 21
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLtCJtW.s 			page 21
 
 
  1141 000e 2046     		mov	r0, r4
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 1
  1195              		.size	_ZN26DhtSensorHardwareInterface13activeSensorsE, 32
  1196              	_ZN26DhtSensorHardwareInterface13activeSensorsE:
  1197 0000 00000000 		.space	32
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 22
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLtCJtW.s 			page 22
 
 
  1197      00000000 
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 1
  1241              	.LC6:
  1242 0000 4448542D 		.ascii	"DHT-temperature\000"
  1242      74656D70 
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 23
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLtCJtW.s 			page 23
 
 
  1242      65726174 
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 1
  1281              	_ZTV20DhtTemperatureSensor:
  1282 0000 00000000 		.word	0
  1283 0004 00000000 		.word	0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccs0OhLc.s 			page 24
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccLtCJtW.s 			page 24
 
 
  1284 0008 00000000 		.word	_ZN20DhtTemperatureSensor9ConfigureEjjR11GCodeBufferRK9StringRef

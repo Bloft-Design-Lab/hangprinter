@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQI2jYD.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 1
   55              		.p2align 2,,3
   56              		.syntax unified
   57              		.thumb
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQI2jYD.s 			page 2
 
 
   58              		.thumb_func
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 1
  112              		.thumb
  113              		.thumb_func
  114              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQI2jYD.s 			page 3
 
 
  115              		.type	sd_mmc_spi_start_read_block, %function
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 1
  169 0058 20A10700 		.word	500000
  170 005c 00000000 		.word	.LANCHOR1
  171              		.size	sd_mmc_spi_start_read_block, .-sd_mmc_spi_start_read_block
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQI2jYD.s 			page 4
 
 
  172              		.section	.text.sd_mmc_spi_stop_write_block,"ax",%progbits
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 1
  226              		.section	.text.sd_mmc_spi_stop_multiwrite_block,"ax",%progbits
  227              		.align	1
  228              		.p2align 2,,3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQI2jYD.s 			page 5
 
 
  229              		.syntax unified
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 1
  283 0060 00000000 		.word	.LANCHOR1
  284              		.size	sd_mmc_spi_stop_multiwrite_block, .-sd_mmc_spi_stop_multiwrite_block
  285              		.section	.text.spi_mmc_get_speed,"ax",%progbits
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQI2jYD.s 			page 6
 
 
  286              		.align	1
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 1
  340              		@ link register save eliminated.
  341 0000 014B     		ldr	r3, .L57
  342 0002 1878     		ldrb	r0, [r3]	@ zero_extendqisi2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQI2jYD.s 			page 7
 
 
  343 0004 7047     		bx	lr
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 1
  397 0014 E270     		strb	r2, [r4, #3]
  398 0016 2046     		mov	r0, r4
  399 0018 6160     		str	r1, [r4, #4]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQI2jYD.s 			page 8
 
 
  400 001a 2A70     		strb	r2, [r5]
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 1
  454              		L_472_delayMicroseconds:
  455 001e 013B     		subs   r3, #1
  456 0020 FDD1     		bne    L_472_delayMicroseconds
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQI2jYD.s 			page 9
 
 
  457              	
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 1
  511              		.syntax unified
  512              		.thumb
  513              		.thumb_func
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQI2jYD.s 			page 10
 
 
  514              		.fpu fpv4-sp-d16
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 1
  568 0090 FFF7FEFF 		bl	sspi_transceive_packet
  569 0094 4146     		mov	r1, r8
  570 0096 0622     		movs	r2, #6
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQI2jYD.s 			page 11
 
 
  571 0098 02A8     		add	r0, sp, #8
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 1
  625              	.L102:
  626 0112 0623     		movs	r3, #6
  627 0114 0020     		movs	r0, #0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQI2jYD.s 			page 12
 
 
  628 0116 2370     		strb	r3, [r4]
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 1
  682              		.type	sd_mmc_spi_send_cmd, %function
  683              	sd_mmc_spi_send_cmd:
  684              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQI2jYD.s 			page 13
 
 
  685              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 1
  739 0018 0746     		mov	r7, r0
  740 001a 3270     		strb	r2, [r6]
  741 001c 13B9     		cbnz	r3, .L119
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQI2jYD.s 			page 14
 
 
  742 001e FFF7FEFF 		bl	sd_mmc_spi_start_read_block
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 1
  796 0018 0190     		str	r0, [sp, #4]
  797 001a 2A70     		strb	r2, [r5]
  798 001c BBB1     		cbz	r3, .L132
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQI2jYD.s 			page 15
 
 
  799              	.L125:
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 1
  853 0006 0025     		movs	r5, #0
  854 0008 83B0     		sub	sp, sp, #12
  855 000a 1D70     		strb	r5, [r3]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQI2jYD.s 			page 16
 
 
  856 000c 29B3     		cbz	r1, .L137
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 1
  910              	sd_mmc_spi_wait_end_of_read_blocks:
  911              		@ args = 0, pretend = 0, frame = 0
  912              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQI2jYD.s 			page 17
 
 
  913              		@ link register save eliminated.
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 1
  967 005a 8BF80030 		strb	r3, [fp]
  968 005e BDE8F88F 		pop	{r3, r4, r5, r6, r7, r8, r9, r10, fp, pc}
  969              	.L164:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQI2jYD.s 			page 18
 
 
  970 0062 00BF     		.align	2
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 1
  1024              		.type	sd_mmc_spi_devices, %object
  1025              		.size	sd_mmc_spi_devices, 8
  1026              	sd_mmc_spi_devices:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccV6nNmB.s 			page 19
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccQI2jYD.s 			page 19
 
 
  1027 0000 00000000 		.space	8

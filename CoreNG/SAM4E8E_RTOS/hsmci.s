@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccH9gtdi.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 1
   55 003a 13F41B0F 		tst	r3, #10158080
   56 003e F7D0     		beq	.L7
   57              	.L32:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccH9gtdi.s 			page 2
 
 
   58 0040 5768     		ldr	r7, [r2, #4]
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 1
  112              	.L38:
  113 00aa 00BF     		.align	2
  114              	.L37:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccH9gtdi.s 			page 3
 
 
  115 00ac 00000840 		.word	1074266112
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 1
  169 000c 00000000 		.word	.LANCHOR0
  170              		.size	hsmci_set_idle_func, .-hsmci_set_idle_func
  171              		.section	.text.hsmci_init,"ax",%progbits
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccH9gtdi.s 			page 4
 
 
  172              		.align	1
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 1
  226              		.thumb
  227              		.thumb_func
  228              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccH9gtdi.s 			page 5
 
 
  229              		.type	hsmci_is_high_speed_capable, %function
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 1
  283 004a 082A     		cmp	r2, #8
  284 004c 1B4B     		ldr	r3, .L80
  285 004e 5DF8044B 		ldr	r4, [sp], #4
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccH9gtdi.s 			page 6
 
 
  286 0052 0CBF     		ite	eq
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 1
  340              		.align	2
  341              	.L80:
  342 00bc 00000840 		.word	1074266112
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccH9gtdi.s 			page 7
 
 
  343 00c0 FF0D2707 		.word	119999999
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 1
  397              		.syntax unified
  398              		.thumb
  399              		.thumb_func
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccH9gtdi.s 			page 8
 
 
  400              		.fpu fpv4-sp-d16
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 1
  454              		.fpu fpv4-sp-d16
  455              		.type	hsmci_get_response_128, %function
  456              	hsmci_get_response_128:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccH9gtdi.s 			page 9
 
 
  457              		@ args = 0, pretend = 0, frame = 0
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 1
  511 0022 45F40055 		orrne	r5, r5, #8192
  512 0026 25F40055 		biceq	r5, r5, #8192
  513 002a 10F4004F 		tst	r0, #32768
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccH9gtdi.s 			page 10
 
 
  514 002e 6560     		str	r5, [r4, #4]
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 1
  568 00a4 00000000 		.word	.LANCHOR3
  569              		.size	hsmci_adtc_start, .-hsmci_adtc_start
  570              		.section	.text.hsmci_adtc_stop,"ax",%progbits
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccH9gtdi.s 			page 11
 
 
  571              		.align	1
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 1
  625 002e 1360     		str	r3, [r2]
  626 0030 F8BD     		pop	{r3, r4, r5, r6, r7, pc}
  627              	.L139:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccH9gtdi.s 			page 12
 
 
  628 0032 194C     		ldr	r4, .L140+8
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 1
  682 0094 000060C0 		.word	-1067450368
  683 0098 00000000 		.word	.LANCHOR1
  684 009c 00000000 		.word	.LANCHOR2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccH9gtdi.s 			page 13
 
 
  685 00a0 00000000 		.word	.LANCHOR3
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 1
  739 0048 0B60     		str	r3, [r1]
  740 004a 1ED3     		bcc	.L146
  741 004c 154F     		ldr	r7, .L159+20
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccH9gtdi.s 			page 14
 
 
  742 004e 164E     		ldr	r6, .L159+24
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 1
  796              		.fpu fpv4-sp-d16
  797              		.type	hsmci_start_read_blocks, %function
  798              	hsmci_start_read_blocks:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccH9gtdi.s 			page 15
 
 
  799              		@ args = 0, pretend = 0, frame = 0
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 1
  853              		.thumb_func
  854              		.fpu fpv4-sp-d16
  855              		.type	hsmci_wait_end_of_read_blocks, %function
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccH9gtdi.s 			page 16
 
 
  856              	hsmci_wait_end_of_read_blocks:
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 1
  910              	.L178:
  911 0062 2B68     		ldr	r3, [r5]
  912 0064 0021     		movs	r1, #0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccH9gtdi.s 			page 17
 
 
  913 0066 3846     		mov	r0, r7
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 1
  967 0024 5B68     		ldr	r3, [r3, #4]
  968 0026 0F48     		ldr	r0, .L201+8
  969 0028 9B04     		lsls	r3, r3, #18
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccH9gtdi.s 			page 18
 
 
  970 002a 54BF     		ite	pl
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 1
  1024 001a 236C     		ldr	r3, [r4, #64]
  1025 001c 3342     		tst	r3, r6
  1026 001e F5D0     		beq	.L205
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 19
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccH9gtdi.s 			page 19
 
 
  1027 0020 8023     		movs	r3, #128
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 1
  1081 008a A660     		str	r6, [r4, #8]
  1082 008c 0020     		movs	r0, #0
  1083 008e E560     		str	r5, [r4, #12]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 20
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccH9gtdi.s 			page 20
 
 
  1084 0090 E161     		str	r1, [r4, #28]
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 1
  1138              		.type	hsmci_transfert_pos, %object
  1139              		.size	hsmci_transfert_pos, 4
  1140              	hsmci_transfert_pos:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccGQ54O7.s 			page 21
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccH9gtdi.s 			page 21
 
 
  1141 0000 00000000 		.space	4

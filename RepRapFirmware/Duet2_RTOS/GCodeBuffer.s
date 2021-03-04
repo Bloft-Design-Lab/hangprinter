@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
   55              		.size	_ZN11GCodeBufferC2EPKc11MessageTypeb, .-_ZN11GCodeBufferC2EPKc11MessageTypeb
   56              		.global	_ZN11GCodeBufferC1EPKc11MessageTypeb
   57              		.thumb_set _ZN11GCodeBufferC1EPKc11MessageTypeb,_ZN11GCodeBufferC2EPKc11MessageTypeb
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 2
 
 
   58              		.section	.text._ZN11GCodeBuffer5ResetEv,"ax",%progbits
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  112 0002 4FF0FF32 		mov	r2, #-1
  113 0006 C0E90832 		strd	r3, r2, [r0, #32]
  114 000a C361     		str	r3, [r0, #28]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 3
 
 
  115 000c 0371     		strb	r3, [r0, #4]
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  169 005e 64D0     		beq	.L40
  170 0060 93F85530 		ldrb	r3, [r3, #85]	@ zero_extendqisi2
  171 0064 303B     		subs	r3, r3, #48
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 4
 
 
  172 0066 092B     		cmp	r3, #9
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  226 00dc A646     		mov	lr, r4
  227              	.L19:
  228 00de 0178     		ldrb	r1, [r0]	@ zero_extendqisi2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 5
 
 
  229 00e0 10F8015F 		ldrb	r5, [r0, #1]!	@ zero_extendqisi2
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  283 000a 0446     		mov	r4, r0
  284 000c 51D0     		beq	.L80
  285 000e 0344     		add	r3, r3, r0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 6
 
 
  286 0010 0022     		movs	r2, #0
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  340 0096 2361     		str	r3, [r4, #16]
  341 0098 2046     		mov	r0, r4
  342 009a FFF7FEFF 		bl	_ZN11GCodeBuffer13DecodeCommandEv
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 7
 
 
  343 009e 0123     		movs	r3, #1
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  397 010c E36A     		ldr	r3, [r4, #44]
  398 010e 002B     		cmp	r3, #0
  399 0110 90D1     		bne	.L53
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 8
 
 
  400 0112 5068     		ldr	r0, [r2, #4]
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  454 001e 0FD8     		bhi	.L139
  455 0020 DFE803F0 		tbb	[pc, r3]
  456              	.L96:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 9
 
 
  457 0024 7A       		.byte	(.L95-.L96)/2
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  511 0090 2029     		cmp	r1, #32
  512 0092 60D0     		beq	.L104
  513              	.L103:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 10
 
 
  514 0094 0322     		movs	r2, #3
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  568 0138 80F82820 		strb	r2, [r0, #40]
  569 013c 0364     		str	r3, [r0, #64]
  570 013e 7FE7     		b	.L139
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 11
 
 
  571              	.L150:
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  625 01c0 C218     		adds	r2, r0, r3
  626 01c2 0133     		adds	r3, r3, #1
  627 01c4 0362     		str	r3, [r0, #32]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 12
 
 
  628 01c6 82F85510 		strb	r1, [r2, #85]
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  682 0036 FFF7FEFF 		bl	_ZN11GCodeBuffer3PutEc
  683 003a 0028     		cmp	r0, #0
  684 003c F6D0     		beq	.L162
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 13
 
 
  685 003e 70BD     		pop	{r4, r5, r6, pc}
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  739 000a 1BD3     		bcc	.L172
  740 000c 10B4     		push	{r4}
  741 000e 8168     		ldr	r1, [r0, #8]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 14
 
 
  742 0010 087E     		ldrb	r0, [r1, #24]	@ zero_extendqisi2
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  796              		.p2align 2,,3
  797              		.global	_ZN11GCodeBuffer4SeenEc
  798              		.syntax unified
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 15
 
 
  799              		.thumb
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  853 006c 0BF1010B 		add	fp, fp, #1
  854 0070 E6E7     		b	.L180
  855              	.L192:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 16
 
 
  856 0072 BBF1000F 		cmp	fp, #0
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  910 0046 7562     		str	r5, [r6, #36]
  911 0048 93F85540 		ldrb	r4, [r3, #85]	@ zero_extendqisi2
  912 004c 222C     		cmp	r4, #34
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 17
 
 
  913 004e EAD0     		beq	.L197
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  967 0026 0448     		ldr	r0, .L208+8
  968 0028 FFF7FEFF 		bl	_ZNK6RepRap19ReportInternalErrorEPKcS1_i
  969 002c 0020     		movs	r0, #0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 18
 
 
  970 002e 10BD     		pop	{r4, pc}
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  1024 004a 0420     		moveq	r0, #4
  1025 004c 0A22     		movne	r2, #10
  1026 004e 1022     		moveq	r2, #16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 19
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 19
 
 
  1027 0050 E2E7     		b	.L212
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  1081              		.thumb_func
  1082              		.fpu fpv4-sp-d16
  1083              		.type	_ZN11GCodeBuffer21TryGetUIValueMaybeHexEcRmRb, %function
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 20
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 20
 
 
  1084              	_ZN11GCodeBuffer21TryGetUIValueMaybeHexEcRmRb:
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  1138 0030 05F10105 		add	r5, r5, #1
  1139 0034 13D1     		bne	.L247
  1140 0036 042D     		cmp	r5, #4
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 21
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 21
 
 
  1141 0038 01D0     		beq	.L245
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  1195 0000 F0B5     		push	{r4, r5, r6, r7, lr}
  1196 0002 446A     		ldr	r4, [r0, #36]
  1197 0004 002C     		cmp	r4, #0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 22
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 22
 
 
  1198 0006 83B0     		sub	sp, sp, #12
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  1252              	.L270:
  1253 0074 00000000 		.word	.LANCHOR3
  1254 0078 00000000 		.word	.LC6
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 23
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 23
 
 
  1255 007c 00000000 		.word	reprap
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  1309 0020 0360     		str	r3, [r0]
  1310 0022 AB68     		ldr	r3, [r5, #8]
  1311 0024 0446     		mov	r4, r0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 24
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 24
 
 
  1312 0026 5B68     		ldr	r3, [r3, #4]	@ float
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  1366 00ac 2276     		strb	r2, [r4, #24]
  1367 00ae AA68     		ldr	r2, [r5, #8]
  1368 00b0 128B     		ldrh	r2, [r2, #24]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 25
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 25
 
 
  1369 00b2 02F4C072 		and	r2, r2, #384
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  1423 0002 8468     		ldr	r4, [r0, #8]
  1424 0004 A368     		ldr	r3, [r4, #8]
  1425 0006 13B3     		cbz	r3, .L300
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 26
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 26
 
 
  1426 0008 0E46     		mov	r6, r1
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  1480 000a 00BF     		.section	.text._ZN11GCodeBuffer19MessageAcknowledgedEb,"ax",%progbits
  1481              		.align	1
  1482              		.p2align 2,,3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 27
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 27
 
 
  1483              		.global	_ZN11GCodeBuffer19MessageAcknowledgedEb
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  1537              		.thumb
  1538              		.thumb_func
  1539              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 28
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 28
 
 
  1540              		.type	_ZNK11GCodeBuffer12PrintCommandERK9StringRef, %function
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  1594 0028 84F8F970 		strb	r7, [r4, #249]
  1595 002c 0120     		movs	r0, #1
  1596              	.L337:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 29
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 29
 
 
  1597 002e F8BD     		pop	{r3, r4, r5, r6, r7, pc}
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  1651 0050 0222     		movs	r2, #2
  1652 0052 BDE87040 		pop	{r4, r5, r6, lr}
  1653 0056 FFF7FEBF 		b	_ZN6GCodes11HandleReplyER11GCodeBuffer11GCodeResultPKc
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 30
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 30
 
 
  1654              	.L353:
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  1708 0042 026B     		ldr	r2, [r0, #48]
  1709 0044 002A     		cmp	r2, #0
  1710 0046 E4D1     		bne	.L355
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 31
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 31
 
 
  1711 0048 0133     		adds	r3, r3, #1
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  1765 002e 6868     		ldr	r0, [r5, #4]
  1766 0030 FFF7FEFF 		bl	_ZNK8Platform9EmulatingEv
  1767 0034 194A     		ldr	r2, .L392+4
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 32
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 32
 
 
  1768 0036 1A4B     		ldr	r3, .L392+8
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  1822              		.global	_ZN11GCodeBuffer18EvaluateExpressionEPKcPS1_R15ExpressionValue
  1823              		.syntax unified
  1824              		.thumb
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 33
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 33
 
 
  1825              		.thumb_func
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  1879 0062 7923     		movs	r3, #121
  1880 0064 A5EB0802 		sub	r2, r5, r8
  1881 0068 4146     		mov	r1, r8
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 34
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 34
 
 
  1882 006a 01A8     		add	r0, sp, #4
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  1936 000c 1846     		mov	r0, r3
  1937 000e 1146     		mov	r1, r2
  1938 0010 FFF7FEFF 		bl	_Z10SafeStrtofPKcPS0_
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 35
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 35
 
 
  1939              	.L427:
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  1993 0022 0449     		ldr	r1, .L443+4
  1994 0024 0448     		ldr	r0, .L443+8
  1995 0026 FFF7FEFF 		bl	_ZNK6RepRap19ReportInternalErrorEPKcS1_i
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 36
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 36
 
 
  1996 002a 9FED040A 		vldr.32	s0, .L443+12
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  2050 000a 82B0     		sub	sp, sp, #8
  2051 000c 1546     		mov	r5, r2
  2052 000e 35DB     		blt	.L452
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 37
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 37
 
 
  2053 0010 1F46     		mov	r7, r3
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  2107 008a 0023     		movs	r3, #0
  2108 008c 2B60     		str	r3, [r5]
  2109 008e 02B0     		add	sp, sp, #8
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 38
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 38
 
 
  2110              		@ sp needed
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  2164 002a 3946     		mov	r1, r7
  2165 002c 3046     		mov	r0, r6
  2166 002e FFF7FEFF 		bl	_ZN11GCodeBuffer13GetFloatArrayEPfRjb
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 39
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 39
 
 
  2167 0032 019B     		ldr	r3, [sp, #4]
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  2221 0020 0228     		cmp	r0, #2
  2222 0022 09D0     		beq	.L484
  2223 0024 0328     		cmp	r0, #3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 40
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 40
 
 
  2224 0026 04D1     		bne	.L492
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  2278 0034 FFF7FEFF 		bl	_ZN11GCodeBuffer11ReadUIValueEPKcPS1_
  2279 0038 0199     		ldr	r1, [sp, #4]
  2280 003a 4BF8040F 		str	r0, [fp, #4]!
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 41
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 41
 
 
  2281 003e 0B78     		ldrb	r3, [r1]	@ zero_extendqisi2
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  2335              	.L510:
  2336              		.align	2
  2337              	.L509:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 42
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 42
 
 
  2338 00b4 00000000 		.word	reprap
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  2392 0052 2046     		mov	r0, r4
  2393 0054 1370     		strb	r3, [r2]
  2394 0056 03B0     		add	sp, sp, #12
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 43
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 43
 
 
  2395              		@ sp needed
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  2449              		.syntax unified
  2450              		.thumb
  2451              		.thumb_func
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 44
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 44
 
 
  2452              		.fpu fpv4-sp-d16
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  2506 006c FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
  2507 0070 4FF0FF32 		mov	r2, #-1
  2508 0074 0023     		movs	r3, #0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 45
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 45
 
 
  2509 0076 6A62     		str	r2, [r5, #36]
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  2563 0008 5631     		adds	r1, r1, #86
  2564 000a 0446     		mov	r4, r0
  2565 000c 0144     		add	r1, r1, r0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 46
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 46
 
 
  2566 000e 0022     		movs	r2, #0
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  2620              		.thumb_func
  2621              		.fpu fpv4-sp-d16
  2622              		.type	_ZN11GCodeBuffer12TryGetBValueEcRbS0_, %function
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 47
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 47
 
 
  2623              	_ZN11GCodeBuffer12TryGetBValueEcRbS0_:
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  2677 0024 3B       		.byte	(.L575-.L571)/2
  2678 0025 47       		.byte	(.L576-.L571)/2
  2679 0026 5A       		.byte	(.L580-.L571)/2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 48
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 48
 
 
  2680 0027 5A       		.byte	(.L580-.L571)/2
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  2734 0088 2846     		mov	r0, r5
  2735 008a 1749     		ldr	r1, .L583+16
  2736 008c FFF7FEFF 		bl	_ZNK9StringRef6printfEPKcz
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 49
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 49
 
 
  2737 0090 0120     		movs	r0, #1
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  2791              		.syntax unified
  2792              		.thumb
  2793              		.thumb_func
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 50
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 50
 
 
  2794              		.fpu fpv4-sp-d16
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  2848 0002 1546     		mov	r5, r2
  2849 0004 1E46     		mov	r6, r3
  2850 0006 0446     		mov	r4, r0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 51
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 51
 
 
  2851 0008 FFF7FEFF 		bl	_ZN11GCodeBuffer4SeenEc
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  2905 0038 93F85530 		ldrb	r3, [r3, #85]	@ zero_extendqisi2
  2906 003c 1F2B     		cmp	r3, #31
  2907 003e F3D8     		bhi	.L606
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 52
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 52
 
 
  2908              	.L605:
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  2962              		.global	_ZN11GCodeBuffer26TryGetPossiblyQuotedStringEcRK9StringRefRb
  2963              		.syntax unified
  2964              		.thumb
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 53
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 53
 
 
  2965              		.thumb_func
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  3019 0024 4362     		str	r3, [r0, #36]
  3020 0026 F4D8     		bhi	.L628
  3021              	.L627:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 54
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 54
 
 
  3022 0028 30BC     		pop	{r4, r5}
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  3076 0016 FFF7FEFF 		bl	_ZNK9StringRef5vcatfEPKcSt9__va_list
  3077 001a 04B0     		add	sp, sp, #16
  3078              		@ sp needed
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 55
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 55
 
 
  3079 001c 5DF804EB 		ldr	lr, [sp], #4
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  3133 0058 0E4B     		ldr	r3, .L649+12
  3134 005a 2A46     		mov	r2, r5
  3135 005c 3946     		mov	r1, r7
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 56
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 56
 
 
  3136 005e 5868     		ldr	r0, [r3, #4]
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  3190              		@ sp needed
  3191 001c 5DF804EB 		ldr	lr, [sp], #4
  3192 0020 03B0     		add	sp, sp, #12
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 57
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 57
 
 
  3193 0022 7047     		bx	lr
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  3247 005a 1449     		ldr	r1, .L665
  3248 005c 0246     		mov	r2, r0
  3249 005e 2846     		mov	r0, r5
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 58
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 58
 
 
  3250 0060 FFF7FEFF 		bl	_ZN6StringILj50EE6printfEPKcz
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  3304              		.type	_ZL9eofString, %object
  3305              		.size	_ZL9eofString, 17
  3306              	_ZL9eofString:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 59
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 59
 
 
  3307 0000 3C212D2D 		.ascii	"<!-- **EoF** -->\000"
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  3334      41747465 
  3334      6D707420 
  3334      746F2072 
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 60
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 60
 
 
  3335 0033 6F6F206C 		.ascii	"oo long: %s\012\000"
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  3366 0000 47436F64 		.ascii	"GCodes: Attempt to read a GCode unsigned array that"
  3366      65733A20 
  3366      41747465 
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 61
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 61
 
 
  3366      6D707420 
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  3398              	.LC21:
  3399 002c 256C6900 		.ascii	"%li\000"
  3400              		.section	.rodata._ZNK11GCodeBuffer12PrintCommandERK9StringRef.str1.4,"aMS",%progbits,1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 62
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 62
 
 
  3401              		.align	2
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  3441      7300
  3442              		.section	.rodata._ZZN11GCodeBuffer15GetQuotedStringERK9StringRefE8__func__,"a",%progbits
  3443              		.align	2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 63
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 63
 
 
  3444              		.set	.LANCHOR10,. + 0
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 1
  3481              		.size	_ZZN11GCodeBuffer9GetIValueEvE8__func__, 10
  3482              	_ZZN11GCodeBuffer9GetIValueEvE8__func__:
  3483 0000 47657449 		.ascii	"GetIValue\000"
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpkyS08.s 			page 64
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpPBf34.s 			page 64
 
 
  3483      56616C75 

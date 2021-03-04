@@ -29,8 +29,8 @@ public:
 	bool LimitPosition(float position[], size_t numAxes, AxesBitmap axesHomed, bool isCoordinated) const override;
 	void GetAssumedInitialPosition(size_t numAxes, float positions[]) const override;
 	size_t NumHomingButtons(size_t numVisibleAxes) const override { return 0; }
-	const char* HomingButtonNames() const override { return "VABCD"; }
-	const char* MachineAxisNames() const override { return "VABCD"; }
+	const char* HomingButtonNames() const override { return "ABCDV"; }
+	const char* MachineAxisNames() const override { return "ABCDV"; }
 	HomingMode GetHomingMode() const override { return homeIndividualMotors; }
 	AxesBitmap AxesAssumedHomed(AxesBitmap g92Axes) const override;
 	AxesBitmap MustBeHomedAxes(AxesBitmap axesMoving, bool disallowMovesBeforeHoming) const override;
@@ -49,12 +49,12 @@ private:
 
 	// Basic facts about movement system
 	static constexpr size_t HANGPRINTER_AXES = 5;
-	static constexpr size_t V_AXIS = 0;
-	static constexpr size_t A_AXIS = 1;
-	static constexpr size_t B_AXIS = 2;
-	static constexpr size_t C_AXIS = 3;
-	static constexpr size_t D_AXIS = 4;
 
+	static constexpr size_t A_AXIS = 0;
+	static constexpr size_t B_AXIS = 1;
+	static constexpr size_t C_AXIS = 2;
+	static constexpr size_t D_AXIS = 3;
+	static constexpr size_t V_AXIS = 4;
 
 	void Init();
 	void Recalc();

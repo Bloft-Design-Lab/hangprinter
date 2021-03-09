@@ -1,6 +1,6 @@
-18:18:53 **** Build of configuration SAM4E for project FreeRTOS ****
+12:50:29 **** Incremental Build of configuration SAM4E for project FreeRTOS ****
 make -j8 all 
 make: Nothing to be done for 'all'.
 
-18:18:53 Build Finished. 0 errors, 0 warnings. (took 220ms)
+12:50:29 Build Finished. 0 errors, 0 warnings. (took 333ms)
 

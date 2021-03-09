@@ -89,8 +89,8 @@ void HangprinterKinematics::Init()
 	constexpr uint32_t DefaultMechanicalAdvantage[5] = {1, 2, 2, 2, 1}; // HP3 default
 	constexpr uint32_t DefaultLinesPerSpool[5] = { 1, 1, 1, 1, 1}; // HP3 default
 	// F axis 1:60
-	constexpr uint32_t DefaultMotorGearTeeth[5] = {5, 20, 20, 20, 20}; // HP3 default
-	constexpr uint32_t DefaultSpoolGearTeeth[5] = { 300, 255, 255, 255, 255}; // HP3 default
+	constexpr uint32_t DefaultMotorGearTeeth[5] = {5, 20, 20,  20,  20}; // HP3 default
+	constexpr uint32_t DefaultSpoolGearTeeth[5] = {300, 255, 255, 255, 255 }; // HP3 default
 	constexpr uint32_t DefaultFullStepsPerMotorRev[5] = { 32, 32, 32, 32, 32};
 	ARRAY_INIT(anchorA, DefaultAnchorA);
 	ARRAY_INIT(anchorB, DefaultAnchorB);
@@ -320,6 +320,10 @@ inline float HangprinterKinematics::LineLengthSquared(const float machinePos[3],
 	// Geometry of hangprinter makes fsquare(anchorABC[Z_AXIS] - machinePos[Z_AXIS]) the smallest term in the sum.
 	// Geometry also makes machinePos[XY_AXIS] smaller than anchor[XY_AXIS] 5 out of 6 times (exception being anchorA[X_AXIS] = 0.0 by convention).
 	// Starting sum with smallest number gives smallest roundoff error.
+
+	// The angle in which the ABC lines connect to the end effector is constant. Hence in the following pythagoras calculation
+	// the anchor[Z_AXIS] stays the same at any given moment.
+
 	return fsquare(anchor[Z_AXIS]) + fsquare(machinePos[Y_AXIS] - anchor[Y_AXIS]) + fsquare(machinePos[X_AXIS] - anchor[X_AXIS]);
 }
 
@@ -382,7 +386,7 @@ bool HangprinterKinematics::CartesianToMotorSteps(const float machinePos[], cons
 		);
 
 
-	char* axixes[5] = {"V axis", "A axis", "B axis", "C axis", "D axis"};
+	char* axixes[5] = {"A axis", "B axis", "C axis", "D axis", "V axis"};
 	float linePos[HANGPRINTER_AXES];
 	float elongationsABC[HANGPRINTER_AXES - 2];
 
@@ -390,18 +394,11 @@ bool HangprinterKinematics::CartesianToMotorSteps(const float machinePos[], cons
 	for (size_t i = 0; i < HANGPRINTER_AXES; ++i)
 	{
 		if(i < 1){
+			// The v axis is almost the same as D axis's z value. Only some offset needs to be added for the calculation.
 			linePos[V_AXIS] = anchorDz - machinePos[Z_AXIS] + offsetF;
 		} else {
 			linePos[i] = sqrtf(squaredLineLengths[i]) - lineLengthsOrigin[i];
 		}
-
-		/*if(i < 3){
-			//elongations[i] = elongationCalcABC(anchorA[0], anchorA[1], linePos[i]);
-			debugPrintf("Lineposition %s Pietari: %f\n", axixes[i], linePos[i] + 1441,03);
-		} else {
-			//elongations[i] = elongationCalc((linePos[i]));
-			debugPrintf("Lineposition %s Pietari: %f\n", axixes[i], linePos[i]);
-		}*/
 	}
 
 
@@ -418,7 +415,6 @@ bool HangprinterKinematics::CartesianToMotorSteps(const float machinePos[], cons
 			motorPos[B_AXIS] = lrintf(linePos[B_AXIS] * (float)stepsPerMm[B_AXIS]);
 			motorPos[C_AXIS] = lrintf(linePos[C_AXIS] * (float)stepsPerMm[C_AXIS]);
 			motorPos[D_AXIS] = lrintf((linePos[D_AXIS])* (float)stepsPerMm[D_AXIS]);
-
 			return true;
 		}
 

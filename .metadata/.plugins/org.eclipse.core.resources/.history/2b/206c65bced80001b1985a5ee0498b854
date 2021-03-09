@@ -32,7 +32,7 @@ constexpr float fromAnchorToPrintSurface = 36.5;
 
 constexpr float offsetF = DefaultAnchorC[2] - fromAnchorToPrintSurface;
 
-constexpr float DefaultAnchorDz = 3654.0;
+constexpr float DefaultAnchorDz = 3677.0;
 constexpr float DefaultAnchorVz = DefaultAnchorDz - offsetF;
 constexpr float DefaultPrintRadius = 500.0;
 
@@ -151,7 +151,7 @@ void HangprinterKinematics::Recalc()
 
 	// This is the difference between a "line length" and a "line position"
 	// "line length" = "line position" + "line length in origin"
-	// reference measurement when the effector is at it's center
+
 	#define HYP3D(x,y,z) sqrtf(fsquare(x)+fsquare(y)+fsquare(z))
 	lineLengthsOrigin[V_AXIS] = anchorVz;
 	lineLengthsOrigin[A_AXIS] = HYP3D(anchorA[0], anchorA[1], anchorA[2]);
@@ -381,11 +381,10 @@ bool HangprinterKinematics::CartesianToMotorSteps(const float machinePos[], cons
 			+ fsquare(anchorDz - machinePos[Z_AXIS])
 		);
 
-	// used purely for debugging
+
 	char* axixes[5] = {"V axis", "A axis", "B axis", "C axis", "D axis"};
 	float linePos[HANGPRINTER_AXES];
-	// elongationsABC is used when calculating the elongations. Not used 9th of march 2021 atleast
-	// float elongationsABC[HANGPRINTER_AXES - 2];
+	//float elongationsABC[HANGPRINTER_AXES - 2];
 
 
 	for (size_t i = 0; i < HANGPRINTER_AXES; ++i)

@@ -32,7 +32,7 @@ constexpr float fromAnchorToPrintSurface = 36.5;
 
 constexpr float offsetF = DefaultAnchorC[2] - fromAnchorToPrintSurface;
 
-constexpr float DefaultAnchorDz = 3654.0;
+constexpr float DefaultAnchorDz = 3677.0;
 constexpr float DefaultAnchorVz = DefaultAnchorDz - offsetF;
 constexpr float DefaultPrintRadius = 500.0;
 

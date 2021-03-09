@@ -32,7 +32,7 @@ constexpr float fromAnchorToPrintSurface = 36.5;
 
 constexpr float offsetF = DefaultAnchorC[2] - fromAnchorToPrintSurface;
 
-constexpr float DefaultAnchorDz = 3654.0;
+constexpr float DefaultAnchorDz = 3677.0;
 constexpr float DefaultAnchorVz = DefaultAnchorDz - offsetF;
 constexpr float DefaultPrintRadius = 500.0;
 
@@ -151,7 +151,7 @@ void HangprinterKinematics::Recalc()
 
 	// This is the difference between a "line length" and a "line position"
 	// "line length" = "line position" + "line length in origin"
-	// reference measurement when the effector is at it's center
+
 	#define HYP3D(x,y,z) sqrtf(fsquare(x)+fsquare(y)+fsquare(z))
 	lineLengthsOrigin[V_AXIS] = anchorVz;
 	lineLengthsOrigin[A_AXIS] = HYP3D(anchorA[0], anchorA[1], anchorA[2]);

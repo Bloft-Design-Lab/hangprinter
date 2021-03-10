@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
   55 0018 7047     		bx	lr
   56              		.size	pio_set_debounce_filter, .-pio_set_debounce_filter
   57 001a 00BF     		.section	.text.pio_set,"ax",%progbits
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 2
 
 
   58              		.align	1
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
  112              		.size	pio_get, .-pio_get
  113              		.section	.text.pio_set_peripheral,"ax",%progbits
  114              		.align	1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 3
 
 
  115              		.p2align 2,,3
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
  169 005c 7047     		bx	lr
  170              	.L16:
  171 005e 10B4     		push	{r4}
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 4
 
 
  172 0060 046F     		ldr	r4, [r0, #112]
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
  226 0020 4161     		str	r1, [r0, #20]
  227 0022 0160     		str	r1, [r0]
  228 0024 7047     		bx	lr
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 5
 
 
  229              	.L48:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
  283              		.thumb_func
  284              		.fpu fpv4-sp-d16
  285              		.type	pio_configure, %function
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 6
 
 
  286              	pio_configure:
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
  340 006e 0260     		str	r2, [r0]
  341 0070 1846     		mov	r0, r3
  342 0072 70BD     		pop	{r4, r5, r6, pc}
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 7
 
 
  343              	.L100:
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
  397              		@ args = 0, pretend = 0, frame = 0
  398              		@ frame_needed = 0, uses_anonymous_args = 0
  399              		@ link register save eliminated.
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 8
 
 
  400 0000 0AB9     		cbnz	r2, .L107
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
  454              		@ frame_needed = 0, uses_anonymous_args = 0
  455              		@ link register save eliminated.
  456 0000 C0F8A010 		str	r1, [r0, #160]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 9
 
 
  457 0004 7047     		bx	lr
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
  511              		.syntax unified
  512              		.thumb
  513              		.thumb_func
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 10
 
 
  514              		.fpu fpv4-sp-d16
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
  568              		.section	.text.pio_enable_interrupt,"ax",%progbits
  569              		.align	1
  570              		.p2align 2,,3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 11
 
 
  571              		.global	pio_enable_interrupt
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
  625              	pio_get_interrupt_mask:
  626              		@ args = 0, pretend = 0, frame = 0
  627              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 12
 
 
  628              		@ link register save eliminated.
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
  682              		@ link register save eliminated.
  683 0000 D0F8E800 		ldr	r0, [r0, #232]
  684 0004 7047     		bx	lr
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 13
 
 
  685              		.size	pio_get_writeprotect_status, .-pio_get_writeprotect_status
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
  739              		.fpu fpv4-sp-d16
  740              		.type	pio_set_pin_low, %function
  741              	pio_set_pin_low:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 14
 
 
  742              		@ args = 0, pretend = 0, frame = 0
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
  796 0002 03F50013 		add	r3, r3, #2097152
  797 0006 01F0F042 		and	r2, r1, #2013265920
  798 000a 03F20773 		addw	r3, r3, #1799
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 15
 
 
  799 000e B2F1005F 		cmp	r2, #536870912
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
  853 008e 24EA0204 		bic	r4, r4, r2
  854 0092 C907     		lsls	r1, r1, #31
  855 0094 5C67     		str	r4, [r3, #116]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 16
 
 
  856 0096 5A60     		str	r2, [r3, #4]
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
  910 0104 0120     		movs	r0, #1
  911 0106 00FA02F2 		lsl	r2, r0, r2
  912 010a 5A64     		str	r2, [r3, #68]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 17
 
 
  913 010c 1C6F     		ldr	r4, [r3, #112]
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
  967              		.type	pio_set_pin_group_low, %function
  968              	pio_set_pin_group_low:
  969              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 18
 
 
  970              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
  1024              	.L190:
  1025 0028 B4F1405F 		cmp	r4, #805306368
  1026 002c 3DD0     		beq	.L194
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 19
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 19
 
 
  1027 002e B4F1605F 		cmp	r4, #939524096
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
  1081 009c 5867     		str	r0, [r3, #116]
  1082 009e 5960     		str	r1, [r3, #4]
  1083 00a0 EBD4     		bmi	.L225
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 20
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 20
 
 
  1084              	.L199:
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
  1138              		.section	.text.pio_enable_pin_interrupt,"ax",%progbits
  1139              		.align	1
  1140              		.p2align 2,,3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 21
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 21
 
 
  1141              		.global	pio_enable_pin_interrupt
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
  1195              		@ frame_needed = 0, uses_anonymous_args = 0
  1196              		@ link register save eliminated.
  1197 0000 4009     		lsrs	r0, r0, #5
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 22
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 22
 
 
  1198 0002 00F50010 		add	r0, r0, #2097152
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
  1252 0004 C0F85011 		str	r1, [r0, #336]
  1253 0008 7047     		bx	lr
  1254              		.size	pio_capture_set_mode, .-pio_capture_set_mode
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 23
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 23
 
 
  1255 000a 00BF     		.section	.text.pio_capture_enable,"ax",%progbits
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
  1309              		.syntax unified
  1310              		.thumb
  1311              		.thumb_func
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 24
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 24
 
 
  1312              		.fpu fpv4-sp-d16
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 1
  1366              		.thumb_func
  1367              		.fpu fpv4-sp-d16
  1368              		.type	pio_capture_get_interrupt_status, %function
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cckGYtDg.s 			page 25
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc6dyMJ9.s 			page 25
 
 
  1369              	pio_capture_get_interrupt_status:

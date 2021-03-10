@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
   55 004a 2246     		mov	r2, r4
   56 004c 16D0     		beq	.L6
   57              	.L47:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 2
 
 
   58 004e 2E23     		movs	r3, #46
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  112 00c2 05F10105 		add	r5, r5, #1
  113 00c6 06EB0503 		add	r3, r6, r5
  114 00ca 09D9     		bls	.L10
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 3
 
 
  115 00cc 03F8010C 		strb	r0, [r3, #-1]
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  169 0026 0ED1     		bne	.L51
  170 0028 D4F86A30 		ldr	r3, [r4, #106]	@ unaligned
  171 002c 084A     		ldr	r2, .L54
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 4
 
 
  172 002e 23F07F43 		bic	r3, r3, #-16777216
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  226 0032 7BB1     		cbz	r3, .L59
  227 0034 6878     		ldrb	r0, [r5, #1]	@ zero_extendqisi2
  228 0036 FFF7FEFF 		bl	disk_status
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 5
 
 
  229 003a C307     		lsls	r3, r0, #31
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  283 00c2 0029     		cmp	r1, #0
  284 00c4 7FD0     		beq	.L64
  285 00c6 481E     		subs	r0, r1, #1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 6
 
 
  286 00c8 0842     		tst	r0, r1
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  340 0168 C5E90532 		strd	r3, r2, [r5, #20]
  341 016c 6E71     		strb	r6, [r5, #5]
  342 016e 0123     		movs	r3, #1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 7
 
 
  343 0170 05F13401 		add	r1, r5, #52
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  397 01e6 49E7     		b	.L62
  398              	.L70:
  399 01e8 002E     		cmp	r6, #0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 8
 
 
  400 01ea ECD0     		beq	.L64
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  454 0000 20B1     		cbz	r0, .L127
  455 0002 0378     		ldrb	r3, [r0]	@ zero_extendqisi2
  456 0004 13B1     		cbz	r3, .L127
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 9
 
 
  457 0006 C388     		ldrh	r3, [r0, #6]
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  511 002a 10BB     		cbnz	r0, .L142
  512 002c D4E90832 		ldrd	r3, r2, [r4, #32]
  513 0030 1A44     		add	r2, r2, r3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 10
 
 
  514 0032 B242     		cmp	r2, r6
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  568 0010 012B     		cmp	r3, #1
  569 0012 02D0     		beq	.L168
  570              	.L166:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 11
 
 
  571 0014 4FF0FF30 		mov	r0, #-1
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  625 00a6 B5D1     		bne	.L166
  626 00a8 6400     		lsls	r4, r4, #1
  627 00aa 04F4FF74 		and	r4, r4, #510
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 12
 
 
  628 00ae 3C44     		add	r4, r4, r7
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  682 0046 8242     		cmp	r2, r0
  683 0048 EFD8     		bhi	.L184
  684              	.L172:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 13
 
 
  685 004a 0220     		movs	r0, #2
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  739              		@ frame_needed = 0, uses_anonymous_args = 0
  740 0000 2DE9F047 		push	{r4, r5, r6, r7, r8, r9, r10, lr}
  741 0004 90F80090 		ldrb	r9, [r0]	@ zero_extendqisi2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 14
 
 
  742 0008 B9F1020F 		cmp	r9, #2
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  796 0094 CB78     		ldrb	r3, [r1, #3]	@ zero_extendqisi2
  797 0096 1B06     		lsls	r3, r3, #24
  798 0098 03F07043 		and	r3, r3, #-268435456
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 15
 
 
  799 009c 43EA0702 		orr	r2, r3, r7
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  853              		.syntax unified
  854              		.thumb
  855              		.thumb_func
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 16
 
 
  856              		.fpu fpv4-sp-d16
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  910 0058 F2D9     		bls	.L208
  911 005a EB69     		ldr	r3, [r5, #28]
  912 005c 8342     		cmp	r3, r0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 17
 
 
  913 005e F0D8     		bhi	.L205
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  967              		.p2align 2,,3
  968              		.syntax unified
  969              		.thumb
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 18
 
 
  970              		.thumb_func
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  1024              	.L240:
  1025 006e 3430     		adds	r0, r0, #52
  1026 0070 00EB4710 		add	r0, r0, r7, lsl #5
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 19
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 19
 
 
  1027 0074 6861     		str	r0, [r5, #20]
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  1081 00ee 2A68     		ldr	r2, [r5]
  1082 00f0 136B     		ldr	r3, [r2, #48]
  1083 00f2 9178     		ldrb	r1, [r2, #2]	@ zero_extendqisi2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 20
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 20
 
 
  1084 00f4 0133     		adds	r3, r3, #1
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  1138 001e 58D1     		bne	.L277
  1139              	.L276:
  1140 0020 2169     		ldr	r1, [r4, #16]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 21
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 21
 
 
  1141 0022 0029     		cmp	r1, #0
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  1195 009c 5718     		adds	r7, r2, r1
  1196 009e 515C     		ldrb	r1, [r2, r1]	@ zero_extendqisi2
  1197 00a0 7F78     		ldrb	r7, [r7, #1]	@ zero_extendqisi2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 22
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 22
 
 
  1198 00a2 41EA0721 		orr	r1, r1, r7, lsl #8
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  1252 010a E4E7     		b	.L292
  1253              	.L319:
  1254              		.align	2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 23
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 23
 
 
  1255              	.L318:
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  1309 0050 F8BD     		pop	{r3, r4, r5, r6, r7, pc}
  1310              		.size	dir_remove, .-dir_remove
  1311 0052 00BF     		.section	.text.remove_chain.part.8,"ax",%progbits
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 24
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 24
 
 
  1312              		.align	1
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  1366              	.L335:
  1367 0056 0220     		movs	r0, #2
  1368 0058 F8BD     		pop	{r3, r4, r5, r6, r7, pc}
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 25
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 25
 
 
  1369              	.L339:
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  1423 0054 A969     		ldr	r1, [r5, #24]
  1424 0056 2B84     		strh	r3, [r5, #32]	@ movhi
  1425 0058 CB7A     		ldrb	r3, [r1, #11]	@ zero_extendqisi2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 26
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 26
 
 
  1426 005a DB07     		lsls	r3, r3, #31
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  1480 00de BBF1FE0F 		cmp	fp, #254
  1481 00e2 0090     		str	r0, [sp]
  1482 00e4 0193     		str	r3, [sp, #4]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 27
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 27
 
 
  1483 00e6 94D8     		bhi	.L374
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  1537              		.syntax unified
  1538              		.thumb
  1539              		.thumb_func
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 28
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 28
 
 
  1540              		.fpu fpv4-sp-d16
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  1594 008a 03E0     		b	.L404
  1595              	.L458:
  1596 008c 11F8010F 		ldrb	r0, [r1, #1]!	@ zero_extendqisi2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 29
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 29
 
 
  1597 0090 2028     		cmp	r0, #32
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  1651 0116 F5D1     		bne	.L400
  1652 0118 99E7     		b	.L398
  1653              	.L430:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 30
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 30
 
 
  1654 011a 4B46     		mov	r3, r9
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  1708              	.L438:
  1709 0182 5046     		mov	r0, r10
  1710 0184 07B0     		add	sp, sp, #28
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 31
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 31
 
 
  1711              		@ sp needed
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  1765              	.L462:
  1766 01f6 3946     		mov	r1, r7
  1767 01f8 2046     		mov	r0, r4
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 32
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 32
 
 
  1768 01fa FFF7FEFF 		bl	dir_sdi
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  1822 0286 11F807B0 		ldrb	fp, [r1, r7]	@ zero_extendqisi2
  1823 028a 4FF6FF73 		movw	r3, #65535
  1824 028e F0E7     		b	.L422
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 33
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 33
 
 
  1825              	.L459:
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  1879 0006 FFF7FEBF 		b	ff_rel_grant
  1880              	.L465:
  1881 000a 7047     		bx	lr
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 34
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 34
 
 
  1882              		.size	unlock_fs.isra.10.part.11, .-unlock_fs.isra.10.part.11
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  1936 0068 84F82162 		strb	r6, [r4, #545]
  1937 006c 1B0E     		lsrs	r3, r3, #24
  1938 006e 4AF65526 		movw	r6, #43605
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 35
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 35
 
 
  1939 0072 84F82222 		strb	r2, [r4, #546]
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  1993 002e F9D0     		beq	.L483
  1994 0030 80B2     		uxth	r0, r0
  1995 0032 1F28     		cmp	r0, #31
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 36
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 36
 
 
  1996 0034 D7F81C90 		ldr	r9, [r7, #28]
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  2050 00a4 BBD8     		bhi	.L618
  2051              	.L610:
  2052 00a6 2146     		mov	r1, r4
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 37
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 37
 
 
  2053 00a8 3846     		mov	r0, r7
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  2107 011e 30B3     		cbz	r0, .L501
  2108 0120 2028     		cmp	r0, #32
  2109 0122 6DD0     		beq	.L502
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 38
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 38
 
 
  2110 0124 2E28     		cmp	r0, #46
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  2164 019a 012E     		cmp	r6, #1
  2165 019c 08BF     		it	eq
  2166 019e 4BF0100B 		orreq	fp, fp, #16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 39
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 39
 
 
  2167 01a2 042A     		cmp	r2, #4
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  2221 0216 A246     		mov	r10, r4
  2222 0218 0B22     		movs	r2, #11
  2223 021a 0823     		movs	r3, #8
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 40
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 40
 
 
  2224 021c F2E7     		b	.L505
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  2278 028c 01000000 		.word	.LC0+1
  2279 0290 00000000 		.word	.LANCHOR3
  2280 0294 01000000 		.word	.LC1+1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 41
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 41
 
 
  2281              		.size	follow_path, .-follow_path
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  2335              		.thumb
  2336              		.thumb_func
  2337              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 42
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 42
 
 
  2338              		.type	f_open, %function
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  2392 007c 0C30     		adds	r0, r0, #12
  2393              	.L649:
  2394 007e 2146     		mov	r1, r4
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 43
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 43
 
 
  2395 0080 FFF7FEFF 		bl	unlock_fs.isra.10.part.11
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  2449 00f6 F27E     		ldrb	r2, [r6, #27]	@ zero_extendqisi2
  2450 00f8 747D     		ldrb	r4, [r6, #21]	@ zero_extendqisi2
  2451 00fa 377D     		ldrb	r7, [r6, #20]	@ zero_extendqisi2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 44
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 44
 
 
  2452 00fc B17E     		ldrb	r1, [r6, #26]	@ zero_extendqisi2
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  2506 0178 0624     		movs	r4, #6
  2507 017a 0C30     		adds	r0, r0, #12
  2508 017c 7FE7     		b	.L649
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 45
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 45
 
 
  2509              	.L690:
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  2563 0036 3068     		ldr	r0, [r6]
  2564 0038 1906     		lsls	r1, r3, #24
  2565 003a 00F19180 		bmi	.L741
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 46
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 46
 
 
  2566 003e DA07     		lsls	r2, r3, #31
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  2620 00ba 9D42     		cmp	r5, r3
  2621 00bc 4CD2     		bcs	.L705
  2622 00be 8278     		ldrb	r2, [r0, #2]	@ zero_extendqisi2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 47
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 47
 
 
  2623 00c0 C36A     		ldr	r3, [r0, #44]
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  2677              	.L702:
  2678 0136 726A     		ldr	r2, [r6, #36]
  2679 0138 12B3     		cbz	r2, .L704
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 48
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 48
 
 
  2680 013a B5FBF1F5 		udiv	r5, r5, r1
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  2734 01aa FFF7FEFF 		bl	ff_rel_grant
  2735 01ae 3EE7     		b	.L694
  2736              	.L746:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 49
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 49
 
 
  2737 01b0 00F13401 		add	r1, r0, #52
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  2791 003c 1906     		lsls	r1, r3, #24
  2792 003e 00F19A80 		bmi	.L793
  2793 0042 9A07     		lsls	r2, r3, #30
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 50
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 50
 
 
  2794 0044 40F1F180 		bpl	.L797
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  2848              	.L758:
  2849 00c8 0129     		cmp	r1, #1
  2850 00ca 50D0     		beq	.L795
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 51
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 51
 
 
  2851 00cc 4C1C     		adds	r4, r1, #1
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  2905              	.L805:
  2906 0142 D5E90221 		ldrd	r2, r1, [r5, #8]
  2907 0146 AB79     		ldrb	r3, [r5, #6]	@ zero_extendqisi2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 52
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 52
 
 
  2908              	.L753:
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  2962 01c0 DCF80420 		ldr	r2, [ip, #4]
  2963 01c4 1144     		add	r1, r1, r2
  2964 01c6 0029     		cmp	r1, #0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 53
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 53
 
 
  2965 01c8 7FF47EAF 		bne	.L758
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  3019 0240 0193     		str	r3, [sp, #4]
  3020 0242 FFF7FEFF 		bl	memcpy
  3021 0246 2868     		ldr	r0, [r5]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 54
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 54
 
 
  3022 0248 019B     		ldr	r3, [sp, #4]
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  3076 003e AB89     		ldrh	r3, [r5, #12]
  3077 0040 1B0A     		lsrs	r3, r3, #8
  3078 0042 6377     		strb	r3, [r4, #29]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 55
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 55
 
 
  3079 0044 EB89     		ldrh	r3, [r5, #14]
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  3133 0002 0446     		mov	r4, r0
  3134 0004 FFF7FEFF 		bl	f_sync
  3135 0008 00B9     		cbnz	r0, .L817
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 56
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 56
 
 
  3136 000a 2060     		str	r0, [r4]
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  3190 0056 BEFBFCF1 		udiv	r1, lr, ip
  3191 005a 33B9     		cbnz	r3, .L885
  3192 005c 8BE0     		b	.L866
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 57
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 57
 
 
  3193              	.L894:
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  3247              	.L861:
  3248 00ce 9042     		cmp	r0, r2
  3249 00d0 1AD2     		bcs	.L841
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 58
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 58
 
 
  3250 00d2 A179     		ldrb	r1, [r4, #6]	@ zero_extendqisi2
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  3304 0142 8246     		mov	r10, r0
  3305 0144 0ED9     		bls	.L826
  3306 0146 B0F1FF3F 		cmp	r0, #-1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 59
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 59
 
 
  3307 014a 1346     		mov	r3, r2
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  3361 01be 1125     		movs	r5, #17
  3362 01c0 8DE7     		b	.L833
  3363              	.L896:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 60
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 60
 
 
  3364 01c2 1846     		mov	r0, r3
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  3418 0230 3A44     		add	r2, r2, r7
  3419 0232 B742     		cmp	r7, r6
  3420 0234 A260     		str	r2, [r4, #8]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 61
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 61
 
 
  3421 0236 D9D3     		bcc	.L857
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  3475 02a2 62F07F02 		orn	r2, r2, #127
  3476 02a6 A271     		strb	r2, [r4, #6]
  3477 02a8 D868     		ldr	r0, [r3, #12]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 62
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 62
 
 
  3478 02aa FFF7FEFF 		bl	ff_rel_grant
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  3532              	.L916:
  3533 002a 2046     		mov	r0, r4
  3534 002c 0DF5077D 		add	sp, sp, #540
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 63
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 63
 
 
  3535              		@ sp needed
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  3589              		.syntax unified
  3590              		.thumb
  3591              		.thumb_func
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 64
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 64
 
 
  3592              		.fpu fpv4-sp-d16
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  3646              		@ sp needed
  3647 0068 70BD     		pop	{r4, r5, r6, pc}
  3648              	.L938:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 65
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 65
 
 
  3649 006a 0146     		mov	r1, r0
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  3703 0034 FFF7FEFF 		bl	unlock_fs.isra.10.part.11
  3704 0038 2046     		mov	r0, r4
  3705 003a 0DF50F7D 		add	sp, sp, #572
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 66
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 66
 
 
  3706              		@ sp needed
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  3760 0026 012B     		cmp	r3, #1
  3761 0028 01D9     		bls	.L980
  3762 002a 092D     		cmp	r5, #9
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 67
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 67
 
 
  3763 002c 62D1     		bne	.L963
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  3817 009c C0F81480 		str	r8, [r0, #20]
  3818 00a0 08BF     		it	eq
  3819 00a2 4271     		strbeq	r2, [r0, #5]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 68
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 68
 
 
  3820              	.L976:
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  3874 0118 00F13403 		add	r3, r0, #52
  3875 011c 4FF40072 		mov	r2, #512
  3876 0120 A5E7     		b	.L968
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 69
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 69
 
 
  3877              	.L992:
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  3931 0034 B142     		cmp	r1, r6
  3932 0036 0FD9     		bls	.L1003
  3933 0038 43F02001 		orr	r1, r3, #32
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 70
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 70
 
 
  3934 003c E660     		str	r6, [r4, #12]
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  3988 00a6 0129     		cmp	r1, #1
  3989 00a8 01D9     		bls	.L1030
  3990 00aa 9942     		cmp	r1, r3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 71
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 71
 
 
  3991 00ac 1ED3     		bcc	.L1011
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  4045 011c 0225     		movs	r5, #2
  4046 011e 9DE7     		b	.L998
  4047              	.L1015:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 72
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 72
 
 
  4048 0120 3146     		mov	r1, r6
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  4102 004e 0724     		movs	r4, #7
  4103              	.L1037:
  4104 0050 0698     		ldr	r0, [sp, #24]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 73
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 73
 
 
  4105 0052 0C30     		adds	r0, r0, #12
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  4159              	.L1044:
  4160 00c4 FFF7FEFF 		bl	sync
  4161 00c8 0446     		mov	r4, r0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 74
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 74
 
 
  4162 00ca A4E7     		b	.L1036
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  4216 0026 012D     		cmp	r5, #1
  4217 0028 01D9     		bls	.L1087
  4218 002a 092C     		cmp	r4, #9
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 75
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 75
 
 
  4219 002c 05D1     		bne	.L1072
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  4273 00a0 40F09380 		bne	.L1074
  4274 00a4 0B9D     		ldr	r5, [sp, #44]
  4275 00a6 EB69     		ldr	r3, [r5, #28]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 76
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 76
 
 
  4276 00a8 95F802A0 		ldrb	r10, [r5, #2]	@ zero_extendqisi2
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  4330 014a 6C65     		str	r4, [r5, #84]	@ unaligned
  4331 014c A865     		str	r0, [r5, #88]	@ unaligned
  4332 014e 3469     		ldr	r4, [r6, #16]	@ unaligned
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 77
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 77
 
 
  4333 0150 CDF80CE0 		str	lr, [sp, #12]
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  4387 01ce A4F10B05 		sub	r5, r4, #11
  4388 01d2 9845     		cmp	r8, r3
  4389 01d4 EDB2     		uxtb	r5, r5
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 78
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 78
 
 
  4390 01d6 BFF426AF 		bcs	.L1067
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  4444              		.align	1
  4445              		.p2align 2,,3
  4446              		.global	f_chmod
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 79
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 79
 
 
  4447              		.syntax unified
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  4501 0060 5540     		eors	r5, r5, r2
  4502 0062 0122     		movs	r2, #1
  4503 0064 CD72     		strb	r5, [r1, #11]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 80
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 80
 
 
  4504 0066 1846     		mov	r0, r3
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  4558 0040 CDE90B23 		strd	r2, r3, [sp, #44]
  4559 0044 FFF7FEFF 		bl	follow_path
  4560 0048 0446     		mov	r4, r0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 81
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 81
 
 
  4561 004a 0028     		cmp	r0, #0
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  4615 0024 03D1     		bne	.L1147
  4616              	.L1136:
  4617 0026 2046     		mov	r0, r4
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 82
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 82
 
 
  4618 0028 0DF51F7D 		add	sp, sp, #636
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  4672 009a BDD1     		bne	.L1126
  4673 009c 15A8     		add	r0, sp, #84
  4674 009e FFF7FEFF 		bl	dir_register
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 83
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 83
 
 
  4675 00a2 0446     		mov	r4, r0
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  4729 0124 159A     		ldr	r2, [sp, #84]
  4730 0126 43EA0123 		orr	r3, r3, r1, lsl #8
  4731 012a 44EA0524 		orr	r4, r4, r5, lsl #8
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 84
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 84
 
 
  4732 012e D169     		ldr	r1, [r2, #28]
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  4785              		.align	1
  4786              		.set	.LANCHOR1,. + 0
  4787              		.type	Fsid, %object
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 85
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 85
 
 
  4788              		.size	Fsid, 2
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  4842 001a 9A       		.byte	-102
  4843 001b 9D       		.byte	-99
  4844 001c 9C       		.byte	-100
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 86
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 86
 
 
  4845 001d 9D       		.byte	-99
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 1
  4899 0053 D3       		.byte	-45
  4900 0054 D4       		.byte	-44
  4901 0055 D5       		.byte	-43
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc1TadMk.s 			page 87
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccZEiL7C.s 			page 87
 
 
  4902 0056 D6       		.byte	-42

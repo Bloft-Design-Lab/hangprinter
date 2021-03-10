@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
   55              		.syntax unified
   56              		.thumb
   57              		.thumb_func
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 2
 
 
   58              		.fpu fpv4-sp-d16
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  112 002c EBE7     		b	.L12
  113              	.L20:
  114 002e 00BF     		.align	2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 3
 
 
  115              	.L19:
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  169 004c 0D4B     		ldr	r3, .L34+20
  170 004e 1868     		ldr	r0, [r3]
  171 0050 3168     		ldr	r1, [r6]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 4
 
 
  172 0052 BDE8F840 		pop	{r3, r4, r5, r6, r7, lr}
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  226              		.syntax unified
  227              	@ 135 "C:\Eclipse\Firmware\FreeRTOS\src\portable\GCC\ARM_CM4F/portmacro.h" 1
  228 002c B4FA84F4 		clz r4, r4
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 5
 
 
  229              	@ 0 "" 2
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  283              		.thumb
  284              		.thumb_func
  285              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 6
 
 
  286              		.type	xTaskCreateStatic, %function
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  340 0078 0A9D     		ldr	r5, [sp, #40]
  341 007a 042D     		cmp	r5, #4
  342 007c 28BF     		it	cs
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 7
 
 
  343 007e 0425     		movcs	r5, #4
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  397 010a 2564     		str	r5, [r4, #64]
  398 010c CCF80020 		str	r2, [ip]
  399 0110 FFF7FEFF 		bl	vListInsertEnd
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 8
 
 
  400 0114 FFF7FEFF 		bl	vPortExitCritical
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  454              	.L58:
  455 0180 1748     		ldr	r0, .L77+20
  456 0182 DFF88C90 		ldr	r9, .L77+68
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 9
 
 
  457 0186 184D     		ldr	r5, .L77+28
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  511              		.fpu fpv4-sp-d16
  512              		.type	eTaskGetState, %function
  513              	eTaskGetState:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 10
 
 
  514              		@ args = 0, pretend = 0, frame = 0
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  568              		.align	1
  569              		.p2align 2,,3
  570              		.global	uxTaskPriorityGet
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 11
 
 
  571              		.syntax unified
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  625 0022 E06A     		ldr	r0, [r4, #44]
  626              		.syntax unified
  627              	@ 230 "C:\Eclipse\Firmware\FreeRTOS\src\portable\GCC\ARM_CM4F/portmacro.h" 1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 12
 
 
  628 0024 83F31188 			msr basepri, r3	
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  682 0040 B342     		cmp	r3, r6
  683 0042 A369     		ldr	r3, [r4, #24]
  684 0044 08BF     		it	eq
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 13
 
 
  685 0046 E562     		streq	r5, [r4, #44]
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  739 00be FFF7FEFF 		bl	vPortEnterCritical
  740 00c2 002C     		cmp	r4, #0
  741 00c4 A6D1     		bne	.L104
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 14
 
 
  742              	.L123:
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  796 0038 FFF7FEFF 		bl	vListInsertEnd
  797 003c 94F85430 		ldrb	r3, [r4, #84]	@ zero_extendqisi2
  798 0040 012B     		cmp	r3, #1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 15
 
 
  799 0042 04BF     		itt	eq
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  853              	.L149:
  854 00ac 3468     		ldr	r4, [r6]
  855 00ae AEE7     		b	.L127
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 16
 
 
  856              	.L135:
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  910 0006 2B68     		ldr	r3, [r5]
  911 0008 8342     		cmp	r3, r0
  912 000a 0AD0     		beq	.L167
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 17
 
 
  913 000c 0446     		mov	r4, r0
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  967 0080 00000000 		.word	.LANCHOR0
  968 0084 04ED00E0 		.word	-536810236
  969              		.size	vTaskResume, .-vTaskResume
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 18
 
 
  970              		.section	.text.xTaskResumeFromISR,"ax",%progbits
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  1024 005c 4146     		mov	r1, r8
  1025 005e 00EB8200 		add	r0, r0, r2, lsl #2
  1026 0062 3B60     		str	r3, [r7]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 19
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 19
 
 
  1027 0064 FFF7FEFF 		bl	vListInsertEnd
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  1081              		.fpu fpv4-sp-d16
  1082              		.type	vTaskStartScheduler, %function
  1083              	vTaskStartScheduler:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 20
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 20
 
 
  1084              		@ args = 0, pretend = 0, frame = 16
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  1138              		.global	vTaskEndScheduler
  1139              		.syntax unified
  1140              		.thumb
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 21
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 21
 
 
  1141              		.thumb_func
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  1195              		.thumb
  1196              		.thumb_func
  1197              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 22
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 22
 
 
  1198              		.type	xTaskGetTickCount, %function
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  1252 0008 00000000 		.word	.LANCHOR10
  1253              		.size	uxTaskGetNumberOfTasks, .-uxTaskGetNumberOfTasks
  1254              		.section	.text.pcTaskGetName,"ax",%progbits
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 23
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 23
 
 
  1255              		.align	1
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  1309 0014 1E60     		str	r6, [r3]
  1310 0016 16B3     		cbz	r6, .L235
  1311              	.L237:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 24
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 24
 
 
  1312 0018 4A4B     		ldr	r3, .L242+8
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  1366 0084 0193     		str	r3, [sp, #4]
  1367 0086 1A46     		mov	r2, r3
  1368 0088 4FF0FF33 		mov	r3, #-1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 25
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 25
 
 
  1369 008c 1360     		str	r3, [r2]
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  1423 010e 1368     		ldr	r3, [r2]
  1424 0110 0133     		adds	r3, r3, #1
  1425 0112 1360     		str	r3, [r2]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 26
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 26
 
 
  1426 0114 0024     		movs	r4, #0
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  1480 0012 013B     		subs	r3, r3, #1
  1481 0014 2360     		str	r3, [r4]
  1482 0016 2468     		ldr	r4, [r4]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 27
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 27
 
 
  1483 0018 002C     		cmp	r4, #0
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  1537 009e 44B1     		cbz	r4, .L254
  1538 00a0 0126     		movs	r6, #1
  1539              	.L256:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 28
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 28
 
 
  1540 00a2 FFF7FEFF 		bl	xTaskIncrementTick
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  1594              		.size	xTaskResumeAll, .-xTaskResumeAll
  1595              		.section	.text.vTaskDelayUntil,"ax",%progbits
  1596              		.align	1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 29
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 29
 
 
  1597              		.p2align 2,,3
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  1651 0046 0AB9     		cbnz	r2, .L286
  1652              	.L294:
  1653 0048 A042     		cmp	r0, r4
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 30
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 30
 
 
  1654 004a F0D2     		bcs	.L284
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  1708 001a FFF7FEFF 		bl	xTaskResumeAll
  1709 001e 38B9     		cbnz	r0, .L300
  1710              	.L304:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 31
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 31
 
 
  1711 0020 084B     		ldr	r3, .L313+4
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  1765              		.section	.text.vTaskPlaceOnEventList,"ax",%progbits
  1766              		.align	1
  1767              		.p2align 2,,3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 32
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 32
 
 
  1768              		.global	vTaskPlaceOnEventList
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  1822 000e 23B9     		cbnz	r3, .L330
  1823 0010 0E49     		ldr	r1, .L333+4
  1824 0012 40F67530 		movw	r0, #2933
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 33
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 33
 
 
  1825 0016 FFF7FEFF 		bl	vAssertCalled
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  1879 0024 2F68     		ldr	r7, [r5]
  1880 0026 1348     		ldr	r0, .L343+8
  1881 0028 0123     		movs	r3, #1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 34
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 34
 
 
  1882 002a 9340     		lsls	r3, r3, r2
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  1936 0004 1B68     		ldr	r3, [r3]
  1937 0006 0546     		mov	r5, r0
  1938 0008 0E46     		mov	r6, r1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 35
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 35
 
 
  1939 000a 33B3     		cbz	r3, .L350
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  1993 0090 00000000 		.word	.LC0
  1994              		.size	vTaskRemoveFromUnorderedEventList, .-vTaskRemoveFromUnorderedEventList
  1995              		.section	.text.vTaskSetTimeOutState,"ax",%progbits
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 36
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 36
 
 
  1996              		.align	1
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  2050              	.L362:
  2051 000e 00BF     		.align	2
  2052              	.L361:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 37
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 37
 
 
  2053 0010 00000000 		.word	.LANCHOR16
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  2107 0054 2B60     		str	r3, [r5]
  2108 0056 C4E90002 		strd	r0, r2, [r4]
  2109 005a 0025     		movs	r5, #0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 38
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 38
 
 
  2110 005c FFF7FEFF 		bl	vPortExitCritical
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  2164              		.thumb_func
  2165              		.fpu fpv4-sp-d16
  2166              		.type	uxTaskGetTaskNumber, %function
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 39
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 39
 
 
  2167              	uxTaskGetTaskNumber:
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  2221 001e 052B     		cmp	r3, #5
  2222 0020 4FF00002 		mov	r2, #0
  2223 0024 2560     		str	r5, [r4]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 40
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 40
 
 
  2224 0026 C4E90512 		strd	r1, r2, [r4, #20]
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  2278 0088 E4E7     		b	.L395
  2279              	.L410:
  2280 008a 00BF     		.align	2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 41
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 41
 
 
  2281              	.L409:
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  2335              		.global	uxTaskGetSystemState
  2336              		.syntax unified
  2337              		.thumb
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 42
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 42
 
 
  2338              		.thumb_func
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  2392 0060 0122     		movs	r2, #1
  2393 0062 FFF7FEFF 		bl	prvListTasksWithinSingleList.part.7
  2394 0066 0544     		add	r5, r5, r0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 43
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 43
 
 
  2395 0068 EA00     		lsls	r2, r5, #3
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  2449              		.syntax unified
  2450              		.thumb
  2451              		.thumb_func
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 44
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 44
 
 
  2452              		.fpu fpv4-sp-d16
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  2506 0008 00000000 		.word	.LANCHOR6
  2507              		.size	xTaskGetCurrentTaskHandle, .-xTaskGetCurrentTaskHandle
  2508              		.section	.text.xTaskGetSchedulerState,"ax",%progbits
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 45
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 45
 
 
  2509              		.align	1
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  2563 0016 2268     		ldr	r2, [r4]
  2564 0018 D26A     		ldr	r2, [r2, #44]
  2565 001a C2F10502 		rsb	r2, r2, #5
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 46
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 46
 
 
  2566 001e 8261     		str	r2, [r0, #24]
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  2620 0098 2046     		mov	r0, r4
  2621 009a F8BD     		pop	{r3, r4, r5, r6, r7, pc}
  2622              	.L486:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 47
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 47
 
 
  2623 009c 024A     		ldr	r2, .L487+8
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  2677              	.L505:
  2678 0040 271D     		adds	r7, r4, #4
  2679 0042 3846     		mov	r0, r7
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 48
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 48
 
 
  2680 0044 FFF7FEFF 		bl	uxListRemove
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  2734              		@ frame_needed = 0, uses_anonymous_args = 0
  2735 0000 A8B1     		cbz	r0, .L520
  2736 0002 F8B5     		push	{r3, r4, r5, r6, r7, lr}
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 49
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 49
 
 
  2737 0004 C36C     		ldr	r3, [r0, #76]
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  2791 006e 2243     		orrs	r2, r2, r4
  2792 0070 05EB8000 		add	r0, r5, r0, lsl #2
  2793 0074 3946     		mov	r1, r7
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 50
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 50
 
 
  2794 0076 3260     		str	r2, [r6]
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  2848              		.align	2
  2849              	.L529:
  2850 0014 00000000 		.word	.LANCHOR6
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 51
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 51
 
 
  2851              		.size	uxTaskResetEventItemValue, .-uxTaskResetEventItemValue
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  2905 001c FFF7FEFF 		bl	vPortExitCritical
  2906 0020 FFF7FEFF 		bl	vPortEnterCritical
  2907 0024 2368     		ldr	r3, [r4]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 52
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 52
 
 
  2908 0026 1D6D     		ldr	r5, [r3, #80]
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  2962 0008 8046     		mov	r8, r0
  2963 000a 0E46     		mov	r6, r1
  2964 000c 1F46     		mov	r7, r3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 53
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 53
 
 
  2965 000e FFF7FEFF 		bl	vPortEnterCritical
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  3019 0080 0125     		movs	r5, #1
  3020 0082 E3E7     		b	.L560
  3021              	.L572:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 54
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 54
 
 
  3022              		.align	2
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  3076              	.L582:
  3077 003e FFF7FEFF 		bl	vPortExitCritical
  3078 0042 2046     		mov	r0, r4
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 55
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 55
 
 
  3079 0044 F8BD     		pop	{r3, r4, r5, r6, r7, pc}
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  3133 00ac C7E7     		b	.L582
  3134              	.L596:
  3135 00ae 0549     		ldr	r1, .L597+8
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 56
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 56
 
 
  3136 00b0 41F2D610 		movw	r0, #4566
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  3190 003e 07D8     		bhi	.L602
  3191 0040 DFE802F0 		tbb	[pc, r2]
  3192              	.L604:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 57
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 57
 
 
  3193 0044 31       		.byte	(.L603-.L604)/2
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  3247 009c 1860     		str	r0, [r3]
  3248              		.syntax unified
  3249              	@ 230 "C:\Eclipse\Firmware\FreeRTOS\src\portable\GCC\ARM_CM4F/portmacro.h" 1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 58
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 58
 
 
  3250 009e 87F31188 			msr basepri, r7	
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  3304              		.type	vTaskNotifyGiveFromISR, %function
  3305              	vTaskNotifyGiveFromISR:
  3306              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 59
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 59
 
 
  3307              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  3361 006a E6D9     		bls	.L632
  3362 006c 16B3     		cbz	r6, .L637
  3363 006e 0123     		movs	r3, #1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 60
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 60
 
 
  3364 0070 3360     		str	r3, [r6]
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  3418              		.type	xTaskNotifyStateClear, %function
  3419              	xTaskNotifyStateClear:
  3420              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 61
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 61
 
 
  3421              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  3474      00000000 
  3474      00000000 
  3474      00000000 
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 62
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 62
 
 
  3474      00000000 
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  3523      00000000 
  3523      00000000 
  3523      00000000 
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 63
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 63
 
 
  3523      00000000 
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 1
  3569              		.type	xYieldPending, %object
  3570              		.size	xYieldPending, 4
  3571              	xYieldPending:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc56K6yh.s 			page 64
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccrlpi4H.s 			page 64
 
 
  3572 0000 00000000 		.space	4

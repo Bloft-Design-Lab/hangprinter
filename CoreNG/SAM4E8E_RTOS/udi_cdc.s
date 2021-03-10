@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
   55              		.section	.text.udi_cdc_getsetting,"ax",%progbits
   56              		.align	1
   57              		.p2align 2,,3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 2
 
 
   58              		.global	udi_cdc_getsetting
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  112 001c 00000000 		.word	.LANCHOR1
  113 0020 00000000 		.word	.LANCHOR2
  114              		.size	udi_cdc_data_disable, .-udi_cdc_data_disable
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 3
 
 
  115              		.section	.text.udi_cdc_comm_setup,"ax",%progbits
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  169 0050 0120     		movs	r0, #1
  170 0052 7047     		bx	lr
  171              	.L28:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 4
 
 
  172              		.align	2
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  226              		.p2align 2,,3
  227              		.syntax unified
  228              		.thumb
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 5
 
 
  229              		.thumb_func
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  283 0018 21F07C03 		bic	r3, r1, #124
  284 001c 9BB2     		uxth	r3, r3
  285 001e 0021     		movs	r1, #0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 6
 
 
  286 0020 AB42     		cmp	r3, r5
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  340 0022 4AB9     		cbnz	r2, .L46
  341 0024 0F4A     		ldr	r2, .L53+12
  342 0026 1B88     		ldrh	r3, [r3]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 7
 
 
  343 0028 1289     		ldrh	r2, [r2, #8]
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  397              		@ sp needed
  398 000e BDE8F08F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
  399              	.L76:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 8
 
 
  400 0012 FFF7FEFF 		bl	udd_is_high_speed
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  454 0082 FFF7FEFF 		bl	udd_is_high_speed
  455 0086 0028     		cmp	r0, #0
  456 0088 43D0     		beq	.L70
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 9
 
 
  457 008a FFF7FEFF 		bl	udd_get_micro_frame_number
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  511              	.L63:
  512 00f0 0393     		str	r3, [sp, #12]
  513 00f2 FFF7FEFF 		bl	udd_is_high_speed
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 10
 
 
  514 00f6 039B     		ldr	r3, [sp, #12]
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  568              		.p2align 2,,3
  569              		.syntax unified
  570              		.thumb
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 11
 
 
  571              		.thumb_func
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  625              		.global	udi_cdc_ctrl_signal_dsr
  626              		.syntax unified
  627              		.thumb
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 12
 
 
  628              		.thumb_func
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  682              		@ args = 0, pretend = 0, frame = 0
  683              		@ frame_needed = 0, uses_anonymous_args = 0
  684              		@ link register save eliminated.
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 13
 
 
  685 0000 4021     		movs	r1, #64
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  739              		.size	udi_cdc_multi_signal_framing_error, .-udi_cdc_multi_signal_framing_error
  740              		.section	.text.udi_cdc_multi_signal_parity_error,"ax",%progbits
  741              		.align	1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 14
 
 
  742              		.p2align 2,,3
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  796 0008 BFF35F8F 		dmb
  797              	@ 0 "" 2
  798              		.thumb
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 15
 
 
  799              		.syntax unified
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  853              	@ 0 "" 2
  854              	@ 456 "C:\Eclipse\Firmware\CoreNG\asf\thirdparty\CMSIS\Include/core_cmInstr.h" 1
  855 000a BFF35F8F 		dmb
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 16
 
 
  856              	@ 0 "" 2
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  910              	@ 456 "C:\Eclipse\Firmware\CoreNG\asf\thirdparty\CMSIS\Include/core_cmInstr.h" 1
  911 0076 BFF35F8F 		dmb
  912              	@ 0 "" 2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 17
 
 
  913              	@ 319 "C:\Eclipse\Firmware\CoreNG\asf\thirdparty\CMSIS\Include/core_cmFunc.h" 1
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  967 000e 0024     		movs	r4, #0
  968 0010 2C70     		strb	r4, [r5]
  969 0012 0C80     		strh	r4, [r1]	@ movhi
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 18
 
 
  970 0014 0470     		strb	r4, [r0]
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  1024 0000 08BB     		cbnz	r0, .L137
  1025 0002 10B5     		push	{r4, lr}
  1026 0004 104B     		ldr	r3, .L141
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 19
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 19
 
 
  1027 0006 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  1081              		.size	udi_cdc_get_nb_received_data, .-udi_cdc_get_nb_received_data
  1082 0006 00BF     		.section	.text.udi_cdc_multi_is_rx_ready,"ax",%progbits
  1083              		.align	1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 20
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 20
 
 
  1084              		.p2align 2,,3
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  1138 000e DFF89C90 		ldr	r9, .L159+20
  1139 0012 244F     		ldr	r7, .L159+12
  1140 0014 DFF898B0 		ldr	fp, .L159+24
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 21
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 21
 
 
  1141 0018 AAF1090A 		sub	r10, r10, #9
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  1195 008c 2870     		strb	r0, [r5]
  1196              		.syntax unified
  1197              	@ 456 "C:\Eclipse\Firmware\CoreNG\asf\thirdparty\CMSIS\Include/core_cmInstr.h" 1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 22
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 22
 
 
  1198 008e BFF35F8F 		dmb
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  1252 0014 1646     		mov	r6, r2
  1253              	.L163:
  1254              		.syntax unified
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 23
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 23
 
 
  1255              	@ 470 "C:\Eclipse\Firmware\CoreNG\asf\thirdparty\CMSIS\Include/core_cmFunc.h" 1
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  1309 0084 FFF7FEFF 		bl	udi_cdc_rx_start.isra.13
  1310 0088 019B     		ldr	r3, [sp, #4]
  1311 008a 002E     		cmp	r6, #0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 24
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 24
 
 
  1312 008c C3D1     		bne	.L163
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  1366 000a BBB1     		cbz	r3, .L174
  1367              		.syntax unified
  1368              	@ 470 "C:\Eclipse\Firmware\CoreNG\asf\thirdparty\CMSIS\Include/core_cmFunc.h" 1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 25
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 25
 
 
  1369 000c EFF31085 		MRS r5, primask
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  1423 0064 ADB2     		uxth	r5, r5
  1424 0066 3D80     		strh	r5, [r7]	@ movhi
  1425 0068 7BB1     		cbz	r3, .L185
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 26
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 26
 
 
  1426              	.L177:
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  1480              		.type	udi_cdc_read_buf, %function
  1481              	udi_cdc_read_buf:
  1482              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 27
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 27
 
 
  1483              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  1537              	@ 0 "" 2
  1538              		.thumb
  1539              		.syntax unified
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 28
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 28
 
 
  1540              	.L189:
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  1594              		.fpu fpv4-sp-d16
  1595              		.type	udi_cdc_multi_is_tx_ready, %function
  1596              	udi_cdc_multi_is_tx_ready:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 29
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 29
 
 
  1597              		@ args = 0, pretend = 0, frame = 0
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  1651 0022 1A4B     		ldr	r3, .L213+12
  1652 0024 30B9     		cbnz	r0, .L205
  1653 0026 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 30
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 30
 
 
  1654 0028 03F0FF00 		and	r0, r3, #255
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  1708 0080 00000000 		.word	.LANCHOR3
  1709 0084 00000000 		.word	g_interrupt_enabled
  1710 0088 00000000 		.word	.LANCHOR10
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 31
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 31
 
 
  1711 008c 00000000 		.word	.LANCHOR2
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  1765              	@ 456 "C:\Eclipse\Firmware\CoreNG\asf\thirdparty\CMSIS\Include/core_cmInstr.h" 1
  1766 002a BFF35F8F 		dmb
  1767              	@ 0 "" 2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 32
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 32
 
 
  1768              		.thumb
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  1822 00a0 3846     		mov	r0, r7
  1823 00a2 BDE8F88F 		pop	{r3, r4, r5, r6, r7, r8, r9, r10, fp, pc}
  1824              	.L230:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 33
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 33
 
 
  1825 00a6 0123     		movs	r3, #1
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  1879              		.set	.LANCHOR11,. + 0
  1880              		.type	sof_zlp_counter.9614, %object
  1881              		.size	sof_zlp_counter.9614, 2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 34
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 34
 
 
  1882              	sof_zlp_counter.9614:
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  1931              		.align	2
  1932              		.set	.LANCHOR14,. + 0
  1933              		.type	udi_cdc_rx_pos, %object
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 35
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 35
 
 
  1934              		.size	udi_cdc_rx_pos, 2
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 1
  1984              	udi_cdc_tx_buf_sel:
  1985 0000 00       		.space	1
  1986              		.section	.bss.udi_cdc_tx_sof_num,"aw",%nobits
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccCYCU6k.s 			page 36
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccoIdG0a.s 			page 36
 
 
  1987              		.align	2

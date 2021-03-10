@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
   55              	_ZNK13WiFiInterface15IsWiFiInterfaceEv:
   56              		@ args = 0, pretend = 0, frame = 0
   57              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 2
 
 
   58              		@ link register save eliminated.
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  112              		.align	1
  113              		.p2align 2,,3
  114              		.syntax unified
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 3
 
 
  115              		.thumb
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  169              		@ args = 0, pretend = 0, frame = 0
  170              		@ frame_needed = 0, uses_anonymous_args = 0
  171              		@ link register save eliminated.
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 4
 
 
  172 0000 B830     		adds	r0, r0, #184
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  226              		.size	_ZNK13WiFiInterface11EnableStateEv, .-_ZNK13WiFiInterface11EnableStateEv
  227              		.section	.text._ZN13WiFiInterface12SetIPAddressE9IPAddressS0_S0_,"ax",%progbits
  228              		.align	1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 5
 
 
  229              		.p2align 2,,3
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  283 000a 5F20     		movs	r0, #95
  284 000c FFF7FEBF 		b	_Z15detachInterruptm
  285              	.L28:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 6
 
 
  286              		.align	2
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  340 0024 FFF7FEFF 		bl	_Z15detachInterruptm
  341 0028 0E49     		ldr	r1, .L39
  342 002a 0F4B     		ldr	r3, .L39+4
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 7
 
 
  343 002c 0F4A     		ldr	r2, .L39+8
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  397              		.type	_ZN13WiFiInterface15GetNetworkStateERK9StringRef, %function
  398              	_ZN13WiFiInterface15GetNetworkStateERK9StringRef:
  399              		@ args = 0, pretend = 0, frame = 16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 8
 
 
  400              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  454              	.L46:
  455 0066 0846     		mov	r0, r1
  456 0068 1249     		ldr	r1, .L60+20
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 9
 
 
  457 006a FFF7FEFF 		bl	_ZNK9StringRef4copyEPKc
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  511 0010 4FF0FF32 		mov	r2, #-1
  512 0014 6846     		mov	r0, sp
  513 0016 1F46     		mov	r7, r3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 10
 
 
  514 0018 FFF7FEFF 		bl	_ZN11MutexLockerC1ERK5Mutexm
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  568 0094 7C48     		ldr	r0, .L117+8
  569 0096 FFF7FEFF 		bl	debugPrintf
  570 009a EDE7     		b	.L72
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 11
 
 
  571              	.L111:
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  625 0124 0221     		movs	r1, #2
  626 0126 FFF7FEFF 		bl	dmac_channel_set_ctrlB
  627 012a 3946     		mov	r1, r7
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 12
 
 
  628 012c 3046     		mov	r0, r6
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  682 01ba 324B     		ldr	r3, .L117+4
  683 01bc D3F80831 		ldr	r3, [r3, #264]
  684 01c0 9907     		lsls	r1, r3, #30
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 13
 
 
  685 01c2 03D5     		bpl	.L78
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  739 0244 053A     		subs	r2, r2, #5
  740 0246 012A     		cmp	r2, #1
  741 0248 E6D9     		bls	.L79
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 14
 
 
  742 024a D5F81021 		ldr	r2, [r5, #272]
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  796 0002 0446     		mov	r4, r0
  797 0004 0D46     		mov	r5, r1
  798 0006 FFF7FEFF 		bl	_ZN11ObjectModelC2Ev
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 15
 
 
  799 000a 0023     		movs	r3, #0
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  853 00ae 00BF     		.align	2
  854              	.L124:
  855 00b0 00000000 		.word	.LANCHOR1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 16
 
 
  856 00b4 08000000 		.word	.LANCHOR7+8
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  910              	_ZNK13WiFiInterface15ReportProtocolsERK9StringRef:
  911              		@ args = 0, pretend = 0, frame = 0
  912              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 17
 
 
  913 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  967 0010 B0F8A230 		ldrh	r3, [r0, #162]
  968 0014 8B42     		cmp	r3, r1
  969 0016 0AD0     		beq	.L144
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 18
 
 
  970 0018 B0F8A400 		ldrh	r0, [r0, #164]
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  1024              	.L153:
  1025 000e 00BF     		.align	2
  1026              	.L152:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 19
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 19
 
 
  1027 0010 00000000 		.word	.LANCHOR9
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  1081              		.section	.text._ZN13WiFiInterface19EspRequestsTransferEv,"ax",%progbits
  1082              		.align	1
  1083              		.p2align 2,,3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 20
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 20
 
 
  1084              		.global	_ZN13WiFiInterface19EspRequestsTransferEv
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  1138 0008 00F19805 		add	r5, r0, #152
  1139 000c 01E0     		b	.L171
  1140              	.L170:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 21
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 21
 
 
  1141 000e AC42     		cmp	r4, r5
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  1195              		.fpu fpv4-sp-d16
  1196              		.type	_ZN13WiFiInterface8SetupSpiEv, %function
  1197              	_ZN13WiFiInterface8SetupSpiEv:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 22
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 22
 
 
  1198              		@ args = 0, pretend = 0, frame = 0
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  1252              		.align	2
  1253              	.L185:
  1254 0094 00000C40 		.word	1074528256
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 23
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 23
 
 
  1255 0098 88010000 		.word	g_APinDescription+392
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  1309 0004 032A     		cmp	r2, #3
  1310 0006 00D0     		beq	.L207
  1311 0008 7047     		bx	lr
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 24
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 24
 
 
  1312              	.L207:
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  1366              	.L305:
  1367 0026 0220     		movs	r0, #2
  1368              	.L306:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 25
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 25
 
 
  1369 0028 0DF27C4D 		addw	sp, sp, #1148
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  1423 00b6 00F21681 		bhi	.L231
  1424 00ba 94F84030 		ldrb	r3, [r4, #64]	@ zero_extendqisi2
  1425 00be 002B     		cmp	r3, #0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 26
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 26
 
 
  1426 00c0 F5D0     		beq	.L232
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  1480 014c 0120     		movs	r0, #1
  1481 014e 0DF27C4D 		addw	sp, sp, #1148
  1482              		@ sp needed
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 27
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 27
 
 
  1483 0152 BDE8F08F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  1537 01de 4846     		mov	r0, r9
  1538 01e0 FFF7FEFF 		bl	strcmp
  1539 01e4 0028     		cmp	r0, #0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 28
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 28
 
 
  1540 01e6 00F0A580 		beq	.L315
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  1594 026c 2046     		mov	r0, r4
  1595 026e FFF7FEFF 		bl	_ZN11GCodeBuffer9GetIValueEv
  1596 0272 C0B2     		uxtb	r0, r0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 29
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 29
 
 
  1597              	.L253:
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  1651 02f0 FFF7FEFF 		bl	_ZNK9StringRef4copyEPKc
  1652 02f4 0120     		movs	r0, #1
  1653 02f6 97E6     		b	.L306
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 30
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 30
 
 
  1654              	.L237:
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  1708 037c FFF7FEFF 		bl	_Z7StrnlenPKcj
  1709 0380 0028     		cmp	r0, #0
  1710 0382 59D1     		bne	.L309
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 31
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 31
 
 
  1711              	.L223:
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  1765 03f6 0023     		movs	r3, #0
  1766 03f8 2046     		mov	r0, r4
  1767 03fa 2946     		mov	r1, r5
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 32
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 32
 
 
  1768 03fc 2B60     		str	r3, [r5]
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  1822              		.global	__aeabi_f2d
  1823              		.section	.text._ZN13WiFiInterface11DiagnosticsE11MessageType,"ax",%progbits
  1824              		.align	1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 33
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 33
 
 
  1825              		.p2align 2,,3
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  1879 0076 04F17C05 		add	r5, r4, #124
  1880 007a 04F19C07 		add	r7, r4, #156
  1881              	.L333:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 34
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 34
 
 
  1882 007e 55F8043B 		ldr	r3, [r5], #4
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  1936 0114 0C9B     		ldr	r3, [sp, #48]
  1937 0116 062B     		cmp	r3, #6
  1938 0118 96BF     		itet	ls
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 35
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 35
 
 
  1939 011a 3F4A     		ldrls	r2, .L352+48
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  1993 019c 244A     		ldr	r2, .L352+72
  1994 019e 1449     		ldr	r1, .L352+8
  1995 01a0 032B     		cmp	r3, #3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 36
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 36
 
 
  1996 01a2 18BF     		it	ne
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  2050 0234 2C010000 		.word	.LC46
  2051 0238 A4010000 		.word	.LC49
  2052 023c 08000000 		.word	.LC35
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 37
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 37
 
 
  2053 0240 6C010000 		.word	.LC47
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  2107 000c 4FF0FF32 		mov	r2, #-1
  2108 0010 FFF7FEFF 		bl	_ZN11MutexLockerC1ERK5Mutexm
  2109 0014 012D     		cmp	r5, #1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 38
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 38
 
 
  2110 0016 1AD0     		beq	.L358
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  2164 000a 00F1AC06 		add	r6, r0, #172
  2165              	.L364:
  2166 000e 14F8013B 		ldrb	r3, [r4], #1	@ zero_extendqisi2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 39
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 39
 
 
  2167 0012 2BB9     		cbnz	r3, .L370
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  2221              	.L372:
  2222 003c 0122     		movs	r2, #1
  2223 003e 2368     		ldr	r3, [r4]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 40
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 40
 
 
  2224 0040 84F8A820 		strb	r2, [r4, #168]
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  2278 0052 6846     		mov	r0, sp
  2279 0054 FFF7FEFF 		bl	_ZN11MutexLockerD1Ev
  2280 0058 02B0     		add	sp, sp, #8
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 41
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 41
 
 
  2281              		@ sp needed
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  2335 00d0 FF22     		movs	r2, #255
  2336 00d2 FFF7FEFF 		bl	_ZN13WiFiInterface17SendListenCommandEthj
  2337 00d6 B4F8A640 		ldrh	r4, [r4, #166]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 42
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 42
 
 
  2338 00da 01E0     		b	.L395
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  2392 0042 93F8A920 		ldrb	r2, [r3, #169]	@ zero_extendqisi2
  2393 0046 A7F8A060 		strh	r6, [r7, #160]	@ movhi
  2394 004a E2B1     		cbz	r2, .L411
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 43
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 43
 
 
  2395              	.L412:
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  2449              		.type	_ZN13WiFiInterface15DisableProtocolEhRK9StringRef, %function
  2450              	_ZN13WiFiInterface15DisableProtocolEhRK9StringRef:
  2451              		@ args = 0, pretend = 0, frame = 8
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 44
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 44
 
 
  2452              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  2506              		.fpu fpv4-sp-d16
  2507              		.type	_ZN13WiFiInterface17TerminateDataPortEv, %function
  2508              	_ZN13WiFiInterface17TerminateDataPortEv:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 45
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 45
 
 
  2509              		@ args = 0, pretend = 0, frame = 0
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  2563 0072 38BD     		pop	{r3, r4, r5, pc}
  2564              	.L437:
  2565 0074 2046     		mov	r0, r4
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 46
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 46
 
 
  2566 0076 9047     		blx	r2
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  2620 002c FFF7FEFF 		bl	_ZN13WiFiInterface11SendCommandE14NetworkCommandhhPKvjPvj
  2621 0030 031E     		subs	r3, r0, #0
  2622 0032 8DF87340 		strb	r4, [sp, #115]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 47
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 47
 
 
  2623 0036 05DB     		blt	.L458
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  2677 0002 26BF     		itte	cs
  2678 0004 024B     		ldrcs	r3, .L465
  2679 0006 53F82000 		ldrcs	r0, [r3, r0, lsl #2]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 48
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 48
 
 
  2680 000a 0248     		ldrcc	r0, .L465+4
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  2734 004e 0022     		movs	r2, #0
  2735 0050 1A70     		strb	r2, [r3]
  2736 0052 70BD     		pop	{r4, r5, r6, pc}
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 49
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 49
 
 
  2737              	.L483:
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  2791              		.p2align 2,,3
  2792              		.global	_ZN13WiFiInterface4SpinEb
  2793              		.syntax unified
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 50
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 50
 
 
  2794              		.thumb
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  2848 006a 9621     		movs	r1, #150
  2849 006c 3046     		mov	r0, r6
  2850 006e FFF7FEFF 		bl	_Z7StrnlenPKcj
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 51
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 51
 
 
  2851 0072 9628     		cmp	r0, #150
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  2905 00d8 002B     		cmp	r3, #0
  2906 00da 40F00B81 		bne	.L507
  2907              	.L510:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 52
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 52
 
 
  2908 00de 94F8B130 		ldrb	r3, [r4, #177]	@ zero_extendqisi2
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  2962 0160 7648     		ldr	r0, .L661+8
  2963 0162 FFF7FEFF 		bl	debugPrintf
  2964 0166 91E7     		b	.L548
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 53
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 53
 
 
  2965              	.L649:
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  3019 01e6 18BF     		it	ne
  3020 01e8 04F18003 		addne	r3, r4, #128
  3021 01ec 07D0     		beq	.L526
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 54
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 54
 
 
  3022              	.L528:
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  3076 0272 DC33     		adds	r3, r3, #220
  3077 0274 4022     		movs	r2, #64
  3078 0276 CDE90032 		strd	r3, r2, [sp]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 55
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 55
 
 
  3079 027a 0296     		str	r6, [sp, #8]
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  3133 0302 D3F80831 		ldr	r3, [r3, #264]
  3134 0306 9A07     		lsls	r2, r3, #30
  3135 0308 24D4     		bmi	.L656
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 56
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 56
 
 
  3136              	.L511:
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  3190 0384 0323     		movs	r3, #3
  3191 0386 C4F8AC30 		str	r3, [r4, #172]
  3192 038a 3D4B     		ldr	r3, .L663+4
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 57
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 57
 
 
  3193 038c ADE7     		b	.L549
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  3247              	.L533:
  3248 0416 A845     		cmp	r8, r5
  3249 0418 F4D1     		bne	.L534
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 58
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 58
 
 
  3250 041a 94F8B130 		ldrb	r3, [r4, #177]	@ zero_extendqisi2
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  3304              	_ZN13WiFiInterface9StartWiFiEv:
  3305              		@ args = 0, pretend = 0, frame = 0
  3306              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 59
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 59
 
 
  3307 0000 10B5     		push	{r4, lr}
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  3361 002e 0121     		movs	r1, #1
  3362 0030 0C20     		movs	r0, #12
  3363 0032 FFF7FEFF 		bl	pinModeDuet
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 60
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 60
 
 
  3364 0036 0022     		movs	r2, #0
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  3418 001a FFF7FEBF 		b	_ZN13WiFiInterface5StartEv
  3419              	.L671:
  3420 001e 7047     		bx	lr
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 61
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 61
 
 
  3421              	.L676:
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  3475 004a 1146     		mov	r1, r2
  3476 004c F8E7     		b	.L681
  3477              	.L708:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 62
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 62
 
 
  3478 004e 1546     		mov	r5, r2
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  3532 00c6 D11E     		subs	r1, r2, #3
  3533 00c8 0129     		cmp	r1, #1
  3534 00ca DCD9     		bls	.L693
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 63
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 63
 
 
  3535 00cc 0421     		movs	r1, #4
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  3589              		.p2align 2,,3
  3590              		.global	_ZN13WiFiInterface4InitEv
  3591              		.syntax unified
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 64
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 64
 
 
  3592              		.thumb
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  3646 006e A047     		blx	r4
  3647 0070 DEE7     		b	.L724
  3648              	.L729:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 65
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 65
 
 
  3649 0072 00BF     		.align	2
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  3703 0050 FFF7FEFF 		bl	_Z12ConfigurePinRK14PinDescription
  3704 0054 0121     		movs	r1, #1
  3705 0056 6420     		movs	r0, #100
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 66
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 66
 
 
  3706 0058 BDE83840 		pop	{r3, r4, r5, lr}
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  3760              	_ZL28cpu_irq_prev_interrupt_state:
  3761 0000 00       		.space	1
  3762              		.section	.bss._ZL32cpu_irq_critical_section_counter,"aw",%nobits
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 67
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 67
 
 
  3763              		.align	2
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  3809 0000 FC000000 		.word	.LC78
  3810 0004 08010000 		.word	.LC79
  3811 0008 10010000 		.word	.LC80
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 68
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 68
 
 
  3812 000c 28010000 		.word	.LC81
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  3865 0008 6E6F6E65 		.ascii	"none\000"
  3865      00
  3866 000d 000000   		.space	3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 69
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 69
 
 
  3867              	.LC36:
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  3891      697A6520 
  3891      256C752C 
  3892              	.LC45:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 70
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 70
 
 
  3893 0118 57694669 		.ascii	"WiFi IP address %s\012\000"
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  3918 0016 0000     		.space	2
  3919              	.LC9:
  3920 0018 52657370 		.ascii	"ResponseBusy\012\000"
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 71
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 71
 
 
  3920      6F6E7365 
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  3945      6669726D 
  3945      77617265 
  3946 002a 0000     		.space	2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 72
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 72
 
 
  3947              	.LC54:
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  3969      7665206E 
  3970              	.LC27:
  3971 00d8 2A00     		.ascii	"*\000"
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 73
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 73
 
 
  3972 00da 0000     		.space	2
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  3995      73746F70 
  3995      7065640A 
  3996 0015 000000   		.space	3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 74
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 74
 
 
  3997              	.LC65:
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  4019              		.section	.rodata._ZN13WiFiInterface16objectModelTableE,"a",%progbits
  4020              		.align	2
  4021              		.set	.LANCHOR0,. + 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 75
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 75
 
 
  4022              		.type	_ZN13WiFiInterface16objectModelTableE, %object
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  4063      20737461 
  4063      74757320 
  4064              	.LC60:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 76
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 76
 
 
  4065 0068 4661696C 		.ascii	"Failed to change WiFi mode (code %li)\012\000"
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  4094              		.section	.rodata._ZTV13WiFiInterface,"a",%progbits
  4095              		.align	2
  4096              		.set	.LANCHOR7,. + 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 77
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 77
 
 
  4097              		.type	_ZTV13WiFiInterface, %object
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  4144 0029 000000   		.space	3
  4145              	.LC69:
  4146 002c 62616420 		.ascii	"bad reply format version\000"
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 78
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 78
 
 
  4146      7265706C 
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  4168      626C6564 
  4168      00
  4169 0105 000000   		.space	3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 79
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 79
 
 
  4170              	.LC79:
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  4196      00
  4197 01a9 000000   		.space	3
  4198              	.LC89:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 80
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 80
 
 
  4199 01ac 48617264 		.ascii	"Hardware watchdog\000"
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 1
  4227 0245 000000   		.space	3
  4228              	.LC100:
  4229 0248 46545000 		.ascii	"FTP\000"
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccigne15.s 			page 81
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccpZSPft.s 			page 81
 
 
  4230              	.LC101:

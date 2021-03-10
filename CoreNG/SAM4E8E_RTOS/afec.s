@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccxxXexW.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 1
   55              	.L5:
   56 003c 0F2C     		cmp	r4, #15
   57 003e F1D9     		bls	.L33
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccxxXexW.s 			page 2
 
 
   58 0040 142C     		cmp	r4, #20
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 1
  112 001e 9C40     		lsls	r4, r4, r3
  113 0020 9940     		lsls	r1, r1, r3
  114 0022 22EA0403 		bic	r3, r2, r4
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccxxXexW.s 			page 3
 
 
  115 0026 1943     		orrs	r1, r1, r3
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 1
  169 0020 8375     		strb	r3, [r0, #22]
  170 0022 0376     		strb	r3, [r0, #24]
  171 0024 4376     		strb	r3, [r0, #25]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccxxXexW.s 			page 4
 
 
  172 0026 8376     		strb	r3, [r0, #26]
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 1
  226              		.align	1
  227              		.p2align 2,,3
  228              		.global	afec_init
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccxxXexW.s 			page 5
 
 
  229              		.syntax unified
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 1
  283 0070 7CB9     		cbnz	r4, .L74
  284              	.L56:
  285 0072 8260     		str	r2, [r0, #8]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccxxXexW.s 			page 6
 
 
  286 0074 8B7E     		ldrb	r3, [r1, #26]	@ zero_extendqisi2
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 1
  340              		.thumb
  341              		.thumb_func
  342              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccxxXexW.s 			page 7
 
 
  343              		.type	afec_set_comparison_mode, %function
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 1
  397 0020 43F04003 		orr	r3, r3, #64
  398 0024 4360     		str	r3, [r0, #4]
  399 0026 7047     		bx	lr
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccxxXexW.s 			page 8
 
 
  400              		.size	afec_set_power_mode, .-afec_set_power_mode
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 1
  454              		.type	afec_set_callback, %function
  455              	afec_set_callback:
  456              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccxxXexW.s 			page 9
 
 
  457              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 1
  511              	.L114:
  512 000c 0123     		movs	r3, #1
  513 000e 03FA01F1 		lsl	r1, r3, r1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccxxXexW.s 			page 10
 
 
  514              	.L113:
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 1
  568              		@ frame_needed = 0, uses_anonymous_args = 0
  569              		@ link register save eliminated.
  570 0000 0148     		ldr	r0, .L123
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccxxXexW.s 			page 11
 
 
  571 0002 FFF7FEBF 		b	afec_process_callback
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 1
  625              		.section	.text.afec_configure_sequence,"ax",%progbits
  626              		.align	1
  627              		.p2align 2,,3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccxxXexW.s 			page 12
 
 
  628              		.global	afec_configure_sequence
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 1
  682 0058 31F81440 		ldrh	r4, [r1, r4, lsl #1]
  683 005c 0569     		ldr	r5, [r0, #16]
  684 005e 0133     		adds	r3, r3, #1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc7K9xV8.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccxxXexW.s 			page 13
 
 
  685 0060 DBB2     		uxtb	r3, r3

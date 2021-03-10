@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccFY1OKP.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWOFJue.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccFY1OKP.s 			page 1
   55 0004 0360     		str	r3, [r0]
   56 0006 0446     		mov	r4, r0
   57 0008 FFF7FEFF 		bl	_ZN17TemperatureSensorD2Ev
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccFY1OKP.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWOFJue.s 			page 2
 
 
   58 000c 2046     		mov	r0, r4
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccFY1OKP.s 			page 1
  112 0046 FFF7FEFF 		bl	_ZN11GCodeBuffer13TryGetUIValueEcRmRb
  113 004a 3346     		mov	r3, r6
  114 004c 04F13002 		add	r2, r4, #48
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccFY1OKP.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWOFJue.s 			page 3
 
 
  115 0050 4421     		movs	r1, #68
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccFY1OKP.s 			page 1
  169              		.p2align 2,,3
  170              		.global	_ZN28CurrentLoopTemperatureSensorC2Ej
  171              		.syntax unified
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccFY1OKP.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWOFJue.s 			page 4
 
 
  172              		.thumb
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccFY1OKP.s 			page 1
  226              		@ args = 0, pretend = 0, frame = 0
  227              		@ frame_needed = 0, uses_anonymous_args = 0
  228              		@ link register save eliminated.
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccFY1OKP.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWOFJue.s 			page 5
 
 
  229 0000 90ED097A 		vldr.32	s14, [r0, #36]
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccFY1OKP.s 			page 1
  283 0038 019A     		ldr	r2, [sp, #4]
  284 003a 5109     		lsrs	r1, r2, #5
  285 003c C1F30C00 		ubfx	r0, r1, #0, #13
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccFY1OKP.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWOFJue.s 			page 6
 
 
  286 0040 B0F5805F 		cmp	r0, #4096
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccFY1OKP.s 			page 1
  340              		@ args = 0, pretend = 0, frame = 0
  341              		@ frame_needed = 0, uses_anonymous_args = 0
  342 0000 70B5     		push	{r4, r5, r6, lr}
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccFY1OKP.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWOFJue.s 			page 7
 
 
  343 0002 0446     		mov	r4, r0
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccFY1OKP.s 			page 1
  397 000e 94F82000 		ldrb	r0, [r4, #32]	@ zero_extendqisi2
  398 0012 2B60     		str	r3, [r5]	@ float
  399 0014 38BD     		pop	{r3, r4, r5, pc}
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccFY1OKP.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWOFJue.s 			page 8
 
 
  400              	.L52:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccFY1OKP.s 			page 1
  454              	.LC2:
  455 0000 4661696C 		.ascii	"Failed to initialise daughter board ADC: %s\012\000"
  455      65642074 
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccFY1OKP.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccWOFJue.s 			page 9
 
 
  455      6F20696E 

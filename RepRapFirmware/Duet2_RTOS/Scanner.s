@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfplHQ7.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 1
   55 0008 4372     		strb	r3, [r0, #9]
   56 000a 7047     		bx	lr
   57              		.size	_ZN7Scanner8SetStateE12ScannerState, .-_ZN7Scanner8SetStateE12ScannerState
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfplHQ7.s 			page 2
 
 
   58              		.section	.text._ZN7Scanner6EnableEv,"ax",%progbits
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 1
  112 0030 0120     		movs	r0, #1
  113 0032 E260     		str	r2, [r4, #12]	@ float
  114 0034 6372     		strb	r3, [r4, #9]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfplHQ7.s 			page 3
 
 
  115 0036 2061     		str	r0, [r4, #16]
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 1
  169              	.L37:
  170 0048 00000000 		.word	.LC1
  171              		.size	_ZN7Scanner4ExitEv, .-_ZN7Scanner4ExitEv
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfplHQ7.s 			page 4
 
 
  172              		.section	.text._ZN7Scanner8ShutdownEv,"ax",%progbits
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 1
  226 000a 4920     		movhi	r0, #73
  227 000c 7047     		bx	lr
  228              	.L50:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfplHQ7.s 			page 5
 
 
  229 000e 00BF     		.align	2
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 1
  283 0006 FFF7FEFF 		bl	_ZNK11GCodeBuffer16IsDoingFileMacroEv
  284 000a 00B1     		cbz	r0, .L63
  285              	.L58:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfplHQ7.s 			page 6
 
 
  286 000c 10BD     		pop	{r4, pc}
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 1
  340              		@ frame_needed = 0, uses_anonymous_args = 0
  341 0000 70B5     		push	{r4, r5, r6, lr}
  342 0002 4368     		ldr	r3, [r0, #4]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfplHQ7.s 			page 7
 
 
  343 0004 0D46     		mov	r5, r1
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 1
  397 0022 2846     		mov	r0, r5
  398 0024 FFF7FEFF 		bl	_Z16StringStartsWithPKcS0_
  399 0028 0746     		mov	r7, r0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfplHQ7.s 			page 8
 
 
  400 002a 68B9     		cbnz	r0, .L123
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 1
  454 0098 4146     		mov	r1, r8
  455 009a 04F11D00 		add	r0, r4, #29
  456 009e FFF7FEFF 		bl	_Z10SafeStrtofPKcPS0_
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfplHQ7.s 			page 9
 
 
  457 00a2 B4EE400A 		vcmp.f32	s0, s0
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 1
  511 0126 3D49     		ldr	r1, .L127+44
  512 0128 2846     		mov	r0, r5
  513 012a FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfplHQ7.s 			page 10
 
 
  514 012e 0028     		cmp	r0, #0
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 1
  568              	.L93:
  569 01ae 2846     		mov	r0, r5
  570 01b0 1E49     		ldr	r1, .L127+60
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfplHQ7.s 			page 11
 
 
  571 01b2 FFF7FEFF 		bl	_Z16StringStartsWithPKcS0_
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 1
  625              		.fpu fpv4-sp-d16
  626              		.type	_ZN7Scanner8RegisterEv, %function
  627              	_ZN7Scanner8RegisterEv:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfplHQ7.s 			page 12
 
 
  628              		@ args = 0, pretend = 0, frame = 0
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 1
  682 001a F6D9     		bls	.L138
  683 001c 0446     		mov	r4, r0
  684 001e 1E46     		mov	r6, r3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfplHQ7.s 			page 13
 
 
  685 0020 1746     		mov	r7, r2
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 1
  739 001a 51B9     		cbnz	r1, .L145
  740 001c 0849     		ldr	r1, .L157
  741 001e FFF7FEFF 		bl	_ZN7Scanner11DoFileMacroEPKc
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfplHQ7.s 			page 14
 
 
  742 0022 0323     		movs	r3, #3
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 1
  796 0028 0823     		movs	r3, #8
  797 002a E960     		str	r1, [r5, #12]	@ float
  798 002c 6A72     		strb	r2, [r5, #9]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfplHQ7.s 			page 15
 
 
  799 002e 2B61     		str	r3, [r5, #16]
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 1
  853 004a A049     		ldr	r1, .L229+8
  854 004c 6372     		strb	r3, [r4, #9]
  855 004e 2361     		str	r3, [r4, #16]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfplHQ7.s 			page 16
 
 
  856 0050 2046     		mov	r0, r4
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 1
  910 00b8 0221     		movs	r1, #2
  911 00ba 864A     		ldr	r2, .L229+16
  912 00bc FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfplHQ7.s 			page 17
 
 
  913 00c0 0022     		movs	r2, #0
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 1
  967 0136 5D1B     		subs	r5, r3, r5
  968 0138 C4F82C51 		str	r5, [r4, #300]
  969 013c 7368     		ldr	r3, [r6, #4]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfplHQ7.s 			page 18
 
 
  970 013e B3F5005F 		cmp	r3, #8192
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 1
  1024 01c4 2361     		str	r3, [r4, #16]
  1025 01c6 46E7     		b	.L167
  1026              	.L175:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 19
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfplHQ7.s 			page 19
 
 
  1027 01c8 2368     		ldr	r3, [r4]
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 1
  1081 0254 3FF4FFAE 		beq	.L167
  1082              	.L192:
  1083 0258 3846     		mov	r0, r7
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 20
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfplHQ7.s 			page 20
 
 
  1084 025a FFF7FEFF 		bl	_ZN9SerialCDC4readEv
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 1
  1138              		.size	_ZN7Scanner4SpinEv, .-_ZN7Scanner4SpinEv
  1139              		.section	.bss._ZL28cpu_irq_prev_interrupt_state,"aw",%nobits
  1140              		.type	_ZL28cpu_irq_prev_interrupt_state, %object
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 21
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfplHQ7.s 			page 21
 
 
  1141              		.size	_ZL28cpu_irq_prev_interrupt_state, 1
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 1
  1184      20272573 
  1185 0017 00       		.space	1
  1186              	.LC6:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 22
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfplHQ7.s 			page 22
 
 
  1187 0018 4D373531 		.ascii	"M751\000"
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 1
  1219              	.LC18:
  1220 00d0 25730A00 		.ascii	"%s\012\000"
  1221              		.section	.rodata._ZN7Scanner4ExitEv.str1.4,"aMS",%progbits,1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 23
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfplHQ7.s 			page 23
 
 
  1222              		.align	2
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 1
  1250 00a8 46696E69 		.ascii	"Finished uploading %u bytes of scan data\012\000"
  1250      73686564 
  1250      2075706C 
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccTzuAXX.s 			page 24
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccfplHQ7.s 			page 24
 
 
  1250      6F616469 

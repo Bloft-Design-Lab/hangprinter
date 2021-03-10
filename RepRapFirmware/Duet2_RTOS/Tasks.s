@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSwCKTy.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 1
   55              		.size	MainTask, .-MainTask
   56              		.section	.text.vApplicationGetIdleTaskMemory,"ax",%progbits
   57              		.align	1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSwCKTy.s 			page 2
 
 
   58              		.p2align 2,,3
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 1
  112              		.align	1
  113              		.p2align 2,,3
  114              		.global	__malloc_unlock
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSwCKTy.s 			page 3
 
 
  115              		.syntax unified
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 1
  169 002c 1B4C     		ldr	r4, .L28+16
  170 002e 1C4D     		ldr	r5, .L28+20
  171 0030 43F01003 		orr	r3, r3, #16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSwCKTy.s 			page 4
 
 
  172 0034 5361     		str	r3, [r2, #20]
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 1
  226              		.type	_ZN5Tasks15GetNeverUsedRamEv, %function
  227              	_ZN5Tasks15GetNeverUsedRamEv:
  228              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSwCKTy.s 			page 5
 
 
  229              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 1
  283 0010 2846     		mov	r0, r5
  284 0012 FFF7FEFF 		bl	_ZN8Platform7MessageE11MessageTypePKc
  285 0016 3146     		mov	r1, r6
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSwCKTy.s 			page 6
 
 
  286 0018 484B     		ldr	r3, .L76+8
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 1
  340 0092 DFF8E890 		ldr	r9, .L76+72
  341 0096 15E0     		b	.L51
  342              	.L75:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSwCKTy.s 			page 7
 
 
  343 0098 012B     		cmp	r3, #1
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 1
  397 010c 6468     		ldr	r4, [r4, #4]
  398 010e 002C     		cmp	r4, #0
  399 0110 EED1     		bne	.L54
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSwCKTy.s 			page 8
 
 
  400              	.L52:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 1
  454              	_ZN5Tasks11GetSpiMutexEv:
  455              		@ args = 0, pretend = 0, frame = 0
  456              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSwCKTy.s 			page 9
 
 
  457              		@ link register save eliminated.
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 1
  511              		.thumb_func
  512              		.fpu fpv4-sp-d16
  513              		.type	hardFaultDispatcher, %function
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSwCKTy.s 			page 10
 
 
  514              	hardFaultDispatcher:
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 1
  568 0000 034B     		ldr	r3, .L92
  569 0002 00F11402 		add	r2, r0, #20
  570 0006 5021     		movs	r1, #80
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSwCKTy.s 			page 11
 
 
  571 0008 5868     		ldr	r0, [r3, #4]
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 1
  625              	.L96:
  626 0010 00000000 		.word	reprap
  627              		.size	otherFaultDispatcher, .-otherFaultDispatcher
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSwCKTy.s 			page 12
 
 
  628              		.section	.text.OtherFault_Handler,"ax",%progbits
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 1
  682              		.p2align 2,,3
  683              		.global	UsageFault_Handler
  684              		.syntax unified
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSwCKTy.s 			page 13
 
 
  685              		.thumb
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 1
  739              		.syntax unified
  740              	@ 375 "../src/Tasks.cpp" 1
  741 0000 03B5     		 push {r0, r1, lr}											
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSwCKTy.s 			page 14
 
 
  742 0002 6846     	 mov r0, sp												
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 1
  796              		.thumb
  797              		.syntax unified
  798              		.size	vAssertCalled, .-vAssertCalled
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSwCKTy.s 			page 15
 
 
  799              		.section	.text.startup._GLOBAL__sub_I_vApplicationGetIdleTaskMemory,"ax",%progbits
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 1
  849              		.section	.bss._ZL32cpu_irq_critical_section_counter,"aw",%nobits
  850              		.align	2
  851              		.type	_ZL32cpu_irq_critical_section_counter, %object
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSwCKTy.s 			page 16
 
 
  852              		.size	_ZL32cpu_irq_critical_section_counter, 4
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 1
  889 0000 4D616C6C 		.ascii	"Malloc\000"
  889      6F6300
  890 0007 00       		.space	1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSwCKTy.s 			page 17
 
 
  891              	.LC1:
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 1
  921      256C750A 
  922 00a9 000000   		.space	3
  923              	.LC14:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccUN7mGX.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccSwCKTy.s 			page 18
 
 
  924 00ac 5461736B 		.ascii	"Tasks:\000"

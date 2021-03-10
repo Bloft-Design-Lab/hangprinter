@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRLUgvG.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 1
   55              	.L8:
   56 0010 3220     		movs	r0, #50
   57 0012 FFF7FEFF 		bl	_Z5delaym
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRLUgvG.s 			page 2
 
 
   58 0016 3E21     		movs	r1, #62
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 1
  112 0096 40F60974 		movw	r4, #3849
  113 009a 032A     		cmp	r2, #3
  114 009c 08BF     		it	eq
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRLUgvG.s 			page 3
 
 
  115 009e 1C46     		moveq	r4, r3
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 1
  169 000e 0524     		movs	r4, #5
  170              	.L20:
  171 0010 3220     		movs	r0, #50
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRLUgvG.s 			page 4
 
 
  172 0012 FFF7FEFF 		bl	_Z5delaym
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 1
  226              	_ZN13DuetExpansion21GetExpansionBoardNameEv:
  227              		@ args = 0, pretend = 0, frame = 0
  228              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRLUgvG.s 			page 5
 
 
  229              		@ link register save eliminated.
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 1
  283              		@ frame_needed = 0, uses_anonymous_args = 0
  284 0000 0B4B     		ldr	r3, .L47
  285 0002 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRLUgvG.s 			page 6
 
 
  286 0004 23B1     		cbz	r3, .L43
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 1
  340 000e A2B1     		cbz	r2, .L49
  341 0010 4FF47062 		mov	r2, #3840
  342 0014 DA40     		lsrs	r2, r2, r3
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRLUgvG.s 			page 7
 
 
  343 0016 D207     		lsls	r2, r2, #31
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 1
  397              		.size	_ZN13DuetExpansion10SetPinModeEh7PinMode, .-_ZN13DuetExpansion10SetPinModeEh7PinMode
  398              		.section	.text._ZN13DuetExpansion11DigitalReadEh,"ax",%progbits
  399              		.align	1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRLUgvG.s 			page 8
 
 
  400              		.p2align 2,,3
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 1
  454              	.L74:
  455 0050 C83C     		subs	r4, r4, #200
  456 0052 E040     		lsrs	r0, r0, r4
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRLUgvG.s 			page 9
 
 
  457 0054 00F00100 		and	r0, r0, #1
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 1
  511 000a 0B4A     		ldr	r2, .L99
  512 000c 1278     		ldrb	r2, [r2]	@ zero_extendqisi2
  513 000e 6AB9     		cbnz	r2, .L98
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRLUgvG.s 			page 10
 
 
  514              	.L89:
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 1
  568 0024 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
  569 0028 1ED4     		bmi	.L125
  570 002a FF22     		movs	r2, #255
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRLUgvG.s 			page 11
 
 
  571              	.L105:
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 1
  625 00a6 CDED017A 		vstr.32	s15, [sp, #4]	@ int
  626 00aa 9DF80420 		ldrb	r2, [sp, #4]	@ zero_extendqisi2
  627 00ae D7E7     		b	.L109
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRLUgvG.s 			page 12
 
 
  628              	.L129:
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 1
  682              		.size	_ZN13DuetExpansion14DiagnosticReadEv, .-_ZN13DuetExpansion14DiagnosticReadEv
  683              		.section	.text.startup._GLOBAL__sub_I__ZN13DuetExpansion9DueXnInitEv,"ax",%progbits
  684              		.align	1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRLUgvG.s 			page 13
 
 
  685              		.p2align 2,,3
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 1
  737              		.size	_ZN13DuetExpansionL14dueXnInputBitsE, 2
  738              	_ZN13DuetExpansionL14dueXnInputBitsE:
  739 0000 0000     		.space	2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRLUgvG.s 			page 14
 
 
  740              		.section	.bss._ZN13DuetExpansionL16dueXstateChangedE,"aw",%nobits
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 1
  788              		.align	2
  789              	.LC1:
  790 0000 44756558 		.ascii	"DueX0\000"
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccHoauCo.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccRLUgvG.s 			page 15
 
 
  790      3000

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccX4K8dC.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccnvIs1I.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccX4K8dC.s 			page 1
   55              	wdt_init:
   56              		@ args = 0, pretend = 0, frame = 0
   57              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccX4K8dC.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccnvIs1I.s 			page 2
 
 
   58              		@ link register save eliminated.
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccX4K8dC.s 			page 1
  112 000c 50180E40 		.word	1074665552
  113 0010 010000A5 		.word	-1526726655
  114              		.size	wdt_restart, .-wdt_restart
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccX4K8dC.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccnvIs1I.s 			page 3
 
 
  115              		.section	.text.wdt_get_status,"ax",%progbits

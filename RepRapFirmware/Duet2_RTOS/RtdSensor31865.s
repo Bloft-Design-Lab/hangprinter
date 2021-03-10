@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccApWi0e.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccsbueTm.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccApWi0e.s 			page 1
   55 0004 0360     		str	r3, [r0]
   56 0006 0446     		mov	r4, r0
   57 0008 FFF7FEFF 		bl	_ZN17TemperatureSensorD2Ev
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccApWi0e.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccsbueTm.s 			page 2
 
 
   58 000c 2046     		mov	r0, r4
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccApWi0e.s 			page 1
  112 0040 FFF7FEFF 		bl	_ZN11GCodeBuffer4SeenEc
  113 0044 10BB     		cbnz	r0, .L37
  114              	.L16:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccApWi0e.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccsbueTm.s 			page 3
 
 
  115 0046 9DF80F30 		ldrb	r3, [sp, #15]	@ zero_extendqisi2
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccApWi0e.s 			page 1
  169 00d0 0CBF     		ite	eq
  170 00d2 23F00103 		biceq	r3, r3, #1
  171 00d6 43F00103 		orrne	r3, r3, #1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccApWi0e.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccsbueTm.s 			page 4
 
 
  172 00da 86F82430 		strb	r3, [r6, #36]
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccApWi0e.s 			page 1
  226              		.thumb
  227              		.thumb_func
  228              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccApWi0e.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccsbueTm.s 			page 5
 
 
  229              		.type	_ZNK14RtdSensor3186510TryInitRtdEv, %function
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccApWi0e.s 			page 1
  283 0000 70B5     		push	{r4, r5, r6, lr}
  284 0002 0646     		mov	r6, r0
  285 0004 FFF7FEFF 		bl	_ZN20SpiTemperatureSensor7InitSpiEv
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccApWi0e.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccsbueTm.s 			page 6
 
 
  286 0008 0324     		movs	r4, #3
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccApWi0e.s 			page 1
  340 0008 FFF7FEFF 		bl	_Z11inInterruptv
  341 000c 28B1     		cbz	r0, .L61
  342              	.L63:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccApWi0e.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccsbueTm.s 			page 7
 
 
  343 000e E369     		ldr	r3, [r4, #28]	@ float
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccApWi0e.s 			page 1
  397              		L_438_delayMicroseconds:
  398 0082 013B     		subs   r3, #1
  399 0084 FDD1     		bne    L_438_delayMicroseconds
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccApWi0e.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccsbueTm.s 			page 8
 
 
  400              	
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccApWi0e.s 			page 1
  454              		.section	.bss._ZL32cpu_irq_critical_section_counter,"aw",%nobits
  455              		.align	2
  456              		.type	_ZL32cpu_irq_critical_section_counter, %object
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccApWi0e.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccsbueTm.s 			page 9
 
 
  457              		.size	_ZL32cpu_irq_critical_section_counter, 4
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccApWi0e.s 			page 1
  499              		.section	.rodata._ZZN14RtdSensor3186514GetTemperatureERfE7dataOut,"a",%progbits
  500              		.align	2
  501              		.set	.LANCHOR2,. + 0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccApWi0e.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\ccsbueTm.s 			page 10
 
 
  502              		.type	_ZZN14RtdSensor3186514GetTemperatureERfE7dataOut, %object

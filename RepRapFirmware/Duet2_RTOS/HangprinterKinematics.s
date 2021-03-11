@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
   55              		.syntax unified
   56              		.thumb
   57              		.thumb_func
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 2
 
 
   58              		.fpu fpv4-sp-d16
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  112 0000 0020     		movs	r0, #0
  113 0002 7047     		bx	lr
  114              		.size	_ZNK21HangprinterKinematics16NumHomingButtonsEj, .-_ZNK21HangprinterKinematics16NumHomingBut
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 3
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 3
 
 
  115              		.section	.text._ZNK21HangprinterKinematics17HomingButtonNamesEv,"axG",%progbits,_ZNK21HangprinterK
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  169 0002 7047     		bx	lr
  170              		.size	_ZNK21HangprinterKinematics13GetHomingModeEv, .-_ZNK21HangprinterKinematics13GetHomingModeEv
  171              		.section	.text._ZNK21HangprinterKinematics7GetNameEb,"ax",%progbits
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 4
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 4
 
 
  172              		.align	1
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  226 0014 4CBF     		ite	mi
  227 0016 0120     		movmi	r0, #1
  228 0018 0020     		movpl	r0, #0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 5
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 5
 
 
  229 001a 7047     		bx	lr
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  283 0000 7047     		bx	lr
  284              		.size	_ZNK21HangprinterKinematics23OnHomingSwitchTriggeredEjbPKfR3DDA, .-_ZNK21HangprinterKinemati
  285 0002 00BF     		.section	.text._ZNK21HangprinterKinematics16AxesAssumedHomedEm,"ax",%progbits
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 6
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 6
 
 
  286              		.align	1
@@ -316,7 +316,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  298 0000 01F00703 		and	r3, r1, #7
  299 0004 072B     		cmp	r3, #7
  300 0006 0CBF     		ite	eq
- 301 0008 41F01000 		orreq	r0, r1, #16
+ 301 0008 41F01100 		orreq	r0, r1, #17
  302 000c 21F00700 		bicne	r0, r1, #7
  303 0010 7047     		bx	lr
  304              		.size	_ZNK21HangprinterKinematics16AxesAssumedHomedEm, .-_ZNK21HangprinterKinematics16AxesAssumedH
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  340 0008 00EBC100 		add	r0, r0, r1, lsl #3
  341 000c 7047     		bx	lr
  342              		.size	_ZN11FixedMatrixIdLj32ELj3EEclEjj, .-_ZN11FixedMatrixIdLj32ELj3EEclEjj
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 7
 
 
  343 000e 00BF     		.section	.text._ZN11FixedMatrixIdLj32ELj9EEclEjj,"axG",%progbits,_ZN11FixedMatrixIdLj32ELj9EEclEjj
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  397              		.thumb_set _ZN11FixedMatrixIdLj9ELj10EED1Ev,_ZN11FixedMatrixIdLj9ELj10EED2Ev
  398 0002 00BF     		.section	.text._ZN11FixedMatrixIdLj32ELj9EED2Ev,"axG",%progbits,_ZN11FixedMatrixIdLj32ELj9EED5Ev,c
  399              		.align	1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 8
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 8
 
 
  400              		.p2align 2,,3
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  454              		.thumb
  455              		.thumb_func
  456              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 9
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 9
 
 
  457              		.type	_ZNK11FixedMatrixIdLj9ELj10EE4rowsEv, %function
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  511              		@ frame_needed = 0, uses_anonymous_args = 0
  512              		@ link register save eliminated.
  513 0000 2020     		movs	r0, #32
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 10
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 10
 
 
  514 0002 7047     		bx	lr
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  568              		.align	1
  569              		.p2align 2,,3
  570              		.weak	_ZNK11FixedMatrixIdLj32ELj3EE4colsEv
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 11
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 11
 
 
  571              		.syntax unified
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  625 0026 90ED044A 		vldr.32	s8, [r0, #16]
  626 002a D0ED074A 		vldr.32	s9, [r0, #28]
  627 002e D0ED0A1A 		vldr.32	s3, [r0, #40]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 12
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 12
 
 
  628 0032 90ED0D5A 		vldr.32	s10, [r0, #52]
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  682 00e2 042C     		cmp	r4, #4
  683 00e4 D8ED007A 		vldr.32	s15, [r8]
  684 00e8 78EE677A 		vsub.f32	s15, s16, s15
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 13
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 13
 
 
  685 00ec C6ED007A 		vstr.32	s15, [r6]
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  739 018a F1EE10FA 		vmrs	APSR_nzcv, FPSCR
  740 018e 0DDD     		ble	.L60
  741 0190 DDED077A 		vldr.32	s15, [sp, #28]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 14
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 14
 
 
  742 0194 F5EEC07A 		vcmpe.f32	s15, #0
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  796 0232 20EE270A 		vmul.f32	s0, s0, s15
  797 0236 FFF7FEFF 		bl	lrintf
  798 023a D7ED047A 		vldr.32	s15, [r7, #16]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 15
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 15
 
 
  799 023e 219B     		ldr	r3, [sp, #132]
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  853 0048 0000B443 		.word	1135869952
  854              		.size	_ZN21HangprinterKinematics22MotorAngToAxisPositionEfmPKfj, .-_ZN21HangprinterKinematics22Mot
  855              		.section	.text._ZNK21HangprinterKinematics17GetHomingFileNameEmmjRK9StringRef,"ax",%progbits
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 16
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 16
 
 
  856              		.align	1
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  910 0040 B4EE400A 		vcmp.f32	s0, s0
  911 0044 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
  912 0048 06D6     		bvs	.L92
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 17
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 17
 
 
  913 004a B4EEE70A 		vcmpe.f32	s0, s15
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  967 0008 FFF7FEFF 		bl	_ZdlPvj
  968 000c 2046     		mov	r0, r4
  969 000e 10BD     		pop	{r4, pc}
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 18
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 18
 
 
  970              		.size	_ZN21HangprinterKinematicsD0Ev, .-_ZN21HangprinterKinematicsD0Ev
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  1024 0008 FFF7FEFF 		bl	_ZdlPvj
  1025 000c 2046     		mov	r0, r4
  1026 000e 10BD     		pop	{r4, pc}
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 19
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 19
 
 
  1027              		.size	_ZN11FixedMatrixIdLj9ELj10EED0Ev, .-_ZN11FixedMatrixIdLj9ELj10EED0Ev
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  1081 0034 1C4B     		ldr	r3, .L134
  1082 0036 D1ED027A 		vldr.32	s15, [r1, #8]
  1083 003a 5B68     		ldr	r3, [r3, #4]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 20
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 20
 
 
  1084 003c 03F5F962 		add	r2, r3, #1992
@@ -1184,988 +1184,988 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  1124              	.L134:
  1125 00a8 00000000 		.word	reprap
  1126              		.size	_ZNK21HangprinterKinematics13LimitPositionEPfjmb, .-_ZNK21HangprinterKinematics13LimitPositi
- 1127              		.section	.text._Z14elongationCalcf,"ax",%progbits
+ 1127              		.section	.text._ZN21HangprinterKinematics6RecalcEv,"ax",%progbits
  1128              		.align	1
  1129              		.p2align 2,,3
- 1130              		.global	_Z14elongationCalcf
+ 1130              		.global	_ZN21HangprinterKinematics6RecalcEv
  1131              		.syntax unified
  1132              		.thumb
  1133              		.thumb_func
  1134              		.fpu fpv4-sp-d16
- 1135              		.type	_Z14elongationCalcf, %function
- 1136              	_Z14elongationCalcf:
- 1137              		@ args = 0, pretend = 0, frame = 0
+ 1135              		.type	_ZN21HangprinterKinematics6RecalcEv, %function
+ 1136              	_ZN21HangprinterKinematics6RecalcEv:
+ 1137              		@ args = 0, pretend = 0, frame = 8
  1138              		@ frame_needed = 0, uses_anonymous_args = 0
- 1139              		@ link register save eliminated.
- 1140 0000 DFED087A 		vldr.32	s15, .L137
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 21
+ 1139 0000 2DE9F04F 		push	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
+ 1140 0004 D0ED045A 		vldr.32	s11, [r0, #16]
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 21
 
 
- 1141 0004 9FED086A 		vldr.32	s12, .L137+4
- 1142 0008 DFED086A 		vldr.32	s13, .L137+8
- 1143 000c 70EE277A 		vadd.f32	s15, s0, s15
- 1144 0010 B0EE087A 		vmov.f32	s14, #3.0e+0
- 1145 0014 27EE877A 		vmul.f32	s14, s15, s14
- 1146 0018 87EE060A 		vdiv.f32	s0, s14, s12
- 1147 001c A7EEA60A 		vfma.f32	s0, s15, s13
- 1148 0020 7047     		bx	lr
- 1149              	.L138:
- 1150 0022 00BF     		.align	2
- 1151              	.L137:
- 1152 0024 3D52F244 		.word	1156731453
- 1153 0028 E69E9A46 		.word	1184538342
- 1154 002c 0AD7233B 		.word	992204554
- 1155              		.size	_Z14elongationCalcf, .-_Z14elongationCalcf
- 1156              		.section	.text._ZN21HangprinterKinematics6RecalcEv,"ax",%progbits
- 1157              		.align	1
- 1158              		.p2align 2,,3
- 1159              		.global	_ZN21HangprinterKinematics6RecalcEv
- 1160              		.syntax unified
- 1161              		.thumb
- 1162              		.thumb_func
- 1163              		.fpu fpv4-sp-d16
- 1164              		.type	_ZN21HangprinterKinematics6RecalcEv, %function
- 1165              	_ZN21HangprinterKinematics6RecalcEv:
- 1166              		@ args = 0, pretend = 0, frame = 8
- 1167              		@ frame_needed = 0, uses_anonymous_args = 0
- 1168 0000 2DE9F04F 		push	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
- 1169 0004 D0ED045A 		vldr.32	s11, [r0, #16]
- 1170 0008 90ED055A 		vldr.32	s10, [r0, #20]
- 1171 000c D0ED0B4A 		vldr.32	s9, [r0, #44]
- 1172 0010 90ED066A 		vldr.32	s12, [r0, #24]
- 1173 0014 90ED0C2A 		vldr.32	s4, [r0, #48]
- 1174 0018 90ED084A 		vldr.32	s8, [r0, #32]
- 1175 001c D0ED0A3A 		vldr.32	s7, [r0, #40]
- 1176 0020 D0ED092A 		vldr.32	s5, [r0, #36]
- 1177 0024 836B     		ldr	r3, [r0, #56]	@ float
- 1178 0026 2DED068B 		vpush.64	{d8, d9, d10}
- 1179 002a 34EEC51A 		vsub.f32	s2, s9, s10
- 1180 002e D0ED078A 		vldr.32	s17, [r0, #28]
- 1181 0032 90ED0FAA 		vldr.32	s20, [r0, #60]
- 1182 0036 80ED4C1A 		vstr.32	s2, [r0, #304]
- 1183 003a 24EEE57A 		vnmul.f32	s14, s9, s11
- 1184 003e 72EE461A 		vsub.f32	s3, s4, s12
- 1185 0042 62EE456A 		vnmul.f32	s13, s4, s10
- 1186 0046 A8EE817A 		vfma.f32	s14, s17, s2
- 1187 004a A5B0     		sub	sp, sp, #148
- 1188 004c 0446     		mov	r4, r0
- 1189 004e E4EE216A 		vfma.f32	s13, s8, s3
- 1190 0052 A5EE237A 		vfma.f32	s14, s10, s7
- 1191 0056 65EE827A 		vmul.f32	s15, s11, s4
- 1192 005a E6EE246A 		vfma.f32	s13, s12, s9
- 1193 005e 73EEE50A 		vsub.f32	s1, s7, s11
- 1194 0062 E8EEA17A 		vfma.f32	s15, s17, s3
- 1195 0066 B1EE623A 		vneg.f32	s6, s5
- 1196 006a A4EE607A 		vfms.f32	s14, s8, s1
- 1197 006e E3EE016A 		vfma.f32	s13, s6, s2
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 22
+ 1141 0008 90ED055A 		vldr.32	s10, [r0, #20]
+ 1142 000c D0ED0B4A 		vldr.32	s9, [r0, #44]
+ 1143 0010 90ED066A 		vldr.32	s12, [r0, #24]
+ 1144 0014 90ED0C2A 		vldr.32	s4, [r0, #48]
+ 1145 0018 90ED084A 		vldr.32	s8, [r0, #32]
+ 1146 001c D0ED0A3A 		vldr.32	s7, [r0, #40]
+ 1147 0020 D0ED092A 		vldr.32	s5, [r0, #36]
+ 1148 0024 836B     		ldr	r3, [r0, #56]	@ float
+ 1149 0026 2DED068B 		vpush.64	{d8, d9, d10}
+ 1150 002a 34EEC51A 		vsub.f32	s2, s9, s10
+ 1151 002e D0ED078A 		vldr.32	s17, [r0, #28]
+ 1152 0032 90ED0FAA 		vldr.32	s20, [r0, #60]
+ 1153 0036 80ED4C1A 		vstr.32	s2, [r0, #304]
+ 1154 003a 24EEE57A 		vnmul.f32	s14, s9, s11
+ 1155 003e 72EE461A 		vsub.f32	s3, s4, s12
+ 1156 0042 62EE456A 		vnmul.f32	s13, s4, s10
+ 1157 0046 A8EE817A 		vfma.f32	s14, s17, s2
+ 1158 004a A5B0     		sub	sp, sp, #148
+ 1159 004c 0446     		mov	r4, r0
+ 1160 004e E4EE216A 		vfma.f32	s13, s8, s3
+ 1161 0052 A5EE237A 		vfma.f32	s14, s10, s7
+ 1162 0056 65EE827A 		vmul.f32	s15, s11, s4
+ 1163 005a E6EE246A 		vfma.f32	s13, s12, s9
+ 1164 005e 73EEE50A 		vsub.f32	s1, s7, s11
+ 1165 0062 E8EEA17A 		vfma.f32	s15, s17, s3
+ 1166 0066 B1EE623A 		vneg.f32	s6, s5
+ 1167 006a A4EE607A 		vfms.f32	s14, s8, s1
+ 1168 006e E3EE016A 		vfma.f32	s13, s6, s2
+ 1169 0072 E6EE237A 		vfma.f32	s15, s12, s7
+ 1170 0076 37EE077A 		vadd.f32	s14, s14, s14
+ 1171 007a 76EEA66A 		vadd.f32	s13, s13, s13
+ 1172 007e 27EE079A 		vmul.f32	s18, s14, s14
+ 1173 0082 E3EE207A 		vfma.f32	s15, s6, s1
+ 1174 0086 65EEA6AA 		vmul.f32	s21, s11, s13
+ 1175 008a 25EE050A 		vmul.f32	s0, s10, s10
+ 1176 008e B0EE498A 		vmov.f32	s16, s18
+ 1177 0092 64EEA49A 		vmul.f32	s19, s9, s9
+ 1178 0096 24EE043A 		vmul.f32	s6, s8, s8
+ 1179 009a A5EEA50A 		vfma.f32	s0, s11, s11
+ 1180 009e 6AEE87AA 		vmul.f32	s21, s21, s14
+ 1181 00a2 A6EEA68A 		vfma.f32	s16, s13, s13
+ 1182 00a6 F1EE677A 		vneg.f32	s15, s15
+ 1183 00aa 77EEA77A 		vadd.f32	s15, s15, s15
+ 1184 00ae E6EE09AA 		vfma.f32	s21, s12, s18
+ 1185 00b2 E3EEA39A 		vfma.f32	s19, s7, s7
+ 1186 00b6 A8EEA83A 		vfma.f32	s6, s17, s17
+ 1187 00ba A6EE060A 		vfma.f32	s0, s12, s12
+ 1188 00be 74EE644A 		vsub.f32	s9, s8, s9
+ 1189 00c2 A7EEA78A 		vfma.f32	s16, s15, s15
+ 1190 00c6 35EE444A 		vsub.f32	s8, s10, s8
+ 1191 00ca 25EE275A 		vmul.f32	s10, s10, s15
+ 1192 00ce A2EEA23A 		vfma.f32	s6, s5, s5
+ 1193 00d2 E2EE029A 		vfma.f32	s19, s4, s4
+ 1194 00d6 E7EE05AA 		vfma.f32	s21, s14, s10
+ 1195 00da 36EE626A 		vsub.f32	s12, s12, s5
+ 1196 00de 38EE088A 		vadd.f32	s16, s16, s16
+ 1197 00e2 2AEE0AAA 		vmul.f32	s20, s20, s20
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 22
 
 
- 1198 0072 E6EE237A 		vfma.f32	s15, s12, s7
- 1199 0076 37EE077A 		vadd.f32	s14, s14, s14
- 1200 007a 76EEA66A 		vadd.f32	s13, s13, s13
- 1201 007e 27EE079A 		vmul.f32	s18, s14, s14
- 1202 0082 E3EE207A 		vfma.f32	s15, s6, s1
- 1203 0086 65EEA6AA 		vmul.f32	s21, s11, s13
- 1204 008a 25EE050A 		vmul.f32	s0, s10, s10
- 1205 008e B0EE498A 		vmov.f32	s16, s18
- 1206 0092 64EEA49A 		vmul.f32	s19, s9, s9
- 1207 0096 24EE043A 		vmul.f32	s6, s8, s8
- 1208 009a A5EEA50A 		vfma.f32	s0, s11, s11
- 1209 009e 6AEE87AA 		vmul.f32	s21, s21, s14
- 1210 00a2 A6EEA68A 		vfma.f32	s16, s13, s13
- 1211 00a6 F1EE677A 		vneg.f32	s15, s15
- 1212 00aa 77EEA77A 		vadd.f32	s15, s15, s15
- 1213 00ae E6EE09AA 		vfma.f32	s21, s12, s18
- 1214 00b2 E3EEA39A 		vfma.f32	s19, s7, s7
- 1215 00b6 A8EEA83A 		vfma.f32	s6, s17, s17
- 1216 00ba A6EE060A 		vfma.f32	s0, s12, s12
- 1217 00be 74EE644A 		vsub.f32	s9, s8, s9
- 1218 00c2 A7EEA78A 		vfma.f32	s16, s15, s15
- 1219 00c6 35EE444A 		vsub.f32	s8, s10, s8
- 1220 00ca 25EE275A 		vmul.f32	s10, s10, s15
- 1221 00ce A2EEA23A 		vfma.f32	s6, s5, s5
- 1222 00d2 E2EE029A 		vfma.f32	s19, s4, s4
- 1223 00d6 E7EE05AA 		vfma.f32	s21, s14, s10
- 1224 00da 36EE626A 		vsub.f32	s12, s12, s5
- 1225 00de 38EE088A 		vadd.f32	s16, s16, s16
- 1226 00e2 2AEE0AAA 		vmul.f32	s20, s20, s20
- 1227 00e6 78EEE33A 		vsub.f32	s7, s17, s7
- 1228 00ea 75EEE85A 		vsub.f32	s11, s11, s17
- 1229 00ee 72EEC22A 		vsub.f32	s5, s5, s4
- 1230 00f2 B5EE400A 		vcmp.f32	s0, #0
- 1231 00f6 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
- 1232 00fa 80ED558A 		vstr.32	s16, [r0, #340]
- 1233 00fe 80ED43AA 		vstr.32	s20, [r0, #268]
- 1234 0102 C0ED469A 		vstr.32	s19, [r0, #280]
- 1235 0106 C0ED475A 		vstr.32	s11, [r0, #284]
- 1236 010a C0ED483A 		vstr.32	s7, [r0, #288]
- 1237 010e 80ED4A4A 		vstr.32	s8, [r0, #296]
- 1238 0112 C0ED4B4A 		vstr.32	s9, [r0, #300]
- 1239 0116 80ED4D6A 		vstr.32	s12, [r0, #308]
- 1240 011a C0ED4E2A 		vstr.32	s5, [r0, #312]
- 1241 011e 80ED507A 		vstr.32	s14, [r0, #320]
- 1242 0122 C0ED490A 		vstr.32	s1, [r0, #292]
- 1243 0126 80ED539A 		vstr.32	s18, [r0, #332]
- 1244 012a C0ED4F1A 		vstr.32	s3, [r0, #316]
- 1245 012e C0ED527A 		vstr.32	s15, [r0, #328]
- 1246 0132 C0ED516A 		vstr.32	s13, [r0, #324]
- 1247 0136 80ED453A 		vstr.32	s6, [r0, #276]
- 1248 013a C0ED54AA 		vstr.32	s21, [r0, #336]
- 1249 013e 80ED440A 		vstr.32	s0, [r0, #272]
- 1250 0142 B1EEC08A 		vsqrt.f32	s16, s0
- 1251 0146 C0F8F830 		str	r3, [r0, #248]	@ float
- 1252 014a 00F11E81 		bmi	.L151
- 1253              	.L140:
- 1254 014e B5EE403A 		vcmp.f32	s6, #0
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 23
+ 1198 00e6 78EEE33A 		vsub.f32	s7, s17, s7
+ 1199 00ea 75EEE85A 		vsub.f32	s11, s11, s17
+ 1200 00ee 72EEC22A 		vsub.f32	s5, s5, s4
+ 1201 00f2 B5EE400A 		vcmp.f32	s0, #0
+ 1202 00f6 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 1203 00fa 80ED558A 		vstr.32	s16, [r0, #340]
+ 1204 00fe 80ED43AA 		vstr.32	s20, [r0, #268]
+ 1205 0102 C0ED469A 		vstr.32	s19, [r0, #280]
+ 1206 0106 C0ED475A 		vstr.32	s11, [r0, #284]
+ 1207 010a C0ED483A 		vstr.32	s7, [r0, #288]
+ 1208 010e 80ED4A4A 		vstr.32	s8, [r0, #296]
+ 1209 0112 C0ED4B4A 		vstr.32	s9, [r0, #300]
+ 1210 0116 80ED4D6A 		vstr.32	s12, [r0, #308]
+ 1211 011a C0ED4E2A 		vstr.32	s5, [r0, #312]
+ 1212 011e 80ED507A 		vstr.32	s14, [r0, #320]
+ 1213 0122 C0ED490A 		vstr.32	s1, [r0, #292]
+ 1214 0126 80ED539A 		vstr.32	s18, [r0, #332]
+ 1215 012a C0ED4F1A 		vstr.32	s3, [r0, #316]
+ 1216 012e C0ED527A 		vstr.32	s15, [r0, #328]
+ 1217 0132 C0ED516A 		vstr.32	s13, [r0, #324]
+ 1218 0136 80ED453A 		vstr.32	s6, [r0, #276]
+ 1219 013a C0ED54AA 		vstr.32	s21, [r0, #336]
+ 1220 013e 80ED440A 		vstr.32	s0, [r0, #272]
+ 1221 0142 B1EEC08A 		vsqrt.f32	s16, s0
+ 1222 0146 C0F8F830 		str	r3, [r0, #248]	@ float
+ 1223 014a 00F11E81 		bmi	.L148
+ 1224              	.L137:
+ 1225 014e B5EE403A 		vcmp.f32	s6, #0
+ 1226 0152 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 1227 0156 84ED3F8A 		vstr.32	s16, [r4, #252]
+ 1228 015a B1EEC38A 		vsqrt.f32	s16, s6
+ 1229 015e 00F12881 		bmi	.L149
+ 1230              	.L138:
+ 1231 0162 94ED0B0A 		vldr.32	s0, [r4, #44]
+ 1232 0166 94ED0A7A 		vldr.32	s14, [r4, #40]
+ 1233 016a D4ED0C7A 		vldr.32	s15, [r4, #48]
+ 1234 016e 84ED408A 		vstr.32	s16, [r4, #256]
+ 1235 0172 20EE000A 		vmul.f32	s0, s0, s0
+ 1236 0176 A7EE070A 		vfma.f32	s0, s14, s14
+ 1237 017a A7EEA70A 		vfma.f32	s0, s15, s15
+ 1238 017e B5EE400A 		vcmp.f32	s0, #0
+ 1239 0182 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 1240 0186 B1EEC08A 		vsqrt.f32	s16, s0
+ 1241 018a 00F10F81 		bmi	.L150
+ 1242              	.L139:
+ 1243 018e 636B     		ldr	r3, [r4, #52]	@ float
+ 1244 0190 8A4F     		ldr	r7, .L151
+ 1245 0192 C4F80831 		str	r3, [r4, #264]	@ float
+ 1246 0196 04F1F805 		add	r5, r4, #248
+ 1247 019a 04F58676 		add	r6, r4, #268
+ 1248 019e 84ED418A 		vstr.32	s16, [r4, #260]
+ 1249              	.L140:
+ 1250 01a2 55F8040B 		ldr	r0, [r5], #4	@ float
+ 1251 01a6 FFF7FEFF 		bl	__aeabi_f2d
+ 1252 01aa 0246     		mov	r2, r0
+ 1253 01ac 0B46     		mov	r3, r1
+ 1254 01ae 3846     		mov	r0, r7
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 23
 
 
- 1255 0152 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
- 1256 0156 84ED3F8A 		vstr.32	s16, [r4, #252]
- 1257 015a B1EEC38A 		vsqrt.f32	s16, s6
- 1258 015e 00F12881 		bmi	.L152
- 1259              	.L141:
- 1260 0162 94ED0B0A 		vldr.32	s0, [r4, #44]
- 1261 0166 94ED0A7A 		vldr.32	s14, [r4, #40]
- 1262 016a D4ED0C7A 		vldr.32	s15, [r4, #48]
- 1263 016e 84ED408A 		vstr.32	s16, [r4, #256]
- 1264 0172 20EE000A 		vmul.f32	s0, s0, s0
- 1265 0176 A7EE070A 		vfma.f32	s0, s14, s14
- 1266 017a A7EEA70A 		vfma.f32	s0, s15, s15
- 1267 017e B5EE400A 		vcmp.f32	s0, #0
- 1268 0182 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
- 1269 0186 B1EEC08A 		vsqrt.f32	s16, s0
- 1270 018a 00F10F81 		bmi	.L153
- 1271              	.L142:
- 1272 018e 636B     		ldr	r3, [r4, #52]	@ float
- 1273 0190 8A4F     		ldr	r7, .L154
- 1274 0192 C4F80831 		str	r3, [r4, #264]	@ float
- 1275 0196 04F1F805 		add	r5, r4, #248
- 1276 019a 04F58676 		add	r6, r4, #268
- 1277 019e 84ED418A 		vstr.32	s16, [r4, #260]
- 1278              	.L143:
- 1279 01a2 55F8040B 		ldr	r0, [r5], #4	@ float
- 1280 01a6 FFF7FEFF 		bl	__aeabi_f2d
- 1281 01aa 0246     		mov	r2, r0
- 1282 01ac 0B46     		mov	r3, r1
- 1283 01ae 3846     		mov	r0, r7
- 1284 01b0 FFF7FEFF 		bl	debugPrintf
- 1285 01b4 AE42     		cmp	r6, r5
- 1286 01b6 F4D1     		bne	.L143
- 1287 01b8 814B     		ldr	r3, .L154+4
- 1288 01ba 8248     		ldr	r0, .L154+8
- 1289 01bc 5F68     		ldr	r7, [r3, #4]
- 1290 01be DFF81CA2 		ldr	r10, .L154+32
- 1291 01c2 DFED818A 		vldr.32	s17, .L154+12
- 1292 01c6 FFF7FEFF 		bl	debugPrintf
- 1293 01ca 3E46     		mov	r6, r7
- 1294 01cc 07F5EE7B 		add	fp, r7, #476
- 1295 01d0 07F5F878 		add	r8, r7, #496
- 1296 01d4 04F14405 		add	r5, r4, #68
- 1297              	.L146:
- 1298 01d8 5046     		mov	r0, r10
- 1299 01da FFF7FEFF 		bl	debugPrintf
- 1300 01de 7B48     		ldr	r0, .L154+16
- 1301 01e0 96F83093 		ldrb	r9, [r6, #816]	@ zero_extendqisi2
- 1302 01e4 FFF7FEFF 		bl	debugPrintf
- 1303 01e8 D5ED057A 		vldr.32	s15, [r5, #20]	@ int
- 1304 01ec B8EE677A 		vcvt.f32.u32	s14, s15
- 1305 01f0 D5ED197A 		vldr.32	s15, [r5, #100]	@ int
- 1306 01f4 B8EE678A 		vcvt.f32.u32	s16, s15
- 1307 01f8 4946     		mov	r1, r9
- 1308 01fa 0DF18F02 		add	r2, sp, #143
- 1309 01fe 3846     		mov	r0, r7
- 1310 0200 27EE088A 		vmul.f32	s16, s14, s16
- 1311 0204 FFF7FEFF 		bl	_ZNK8Platform16GetMicrosteppingEjRb
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 24
+ 1255 01b0 FFF7FEFF 		bl	debugPrintf
+ 1256 01b4 AE42     		cmp	r6, r5
+ 1257 01b6 F4D1     		bne	.L140
+ 1258 01b8 814B     		ldr	r3, .L151+4
+ 1259 01ba 8248     		ldr	r0, .L151+8
+ 1260 01bc 5F68     		ldr	r7, [r3, #4]
+ 1261 01be DFF81CA2 		ldr	r10, .L151+32
+ 1262 01c2 DFED818A 		vldr.32	s17, .L151+12
+ 1263 01c6 FFF7FEFF 		bl	debugPrintf
+ 1264 01ca 3E46     		mov	r6, r7
+ 1265 01cc 07F5EE7B 		add	fp, r7, #476
+ 1266 01d0 07F5F878 		add	r8, r7, #496
+ 1267 01d4 04F14405 		add	r5, r4, #68
+ 1268              	.L143:
+ 1269 01d8 5046     		mov	r0, r10
+ 1270 01da FFF7FEFF 		bl	debugPrintf
+ 1271 01de 7B48     		ldr	r0, .L151+16
+ 1272 01e0 96F83093 		ldrb	r9, [r6, #816]	@ zero_extendqisi2
+ 1273 01e4 FFF7FEFF 		bl	debugPrintf
+ 1274 01e8 D5ED057A 		vldr.32	s15, [r5, #20]	@ int
+ 1275 01ec B8EE677A 		vcvt.f32.u32	s14, s15
+ 1276 01f0 D5ED197A 		vldr.32	s15, [r5, #100]	@ int
+ 1277 01f4 B8EE678A 		vcvt.f32.u32	s16, s15
+ 1278 01f8 4946     		mov	r1, r9
+ 1279 01fa 0DF18F02 		add	r2, sp, #143
+ 1280 01fe 3846     		mov	r0, r7
+ 1281 0200 27EE088A 		vmul.f32	s16, s14, s16
+ 1282 0204 FFF7FEFF 		bl	_ZNK8Platform16GetMicrosteppingEjRb
+ 1283 0208 07EE900A 		vmov	s15, r0	@ int
+ 1284 020c B8EE677A 		vcvt.f32.u32	s14, s15
+ 1285 0210 D5ED147A 		vldr.32	s15, [r5, #80]	@ int
+ 1286 0214 6E48     		ldr	r0, .L151+20
+ 1287 0216 F8EE676A 		vcvt.f32.u32	s13, s15
+ 1288 021a D5ED0F7A 		vldr.32	s15, [r5, #60]	@ int
+ 1289 021e 27EE087A 		vmul.f32	s14, s14, s16
+ 1290 0222 F8EE677A 		vcvt.f32.u32	s15, s15
+ 1291 0226 27EE267A 		vmul.f32	s14, s14, s13
+ 1292 022a 67EEA87A 		vmul.f32	s15, s15, s17
+ 1293 022e 0C36     		adds	r6, r6, #12
+ 1294 0230 87EE278A 		vdiv.f32	s16, s14, s15
+ 1295 0234 FFF7FEFF 		bl	debugPrintf
+ 1296 0238 6A69     		ldr	r2, [r5, #20]
+ 1297 023a AB6A     		ldr	r3, [r5, #40]
+ 1298 023c 6548     		ldr	r0, .L151+24
+ 1299 023e 03FB02F3 		mul	r3, r3, r2
+ 1300 0242 07EE903A 		vmov	s15, r3	@ int
+ 1301 0246 94ED107A 		vldr.32	s14, [r4, #64]
+ 1302 024a F8EE677A 		vcvt.f32.u32	s15, s15
+ 1303 024e 78EE086A 		vadd.f32	s13, s16, s16
+ 1304 0252 67EEC77A 		vnmul.f32	s15, s15, s14
+ 1305 0256 86EEA77A 		vdiv.f32	s14, s13, s15
+ 1306 025a C5ED287A 		vstr.32	s15, [r5, #160]
+ 1307 025e 85ED1E7A 		vstr.32	s14, [r5, #120]
+ 1308 0262 F5EC017A 		vldmia.32	r5!, {s15}
+ 1309 0266 67EEA77A 		vmul.f32	s15, s15, s15
+ 1310 026a C5ED227A 		vstr.32	s15, [r5, #136]
+ 1311 026e FFF7FEFF 		bl	debugPrintf
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 24
 
 
- 1312 0208 07EE900A 		vmov	s15, r0	@ int
- 1313 020c B8EE677A 		vcvt.f32.u32	s14, s15
- 1314 0210 D5ED147A 		vldr.32	s15, [r5, #80]	@ int
- 1315 0214 6E48     		ldr	r0, .L154+20
- 1316 0216 F8EE676A 		vcvt.f32.u32	s13, s15
- 1317 021a D5ED0F7A 		vldr.32	s15, [r5, #60]	@ int
- 1318 021e 27EE087A 		vmul.f32	s14, s14, s16
- 1319 0222 F8EE677A 		vcvt.f32.u32	s15, s15
- 1320 0226 27EE267A 		vmul.f32	s14, s14, s13
- 1321 022a 67EEA87A 		vmul.f32	s15, s15, s17
- 1322 022e 0C36     		adds	r6, r6, #12
- 1323 0230 87EE278A 		vdiv.f32	s16, s14, s15
- 1324 0234 FFF7FEFF 		bl	debugPrintf
- 1325 0238 6A69     		ldr	r2, [r5, #20]
- 1326 023a AB6A     		ldr	r3, [r5, #40]
- 1327 023c 6548     		ldr	r0, .L154+24
- 1328 023e 03FB02F3 		mul	r3, r3, r2
- 1329 0242 07EE903A 		vmov	s15, r3	@ int
- 1330 0246 94ED107A 		vldr.32	s14, [r4, #64]
- 1331 024a F8EE677A 		vcvt.f32.u32	s15, s15
- 1332 024e 78EE086A 		vadd.f32	s13, s16, s16
- 1333 0252 67EEC77A 		vnmul.f32	s15, s15, s14
- 1334 0256 86EEA77A 		vdiv.f32	s14, s13, s15
- 1335 025a C5ED287A 		vstr.32	s15, [r5, #160]
- 1336 025e 85ED1E7A 		vstr.32	s14, [r5, #120]
- 1337 0262 F5EC017A 		vldmia.32	r5!, {s15}
- 1338 0266 67EEA77A 		vmul.f32	s15, s15, s15
- 1339 026a C5ED227A 		vstr.32	s15, [r5, #136]
- 1340 026e FFF7FEFF 		bl	debugPrintf
- 1341 0272 15ED017A 		vldr.32	s14, [r5, #-4]
- 1342 0276 C8EE077A 		vdiv.f32	s15, s16, s14
- 1343 027a B7EE007A 		vmov.f32	s14, #1.0e+0
- 1344 027e F4EE677A 		vcmp.f32	s15, s15
- 1345 0282 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
- 1346 0286 06D6     		bvs	.L144
- 1347 0288 F4EEC77A 		vcmpe.f32	s15, s14
- 1348 028c F1EE10FA 		vmrs	APSR_nzcv, FPSCR
- 1349 0290 D8BF     		it	le
- 1350 0292 F0EE477A 		vmovle.f32	s15, s14
- 1351              	.L144:
- 1352 0296 EBEC017A 		vstmia.32	fp!, {s15}
- 1353 029a C345     		cmp	fp, r8
- 1354 029c 9CD1     		bne	.L146
- 1355 029e D4F81001 		ldr	r0, [r4, #272]	@ float
- 1356 02a2 FFF7FEFF 		bl	__aeabi_f2d
- 1357 02a6 0646     		mov	r6, r0
- 1358 02a8 D4F85401 		ldr	r0, [r4, #340]	@ float
- 1359 02ac 0F46     		mov	r7, r1
- 1360 02ae FFF7FEFF 		bl	__aeabi_f2d
- 1361 02b2 CDE92001 		strd	r0, [sp, #128]
- 1362 02b6 D4F85001 		ldr	r0, [r4, #336]	@ float
- 1363 02ba FFF7FEFF 		bl	__aeabi_f2d
- 1364 02be CDE91E01 		strd	r0, [sp, #120]
- 1365 02c2 D4F84801 		ldr	r0, [r4, #328]	@ float
- 1366 02c6 FFF7FEFF 		bl	__aeabi_f2d
- 1367 02ca CDE91C01 		strd	r0, [sp, #112]
- 1368 02ce D4F84401 		ldr	r0, [r4, #324]	@ float
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 25
+ 1312 0272 15ED017A 		vldr.32	s14, [r5, #-4]
+ 1313 0276 C8EE077A 		vdiv.f32	s15, s16, s14
+ 1314 027a B7EE007A 		vmov.f32	s14, #1.0e+0
+ 1315 027e F4EE677A 		vcmp.f32	s15, s15
+ 1316 0282 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 1317 0286 06D6     		bvs	.L141
+ 1318 0288 F4EEC77A 		vcmpe.f32	s15, s14
+ 1319 028c F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 1320 0290 D8BF     		it	le
+ 1321 0292 F0EE477A 		vmovle.f32	s15, s14
+ 1322              	.L141:
+ 1323 0296 EBEC017A 		vstmia.32	fp!, {s15}
+ 1324 029a C345     		cmp	fp, r8
+ 1325 029c 9CD1     		bne	.L143
+ 1326 029e D4F81001 		ldr	r0, [r4, #272]	@ float
+ 1327 02a2 FFF7FEFF 		bl	__aeabi_f2d
+ 1328 02a6 0646     		mov	r6, r0
+ 1329 02a8 D4F85401 		ldr	r0, [r4, #340]	@ float
+ 1330 02ac 0F46     		mov	r7, r1
+ 1331 02ae FFF7FEFF 		bl	__aeabi_f2d
+ 1332 02b2 CDE92001 		strd	r0, [sp, #128]
+ 1333 02b6 D4F85001 		ldr	r0, [r4, #336]	@ float
+ 1334 02ba FFF7FEFF 		bl	__aeabi_f2d
+ 1335 02be CDE91E01 		strd	r0, [sp, #120]
+ 1336 02c2 D4F84801 		ldr	r0, [r4, #328]	@ float
+ 1337 02c6 FFF7FEFF 		bl	__aeabi_f2d
+ 1338 02ca CDE91C01 		strd	r0, [sp, #112]
+ 1339 02ce D4F84401 		ldr	r0, [r4, #324]	@ float
+ 1340 02d2 FFF7FEFF 		bl	__aeabi_f2d
+ 1341 02d6 CDE91A01 		strd	r0, [sp, #104]
+ 1342 02da D4F84C01 		ldr	r0, [r4, #332]	@ float
+ 1343 02de FFF7FEFF 		bl	__aeabi_f2d
+ 1344 02e2 CDE91801 		strd	r0, [sp, #96]
+ 1345 02e6 D4F84001 		ldr	r0, [r4, #320]	@ float
+ 1346 02ea FFF7FEFF 		bl	__aeabi_f2d
+ 1347 02ee CDE91601 		strd	r0, [sp, #88]
+ 1348 02f2 D4F83C01 		ldr	r0, [r4, #316]	@ float
+ 1349 02f6 FFF7FEFF 		bl	__aeabi_f2d
+ 1350 02fa CDE91401 		strd	r0, [sp, #80]
+ 1351 02fe D4F83801 		ldr	r0, [r4, #312]	@ float
+ 1352 0302 FFF7FEFF 		bl	__aeabi_f2d
+ 1353 0306 CDE91201 		strd	r0, [sp, #72]
+ 1354 030a D4F83401 		ldr	r0, [r4, #308]	@ float
+ 1355 030e FFF7FEFF 		bl	__aeabi_f2d
+ 1356 0312 CDE91001 		strd	r0, [sp, #64]
+ 1357 0316 D4F83001 		ldr	r0, [r4, #304]	@ float
+ 1358 031a FFF7FEFF 		bl	__aeabi_f2d
+ 1359 031e CDE90E01 		strd	r0, [sp, #56]
+ 1360 0322 D4F82C01 		ldr	r0, [r4, #300]	@ float
+ 1361 0326 FFF7FEFF 		bl	__aeabi_f2d
+ 1362 032a CDE90C01 		strd	r0, [sp, #48]
+ 1363 032e D4F82801 		ldr	r0, [r4, #296]	@ float
+ 1364 0332 FFF7FEFF 		bl	__aeabi_f2d
+ 1365 0336 CDE90A01 		strd	r0, [sp, #40]
+ 1366 033a D4F82401 		ldr	r0, [r4, #292]	@ float
+ 1367 033e FFF7FEFF 		bl	__aeabi_f2d
+ 1368 0342 CDE90801 		strd	r0, [sp, #32]
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 25
 
 
- 1369 02d2 FFF7FEFF 		bl	__aeabi_f2d
- 1370 02d6 CDE91A01 		strd	r0, [sp, #104]
- 1371 02da D4F84C01 		ldr	r0, [r4, #332]	@ float
- 1372 02de FFF7FEFF 		bl	__aeabi_f2d
- 1373 02e2 CDE91801 		strd	r0, [sp, #96]
- 1374 02e6 D4F84001 		ldr	r0, [r4, #320]	@ float
- 1375 02ea FFF7FEFF 		bl	__aeabi_f2d
- 1376 02ee CDE91601 		strd	r0, [sp, #88]
- 1377 02f2 D4F83C01 		ldr	r0, [r4, #316]	@ float
- 1378 02f6 FFF7FEFF 		bl	__aeabi_f2d
- 1379 02fa CDE91401 		strd	r0, [sp, #80]
- 1380 02fe D4F83801 		ldr	r0, [r4, #312]	@ float
- 1381 0302 FFF7FEFF 		bl	__aeabi_f2d
- 1382 0306 CDE91201 		strd	r0, [sp, #72]
- 1383 030a D4F83401 		ldr	r0, [r4, #308]	@ float
- 1384 030e FFF7FEFF 		bl	__aeabi_f2d
- 1385 0312 CDE91001 		strd	r0, [sp, #64]
- 1386 0316 D4F83001 		ldr	r0, [r4, #304]	@ float
- 1387 031a FFF7FEFF 		bl	__aeabi_f2d
- 1388 031e CDE90E01 		strd	r0, [sp, #56]
- 1389 0322 D4F82C01 		ldr	r0, [r4, #300]	@ float
- 1390 0326 FFF7FEFF 		bl	__aeabi_f2d
- 1391 032a CDE90C01 		strd	r0, [sp, #48]
- 1392 032e D4F82801 		ldr	r0, [r4, #296]	@ float
- 1393 0332 FFF7FEFF 		bl	__aeabi_f2d
- 1394 0336 CDE90A01 		strd	r0, [sp, #40]
- 1395 033a D4F82401 		ldr	r0, [r4, #292]	@ float
- 1396 033e FFF7FEFF 		bl	__aeabi_f2d
- 1397 0342 CDE90801 		strd	r0, [sp, #32]
- 1398 0346 D4F82001 		ldr	r0, [r4, #288]	@ float
- 1399 034a FFF7FEFF 		bl	__aeabi_f2d
- 1400 034e CDE90601 		strd	r0, [sp, #24]
- 1401 0352 D4F81C01 		ldr	r0, [r4, #284]	@ float
- 1402 0356 FFF7FEFF 		bl	__aeabi_f2d
- 1403 035a CDE90401 		strd	r0, [sp, #16]
- 1404 035e D4F81801 		ldr	r0, [r4, #280]	@ float
- 1405 0362 FFF7FEFF 		bl	__aeabi_f2d
- 1406 0366 CDE90201 		strd	r0, [sp, #8]
- 1407 036a D4F81401 		ldr	r0, [r4, #276]	@ float
- 1408 036e FFF7FEFF 		bl	__aeabi_f2d
- 1409 0372 3246     		mov	r2, r6
- 1410 0374 CDE90001 		strd	r0, [sp]
- 1411 0378 3B46     		mov	r3, r7
- 1412 037a 1748     		ldr	r0, .L154+28
- 1413 037c FFF7FEFF 		bl	debugPrintf
- 1414 0380 25B0     		add	sp, sp, #148
- 1415              		@ sp needed
- 1416 0382 BDEC068B 		vldm	sp!, {d8-d10}
- 1417 0386 BDE8F08F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
- 1418              	.L151:
- 1419 038a FFF7FEFF 		bl	sqrtf
- 1420 038e D4ED087A 		vldr.32	s15, [r4, #32]
- 1421 0392 D4ED076A 		vldr.32	s13, [r4, #28]
- 1422 0396 94ED097A 		vldr.32	s14, [r4, #36]
- 1423 039a 67EEA77A 		vmul.f32	s15, s15, s15
- 1424 039e E6EEA67A 		vfma.f32	s15, s13, s13
- 1425 03a2 B0EE673A 		vmov.f32	s6, s15
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 26
+ 1369 0346 D4F82001 		ldr	r0, [r4, #288]	@ float
+ 1370 034a FFF7FEFF 		bl	__aeabi_f2d
+ 1371 034e CDE90601 		strd	r0, [sp, #24]
+ 1372 0352 D4F81C01 		ldr	r0, [r4, #284]	@ float
+ 1373 0356 FFF7FEFF 		bl	__aeabi_f2d
+ 1374 035a CDE90401 		strd	r0, [sp, #16]
+ 1375 035e D4F81801 		ldr	r0, [r4, #280]	@ float
+ 1376 0362 FFF7FEFF 		bl	__aeabi_f2d
+ 1377 0366 CDE90201 		strd	r0, [sp, #8]
+ 1378 036a D4F81401 		ldr	r0, [r4, #276]	@ float
+ 1379 036e FFF7FEFF 		bl	__aeabi_f2d
+ 1380 0372 3246     		mov	r2, r6
+ 1381 0374 CDE90001 		strd	r0, [sp]
+ 1382 0378 3B46     		mov	r3, r7
+ 1383 037a 1748     		ldr	r0, .L151+28
+ 1384 037c FFF7FEFF 		bl	debugPrintf
+ 1385 0380 25B0     		add	sp, sp, #148
+ 1386              		@ sp needed
+ 1387 0382 BDEC068B 		vldm	sp!, {d8-d10}
+ 1388 0386 BDE8F08F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
+ 1389              	.L148:
+ 1390 038a FFF7FEFF 		bl	sqrtf
+ 1391 038e D4ED087A 		vldr.32	s15, [r4, #32]
+ 1392 0392 D4ED076A 		vldr.32	s13, [r4, #28]
+ 1393 0396 94ED097A 		vldr.32	s14, [r4, #36]
+ 1394 039a 67EEA77A 		vmul.f32	s15, s15, s15
+ 1395 039e E6EEA67A 		vfma.f32	s15, s13, s13
+ 1396 03a2 B0EE673A 		vmov.f32	s6, s15
+ 1397 03a6 A7EE073A 		vfma.f32	s6, s14, s14
+ 1398 03aa D0E6     		b	.L137
+ 1399              	.L150:
+ 1400 03ac FFF7FEFF 		bl	sqrtf
+ 1401 03b0 EDE6     		b	.L139
+ 1402              	.L149:
+ 1403 03b2 B0EE430A 		vmov.f32	s0, s6
+ 1404 03b6 FFF7FEFF 		bl	sqrtf
+ 1405 03ba D2E6     		b	.L138
+ 1406              	.L152:
+ 1407              		.align	2
+ 1408              	.L151:
+ 1409 03bc 00000000 		.word	.LC20
+ 1410 03c0 00000000 		.word	reprap
+ 1411 03c4 24000000 		.word	.LC21
+ 1412 03c8 DB0FC940 		.word	1086918619
+ 1413 03cc 58000000 		.word	.LC23
+ 1414 03d0 6C000000 		.word	.LC24
+ 1415 03d4 98000000 		.word	.LC25
+ 1416 03d8 C0000000 		.word	.LC26
+ 1417 03dc 40000000 		.word	.LC22
+ 1418              		.size	_ZN21HangprinterKinematics6RecalcEv, .-_ZN21HangprinterKinematics6RecalcEv
+ 1419              		.section	.text._ZN21HangprinterKinematics4InitEv,"ax",%progbits
+ 1420              		.align	1
+ 1421              		.p2align 2,,3
+ 1422              		.global	_ZN21HangprinterKinematics4InitEv
+ 1423              		.syntax unified
+ 1424              		.thumb
+ 1425              		.thumb_func
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 26
 
 
- 1426 03a6 A7EE073A 		vfma.f32	s6, s14, s14
- 1427 03aa D0E6     		b	.L140
- 1428              	.L153:
- 1429 03ac FFF7FEFF 		bl	sqrtf
- 1430 03b0 EDE6     		b	.L142
- 1431              	.L152:
- 1432 03b2 B0EE430A 		vmov.f32	s0, s6
- 1433 03b6 FFF7FEFF 		bl	sqrtf
- 1434 03ba D2E6     		b	.L141
- 1435              	.L155:
- 1436              		.align	2
- 1437              	.L154:
- 1438 03bc 00000000 		.word	.LC20
- 1439 03c0 00000000 		.word	reprap
- 1440 03c4 24000000 		.word	.LC21
- 1441 03c8 DB0FC940 		.word	1086918619
- 1442 03cc 58000000 		.word	.LC23
- 1443 03d0 6C000000 		.word	.LC24
- 1444 03d4 98000000 		.word	.LC25
- 1445 03d8 C0000000 		.word	.LC26
- 1446 03dc 40000000 		.word	.LC22
- 1447              		.size	_ZN21HangprinterKinematics6RecalcEv, .-_ZN21HangprinterKinematics6RecalcEv
- 1448              		.section	.text._ZN21HangprinterKinematics4InitEv,"ax",%progbits
- 1449              		.align	1
- 1450              		.p2align 2,,3
- 1451              		.global	_ZN21HangprinterKinematics4InitEv
- 1452              		.syntax unified
- 1453              		.thumb
- 1454              		.thumb_func
- 1455              		.fpu fpv4-sp-d16
- 1456              		.type	_ZN21HangprinterKinematics4InitEv, %function
- 1457              	_ZN21HangprinterKinematics4InitEv:
- 1458              		@ args = 0, pretend = 0, frame = 128
- 1459              		@ frame_needed = 0, uses_anonymous_args = 0
- 1460 0000 2DE9F04F 		push	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
- 1461 0004 554D     		ldr	r5, .L161
- 1462 0006 DFF87891 		ldr	r9, .L161+36
- 1463 000a 0446     		mov	r4, r0
- 1464 000c 0FCD     		ldmia	r5!, {r0, r1, r2, r3}
- 1465 000e 2E46     		mov	r6, r5
- 1466 0010 A1B0     		sub	sp, sp, #132
- 1467 0012 56F804BB 		ldr	fp, [r6], #4
- 1468 0016 0DF1080E 		add	lr, sp, #8
- 1469 001a AEE80F00 		stmia	lr!, {r0, r1, r2, r3}
- 1470 001e 0FCE     		ldmia	r6!, {r0, r1, r2, r3}
- 1471 0020 05F11808 		add	r8, r5, #24
- 1472 0024 0DF11C0C 		add	ip, sp, #28
- 1473 0028 ACE80F00 		stmia	ip!, {r0, r1, r2, r3}
- 1474 002c B8E80F00 		ldmia	r8!, {r0, r1, r2, r3}
- 1475 0030 0CAF     		add	r7, sp, #48
- 1476 0032 0FC7     		stmia	r7!, {r0, r1, r2, r3}
- 1477 0034 D6F800A0 		ldr	r10, [r6]
- 1478 0038 D8F80030 		ldr	r3, [r8]
- 1479 003c CEF800B0 		str	fp, [lr]
- 1480 0040 05F12C08 		add	r8, r5, #44
- 1481 0044 CCF800A0 		str	r10, [ip]
- 1482 0048 3B60     		str	r3, [r7]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 27
+ 1426              		.fpu fpv4-sp-d16
+ 1427              		.type	_ZN21HangprinterKinematics4InitEv, %function
+ 1428              	_ZN21HangprinterKinematics4InitEv:
+ 1429              		@ args = 0, pretend = 0, frame = 128
+ 1430              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1431 0000 2DE9F04F 		push	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
+ 1432 0004 554D     		ldr	r5, .L158
+ 1433 0006 DFF87891 		ldr	r9, .L158+36
+ 1434 000a 0446     		mov	r4, r0
+ 1435 000c 0FCD     		ldmia	r5!, {r0, r1, r2, r3}
+ 1436 000e 2E46     		mov	r6, r5
+ 1437 0010 A1B0     		sub	sp, sp, #132
+ 1438 0012 56F804BB 		ldr	fp, [r6], #4
+ 1439 0016 0DF1080E 		add	lr, sp, #8
+ 1440 001a AEE80F00 		stmia	lr!, {r0, r1, r2, r3}
+ 1441 001e 0FCE     		ldmia	r6!, {r0, r1, r2, r3}
+ 1442 0020 05F11808 		add	r8, r5, #24
+ 1443 0024 0DF11C0C 		add	ip, sp, #28
+ 1444 0028 ACE80F00 		stmia	ip!, {r0, r1, r2, r3}
+ 1445 002c B8E80F00 		ldmia	r8!, {r0, r1, r2, r3}
+ 1446 0030 0CAF     		add	r7, sp, #48
+ 1447 0032 0FC7     		stmia	r7!, {r0, r1, r2, r3}
+ 1448 0034 D6F800A0 		ldr	r10, [r6]
+ 1449 0038 D8F80030 		ldr	r3, [r8]
+ 1450 003c CEF800B0 		str	fp, [lr]
+ 1451 0040 05F12C08 		add	r8, r5, #44
+ 1452 0044 CCF800A0 		str	r10, [ip]
+ 1453 0048 3B60     		str	r3, [r7]
+ 1454 004a 0193     		str	r3, [sp, #4]
+ 1455 004c B8E80F00 		ldmia	r8!, {r0, r1, r2, r3}
+ 1456 0050 05F1400E 		add	lr, r5, #64
+ 1457 0054 0DF1440C 		add	ip, sp, #68
+ 1458 0058 ACE80F00 		stmia	ip!, {r0, r1, r2, r3}
+ 1459 005c BEE80F00 		ldmia	lr!, {r0, r1, r2, r3}
+ 1460 0060 5435     		adds	r5, r5, #84
+ 1461 0062 16AF     		add	r7, sp, #88
+ 1462 0064 0FC7     		stmia	r7!, {r0, r1, r2, r3}
+ 1463 0066 0FCD     		ldmia	r5!, {r0, r1, r2, r3}
+ 1464 0068 1BAE     		add	r6, sp, #108
+ 1465 006a 0FC6     		stmia	r6!, {r0, r1, r2, r3}
+ 1466 006c B9E80700 		ldmia	r9!, {r0, r1, r2}
+ 1467 0070 3B4B     		ldr	r3, .L158+4
+ 1468 0072 D8F80080 		ldr	r8, [r8]
+ 1469 0076 DEF800E0 		ldr	lr, [lr]
+ 1470 007a 2D68     		ldr	r5, [r5]
+ 1471 007c C7F800E0 		str	lr, [r7]
+ 1472 0080 CCF80080 		str	r8, [ip]
+ 1473 0084 3560     		str	r5, [r6]
+ 1474 0086 2061     		str	r0, [r4, #16]	@ unaligned
+ 1475 0088 6161     		str	r1, [r4, #20]	@ unaligned
+ 1476 008a A261     		str	r2, [r4, #24]	@ unaligned
+ 1477 008c 07CB     		ldmia	r3!, {r0, r1, r2}
+ 1478 008e 354B     		ldr	r3, .L158+8
+ 1479 0090 E061     		str	r0, [r4, #28]	@ unaligned
+ 1480 0092 2162     		str	r1, [r4, #32]	@ unaligned
+ 1481 0094 6262     		str	r2, [r4, #36]	@ unaligned
+ 1482 0096 07CB     		ldmia	r3!, {r0, r1, r2}
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 27
 
 
- 1483 004a 0193     		str	r3, [sp, #4]
- 1484 004c B8E80F00 		ldmia	r8!, {r0, r1, r2, r3}
- 1485 0050 05F1400E 		add	lr, r5, #64
- 1486 0054 0DF1440C 		add	ip, sp, #68
- 1487 0058 ACE80F00 		stmia	ip!, {r0, r1, r2, r3}
- 1488 005c BEE80F00 		ldmia	lr!, {r0, r1, r2, r3}
- 1489 0060 5435     		adds	r5, r5, #84
- 1490 0062 16AF     		add	r7, sp, #88
- 1491 0064 0FC7     		stmia	r7!, {r0, r1, r2, r3}
- 1492 0066 0FCD     		ldmia	r5!, {r0, r1, r2, r3}
- 1493 0068 1BAE     		add	r6, sp, #108
- 1494 006a 0FC6     		stmia	r6!, {r0, r1, r2, r3}
- 1495 006c B9E80700 		ldmia	r9!, {r0, r1, r2}
- 1496 0070 3B4B     		ldr	r3, .L161+4
- 1497 0072 D8F80080 		ldr	r8, [r8]
- 1498 0076 DEF800E0 		ldr	lr, [lr]
- 1499 007a 2D68     		ldr	r5, [r5]
- 1500 007c C7F800E0 		str	lr, [r7]
- 1501 0080 CCF80080 		str	r8, [ip]
- 1502 0084 3560     		str	r5, [r6]
- 1503 0086 2061     		str	r0, [r4, #16]	@ unaligned
- 1504 0088 6161     		str	r1, [r4, #20]	@ unaligned
- 1505 008a A261     		str	r2, [r4, #24]	@ unaligned
- 1506 008c 07CB     		ldmia	r3!, {r0, r1, r2}
- 1507 008e 354B     		ldr	r3, .L161+8
- 1508 0090 E061     		str	r0, [r4, #28]	@ unaligned
- 1509 0092 2162     		str	r1, [r4, #32]	@ unaligned
- 1510 0094 6262     		str	r2, [r4, #36]	@ unaligned
- 1511 0096 07CB     		ldmia	r3!, {r0, r1, r2}
- 1512 0098 02AE     		add	r6, sp, #8
- 1513 009a A062     		str	r0, [r4, #40]	@ unaligned
- 1514 009c E162     		str	r1, [r4, #44]	@ unaligned
- 1515 009e 2263     		str	r2, [r4, #48]	@ unaligned
- 1516 00a0 0FCE     		ldmia	r6!, {r0, r1, r2, r3}
- 1517 00a2 314E     		ldr	r6, .L161+12
- 1518 00a4 6663     		str	r6, [r4, #52]	@ float
- 1519 00a6 314E     		ldr	r6, .L161+16
- 1520 00a8 E663     		str	r6, [r4, #60]	@ float
- 1521 00aa 4FF07E56 		mov	r6, #1065353216
- 1522 00ae 2664     		str	r6, [r4, #64]	@ float
- 1523 00b0 07AE     		add	r6, sp, #28
- 1524 00b2 6064     		str	r0, [r4, #68]	@ unaligned
- 1525 00b4 A164     		str	r1, [r4, #72]	@ unaligned
- 1526 00b6 E264     		str	r2, [r4, #76]	@ unaligned
- 1527 00b8 2365     		str	r3, [r4, #80]	@ unaligned
- 1528 00ba 0FCE     		ldmia	r6!, {r0, r1, r2, r3}
- 1529 00bc 2C4F     		ldr	r7, .L161+20
- 1530 00be A763     		str	r7, [r4, #56]	@ float
- 1531 00c0 0CAE     		add	r6, sp, #48
- 1532 00c2 C4F854B0 		str	fp, [r4, #84]	@ unaligned
- 1533 00c6 A065     		str	r0, [r4, #88]	@ unaligned
- 1534 00c8 E165     		str	r1, [r4, #92]	@ unaligned
- 1535 00ca 2266     		str	r2, [r4, #96]	@ unaligned
- 1536 00cc 6366     		str	r3, [r4, #100]	@ unaligned
- 1537 00ce 0FCE     		ldmia	r6!, {r0, r1, r2, r3}
- 1538 00d0 11AE     		add	r6, sp, #68
- 1539 00d2 E066     		str	r0, [r4, #108]	@ unaligned
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 28
+ 1483 0098 02AE     		add	r6, sp, #8
+ 1484 009a A062     		str	r0, [r4, #40]	@ unaligned
+ 1485 009c E162     		str	r1, [r4, #44]	@ unaligned
+ 1486 009e 2263     		str	r2, [r4, #48]	@ unaligned
+ 1487 00a0 0FCE     		ldmia	r6!, {r0, r1, r2, r3}
+ 1488 00a2 314E     		ldr	r6, .L158+12
+ 1489 00a4 6663     		str	r6, [r4, #52]	@ float
+ 1490 00a6 314E     		ldr	r6, .L158+16
+ 1491 00a8 E663     		str	r6, [r4, #60]	@ float
+ 1492 00aa 4FF07E56 		mov	r6, #1065353216
+ 1493 00ae 2664     		str	r6, [r4, #64]	@ float
+ 1494 00b0 07AE     		add	r6, sp, #28
+ 1495 00b2 6064     		str	r0, [r4, #68]	@ unaligned
+ 1496 00b4 A164     		str	r1, [r4, #72]	@ unaligned
+ 1497 00b6 E264     		str	r2, [r4, #76]	@ unaligned
+ 1498 00b8 2365     		str	r3, [r4, #80]	@ unaligned
+ 1499 00ba 0FCE     		ldmia	r6!, {r0, r1, r2, r3}
+ 1500 00bc 2C4F     		ldr	r7, .L158+20
+ 1501 00be A763     		str	r7, [r4, #56]	@ float
+ 1502 00c0 0CAE     		add	r6, sp, #48
+ 1503 00c2 C4F854B0 		str	fp, [r4, #84]	@ unaligned
+ 1504 00c6 A065     		str	r0, [r4, #88]	@ unaligned
+ 1505 00c8 E165     		str	r1, [r4, #92]	@ unaligned
+ 1506 00ca 2266     		str	r2, [r4, #96]	@ unaligned
+ 1507 00cc 6366     		str	r3, [r4, #100]	@ unaligned
+ 1508 00ce 0FCE     		ldmia	r6!, {r0, r1, r2, r3}
+ 1509 00d0 11AE     		add	r6, sp, #68
+ 1510 00d2 E066     		str	r0, [r4, #108]	@ unaligned
+ 1511 00d4 2167     		str	r1, [r4, #112]	@ unaligned
+ 1512 00d6 6267     		str	r2, [r4, #116]	@ unaligned
+ 1513 00d8 A367     		str	r3, [r4, #120]	@ unaligned
+ 1514 00da 0FCE     		ldmia	r6!, {r0, r1, r2, r3}
+ 1515 00dc 16AE     		add	r6, sp, #88
+ 1516 00de C4F88000 		str	r0, [r4, #128]	@ unaligned
+ 1517 00e2 C4F88410 		str	r1, [r4, #132]	@ unaligned
+ 1518 00e6 C4F88820 		str	r2, [r4, #136]	@ unaligned
+ 1519 00ea C4F88C30 		str	r3, [r4, #140]	@ unaligned
+ 1520 00ee 0FCE     		ldmia	r6!, {r0, r1, r2, r3}
+ 1521 00f0 019F     		ldr	r7, [sp, #4]
+ 1522 00f2 C4F868A0 		str	r10, [r4, #104]	@ unaligned
+ 1523 00f6 1BAE     		add	r6, sp, #108
+ 1524 00f8 E767     		str	r7, [r4, #124]	@ unaligned
+ 1525 00fa C4F89080 		str	r8, [r4, #144]	@ unaligned
+ 1526 00fe C4F89400 		str	r0, [r4, #148]	@ unaligned
+ 1527 0102 C4F8A4E0 		str	lr, [r4, #164]	@ unaligned
+ 1528 0106 C4F89810 		str	r1, [r4, #152]	@ unaligned
+ 1529 010a C4F89C20 		str	r2, [r4, #156]	@ unaligned
+ 1530 010e C4F8A030 		str	r3, [r4, #160]	@ unaligned
+ 1531 0112 0FCE     		ldmia	r6!, {r0, r1, r2, r3}
+ 1532 0114 C4F8B430 		str	r3, [r4, #180]	@ unaligned
+ 1533 0118 2368     		ldr	r3, [r4]
+ 1534 011a C4F8B850 		str	r5, [r4, #184]	@ unaligned
+ 1535 011e C4F8AC10 		str	r1, [r4, #172]	@ unaligned
+ 1536 0122 C4F8B020 		str	r2, [r4, #176]	@ unaligned
+ 1537 0126 C4F8A800 		str	r0, [r4, #168]	@ unaligned
+ 1538 012a 1249     		ldr	r1, .L158+24
+ 1539 012c 1B6C     		ldr	r3, [r3, #64]
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 28
 
 
- 1540 00d4 2167     		str	r1, [r4, #112]	@ unaligned
- 1541 00d6 6267     		str	r2, [r4, #116]	@ unaligned
- 1542 00d8 A367     		str	r3, [r4, #120]	@ unaligned
- 1543 00da 0FCE     		ldmia	r6!, {r0, r1, r2, r3}
- 1544 00dc 16AE     		add	r6, sp, #88
- 1545 00de C4F88000 		str	r0, [r4, #128]	@ unaligned
- 1546 00e2 C4F88410 		str	r1, [r4, #132]	@ unaligned
- 1547 00e6 C4F88820 		str	r2, [r4, #136]	@ unaligned
- 1548 00ea C4F88C30 		str	r3, [r4, #140]	@ unaligned
- 1549 00ee 0FCE     		ldmia	r6!, {r0, r1, r2, r3}
- 1550 00f0 019F     		ldr	r7, [sp, #4]
- 1551 00f2 C4F868A0 		str	r10, [r4, #104]	@ unaligned
- 1552 00f6 1BAE     		add	r6, sp, #108
- 1553 00f8 E767     		str	r7, [r4, #124]	@ unaligned
- 1554 00fa C4F89080 		str	r8, [r4, #144]	@ unaligned
- 1555 00fe C4F89400 		str	r0, [r4, #148]	@ unaligned
- 1556 0102 C4F8A4E0 		str	lr, [r4, #164]	@ unaligned
- 1557 0106 C4F89810 		str	r1, [r4, #152]	@ unaligned
- 1558 010a C4F89C20 		str	r2, [r4, #156]	@ unaligned
- 1559 010e C4F8A030 		str	r3, [r4, #160]	@ unaligned
- 1560 0112 0FCE     		ldmia	r6!, {r0, r1, r2, r3}
- 1561 0114 C4F8B430 		str	r3, [r4, #180]	@ unaligned
- 1562 0118 2368     		ldr	r3, [r4]
- 1563 011a C4F8B850 		str	r5, [r4, #184]	@ unaligned
- 1564 011e C4F8AC10 		str	r1, [r4, #172]	@ unaligned
- 1565 0122 C4F8B020 		str	r2, [r4, #176]	@ unaligned
- 1566 0126 C4F8A800 		str	r0, [r4, #168]	@ unaligned
- 1567 012a 1249     		ldr	r1, .L161+24
- 1568 012c 1B6C     		ldr	r3, [r3, #64]
- 1569 012e 124A     		ldr	r2, .L161+28
- 1570 0130 4D69     		ldr	r5, [r1, #20]
- 1571 0132 9342     		cmp	r3, r2
- 1572 0134 4FF00001 		mov	r1, #0
- 1573 0138 84F85811 		strb	r1, [r4, #344]
- 1574 013c 0AD1     		bne	.L160
- 1575 013e 0F49     		ldr	r1, .L161+32
- 1576              	.L157:
- 1577 0140 2846     		mov	r0, r5
- 1578 0142 0522     		movs	r2, #5
- 1579 0144 FFF7FEFF 		bl	_ZN6GCodes21SetMachineAxisLettersEPKch
- 1580 0148 2046     		mov	r0, r4
- 1581 014a 21B0     		add	sp, sp, #132
- 1582              		@ sp needed
- 1583 014c BDE8F04F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
- 1584 0150 FFF7FEBF 		b	_ZN21HangprinterKinematics6RecalcEv
- 1585              	.L160:
- 1586 0154 2046     		mov	r0, r4
- 1587 0156 9847     		blx	r3
- 1588 0158 0146     		mov	r1, r0
- 1589 015a F1E7     		b	.L157
- 1590              	.L162:
- 1591              		.align	2
- 1592              	.L161:
- 1593 015c 14000000 		.word	.LANCHOR0+20
- 1594 0160 00000000 		.word	.LANCHOR2
- 1595 0164 00000000 		.word	.LANCHOR3
- 1596 0168 00D06545 		.word	1164300288
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 29
+ 1540 012e 124A     		ldr	r2, .L158+28
+ 1541 0130 4D69     		ldr	r5, [r1, #20]
+ 1542 0132 9342     		cmp	r3, r2
+ 1543 0134 4FF00001 		mov	r1, #0
+ 1544 0138 84F85811 		strb	r1, [r4, #344]
+ 1545 013c 0AD1     		bne	.L157
+ 1546 013e 0F49     		ldr	r1, .L158+32
+ 1547              	.L154:
+ 1548 0140 2846     		mov	r0, r5
+ 1549 0142 0522     		movs	r2, #5
+ 1550 0144 FFF7FEFF 		bl	_ZN6GCodes21SetMachineAxisLettersEPKch
+ 1551 0148 2046     		mov	r0, r4
+ 1552 014a 21B0     		add	sp, sp, #132
+ 1553              		@ sp needed
+ 1554 014c BDE8F04F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
+ 1555 0150 FFF7FEBF 		b	_ZN21HangprinterKinematics6RecalcEv
+ 1556              	.L157:
+ 1557 0154 2046     		mov	r0, r4
+ 1558 0156 9847     		blx	r3
+ 1559 0158 0146     		mov	r1, r0
+ 1560 015a F1E7     		b	.L154
+ 1561              	.L159:
+ 1562              		.align	2
+ 1563              	.L158:
+ 1564 015c 14000000 		.word	.LANCHOR0+20
+ 1565 0160 00000000 		.word	.LANCHOR2
+ 1566 0164 00000000 		.word	.LANCHOR3
+ 1567 0168 00D06545 		.word	1164300288
+ 1568 016c 00001644 		.word	1142292480
+ 1569 0170 00F87745 		.word	1165490176
+ 1570 0174 00000000 		.word	reprap
+ 1571 0178 00000000 		.word	_ZNK21HangprinterKinematics16MachineAxisNamesEv
+ 1572 017c 00000000 		.word	.LC12
+ 1573 0180 00000000 		.word	.LANCHOR1
+ 1574              		.size	_ZN21HangprinterKinematics4InitEv, .-_ZN21HangprinterKinematics4InitEv
+ 1575              		.section	.text._ZN21HangprinterKinematicsC2Ev,"ax",%progbits
+ 1576              		.align	1
+ 1577              		.p2align 2,,3
+ 1578              		.global	_ZN21HangprinterKinematicsC2Ev
+ 1579              		.syntax unified
+ 1580              		.thumb
+ 1581              		.thumb_func
+ 1582              		.fpu fpv4-sp-d16
+ 1583              		.type	_ZN21HangprinterKinematicsC2Ev, %function
+ 1584              	_ZN21HangprinterKinematicsC2Ev:
+ 1585              		@ args = 0, pretend = 0, frame = 0
+ 1586              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1587 0000 10B5     		push	{r4, lr}
+ 1588 0002 0022     		movs	r2, #0
+ 1589 0004 0446     		mov	r4, r0
+ 1590 0006 DFED070A 		vldr.32	s1, .L162
+ 1591 000a 9FED070A 		vldr.32	s0, .L162+4
+ 1592 000e 0621     		movs	r1, #6
+ 1593 0010 0123     		movs	r3, #1
+ 1594 0012 FFF7FEFF 		bl	_ZN10KinematicsC2E14KinematicsTypeffbb
+ 1595 0016 054B     		ldr	r3, .L162+8
+ 1596 0018 2360     		str	r3, [r4]
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 29
 
 
- 1597 016c 0000FA43 		.word	1140457472
- 1598 0170 00F87745 		.word	1165490176
- 1599 0174 00000000 		.word	reprap
- 1600 0178 00000000 		.word	_ZNK21HangprinterKinematics16MachineAxisNamesEv
- 1601 017c 00000000 		.word	.LC12
- 1602 0180 00000000 		.word	.LANCHOR1
- 1603              		.size	_ZN21HangprinterKinematics4InitEv, .-_ZN21HangprinterKinematics4InitEv
- 1604              		.section	.text._ZN21HangprinterKinematicsC2Ev,"ax",%progbits
- 1605              		.align	1
- 1606              		.p2align 2,,3
- 1607              		.global	_ZN21HangprinterKinematicsC2Ev
- 1608              		.syntax unified
- 1609              		.thumb
- 1610              		.thumb_func
- 1611              		.fpu fpv4-sp-d16
- 1612              		.type	_ZN21HangprinterKinematicsC2Ev, %function
- 1613              	_ZN21HangprinterKinematicsC2Ev:
- 1614              		@ args = 0, pretend = 0, frame = 0
- 1615              		@ frame_needed = 0, uses_anonymous_args = 0
- 1616 0000 10B5     		push	{r4, lr}
- 1617 0002 0022     		movs	r2, #0
- 1618 0004 0446     		mov	r4, r0
- 1619 0006 DFED070A 		vldr.32	s1, .L165
- 1620 000a 9FED070A 		vldr.32	s0, .L165+4
- 1621 000e 0621     		movs	r1, #6
- 1622 0010 0123     		movs	r3, #1
- 1623 0012 FFF7FEFF 		bl	_ZN10KinematicsC2E14KinematicsTypeffbb
- 1624 0016 054B     		ldr	r3, .L165+8
- 1625 0018 2360     		str	r3, [r4]
- 1626 001a 2046     		mov	r0, r4
- 1627 001c FFF7FEFF 		bl	_ZN21HangprinterKinematics4InitEv
- 1628 0020 2046     		mov	r0, r4
- 1629 0022 10BD     		pop	{r4, pc}
- 1630              	.L166:
- 1631              		.align	2
- 1632              	.L165:
- 1633 0024 CDCC4C3E 		.word	1045220557
- 1634 0028 0000C842 		.word	1120403456
- 1635 002c 08000000 		.word	.LANCHOR4+8
- 1636              		.size	_ZN21HangprinterKinematicsC2Ev, .-_ZN21HangprinterKinematicsC2Ev
- 1637              		.global	_ZN21HangprinterKinematicsC1Ev
- 1638              		.thumb_set _ZN21HangprinterKinematicsC1Ev,_ZN21HangprinterKinematicsC2Ev
- 1639              		.section	.text._ZN21HangprinterKinematics22SetCalibrationDefaultsEv,"axG",%progbits,_ZN21Hangprint
- 1640              		.align	1
- 1641              		.p2align 2,,3
- 1642              		.weak	_ZN21HangprinterKinematics22SetCalibrationDefaultsEv
- 1643              		.syntax unified
- 1644              		.thumb
- 1645              		.thumb_func
- 1646              		.fpu fpv4-sp-d16
- 1647              		.type	_ZN21HangprinterKinematics22SetCalibrationDefaultsEv, %function
- 1648              	_ZN21HangprinterKinematics22SetCalibrationDefaultsEv:
- 1649              		@ args = 0, pretend = 0, frame = 0
- 1650              		@ frame_needed = 0, uses_anonymous_args = 0
- 1651              		@ link register save eliminated.
- 1652 0000 FFF7FEBF 		b	_ZN21HangprinterKinematics4InitEv
- 1653              		.size	_ZN21HangprinterKinematics22SetCalibrationDefaultsEv, .-_ZN21HangprinterKinematics22SetCalib
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 30
+ 1597 001a 2046     		mov	r0, r4
+ 1598 001c FFF7FEFF 		bl	_ZN21HangprinterKinematics4InitEv
+ 1599 0020 2046     		mov	r0, r4
+ 1600 0022 10BD     		pop	{r4, pc}
+ 1601              	.L163:
+ 1602              		.align	2
+ 1603              	.L162:
+ 1604 0024 0AD7233C 		.word	1008981770
+ 1605 0028 00009643 		.word	1133903872
+ 1606 002c 08000000 		.word	.LANCHOR4+8
+ 1607              		.size	_ZN21HangprinterKinematicsC2Ev, .-_ZN21HangprinterKinematicsC2Ev
+ 1608              		.global	_ZN21HangprinterKinematicsC1Ev
+ 1609              		.thumb_set _ZN21HangprinterKinematicsC1Ev,_ZN21HangprinterKinematicsC2Ev
+ 1610              		.section	.text._ZN21HangprinterKinematics22SetCalibrationDefaultsEv,"axG",%progbits,_ZN21Hangprint
+ 1611              		.align	1
+ 1612              		.p2align 2,,3
+ 1613              		.weak	_ZN21HangprinterKinematics22SetCalibrationDefaultsEv
+ 1614              		.syntax unified
+ 1615              		.thumb
+ 1616              		.thumb_func
+ 1617              		.fpu fpv4-sp-d16
+ 1618              		.type	_ZN21HangprinterKinematics22SetCalibrationDefaultsEv, %function
+ 1619              	_ZN21HangprinterKinematics22SetCalibrationDefaultsEv:
+ 1620              		@ args = 0, pretend = 0, frame = 0
+ 1621              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1622              		@ link register save eliminated.
+ 1623 0000 FFF7FEBF 		b	_ZN21HangprinterKinematics4InitEv
+ 1624              		.size	_ZN21HangprinterKinematics22SetCalibrationDefaultsEv, .-_ZN21HangprinterKinematics22SetCalib
+ 1625              		.section	.text._ZN21HangprinterKinematics9ConfigureEjR11GCodeBufferRK9StringRefRb,"ax",%progbits
+ 1626              		.align	1
+ 1627              		.p2align 2,,3
+ 1628              		.global	_ZN21HangprinterKinematics9ConfigureEjR11GCodeBufferRK9StringRefRb
+ 1629              		.syntax unified
+ 1630              		.thumb
+ 1631              		.thumb_func
+ 1632              		.fpu fpv4-sp-d16
+ 1633              		.type	_ZN21HangprinterKinematics9ConfigureEjR11GCodeBufferRK9StringRefRb, %function
+ 1634              	_ZN21HangprinterKinematics9ConfigureEjR11GCodeBufferRK9StringRefRb:
+ 1635              		@ args = 4, pretend = 0, frame = 8
+ 1636              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1637 0000 2DE9F041 		push	{r4, r5, r6, r7, r8, lr}
+ 1638 0004 40F29D2C 		movw	ip, #669
+ 1639 0008 BAB0     		sub	sp, sp, #232
+ 1640 000a 0024     		movs	r4, #0
+ 1641 000c 6145     		cmp	r1, ip
+ 1642 000e 8DF8E640 		strb	r4, [sp, #230]
+ 1643 0012 0646     		mov	r6, r0
+ 1644 0014 1746     		mov	r7, r2
+ 1645 0016 9846     		mov	r8, r3
+ 1646 0018 28D0     		beq	.L182
+ 1647 001a 40F29A2C 		movw	ip, #666
+ 1648 001e 6145     		cmp	r1, ip
+ 1649 0020 06D0     		beq	.L183
+ 1650 0022 409C     		ldr	r4, [sp, #256]
+ 1651 0024 0094     		str	r4, [sp]
+ 1652 0026 FFF7FEFF 		bl	_ZN10Kinematics9ConfigureEjR11GCodeBufferRK9StringRefRb
+ 1653              	.L165:
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 30
 
 
- 1654              		.section	.text._ZN21HangprinterKinematics9ConfigureEjR11GCodeBufferRK9StringRefRb,"ax",%progbits
- 1655              		.align	1
- 1656              		.p2align 2,,3
- 1657              		.global	_ZN21HangprinterKinematics9ConfigureEjR11GCodeBufferRK9StringRefRb
- 1658              		.syntax unified
- 1659              		.thumb
- 1660              		.thumb_func
- 1661              		.fpu fpv4-sp-d16
- 1662              		.type	_ZN21HangprinterKinematics9ConfigureEjR11GCodeBufferRK9StringRefRb, %function
- 1663              	_ZN21HangprinterKinematics9ConfigureEjR11GCodeBufferRK9StringRefRb:
- 1664              		@ args = 4, pretend = 0, frame = 8
- 1665              		@ frame_needed = 0, uses_anonymous_args = 0
- 1666 0000 2DE9F041 		push	{r4, r5, r6, r7, r8, lr}
- 1667 0004 40F29D2C 		movw	ip, #669
- 1668 0008 BAB0     		sub	sp, sp, #232
- 1669 000a 0024     		movs	r4, #0
- 1670 000c 6145     		cmp	r1, ip
- 1671 000e 8DF8E640 		strb	r4, [sp, #230]
- 1672 0012 0646     		mov	r6, r0
- 1673 0014 1746     		mov	r7, r2
- 1674 0016 9846     		mov	r8, r3
- 1675 0018 28D0     		beq	.L185
- 1676 001a 40F29A2C 		movw	ip, #666
- 1677 001e 6145     		cmp	r1, ip
- 1678 0020 06D0     		beq	.L186
- 1679 0022 409C     		ldr	r4, [sp, #256]
- 1680 0024 0094     		str	r4, [sp]
- 1681 0026 FFF7FEFF 		bl	_ZN10Kinematics9ConfigureEjR11GCodeBufferRK9StringRefRb
- 1682              	.L168:
- 1683 002a 3AB0     		add	sp, sp, #232
- 1684              		@ sp needed
- 1685 002c BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
- 1686              	.L186:
- 1687 0030 3AAD     		add	r5, sp, #232
- 1688 0032 00F14002 		add	r2, r0, #64
- 1689 0036 05F8014D 		strb	r4, [r5, #-1]!
- 1690 003a 5121     		movs	r1, #81
- 1691 003c 2B46     		mov	r3, r5
- 1692 003e 3846     		mov	r0, r7
- 1693 0040 FFF7FEFF 		bl	_ZN11GCodeBuffer12TryGetFValueEcRfRb
- 1694 0044 CDE90154 		strd	r5, r4, [sp, #4]
- 1695 0048 CDF80080 		str	r8, [sp]
- 1696 004c 06F14403 		add	r3, r6, #68
- 1697 0050 0522     		movs	r2, #5
- 1698 0052 5221     		movs	r1, #82
- 1699 0054 3846     		mov	r0, r7
- 1700 0056 FFF7FEFF 		bl	_ZN11GCodeBuffer16TryGetFloatArrayEcjPfRK9StringRefRbb
- 1701 005a 0028     		cmp	r0, #0
- 1702 005c 00F0C080 		beq	.L179
- 1703              	.L180:
- 1704 0060 409B     		ldr	r3, [sp, #256]
- 1705 0062 0120     		movs	r0, #1
- 1706 0064 1870     		strb	r0, [r3]
- 1707 0066 3AB0     		add	sp, sp, #232
- 1708              		@ sp needed
- 1709 0068 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
- 1710              	.L185:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 31
+ 1654 002a 3AB0     		add	sp, sp, #232
+ 1655              		@ sp needed
+ 1656 002c BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
+ 1657              	.L183:
+ 1658 0030 3AAD     		add	r5, sp, #232
+ 1659 0032 00F14002 		add	r2, r0, #64
+ 1660 0036 05F8014D 		strb	r4, [r5, #-1]!
+ 1661 003a 5121     		movs	r1, #81
+ 1662 003c 2B46     		mov	r3, r5
+ 1663 003e 3846     		mov	r0, r7
+ 1664 0040 FFF7FEFF 		bl	_ZN11GCodeBuffer12TryGetFValueEcRfRb
+ 1665 0044 CDE90154 		strd	r5, r4, [sp, #4]
+ 1666 0048 CDF80080 		str	r8, [sp]
+ 1667 004c 06F14403 		add	r3, r6, #68
+ 1668 0050 0522     		movs	r2, #5
+ 1669 0052 5221     		movs	r1, #82
+ 1670 0054 3846     		mov	r0, r7
+ 1671 0056 FFF7FEFF 		bl	_ZN11GCodeBuffer16TryGetFloatArrayEcjPfRK9StringRefRbb
+ 1672 005a 0028     		cmp	r0, #0
+ 1673 005c 00F0C080 		beq	.L176
+ 1674              	.L177:
+ 1675 0060 409B     		ldr	r3, [sp, #256]
+ 1676 0062 0120     		movs	r0, #1
+ 1677 0064 1870     		strb	r0, [r3]
+ 1678 0066 3AB0     		add	sp, sp, #232
+ 1679              		@ sp needed
+ 1680 0068 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
+ 1681              	.L182:
+ 1682 006c 3AAD     		add	r5, sp, #232
+ 1683 006e 021D     		adds	r2, r0, #4
+ 1684 0070 05F8014D 		strb	r4, [r5, #-1]!
+ 1685 0074 5321     		movs	r1, #83
+ 1686 0076 2B46     		mov	r3, r5
+ 1687 0078 3846     		mov	r0, r7
+ 1688 007a FFF7FEFF 		bl	_ZN11GCodeBuffer12TryGetFValueEcRfRb
+ 1689 007e 2B46     		mov	r3, r5
+ 1690 0080 06F10802 		add	r2, r6, #8
+ 1691 0084 5421     		movs	r1, #84
+ 1692 0086 3846     		mov	r0, r7
+ 1693 0088 0DF1E605 		add	r5, sp, #230
+ 1694 008c FFF7FEFF 		bl	_ZN11GCodeBuffer12TryGetFValueEcRfRb
+ 1695 0090 0294     		str	r4, [sp, #8]
+ 1696 0092 CDE90085 		strd	r8, r5, [sp]
+ 1697 0096 06F11003 		add	r3, r6, #16
+ 1698 009a 0322     		movs	r2, #3
+ 1699 009c 4121     		movs	r1, #65
+ 1700 009e 3846     		mov	r0, r7
+ 1701 00a0 FFF7FEFF 		bl	_ZN11GCodeBuffer16TryGetFloatArrayEcjPfRK9StringRefRbb
+ 1702 00a4 0028     		cmp	r0, #0
+ 1703 00a6 DBD1     		bne	.L177
+ 1704 00a8 CDE90150 		strd	r5, r0, [sp, #4]
+ 1705 00ac CDF80080 		str	r8, [sp]
+ 1706 00b0 06F11C03 		add	r3, r6, #28
+ 1707 00b4 0322     		movs	r2, #3
+ 1708 00b6 4221     		movs	r1, #66
+ 1709 00b8 3846     		mov	r0, r7
+ 1710 00ba FFF7FEFF 		bl	_ZN11GCodeBuffer16TryGetFloatArrayEcjPfRK9StringRefRbb
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 31
 
 
- 1711 006c 3AAD     		add	r5, sp, #232
- 1712 006e 021D     		adds	r2, r0, #4
- 1713 0070 05F8014D 		strb	r4, [r5, #-1]!
- 1714 0074 5321     		movs	r1, #83
- 1715 0076 2B46     		mov	r3, r5
- 1716 0078 3846     		mov	r0, r7
- 1717 007a FFF7FEFF 		bl	_ZN11GCodeBuffer12TryGetFValueEcRfRb
- 1718 007e 2B46     		mov	r3, r5
- 1719 0080 06F10802 		add	r2, r6, #8
- 1720 0084 5421     		movs	r1, #84
- 1721 0086 3846     		mov	r0, r7
- 1722 0088 0DF1E605 		add	r5, sp, #230
- 1723 008c FFF7FEFF 		bl	_ZN11GCodeBuffer12TryGetFValueEcRfRb
- 1724 0090 0294     		str	r4, [sp, #8]
- 1725 0092 CDE90085 		strd	r8, r5, [sp]
- 1726 0096 06F11003 		add	r3, r6, #16
- 1727 009a 0322     		movs	r2, #3
- 1728 009c 4121     		movs	r1, #65
- 1729 009e 3846     		mov	r0, r7
- 1730 00a0 FFF7FEFF 		bl	_ZN11GCodeBuffer16TryGetFloatArrayEcjPfRK9StringRefRbb
- 1731 00a4 0028     		cmp	r0, #0
- 1732 00a6 DBD1     		bne	.L180
- 1733 00a8 CDE90150 		strd	r5, r0, [sp, #4]
- 1734 00ac CDF80080 		str	r8, [sp]
- 1735 00b0 06F11C03 		add	r3, r6, #28
- 1736 00b4 0322     		movs	r2, #3
- 1737 00b6 4221     		movs	r1, #66
- 1738 00b8 3846     		mov	r0, r7
- 1739 00ba FFF7FEFF 		bl	_ZN11GCodeBuffer16TryGetFloatArrayEcjPfRK9StringRefRbb
- 1740 00be 0028     		cmp	r0, #0
- 1741 00c0 CED1     		bne	.L180
- 1742 00c2 CDE90150 		strd	r5, r0, [sp, #4]
- 1743 00c6 CDF80080 		str	r8, [sp]
- 1744 00ca 06F12803 		add	r3, r6, #40
- 1745 00ce 0322     		movs	r2, #3
- 1746 00d0 4321     		movs	r1, #67
- 1747 00d2 3846     		mov	r0, r7
- 1748 00d4 FFF7FEFF 		bl	_ZN11GCodeBuffer16TryGetFloatArrayEcjPfRK9StringRefRbb
- 1749 00d8 0446     		mov	r4, r0
- 1750 00da 0028     		cmp	r0, #0
- 1751 00dc C0D1     		bne	.L180
- 1752 00de 2B46     		mov	r3, r5
- 1753 00e0 06F13402 		add	r2, r6, #52
- 1754 00e4 4421     		movs	r1, #68
- 1755 00e6 3846     		mov	r0, r7
- 1756 00e8 FFF7FEFF 		bl	_ZN11GCodeBuffer12TryGetFValueEcRfRb
- 1757 00ec 2B46     		mov	r3, r5
- 1758 00ee 06F13802 		add	r2, r6, #56
- 1759 00f2 5721     		movs	r1, #87
- 1760 00f4 3846     		mov	r0, r7
- 1761 00f6 FFF7FEFF 		bl	_ZN11GCodeBuffer12TryGetFValueEcRfRb
- 1762 00fa 2B46     		mov	r3, r5
- 1763 00fc 06F14002 		add	r2, r6, #64
- 1764 0100 5121     		movs	r1, #81
- 1765 0102 3846     		mov	r0, r7
- 1766 0104 FFF7FEFF 		bl	_ZN11GCodeBuffer12TryGetFValueEcRfRb
- 1767 0108 CDE90154 		strd	r5, r4, [sp, #4]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 32
+ 1711 00be 0028     		cmp	r0, #0
+ 1712 00c0 CED1     		bne	.L177
+ 1713 00c2 CDE90150 		strd	r5, r0, [sp, #4]
+ 1714 00c6 CDF80080 		str	r8, [sp]
+ 1715 00ca 06F12803 		add	r3, r6, #40
+ 1716 00ce 0322     		movs	r2, #3
+ 1717 00d0 4321     		movs	r1, #67
+ 1718 00d2 3846     		mov	r0, r7
+ 1719 00d4 FFF7FEFF 		bl	_ZN11GCodeBuffer16TryGetFloatArrayEcjPfRK9StringRefRbb
+ 1720 00d8 0446     		mov	r4, r0
+ 1721 00da 0028     		cmp	r0, #0
+ 1722 00dc C0D1     		bne	.L177
+ 1723 00de 2B46     		mov	r3, r5
+ 1724 00e0 06F13402 		add	r2, r6, #52
+ 1725 00e4 4421     		movs	r1, #68
+ 1726 00e6 3846     		mov	r0, r7
+ 1727 00e8 FFF7FEFF 		bl	_ZN11GCodeBuffer12TryGetFValueEcRfRb
+ 1728 00ec 2B46     		mov	r3, r5
+ 1729 00ee 06F13802 		add	r2, r6, #56
+ 1730 00f2 5721     		movs	r1, #87
+ 1731 00f4 3846     		mov	r0, r7
+ 1732 00f6 FFF7FEFF 		bl	_ZN11GCodeBuffer12TryGetFValueEcRfRb
+ 1733 00fa 2B46     		mov	r3, r5
+ 1734 00fc 06F14002 		add	r2, r6, #64
+ 1735 0100 5121     		movs	r1, #81
+ 1736 0102 3846     		mov	r0, r7
+ 1737 0104 FFF7FEFF 		bl	_ZN11GCodeBuffer12TryGetFValueEcRfRb
+ 1738 0108 CDE90154 		strd	r5, r4, [sp, #4]
+ 1739 010c CDF80080 		str	r8, [sp]
+ 1740 0110 06F14403 		add	r3, r6, #68
+ 1741 0114 0522     		movs	r2, #5
+ 1742 0116 5221     		movs	r1, #82
+ 1743 0118 3846     		mov	r0, r7
+ 1744 011a FFF7FEFF 		bl	_ZN11GCodeBuffer16TryGetFloatArrayEcjPfRK9StringRefRbb
+ 1745 011e 0028     		cmp	r0, #0
+ 1746 0120 9ED1     		bne	.L177
+ 1747 0122 CDE90150 		strd	r5, r0, [sp, #4]
+ 1748 0126 CDF80080 		str	r8, [sp]
+ 1749 012a 06F15803 		add	r3, r6, #88
+ 1750 012e 0522     		movs	r2, #5
+ 1751 0130 5521     		movs	r1, #85
+ 1752 0132 3846     		mov	r0, r7
+ 1753 0134 FFF7FEFF 		bl	_ZN11GCodeBuffer13TryGetUIArrayEcjPmRK9StringRefRbb
+ 1754 0138 0028     		cmp	r0, #0
+ 1755 013a 91D1     		bne	.L177
+ 1756 013c CDE90150 		strd	r5, r0, [sp, #4]
+ 1757 0140 CDF80080 		str	r8, [sp]
+ 1758 0144 06F16C03 		add	r3, r6, #108
+ 1759 0148 0522     		movs	r2, #5
+ 1760 014a 4F21     		movs	r1, #79
+ 1761 014c 3846     		mov	r0, r7
+ 1762 014e FFF7FEFF 		bl	_ZN11GCodeBuffer13TryGetUIArrayEcjPmRK9StringRefRbb
+ 1763 0152 0028     		cmp	r0, #0
+ 1764 0154 84D1     		bne	.L177
+ 1765 0156 CDE90150 		strd	r5, r0, [sp, #4]
+ 1766 015a CDF80080 		str	r8, [sp]
+ 1767 015e 06F18003 		add	r3, r6, #128
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 32
 
 
- 1768 010c CDF80080 		str	r8, [sp]
- 1769 0110 06F14403 		add	r3, r6, #68
- 1770 0114 0522     		movs	r2, #5
- 1771 0116 5221     		movs	r1, #82
- 1772 0118 3846     		mov	r0, r7
- 1773 011a FFF7FEFF 		bl	_ZN11GCodeBuffer16TryGetFloatArrayEcjPfRK9StringRefRbb
- 1774 011e 0028     		cmp	r0, #0
- 1775 0120 9ED1     		bne	.L180
- 1776 0122 CDE90150 		strd	r5, r0, [sp, #4]
- 1777 0126 CDF80080 		str	r8, [sp]
- 1778 012a 06F15803 		add	r3, r6, #88
- 1779 012e 0522     		movs	r2, #5
- 1780 0130 5521     		movs	r1, #85
- 1781 0132 3846     		mov	r0, r7
- 1782 0134 FFF7FEFF 		bl	_ZN11GCodeBuffer13TryGetUIArrayEcjPmRK9StringRefRbb
- 1783 0138 0028     		cmp	r0, #0
- 1784 013a 91D1     		bne	.L180
- 1785 013c CDE90150 		strd	r5, r0, [sp, #4]
- 1786 0140 CDF80080 		str	r8, [sp]
- 1787 0144 06F16C03 		add	r3, r6, #108
- 1788 0148 0522     		movs	r2, #5
- 1789 014a 4F21     		movs	r1, #79
- 1790 014c 3846     		mov	r0, r7
- 1791 014e FFF7FEFF 		bl	_ZN11GCodeBuffer13TryGetUIArrayEcjPmRK9StringRefRbb
- 1792 0152 0028     		cmp	r0, #0
- 1793 0154 84D1     		bne	.L180
- 1794 0156 CDE90150 		strd	r5, r0, [sp, #4]
- 1795 015a CDF80080 		str	r8, [sp]
- 1796 015e 06F18003 		add	r3, r6, #128
- 1797 0162 0522     		movs	r2, #5
- 1798 0164 4C21     		movs	r1, #76
- 1799 0166 3846     		mov	r0, r7
- 1800 0168 FFF7FEFF 		bl	_ZN11GCodeBuffer13TryGetUIArrayEcjPmRK9StringRefRbb
- 1801 016c 0028     		cmp	r0, #0
- 1802 016e 7FF477AF 		bne	.L180
- 1803 0172 CDE90150 		strd	r5, r0, [sp, #4]
- 1804 0176 CDF80080 		str	r8, [sp]
- 1805 017a 06F19403 		add	r3, r6, #148
- 1806 017e 0522     		movs	r2, #5
- 1807 0180 4821     		movs	r1, #72
- 1808 0182 3846     		mov	r0, r7
- 1809 0184 FFF7FEFF 		bl	_ZN11GCodeBuffer13TryGetUIArrayEcjPmRK9StringRefRbb
- 1810 0188 0028     		cmp	r0, #0
- 1811 018a 7FF469AF 		bne	.L180
- 1812 018e CDE90150 		strd	r5, r0, [sp, #4]
- 1813 0192 CDF80080 		str	r8, [sp]
- 1814 0196 06F1A803 		add	r3, r6, #168
- 1815 019a 0522     		movs	r2, #5
- 1816 019c 4A21     		movs	r1, #74
- 1817 019e 3846     		mov	r0, r7
- 1818 01a0 FFF7FEFF 		bl	_ZN11GCodeBuffer13TryGetUIArrayEcjPmRK9StringRefRbb
- 1819 01a4 0028     		cmp	r0, #0
- 1820 01a6 7FF45BAF 		bne	.L180
- 1821 01aa 9DF8E630 		ldrb	r3, [sp, #230]	@ zero_extendqisi2
- 1822 01ae 13B9     		cbnz	r3, .L173
- 1823 01b0 9DF8E730 		ldrb	r3, [sp, #231]	@ zero_extendqisi2
- 1824 01b4 13B1     		cbz	r3, .L174
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 33
+ 1768 0162 0522     		movs	r2, #5
+ 1769 0164 4C21     		movs	r1, #76
+ 1770 0166 3846     		mov	r0, r7
+ 1771 0168 FFF7FEFF 		bl	_ZN11GCodeBuffer13TryGetUIArrayEcjPmRK9StringRefRbb
+ 1772 016c 0028     		cmp	r0, #0
+ 1773 016e 7FF477AF 		bne	.L177
+ 1774 0172 CDE90150 		strd	r5, r0, [sp, #4]
+ 1775 0176 CDF80080 		str	r8, [sp]
+ 1776 017a 06F19403 		add	r3, r6, #148
+ 1777 017e 0522     		movs	r2, #5
+ 1778 0180 4821     		movs	r1, #72
+ 1779 0182 3846     		mov	r0, r7
+ 1780 0184 FFF7FEFF 		bl	_ZN11GCodeBuffer13TryGetUIArrayEcjPmRK9StringRefRbb
+ 1781 0188 0028     		cmp	r0, #0
+ 1782 018a 7FF469AF 		bne	.L177
+ 1783 018e CDE90150 		strd	r5, r0, [sp, #4]
+ 1784 0192 CDF80080 		str	r8, [sp]
+ 1785 0196 06F1A803 		add	r3, r6, #168
+ 1786 019a 0522     		movs	r2, #5
+ 1787 019c 4A21     		movs	r1, #74
+ 1788 019e 3846     		mov	r0, r7
+ 1789 01a0 FFF7FEFF 		bl	_ZN11GCodeBuffer13TryGetUIArrayEcjPmRK9StringRefRbb
+ 1790 01a4 0028     		cmp	r0, #0
+ 1791 01a6 7FF45BAF 		bne	.L177
+ 1792 01aa 9DF8E630 		ldrb	r3, [sp, #230]	@ zero_extendqisi2
+ 1793 01ae 13B9     		cbnz	r3, .L170
+ 1794 01b0 9DF8E730 		ldrb	r3, [sp, #231]	@ zero_extendqisi2
+ 1795 01b4 13B1     		cbz	r3, .L171
+ 1796              	.L170:
+ 1797 01b6 3046     		mov	r0, r6
+ 1798 01b8 FFF7FEFF 		bl	_ZN21HangprinterKinematics6RecalcEv
+ 1799              	.L171:
+ 1800 01bc 5021     		movs	r1, #80
+ 1801 01be 3846     		mov	r0, r7
+ 1802 01c0 FFF7FEFF 		bl	_ZN11GCodeBuffer4SeenEc
+ 1803 01c4 0028     		cmp	r0, #0
+ 1804 01c6 00F0A380 		beq	.L172
+ 1805 01ca 3846     		mov	r0, r7
+ 1806 01cc FFF7FEFF 		bl	_ZN11GCodeBuffer9GetFValueEv
+ 1807 01d0 0123     		movs	r3, #1
+ 1808 01d2 86ED0F0A 		vstr.32	s0, [r6, #60]
+ 1809 01d6 8DF8E630 		strb	r3, [sp, #230]
+ 1810              	.L173:
+ 1811 01da 9DF8E600 		ldrb	r0, [sp, #230]	@ zero_extendqisi2
+ 1812 01de 24E7     		b	.L165
+ 1813              	.L176:
+ 1814 01e0 CDE90150 		strd	r5, r0, [sp, #4]
+ 1815 01e4 CDF80080 		str	r8, [sp]
+ 1816 01e8 06F15803 		add	r3, r6, #88
+ 1817 01ec 0522     		movs	r2, #5
+ 1818 01ee 5521     		movs	r1, #85
+ 1819 01f0 3846     		mov	r0, r7
+ 1820 01f2 FFF7FEFF 		bl	_ZN11GCodeBuffer13TryGetUIArrayEcjPmRK9StringRefRbb
+ 1821 01f6 0028     		cmp	r0, #0
+ 1822 01f8 7FF432AF 		bne	.L177
+ 1823 01fc CDE90150 		strd	r5, r0, [sp, #4]
+ 1824 0200 CDF80080 		str	r8, [sp]
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 33
 
 
- 1825              	.L173:
- 1826 01b6 3046     		mov	r0, r6
- 1827 01b8 FFF7FEFF 		bl	_ZN21HangprinterKinematics6RecalcEv
- 1828              	.L174:
- 1829 01bc 5021     		movs	r1, #80
- 1830 01be 3846     		mov	r0, r7
- 1831 01c0 FFF7FEFF 		bl	_ZN11GCodeBuffer4SeenEc
- 1832 01c4 0028     		cmp	r0, #0
- 1833 01c6 00F0A380 		beq	.L175
- 1834 01ca 3846     		mov	r0, r7
- 1835 01cc FFF7FEFF 		bl	_ZN11GCodeBuffer9GetFValueEv
- 1836 01d0 0123     		movs	r3, #1
- 1837 01d2 86ED0F0A 		vstr.32	s0, [r6, #60]
- 1838 01d6 8DF8E630 		strb	r3, [sp, #230]
- 1839              	.L176:
- 1840 01da 9DF8E600 		ldrb	r0, [sp, #230]	@ zero_extendqisi2
- 1841 01de 24E7     		b	.L168
- 1842              	.L179:
- 1843 01e0 CDE90150 		strd	r5, r0, [sp, #4]
- 1844 01e4 CDF80080 		str	r8, [sp]
- 1845 01e8 06F15803 		add	r3, r6, #88
- 1846 01ec 0522     		movs	r2, #5
- 1847 01ee 5521     		movs	r1, #85
- 1848 01f0 3846     		mov	r0, r7
- 1849 01f2 FFF7FEFF 		bl	_ZN11GCodeBuffer13TryGetUIArrayEcjPmRK9StringRefRbb
- 1850 01f6 0028     		cmp	r0, #0
- 1851 01f8 7FF432AF 		bne	.L180
- 1852 01fc CDE90150 		strd	r5, r0, [sp, #4]
- 1853 0200 CDF80080 		str	r8, [sp]
- 1854 0204 06F16C03 		add	r3, r6, #108
- 1855 0208 0522     		movs	r2, #5
- 1856 020a 4F21     		movs	r1, #79
- 1857 020c 3846     		mov	r0, r7
- 1858 020e FFF7FEFF 		bl	_ZN11GCodeBuffer13TryGetUIArrayEcjPmRK9StringRefRbb
- 1859 0212 0028     		cmp	r0, #0
- 1860 0214 7FF424AF 		bne	.L180
- 1861 0218 CDE90150 		strd	r5, r0, [sp, #4]
- 1862 021c CDF80080 		str	r8, [sp]
- 1863 0220 06F18003 		add	r3, r6, #128
- 1864 0224 0522     		movs	r2, #5
- 1865 0226 4C21     		movs	r1, #76
- 1866 0228 3846     		mov	r0, r7
- 1867 022a FFF7FEFF 		bl	_ZN11GCodeBuffer13TryGetUIArrayEcjPmRK9StringRefRbb
- 1868 022e 0028     		cmp	r0, #0
- 1869 0230 7FF416AF 		bne	.L180
- 1870 0234 CDE90150 		strd	r5, r0, [sp, #4]
- 1871 0238 CDF80080 		str	r8, [sp]
- 1872 023c 06F19403 		add	r3, r6, #148
- 1873 0240 0522     		movs	r2, #5
- 1874 0242 4821     		movs	r1, #72
- 1875 0244 3846     		mov	r0, r7
- 1876 0246 FFF7FEFF 		bl	_ZN11GCodeBuffer13TryGetUIArrayEcjPmRK9StringRefRbb
- 1877 024a 0028     		cmp	r0, #0
- 1878 024c 7FF408AF 		bne	.L180
- 1879 0250 CDE90150 		strd	r5, r0, [sp, #4]
- 1880 0254 CDF80080 		str	r8, [sp]
- 1881 0258 3846     		mov	r0, r7
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 34
+ 1825 0204 06F16C03 		add	r3, r6, #108
+ 1826 0208 0522     		movs	r2, #5
+ 1827 020a 4F21     		movs	r1, #79
+ 1828 020c 3846     		mov	r0, r7
+ 1829 020e FFF7FEFF 		bl	_ZN11GCodeBuffer13TryGetUIArrayEcjPmRK9StringRefRbb
+ 1830 0212 0028     		cmp	r0, #0
+ 1831 0214 7FF424AF 		bne	.L177
+ 1832 0218 CDE90150 		strd	r5, r0, [sp, #4]
+ 1833 021c CDF80080 		str	r8, [sp]
+ 1834 0220 06F18003 		add	r3, r6, #128
+ 1835 0224 0522     		movs	r2, #5
+ 1836 0226 4C21     		movs	r1, #76
+ 1837 0228 3846     		mov	r0, r7
+ 1838 022a FFF7FEFF 		bl	_ZN11GCodeBuffer13TryGetUIArrayEcjPmRK9StringRefRbb
+ 1839 022e 0028     		cmp	r0, #0
+ 1840 0230 7FF416AF 		bne	.L177
+ 1841 0234 CDE90150 		strd	r5, r0, [sp, #4]
+ 1842 0238 CDF80080 		str	r8, [sp]
+ 1843 023c 06F19403 		add	r3, r6, #148
+ 1844 0240 0522     		movs	r2, #5
+ 1845 0242 4821     		movs	r1, #72
+ 1846 0244 3846     		mov	r0, r7
+ 1847 0246 FFF7FEFF 		bl	_ZN11GCodeBuffer13TryGetUIArrayEcjPmRK9StringRefRbb
+ 1848 024a 0028     		cmp	r0, #0
+ 1849 024c 7FF408AF 		bne	.L177
+ 1850 0250 CDE90150 		strd	r5, r0, [sp, #4]
+ 1851 0254 CDF80080 		str	r8, [sp]
+ 1852 0258 3846     		mov	r0, r7
+ 1853 025a 06F1A803 		add	r3, r6, #168
+ 1854 025e 0522     		movs	r2, #5
+ 1855 0260 4A21     		movs	r1, #74
+ 1856 0262 FFF7FEFF 		bl	_ZN11GCodeBuffer13TryGetUIArrayEcjPmRK9StringRefRbb
+ 1857 0266 0028     		cmp	r0, #0
+ 1858 0268 7FF4FAAE 		bne	.L177
+ 1859 026c 306C     		ldr	r0, [r6, #64]	@ float
+ 1860 026e FFF7FEFF 		bl	__aeabi_f2d
+ 1861 0272 0D46     		mov	r5, r1
+ 1862 0274 D6E92D21 		ldrd	r2, r1, [r6, #180]
+ 1863 0278 D6F8B030 		ldr	r3, [r6, #176]
+ 1864 027c 1B91     		str	r1, [sp, #108]
+ 1865 027e D6F8AC10 		ldr	r1, [r6, #172]
+ 1866 0282 1A92     		str	r2, [sp, #104]
+ 1867 0284 D6F8A420 		ldr	r2, [r6, #164]
+ 1868 0288 1993     		str	r3, [sp, #100]
+ 1869 028a D6F8A030 		ldr	r3, [r6, #160]
+ 1870 028e 1891     		str	r1, [sp, #96]
+ 1871 0290 D6F89C10 		ldr	r1, [r6, #156]
+ 1872 0294 1792     		str	r2, [sp, #92]
+ 1873 0296 D6F89820 		ldr	r2, [r6, #152]
+ 1874 029a 1693     		str	r3, [sp, #88]
+ 1875 029c D6F89030 		ldr	r3, [r6, #144]
+ 1876 02a0 1591     		str	r1, [sp, #84]
+ 1877 02a2 D6F88C10 		ldr	r1, [r6, #140]
+ 1878 02a6 1492     		str	r2, [sp, #80]
+ 1879 02a8 D6F88820 		ldr	r2, [r6, #136]
+ 1880 02ac 1393     		str	r3, [sp, #76]
+ 1881 02ae D6F88430 		ldr	r3, [r6, #132]
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 34
 
 
- 1882 025a 06F1A803 		add	r3, r6, #168
- 1883 025e 0522     		movs	r2, #5
- 1884 0260 4A21     		movs	r1, #74
- 1885 0262 FFF7FEFF 		bl	_ZN11GCodeBuffer13TryGetUIArrayEcjPmRK9StringRefRbb
- 1886 0266 0028     		cmp	r0, #0
- 1887 0268 7FF4FAAE 		bne	.L180
- 1888 026c 306C     		ldr	r0, [r6, #64]	@ float
- 1889 026e FFF7FEFF 		bl	__aeabi_f2d
- 1890 0272 0D46     		mov	r5, r1
- 1891 0274 D6E92D21 		ldrd	r2, r1, [r6, #180]
- 1892 0278 D6F8B030 		ldr	r3, [r6, #176]
- 1893 027c 1B91     		str	r1, [sp, #108]
- 1894 027e D6F8AC10 		ldr	r1, [r6, #172]
- 1895 0282 1A92     		str	r2, [sp, #104]
- 1896 0284 D6F8A420 		ldr	r2, [r6, #164]
- 1897 0288 1993     		str	r3, [sp, #100]
- 1898 028a D6F8A030 		ldr	r3, [r6, #160]
- 1899 028e 1891     		str	r1, [sp, #96]
- 1900 0290 D6F89C10 		ldr	r1, [r6, #156]
- 1901 0294 1792     		str	r2, [sp, #92]
- 1902 0296 D6F89820 		ldr	r2, [r6, #152]
- 1903 029a 1693     		str	r3, [sp, #88]
- 1904 029c D6F89030 		ldr	r3, [r6, #144]
- 1905 02a0 1591     		str	r1, [sp, #84]
- 1906 02a2 D6F88C10 		ldr	r1, [r6, #140]
- 1907 02a6 1492     		str	r2, [sp, #80]
- 1908 02a8 D6F88820 		ldr	r2, [r6, #136]
- 1909 02ac 1393     		str	r3, [sp, #76]
- 1910 02ae D6F88430 		ldr	r3, [r6, #132]
- 1911 02b2 1291     		str	r1, [sp, #72]
- 1912 02b4 F16F     		ldr	r1, [r6, #124]
- 1913 02b6 1192     		str	r2, [sp, #68]
- 1914 02b8 B26F     		ldr	r2, [r6, #120]
- 1915 02ba 1093     		str	r3, [sp, #64]
- 1916 02bc 736F     		ldr	r3, [r6, #116]
- 1917 02be 0D93     		str	r3, [sp, #52]
- 1918 02c0 CDE90E21 		strd	r2, r1, [sp, #56]
- 1919 02c4 326F     		ldr	r2, [r6, #112]
- 1920 02c6 D6E91913 		ldrd	r1, r3, [r6, #100]
- 1921 02ca 0C92     		str	r2, [sp, #48]
- 1922 02cc 326E     		ldr	r2, [r6, #96]
- 1923 02ce 0B93     		str	r3, [sp, #44]
- 1924 02d0 F36D     		ldr	r3, [r6, #92]
- 1925 02d2 0A91     		str	r1, [sp, #40]
- 1926 02d4 0446     		mov	r4, r0
- 1927 02d6 706D     		ldr	r0, [r6, #84]	@ float
- 1928 02d8 CDE90832 		strd	r3, r2, [sp, #32]
- 1929 02dc FFF7FEFF 		bl	__aeabi_f2d
- 1930 02e0 CDE90601 		strd	r0, [sp, #24]
- 1931 02e4 306D     		ldr	r0, [r6, #80]	@ float
- 1932 02e6 FFF7FEFF 		bl	__aeabi_f2d
- 1933 02ea CDE90401 		strd	r0, [sp, #16]
- 1934 02ee F06C     		ldr	r0, [r6, #76]	@ float
- 1935 02f0 FFF7FEFF 		bl	__aeabi_f2d
- 1936 02f4 CDE90201 		strd	r0, [sp, #8]
- 1937 02f8 B06C     		ldr	r0, [r6, #72]	@ float
- 1938 02fa FFF7FEFF 		bl	__aeabi_f2d
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 35
+ 1882 02b2 1291     		str	r1, [sp, #72]
+ 1883 02b4 F16F     		ldr	r1, [r6, #124]
+ 1884 02b6 1192     		str	r2, [sp, #68]
+ 1885 02b8 B26F     		ldr	r2, [r6, #120]
+ 1886 02ba 1093     		str	r3, [sp, #64]
+ 1887 02bc 736F     		ldr	r3, [r6, #116]
+ 1888 02be 0D93     		str	r3, [sp, #52]
+ 1889 02c0 CDE90E21 		strd	r2, r1, [sp, #56]
+ 1890 02c4 326F     		ldr	r2, [r6, #112]
+ 1891 02c6 D6E91913 		ldrd	r1, r3, [r6, #100]
+ 1892 02ca 0C92     		str	r2, [sp, #48]
+ 1893 02cc 326E     		ldr	r2, [r6, #96]
+ 1894 02ce 0B93     		str	r3, [sp, #44]
+ 1895 02d0 F36D     		ldr	r3, [r6, #92]
+ 1896 02d2 0A91     		str	r1, [sp, #40]
+ 1897 02d4 0446     		mov	r4, r0
+ 1898 02d6 706D     		ldr	r0, [r6, #84]	@ float
+ 1899 02d8 CDE90832 		strd	r3, r2, [sp, #32]
+ 1900 02dc FFF7FEFF 		bl	__aeabi_f2d
+ 1901 02e0 CDE90601 		strd	r0, [sp, #24]
+ 1902 02e4 306D     		ldr	r0, [r6, #80]	@ float
+ 1903 02e6 FFF7FEFF 		bl	__aeabi_f2d
+ 1904 02ea CDE90401 		strd	r0, [sp, #16]
+ 1905 02ee F06C     		ldr	r0, [r6, #76]	@ float
+ 1906 02f0 FFF7FEFF 		bl	__aeabi_f2d
+ 1907 02f4 CDE90201 		strd	r0, [sp, #8]
+ 1908 02f8 B06C     		ldr	r0, [r6, #72]	@ float
+ 1909 02fa FFF7FEFF 		bl	__aeabi_f2d
+ 1910 02fe 2246     		mov	r2, r4
+ 1911 0300 CDE90001 		strd	r0, [sp]
+ 1912 0304 2B46     		mov	r3, r5
+ 1913 0306 4046     		mov	r0, r8
+ 1914 0308 5149     		ldr	r1, .L184
+ 1915 030a FFF7FEFF 		bl	_ZNK9StringRef6printfEPKcz
+ 1916 030e 8CE6     		b	.L165
+ 1917              	.L172:
+ 1918 0310 3846     		mov	r0, r7
+ 1919 0312 4B21     		movs	r1, #75
+ 1920 0314 FFF7FEFF 		bl	_ZN11GCodeBuffer4SeenEc
+ 1921 0318 0028     		cmp	r0, #0
+ 1922 031a 7FF45EAF 		bne	.L173
+ 1923 031e 3069     		ldr	r0, [r6, #16]	@ float
+ 1924 0320 FFF7FEFF 		bl	__aeabi_f2d
+ 1925 0324 0D46     		mov	r5, r1
+ 1926 0326 D6E92D21 		ldrd	r2, r1, [r6, #180]
+ 1927 032a D6F8B030 		ldr	r3, [r6, #176]
+ 1928 032e 3791     		str	r1, [sp, #220]
+ 1929 0330 D6F8AC10 		ldr	r1, [r6, #172]
+ 1930 0334 3692     		str	r2, [sp, #216]
+ 1931 0336 D6F8A420 		ldr	r2, [r6, #164]
+ 1932 033a 3593     		str	r3, [sp, #212]
+ 1933 033c D6F8A030 		ldr	r3, [r6, #160]
+ 1934 0340 3491     		str	r1, [sp, #208]
+ 1935 0342 D6F89C10 		ldr	r1, [r6, #156]
+ 1936 0346 3392     		str	r2, [sp, #204]
+ 1937 0348 D6F89820 		ldr	r2, [r6, #152]
+ 1938 034c 3293     		str	r3, [sp, #200]
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 35
 
 
- 1939 02fe 2246     		mov	r2, r4
- 1940 0300 CDE90001 		strd	r0, [sp]
- 1941 0304 2B46     		mov	r3, r5
- 1942 0306 4046     		mov	r0, r8
- 1943 0308 5149     		ldr	r1, .L187
- 1944 030a FFF7FEFF 		bl	_ZNK9StringRef6printfEPKcz
- 1945 030e 8CE6     		b	.L168
- 1946              	.L175:
- 1947 0310 3846     		mov	r0, r7
- 1948 0312 4B21     		movs	r1, #75
- 1949 0314 FFF7FEFF 		bl	_ZN11GCodeBuffer4SeenEc
- 1950 0318 0028     		cmp	r0, #0
- 1951 031a 7FF45EAF 		bne	.L176
- 1952 031e 3069     		ldr	r0, [r6, #16]	@ float
- 1953 0320 FFF7FEFF 		bl	__aeabi_f2d
- 1954 0324 0D46     		mov	r5, r1
- 1955 0326 D6E92D21 		ldrd	r2, r1, [r6, #180]
- 1956 032a D6F8B030 		ldr	r3, [r6, #176]
- 1957 032e 3791     		str	r1, [sp, #220]
- 1958 0330 D6F8AC10 		ldr	r1, [r6, #172]
- 1959 0334 3692     		str	r2, [sp, #216]
- 1960 0336 D6F8A420 		ldr	r2, [r6, #164]
- 1961 033a 3593     		str	r3, [sp, #212]
- 1962 033c D6F8A030 		ldr	r3, [r6, #160]
- 1963 0340 3491     		str	r1, [sp, #208]
- 1964 0342 D6F89C10 		ldr	r1, [r6, #156]
- 1965 0346 3392     		str	r2, [sp, #204]
- 1966 0348 D6F89820 		ldr	r2, [r6, #152]
- 1967 034c 3293     		str	r3, [sp, #200]
- 1968 034e D6F89030 		ldr	r3, [r6, #144]
- 1969 0352 3191     		str	r1, [sp, #196]
- 1970 0354 D6F88C10 		ldr	r1, [r6, #140]
- 1971 0358 3092     		str	r2, [sp, #192]
- 1972 035a D6F88820 		ldr	r2, [r6, #136]
- 1973 035e 2F93     		str	r3, [sp, #188]
- 1974 0360 D6F88430 		ldr	r3, [r6, #132]
- 1975 0364 2E91     		str	r1, [sp, #184]
- 1976 0366 F16F     		ldr	r1, [r6, #124]
- 1977 0368 2D92     		str	r2, [sp, #180]
- 1978 036a B26F     		ldr	r2, [r6, #120]
- 1979 036c 2C93     		str	r3, [sp, #176]
- 1980 036e 736F     		ldr	r3, [r6, #116]
- 1981 0370 2993     		str	r3, [sp, #164]
- 1982 0372 CDE92A21 		strd	r2, r1, [sp, #168]
- 1983 0376 326F     		ldr	r2, [r6, #112]
- 1984 0378 D6E91913 		ldrd	r1, r3, [r6, #100]
- 1985 037c 2892     		str	r2, [sp, #160]
- 1986 037e 326E     		ldr	r2, [r6, #96]
- 1987 0380 2793     		str	r3, [sp, #156]
- 1988 0382 F36D     		ldr	r3, [r6, #92]
- 1989 0384 2691     		str	r1, [sp, #152]
- 1990 0386 0446     		mov	r4, r0
- 1991 0388 706D     		ldr	r0, [r6, #84]	@ float
- 1992 038a CDE92432 		strd	r3, r2, [sp, #144]
- 1993 038e FFF7FEFF 		bl	__aeabi_f2d
- 1994 0392 CDE92201 		strd	r0, [sp, #136]
- 1995 0396 306D     		ldr	r0, [r6, #80]	@ float
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 36
+ 1939 034e D6F89030 		ldr	r3, [r6, #144]
+ 1940 0352 3191     		str	r1, [sp, #196]
+ 1941 0354 D6F88C10 		ldr	r1, [r6, #140]
+ 1942 0358 3092     		str	r2, [sp, #192]
+ 1943 035a D6F88820 		ldr	r2, [r6, #136]
+ 1944 035e 2F93     		str	r3, [sp, #188]
+ 1945 0360 D6F88430 		ldr	r3, [r6, #132]
+ 1946 0364 2E91     		str	r1, [sp, #184]
+ 1947 0366 F16F     		ldr	r1, [r6, #124]
+ 1948 0368 2D92     		str	r2, [sp, #180]
+ 1949 036a B26F     		ldr	r2, [r6, #120]
+ 1950 036c 2C93     		str	r3, [sp, #176]
+ 1951 036e 736F     		ldr	r3, [r6, #116]
+ 1952 0370 2993     		str	r3, [sp, #164]
+ 1953 0372 CDE92A21 		strd	r2, r1, [sp, #168]
+ 1954 0376 326F     		ldr	r2, [r6, #112]
+ 1955 0378 D6E91913 		ldrd	r1, r3, [r6, #100]
+ 1956 037c 2892     		str	r2, [sp, #160]
+ 1957 037e 326E     		ldr	r2, [r6, #96]
+ 1958 0380 2793     		str	r3, [sp, #156]
+ 1959 0382 F36D     		ldr	r3, [r6, #92]
+ 1960 0384 2691     		str	r1, [sp, #152]
+ 1961 0386 0446     		mov	r4, r0
+ 1962 0388 706D     		ldr	r0, [r6, #84]	@ float
+ 1963 038a CDE92432 		strd	r3, r2, [sp, #144]
+ 1964 038e FFF7FEFF 		bl	__aeabi_f2d
+ 1965 0392 CDE92201 		strd	r0, [sp, #136]
+ 1966 0396 306D     		ldr	r0, [r6, #80]	@ float
+ 1967 0398 FFF7FEFF 		bl	__aeabi_f2d
+ 1968 039c CDE92001 		strd	r0, [sp, #128]
+ 1969 03a0 F06C     		ldr	r0, [r6, #76]	@ float
+ 1970 03a2 FFF7FEFF 		bl	__aeabi_f2d
+ 1971 03a6 CDE91E01 		strd	r0, [sp, #120]
+ 1972 03aa B06C     		ldr	r0, [r6, #72]	@ float
+ 1973 03ac FFF7FEFF 		bl	__aeabi_f2d
+ 1974 03b0 CDE91C01 		strd	r0, [sp, #112]
+ 1975 03b4 306C     		ldr	r0, [r6, #64]	@ float
+ 1976 03b6 FFF7FEFF 		bl	__aeabi_f2d
+ 1977 03ba CDE91A01 		strd	r0, [sp, #104]
+ 1978 03be B068     		ldr	r0, [r6, #8]	@ float
+ 1979 03c0 FFF7FEFF 		bl	__aeabi_f2d
+ 1980 03c4 D6ED017A 		vldr.32	s15, [r6, #4]
+ 1981 03c8 CDE91801 		strd	r0, [sp, #96]
+ 1982 03cc FDEEE77A 		vcvt.s32.f32	s15, s15
+ 1983 03d0 F06B     		ldr	r0, [r6, #60]	@ float
+ 1984 03d2 CDED167A 		vstr.32	s15, [sp, #88]	@ int
+ 1985 03d6 FFF7FEFF 		bl	__aeabi_f2d
+ 1986 03da CDE91401 		strd	r0, [sp, #80]
+ 1987 03de B06B     		ldr	r0, [r6, #56]	@ float
+ 1988 03e0 FFF7FEFF 		bl	__aeabi_f2d
+ 1989 03e4 CDE91201 		strd	r0, [sp, #72]
+ 1990 03e8 706B     		ldr	r0, [r6, #52]	@ float
+ 1991 03ea FFF7FEFF 		bl	__aeabi_f2d
+ 1992 03ee CDE91001 		strd	r0, [sp, #64]
+ 1993 03f2 306B     		ldr	r0, [r6, #48]	@ float
+ 1994 03f4 FFF7FEFF 		bl	__aeabi_f2d
+ 1995 03f8 CDE90E01 		strd	r0, [sp, #56]
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 36
 
 
- 1996 0398 FFF7FEFF 		bl	__aeabi_f2d
- 1997 039c CDE92001 		strd	r0, [sp, #128]
- 1998 03a0 F06C     		ldr	r0, [r6, #76]	@ float
- 1999 03a2 FFF7FEFF 		bl	__aeabi_f2d
- 2000 03a6 CDE91E01 		strd	r0, [sp, #120]
- 2001 03aa B06C     		ldr	r0, [r6, #72]	@ float
- 2002 03ac FFF7FEFF 		bl	__aeabi_f2d
- 2003 03b0 CDE91C01 		strd	r0, [sp, #112]
- 2004 03b4 306C     		ldr	r0, [r6, #64]	@ float
- 2005 03b6 FFF7FEFF 		bl	__aeabi_f2d
- 2006 03ba CDE91A01 		strd	r0, [sp, #104]
- 2007 03be B068     		ldr	r0, [r6, #8]	@ float
- 2008 03c0 FFF7FEFF 		bl	__aeabi_f2d
- 2009 03c4 D6ED017A 		vldr.32	s15, [r6, #4]
- 2010 03c8 CDE91801 		strd	r0, [sp, #96]
- 2011 03cc FDEEE77A 		vcvt.s32.f32	s15, s15
- 2012 03d0 F06B     		ldr	r0, [r6, #60]	@ float
- 2013 03d2 CDED167A 		vstr.32	s15, [sp, #88]	@ int
- 2014 03d6 FFF7FEFF 		bl	__aeabi_f2d
- 2015 03da CDE91401 		strd	r0, [sp, #80]
- 2016 03de B06B     		ldr	r0, [r6, #56]	@ float
- 2017 03e0 FFF7FEFF 		bl	__aeabi_f2d
- 2018 03e4 CDE91201 		strd	r0, [sp, #72]
- 2019 03e8 706B     		ldr	r0, [r6, #52]	@ float
- 2020 03ea FFF7FEFF 		bl	__aeabi_f2d
- 2021 03ee CDE91001 		strd	r0, [sp, #64]
- 2022 03f2 306B     		ldr	r0, [r6, #48]	@ float
- 2023 03f4 FFF7FEFF 		bl	__aeabi_f2d
- 2024 03f8 CDE90E01 		strd	r0, [sp, #56]
- 2025 03fc F06A     		ldr	r0, [r6, #44]	@ float
- 2026 03fe FFF7FEFF 		bl	__aeabi_f2d
- 2027 0402 CDE90C01 		strd	r0, [sp, #48]
- 2028 0406 B06A     		ldr	r0, [r6, #40]	@ float
- 2029 0408 FFF7FEFF 		bl	__aeabi_f2d
- 2030 040c CDE90A01 		strd	r0, [sp, #40]
- 2031 0410 706A     		ldr	r0, [r6, #36]	@ float
- 2032 0412 FFF7FEFF 		bl	__aeabi_f2d
- 2033 0416 CDE90801 		strd	r0, [sp, #32]
- 2034 041a 306A     		ldr	r0, [r6, #32]	@ float
- 2035 041c FFF7FEFF 		bl	__aeabi_f2d
- 2036 0420 CDE90601 		strd	r0, [sp, #24]
- 2037 0424 F069     		ldr	r0, [r6, #28]	@ float
- 2038 0426 FFF7FEFF 		bl	__aeabi_f2d
- 2039 042a CDE90401 		strd	r0, [sp, #16]
- 2040 042e B069     		ldr	r0, [r6, #24]	@ float
- 2041 0430 FFF7FEFF 		bl	__aeabi_f2d
- 2042 0434 CDE90201 		strd	r0, [sp, #8]
- 2043 0438 7069     		ldr	r0, [r6, #20]	@ float
- 2044 043a FFF7FEFF 		bl	__aeabi_f2d
- 2045 043e 2246     		mov	r2, r4
- 2046 0440 CDE90001 		strd	r0, [sp]
- 2047 0444 2B46     		mov	r3, r5
- 2048 0446 4046     		mov	r0, r8
- 2049 0448 0249     		ldr	r1, .L187+4
- 2050 044a FFF7FEFF 		bl	_ZNK9StringRef6printfEPKcz
- 2051 044e C4E6     		b	.L176
- 2052              	.L188:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 37
+ 1996 03fc F06A     		ldr	r0, [r6, #44]	@ float
+ 1997 03fe FFF7FEFF 		bl	__aeabi_f2d
+ 1998 0402 CDE90C01 		strd	r0, [sp, #48]
+ 1999 0406 B06A     		ldr	r0, [r6, #40]	@ float
+ 2000 0408 FFF7FEFF 		bl	__aeabi_f2d
+ 2001 040c CDE90A01 		strd	r0, [sp, #40]
+ 2002 0410 706A     		ldr	r0, [r6, #36]	@ float
+ 2003 0412 FFF7FEFF 		bl	__aeabi_f2d
+ 2004 0416 CDE90801 		strd	r0, [sp, #32]
+ 2005 041a 306A     		ldr	r0, [r6, #32]	@ float
+ 2006 041c FFF7FEFF 		bl	__aeabi_f2d
+ 2007 0420 CDE90601 		strd	r0, [sp, #24]
+ 2008 0424 F069     		ldr	r0, [r6, #28]	@ float
+ 2009 0426 FFF7FEFF 		bl	__aeabi_f2d
+ 2010 042a CDE90401 		strd	r0, [sp, #16]
+ 2011 042e B069     		ldr	r0, [r6, #24]	@ float
+ 2012 0430 FFF7FEFF 		bl	__aeabi_f2d
+ 2013 0434 CDE90201 		strd	r0, [sp, #8]
+ 2014 0438 7069     		ldr	r0, [r6, #20]	@ float
+ 2015 043a FFF7FEFF 		bl	__aeabi_f2d
+ 2016 043e 2246     		mov	r2, r4
+ 2017 0440 CDE90001 		strd	r0, [sp]
+ 2018 0444 2B46     		mov	r3, r5
+ 2019 0446 4046     		mov	r0, r8
+ 2020 0448 0249     		ldr	r1, .L184+4
+ 2021 044a FFF7FEFF 		bl	_ZNK9StringRef6printfEPKcz
+ 2022 044e C4E6     		b	.L173
+ 2023              	.L185:
+ 2024              		.align	2
+ 2025              	.L184:
+ 2026 0450 8C010000 		.word	.LC28
+ 2027 0454 00000000 		.word	.LC27
+ 2028              		.size	_ZN21HangprinterKinematics9ConfigureEjR11GCodeBufferRK9StringRefRb, .-_ZN21HangprinterKinema
+ 2029              		.section	.text._Z14ElongationCalcf,"ax",%progbits
+ 2030              		.align	1
+ 2031              		.p2align 2,,3
+ 2032              		.global	_Z14ElongationCalcf
+ 2033              		.syntax unified
+ 2034              		.thumb
+ 2035              		.thumb_func
+ 2036              		.fpu fpv4-sp-d16
+ 2037              		.type	_Z14ElongationCalcf, %function
+ 2038              	_Z14ElongationCalcf:
+ 2039              		@ args = 0, pretend = 0, frame = 0
+ 2040              		@ frame_needed = 0, uses_anonymous_args = 0
+ 2041              		@ link register save eliminated.
+ 2042 0000 DFED087A 		vldr.32	s15, .L187
+ 2043 0004 9FED086A 		vldr.32	s12, .L187+4
+ 2044 0008 DFED086A 		vldr.32	s13, .L187+8
+ 2045 000c 70EE277A 		vadd.f32	s15, s0, s15
+ 2046 0010 B0EE087A 		vmov.f32	s14, #3.0e+0
+ 2047 0014 27EE877A 		vmul.f32	s14, s15, s14
+ 2048 0018 87EE060A 		vdiv.f32	s0, s14, s12
+ 2049 001c A7EEA60A 		vfma.f32	s0, s15, s13
+ 2050 0020 7047     		bx	lr
+ 2051              	.L188:
+ 2052 0022 00BF     		.align	2
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 37
 
 
- 2053              		.align	2
- 2054              	.L187:
- 2055 0450 8C010000 		.word	.LC28
- 2056 0454 00000000 		.word	.LC27
- 2057              		.size	_ZN21HangprinterKinematics9ConfigureEjR11GCodeBufferRK9StringRefRb, .-_ZN21HangprinterKinema
+ 2053              	.L187:
+ 2054 0024 3D52F244 		.word	1156731453
+ 2055 0028 E69E9A46 		.word	1184538342
+ 2056 002c 0AD7233B 		.word	992204554
+ 2057              		.size	_Z14ElongationCalcf, .-_Z14ElongationCalcf
  2058              		.section	.text._ZNK21HangprinterKinematics17MotorPosToLinePosElj,"ax",%progbits
  2059              		.align	1
  2060              		.p2align 2,,3
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  2107 002c D0ED047A 		vldr.32	s15, [r0, #16]
  2108 0030 D0ED054A 		vldr.32	s9, [r0, #20]
  2109 0034 90ED505A 		vldr.32	s10, [r0, #320]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 38
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 38
 
 
  2110 0038 D0ED529A 		vldr.32	s19, [r0, #328]
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  2164 00fa FFF7FEFF 		bl	__aeabi_f2d
  2165 00fe 0246     		mov	r2, r0
  2166 0100 0B46     		mov	r3, r1
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 39
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 39
 
 
  2167 0102 4046     		mov	r0, r8
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  2221 01b4 1BEE100A 		vmov	r0, s22
  2222 01b8 FFF7FEFF 		bl	__aeabi_f2d
  2223 01bc CDE90201 		strd	r0, [sp, #8]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 40
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 40
 
 
  2224 01c0 1AEE900A 		vmov	r0, s21
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  2278 0056 F8EEE44A 		vcvt.f32.s32	s9, s9
  2279 005a C3EE876A 		vdiv.f32	s13, s7, s14
  2280 005e 84EE277A 		vdiv.f32	s14, s8, s15
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 41
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 41
 
 
  2281 0062 C4EE897A 		vdiv.f32	s15, s9, s18
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  2335 004e 83E80700 		stm	r3, {r0, r1, r2}
  2336 0052 A67B     		ldrb	r6, [r4, #14]	@ zero_extendqisi2
  2337 0054 CDF808C0 		str	ip, [sp, #8]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 42
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 42
 
 
  2338 0058 8DED157A 		vstr.32	s14, [sp, #84]
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  2392 0104 DEF80030 		ldr	r3, [lr]
  2393 0108 CCF80000 		str	r0, [ip]
  2394 010c 04F1BC0C 		add	ip, r4, #188
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 43
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 43
 
 
  2395 0110 3A60     		str	r2, [r7]
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  2449 01bc CDED5AAA 		vstr.32	s21, [sp, #360]
  2450 01c0 8DED5BAA 		vstr.32	s20, [sp, #364]
  2451 01c4 CDED5C9A 		vstr.32	s19, [sp, #368]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 44
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 44
 
 
  2452 01c8 CDED5D1A 		vstr.32	s3, [sp, #372]
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  2506 0276 8DED799A 		vstr.32	s18, [sp, #484]
  2507 027a CDED7A8A 		vstr.32	s17, [sp, #488]
  2508 027e 8DED7B8A 		vstr.32	s16, [sp, #492]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 45
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 45
 
 
  2509 0282 CDED78CA 		vstr.32	s25, [sp, #480]
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  2563 0328 CDEDB41A 		vstr.32	s3, [sp, #720]
  2564 032c 8DEDB52A 		vstr.32	s4, [sp, #724]
  2565 0330 CDEDB62A 		vstr.32	s5, [sp, #728]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 46
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 46
 
 
  2566 0334 8DEDB73A 		vstr.32	s6, [sp, #732]
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  2620              	.L214:
  2621 03c8 F0EE490A 		vmov.f32	s1, s18
  2622 03cc B0EE480A 		vmov.f32	s0, s16
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 47
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 47
 
 
  2623 03d0 B0EE681A 		vmov.f32	s2, s17
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  2677 0476 77EEE67A 		vsub.f32	s15, s15, s13
  2678 047a 14A8     		add	r0, sp, #80
  2679 047c 8DED1E7A 		vstr.32	s14, [sp, #120]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 48
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 48
 
 
  2680 0480 CDED757A 		vstr.32	s15, [sp, #468]
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  2734 0510 019B     		ldr	r3, [sp, #4]
  2735 0512 012B     		cmp	r3, #1
  2736 0514 EBD0     		beq	.L212
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 49
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 49
 
 
  2737 0516 019B     		ldr	r3, [sp, #4]
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  2791 0026 43D0     		beq	.L232
  2792 0028 D6E90801 		ldrd	r0, [r6, #32]
  2793 002c FFF7FEFF 		bl	__aeabi_d2f
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 50
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 50
 
 
  2794 0030 D4ED0A7A 		vldr.32	s15, [r4, #40]
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  2848 0002 0446     		mov	r4, r0
  2849 0004 91B0     		sub	sp, sp, #68
  2850 0006 0069     		ldr	r0, [r0, #16]	@ float
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 51
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 51
 
 
  2851 0008 0D46     		mov	r5, r1
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  2905 0002 00B5     		push	{lr}
  2906 0004 84B0     		sub	sp, sp, #16
  2907 0006 05AA     		add	r2, sp, #20
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 52
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 52
 
 
  2908 0008 0290     		str	r0, [sp, #8]
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  2962 0052 FFF7FEFF 		bl	__aeabi_f2d
  2963 0056 CDE91401 		strd	r0, [sp, #80]
  2964 005a E06B     		ldr	r0, [r4, #60]	@ float
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 53
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 53
 
 
  2965 005c FFF7FEFF 		bl	__aeabi_f2d
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  3019              		.thumb_func
  3020              		.fpu fpv4-sp-d16
  3021              		.type	_ZN11FixedMatrixIdLj9ELj10EE11GaussJordanEPdj, %function
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 54
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 54
 
 
  3022              	_ZN11FixedMatrixIdLj9ELj10EE11GaussJordanEPdj:
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  3076 007c AB42     		cmp	r3, r5
  3077 007e A7F15007 		sub	r7, r7, #80
  3078 0082 00F08380 		beq	.L331
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 55
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 55
 
 
  3079              	.L282:
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  3133              	.L281:
  3134 0110 B442     		cmp	r4, r6
  3135 0112 E2D0     		beq	.L333
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 56
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 56
 
 
  3136 0114 5A46     		mov	r2, fp
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  3190              	.L331:
  3191 018c A346     		mov	fp, r4
  3192              	.L268:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 57
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 57
 
 
  3193 018e B345     		cmp	fp, r6
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  3247 020c A046     		mov	r8, r4
  3248              	.L296:
  3249 020e 5B46     		mov	r3, fp
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 58
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 58
 
 
  3250 0210 D8E90001 		ldrd	r0, [r8]
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  3304 0280 1344     		add	r3, r3, r2
  3305 0282 0593     		str	r3, [sp, #20]
  3306 0284 069B     		ldr	r3, [sp, #24]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 59
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 59
 
 
  3307 0286 0793     		str	r3, [sp, #28]
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  3361 0304 C8E90001 		strd	r0, [r8]
  3362 0308 12D3     		bcc	.L340
  3363              	.L309:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 60
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 60
 
 
  3364 030a B742     		cmp	r7, r6
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  3418 0376 0799     		ldr	r1, [sp, #28]
  3419 0378 5046     		mov	r0, r10
  3420 037a B847     		blx	r7
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 61
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 61
 
 
  3421 037c DAF80030 		ldr	r3, [r10]
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  3475              	.L344:
  3476 03f0 2B46     		mov	r3, r5
  3477              	.L315:
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 62
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 62
 
 
  3478 03f2 D3E90023 		ldrd	r2, [r3]
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  3532 0000 2DE9F04F 		push	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
  3533 0004 2DED048B 		vpush.64	{d8, d9}
  3534 0008 ADF58E5D 		sub	sp, sp, #4544
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 63
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 63
 
 
  3535 000c 85B0     		sub	sp, sp, #20
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  3589 0090 9FED757B 		vldr.64	d7, .L444
  3590 0094 18F8013F 		ldrb	r3, [r8, #1]!	@ zero_extendqisi2
  3591 0098 764A     		ldr	r2, .L444+12
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 64
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 64
 
 
  3592 009a C3F38003 		ubfx	r3, r3, #2, #1
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  3646 0160 A9EE090A 		vfma.f32	s0, s18, s18
  3647 0164 B5EE400A 		vcmp.f32	s0, #0
  3648 0168 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 65
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 65
 
 
  3649 016c B1EEC08A 		vsqrt.f32	s16, s0
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  3703 01f4 069B     		ldr	r3, [sp, #24]
  3704 01f6 002B     		cmp	r3, #0
  3705 01f8 49D0     		beq	.L359
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 66
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 66
 
 
  3706 01fa 0024     		movs	r4, #0
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  3760 0290 D3F80831 		ldr	r3, [r3, #264]
  3761 0294 13F01003 		ands	r3, r3, #16
  3762 0298 1793     		str	r3, [sp, #92]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 67
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 67
 
 
  3763 029a 40F09881 		bne	.L439
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  3817 0328 FFF7FEFF 		bl	__aeabi_dadd
  3818 032c 4834     		adds	r4, r4, #72
  3819 032e 4445     		cmp	r4, r8
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 68
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 68
 
 
  3820 0330 0646     		mov	r6, r0
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  3874 03c4 09F10809 		add	r9, r9, #8
  3875 03c8 9945     		cmp	r9, r3
  3876 03ca 87D1     		bne	.L373
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 69
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 69
 
 
  3877 03cc DDF864B0 		ldr	fp, [sp, #100]
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  3931 045c D4E90001 		ldrd	r0, [r4]
  3932 0460 FFF7FEFF 		bl	__aeabi_dadd
  3933 0464 AF42     		cmp	r7, r5
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 70
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 70
 
 
  3934 0466 E4E80201 		strd	r0, [r4], #8
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  3988 0514 D3F80831 		ldr	r3, [r3, #264]
  3989 0518 DA06     		lsls	r2, r3, #27
  3990 051a 6BD4     		bmi	.L442
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 71
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 71
 
 
  3991              	.L384:
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  4045 05a2 FFF7FEFF 		bl	__aeabi_f2d
  4046 05a6 209C     		ldr	r4, [sp, #128]
  4047 05a8 069B     		ldr	r3, [sp, #24]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 72
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 72
 
 
  4048 05aa 1A9A     		ldr	r2, [sp, #104]
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  4102 062e CDF810B0 		str	fp, [sp, #16]
  4103 0632 DFF8E4A0 		ldr	r10, .L448+40
  4104 0636 DDF86C80 		ldr	r8, [sp, #108]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 73
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 73
 
 
  4105 063a DDF884B0 		ldr	fp, [sp, #132]
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  4159              	.L435:
  4160 06c2 FFF7FEFF 		bl	sqrtf
  4161 06c6 94ED009A 		vldr.32	s18, [r4]
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 74
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 74
 
 
  4162 06ca 94ED018A 		vldr.32	s16, [r4, #4]
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  4216 0008 00000000 		.word	_ZNK11FixedMatrixIdLj9ELj10EE4rowsEv
  4217 000c 00000000 		.word	_ZNK11FixedMatrixIdLj9ELj10EE4colsEv
  4218 0010 00000000 		.word	_ZN11FixedMatrixIdLj9ELj10EEclEjj
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 75
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 75
 
 
  4219 0014 00000000 		.word	_ZNK11FixedMatrixIdLj9ELj10EEclEjj
@@ -4472,13 +4472,13 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  4247 0048 01000000 		.word	1
  4248 004c 01000000 		.word	1
  4249              	.LC3:
- 4250 0050 14000000 		.word	20
+ 4250 0050 05000000 		.word	5
  4251 0054 14000000 		.word	20
  4252 0058 14000000 		.word	20
  4253 005c 14000000 		.word	20
  4254 0060 14000000 		.word	20
  4255              	.LC4:
- 4256 0064 FF000000 		.word	255
+ 4256 0064 2C010000 		.word	300
  4257 0068 FF000000 		.word	255
  4258 006c FF000000 		.word	255
  4259 0070 FF000000 		.word	255
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  4273              		.align	2
  4274              		.type	_ZL32cpu_irq_critical_section_counter, %object
  4275              		.size	_ZL32cpu_irq_critical_section_counter, 4
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 76
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 76
 
 
  4276              	_ZL32cpu_irq_critical_section_counter:
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  4317      616C206D 
  4317      61747269 
  4317      7800
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 77
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 77
 
 
  4318 007a 0000     		.space	2
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  4346      65666F72 
  4346      65207468 
  4346      6520666F 
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 78
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 78
 
 
  4347              	.LC22:
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  4368      6D617469 
  4368      63732069 
  4368      73204861 
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 79
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 79
 
 
  4368      6E677072 
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  4380      642C2025 
  4381 01e9 642C2025 		.ascii	"d, %d, %d, %d\012L:Motor gear teeth %d, %d, %d, %d\012"
  4381      642C2025 
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 80
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 80
 
 
  4381      642C2025 
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  4401      7220252E 
  4401      32662C25 
  4401      2E32662C 
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 81
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 81
 
 
  4401      252E3266 
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  4428      41252E33 
  4429 004f 33663A25 		.ascii	"3f:%.3f:%.3f D%.3f P%.1f Q%.6f R%.3f:%.3f:%.3f:%.3f"
  4429      2E33663A 
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 82
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 82
 
 
  4429      252E3366 
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 1
  4478              	.LC7:
  4479 0008 41206178 		.ascii	"A axis\000"
  4479      697300
-ARM GAS  C:\Users\pieta\AppData\Local\Temp\cck3zWGW.s 			page 83
+ARM GAS  C:\Users\pieta\AppData\Local\Temp\cc4PH7vJ.s 			page 83
 
 
  4480 000f 00       		.space	1

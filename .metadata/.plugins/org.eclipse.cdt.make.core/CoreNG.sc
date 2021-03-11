@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?scdStore version="2"?><scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
-                                                                                                                                                                
+                                                                                                                                                                            
+    
+    
+    
     
     
     
@@ -40,7 +43,10 @@
     
     
     <instance id="cdt.managedbuild.config.gnu.cross.lib.release.897729483;cdt.managedbuild.config.gnu.cross.lib.release.897729483.;cdt.managedbuild.tool.gnu.cross.c.compiler.597788140;cdt.managedbuild.tool.gnu.c.compiler.input.964516936">
-                                                                                                                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                        
+        
+        
+        
         
         
         
@@ -523,7 +529,10 @@
             <definedSymbol symbol="__FLT32X_HAS_INFINITY__=1"/>
             <definedSymbol symbol="__FLT32X_HAS_QUIET_NAN__=1"/>
         </collector>
-                                                                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                                                                    
+    
+    
+    
     
     
     
@@ -563,7 +572,10 @@
     
     
     </instance>
-                                                                                                                                                                
+                                                                                                                                                                            
+    
+    
+    
     
     
     
@@ -603,7 +615,10 @@
     
     
     <instance id="cdt.managedbuild.config.gnu.cross.lib.release.897729483;cdt.managedbuild.config.gnu.cross.lib.release.897729483.;cdt.managedbuild.tool.gnu.cross.cpp.compiler.975309532;cdt.managedbuild.tool.gnu.cpp.compiler.input.1513207687">
-                                                                                                                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                        
+        
+        
+        
         
         
         
@@ -1116,7 +1131,10 @@
             <definedSymbol symbol="__FLT32X_HAS_INFINITY__=1"/>
             <definedSymbol symbol="__FLT32X_HAS_QUIET_NAN__=1"/>
         </collector>
-                                                                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                                                                    
+    
+    
+    
     
     
     
@@ -1156,7 +1174,10 @@
     
     
     </instance>
-                                                                                                                                                            
+                                                                                                                                                                        
+
+
+
 
 
 

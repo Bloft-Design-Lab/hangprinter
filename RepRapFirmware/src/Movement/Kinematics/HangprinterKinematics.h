@@ -46,8 +46,8 @@ public:
 
 private:
 	float MotorPosToLinePos(const int32_t motorPos, size_t axis) const;
-	static constexpr float DefaultSegmentsPerSecond = 100.0;
-	static constexpr float DefaultMinSegmentSize = 0.2;
+	static constexpr float DefaultSegmentsPerSecond = 300.0;
+	static constexpr float DefaultMinSegmentSize = 0.01;
 
 	// Basic facts about movement system
 	static constexpr size_t HANGPRINTER_AXES = 5;
@@ -62,11 +62,13 @@ private:
 	void Recalc();
 	float LineLengthSquared(const float machinePos[3], const float anchor[3]) const;
 	float ElongationCalculation(const float machinePos[3], const float anchor[3], float linePos) const;// Calculate the square of the line length from a spool from a Cartesian coordinate
+	//float ElongationCalc(float linePos); //calculate wire elongation for d and w axes
 	void InverseTransform(float La, float Lb, float Lc, float machinePos[3]) const;
 
 	floatc_t ComputeDerivative(unsigned int deriv, float La, float Lb, float Lc) const;	// Compute the derivative of height with respect to a parameter at a set of motor endpoints
 	void Adjust(size_t numFactors, const floatc_t v[]);									// Perform 3-, 6- or 9-factor adjustment
 	void PrintParameters(const StringRef& reply) const;									// Print all the parameters for debugging
+
 
 	float anchorA[3], anchorB[3], anchorC[3];				// XYZ coordinates of the anchors
 	float anchorDz;

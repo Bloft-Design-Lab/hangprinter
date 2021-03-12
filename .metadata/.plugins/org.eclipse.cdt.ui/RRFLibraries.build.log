@@ -1,6 +1,6 @@
-19:31:55 **** Build of configuration SAM4E_RTOS for project RRFLibraries ****
+16:11:00 **** Incremental Build of configuration SAM4E_RTOS for project RRFLibraries ****
 make all 
 make: Nothing to be done for 'all'.
 
-19:31:55 Build Finished. 0 errors, 0 warnings. (took 221ms)
+16:11:00 Build Finished. 0 errors, 0 warnings. (took 223ms)
 

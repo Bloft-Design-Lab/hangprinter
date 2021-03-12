@@ -924,6 +924,7 @@ $("#mobile_home_buttons button, #btn_homeall, #table_move_head a").click(functio
 			sendGCode("G28 " + $this.data("home"));
 		}
 	} else {
+		// "M120\nG91\nG1 X(this.data())"
 		var moveString = "M120\nG91\nG1";
 		if ($this.data("x") != undefined) {
 			moveString += " X" + $this.data("x");

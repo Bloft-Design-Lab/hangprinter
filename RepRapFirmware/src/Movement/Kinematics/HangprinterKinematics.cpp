@@ -38,7 +38,7 @@ constexpr float fromAnchorToPrintSurface = 36.5;
 
 constexpr float offsetF = DefaultAnchorC[2] - fromAnchorToPrintSurface;
 
-constexpr float DefaultAnchorDz = 3677.0;
+constexpr float DefaultAnchorDz = 3656.0;
 constexpr float DefaultAnchorWz = DefaultAnchorDz - offsetF;
 constexpr float DefaultPrintRadius = 600.0;
 
@@ -89,12 +89,12 @@ void HangprinterKinematics::Init()
 	 * In practice you might want to compensate a bit more or a bit less */
 	constexpr float DefaultSpoolBuildupFactor = 1;
 	/* Measure and set spool radii with M669 to achieve better accuracy */
-	constexpr float DefaultSpoolRadii[5] = {50.1, 65.1, 65.1, 65.1, 65.1}; // HP3 default
+	constexpr float DefaultSpoolRadii[5] = {49.98, 64.0, 64.0, 64.0, 64.6}; // HP3 default
 	/* If axis runs lines back through pulley system, set mechanical advantage accordingly with M669 */
 	constexpr uint32_t DefaultMechanicalAdvantage[5] = {1, 2, 2, 2, 1}; // HP3 default
 	constexpr uint32_t DefaultLinesPerSpool[5] = { 1, 1, 1, 1, 1}; // HP3 default
 	// F axis 1:60
-	constexpr uint32_t DefaultMotorGearTeeth[5] = {5, 20, 20, 20, 20}; // HP3 default
+	constexpr uint32_t DefaultMotorGearTeeth[5] = {5, 30, 30, 30, 20}; // HP3 default
 	constexpr uint32_t DefaultSpoolGearTeeth[5] = { 300, 255, 255, 255, 255}; // HP3 default
 	constexpr uint32_t DefaultFullStepsPerMotorRev[5] = { 32, 32, 32, 32, 32};
 	ARRAY_INIT(anchorA, DefaultAnchorA);
